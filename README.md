@@ -47,7 +47,7 @@
   - Favoritside
 - Pakker
 - Newsletter
-  - Sunscribe section
+  - Subscribe section
   - Subscribe in footer
 - Quotes
 
@@ -87,7 +87,39 @@
 - Favoritside - 13
 - Pakker - 13
 - Newsletter - 
-- Sunscribe section - 21
+- Subscribe section - 21
 - Subscribe in footer - 13
 - Quotes - 5
-## Nice to haves
+
+
+# Prioriteret liste
+1. Database **34**
+2. Variabler **13**
+3. Navbar **8**
+4. Burgermenu **13**
+5. Knapper **5**
+6. Produkter (listevisning – grid) **8**
+7. Produkt (detaljevisning) **13**
+8. Kurv **21**
+9. Levering **21** (validering)
+10. Betaling **21** (validering)
+11. Bekræftelse **8**
+12. **MVP**
+13. Landing side
+14. Filter
+15. Footer
+16. Specs
+17. Support
+18. Profilside
+19. Sign in
+20. Sign up
+21. Newsletter footer
+22. Newsletter section
+23. Favoritside
+24. Favoritknap
+25. Review-knap + funktionalitet
+26. Pakker
+27. Quotes
+28. About side
+29. News/blog
+30. Brand grid

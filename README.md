@@ -7,7 +7,7 @@
 4. Overenstemmelse med style guide
 5. Matchende **variabelnavn** (js) og **classname** (html)
 6. Højkvalitet-billeder (god opløsning)
-7. Tabs!!!
+7. Tabs!!! Brug **ALDRIG** spaces
 
 
 # Tasks

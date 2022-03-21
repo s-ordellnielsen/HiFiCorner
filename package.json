@@ -1,0 +1,31 @@
+{
+  "name": "hificorner",
+  "version": "1.0.0",
+  "description": "# Definition of Done 1. Bruger BEM 2. Kommentarer (over koden) 3. Peer-review 4. Overenstemmelse med style guide 5. Matchende **variabelnavn** (js) og **classname** (html) 6. Højkvalitet-billeder (god opløsning) 7. Tabs!!! Brug **ALDRIG** spaces",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppleFanBoy0941/HiFiCorner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AppleFanBoy0941/HiFiCorner/issues"
+  },
+  "homepage": "https://github.com/AppleFanBoy0941/HiFiCorner#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "sass": "^1.49.9"
+  }
+}

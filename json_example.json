@@ -3,7 +3,7 @@
         {
             "id": 12345,
             "name": "Creek Classic",
-            "brand": "Creek",
+            "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
             "desc": "",
@@ -55,7 +55,7 @@
         {
             "id": 12345,
             "name": "Creek Destiny",
-            "brand": "Creek",
+            "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
             "desc": "",
@@ -106,23 +106,699 @@
         },
         {
             "id": 12345,
-            "name": "Creek Classic",
-            "brand": "Creek",
+            "name": "Creek Evo",
+            "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
             "desc": "",
             "images": [
-                "/images/cd_afspillere/creek_classic_cd.jpg",
-                "/images/cd_afspillere/creek_classic_cd.jpg",
-                "/images/cd_afspillere/creek_classic_cd.jpg"
+                "/images/cd_afspillere/creek_evo_cd.jpg",
+                "/images/cd_afspillere/creek_evo_cd.jpg",
+                "/images/cd_afspillere/creek_evo_cd.jpg"
             ],
             "colors": [
                 {
-                    "name": "Destiny Silver",
+                    "name": "Evo Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "Evo Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Creek EXP",
+            "brand": "creek",
+            "type": "cdPlayer",
+            "price": 999,
+            "desc": "",
+            "images": [
+                "/images/cd_afspillere/Exp_2010S_CD.gif",
+                "/images/cd_afspillere/Exp_2010S_CD.gif",
+                "/images/cd_afspillere/Exp_2010S_CD.gif"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
                     "code": "use hex"
                 }
             ],
             "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Creek EXP",
+            "brand": "creek",
+            "type": "dvdPlayer",
+            "price": 999,
+            "desc": "Creek EXP Dvd afspiller, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/creek_classic.jpg",
+                "/images/dvd_afspillere/creek_classic.jpg",
+                "/images/dvd_afspillere/creek_classic.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Creek EXPosure",
+            "brand": "creek",
+            "type": "dvdPlayer",
+            "price": 999,
+            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Creek EXPosure",
+            "brand": "creek",
+            "type": "dvdPlayer",
+            "price": 999,
+            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Creek EXPosure",
+            "brand": "creek",
+            "type": "dvdPlayer",
+            "price": 999,
+            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Manley Mahi Effect Amplifier",
+            "brand": "manley",
+            "type": "effectAmplifier",
+            "price": 999,
+            "desc": "Manley Mahi effekt forstærker, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Manley Neo Effect Amplifier",
+            "brand": "manley",
+            "type": "effectAmplifier",
+            "price": 999,
+            "desc": "Manley Neo-classic effect amplifier, med den bedste lyd",
+            "images": [
+                "/images/effektforstaerkere/manley_neoclassic.jpg",
+                "/images/effektforstaerkere/manley_neoclassic.jpg",
+                "/images/effektforstaerkere/manley_neoclassic.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 3,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Manley Snapper Effect Amplifier",
+            "brand": "manley",
+            "type": "effectAmplifier",
+            "price": 999,
+            "desc": "The Manley Snapper Dvd afspiller, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Parasound Halo Effect Amplifier",
+            "brand": "parasound",
+            "type": "effectAmplifier",
+            "price": 999,
+            "desc": "Parasound Effect Amplifier, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg",
+                "/images/dvd_afspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Creek OBH 22",
+            "brand": "creek",
+            "type": "preAmplifier",
+            "price": 999,
+            "desc": "Creek OBH 22 pre amplifier, med den bedste lyd",
+            "images": [
+                "/images/dvd_afspillere/Creek_OBH_22_Passive_Preamp.jpg",
+                "/images/dvd_afspillere/Creek_OBH_22_Passive_Preamp.jpg",
+                "/images/dvd_afspillere/Creek_OBH_22_Passive_Preamp.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Parasound Classic",
+            "brand": "parasound",
+            "type": "preAmplifier",
+            "price": 999,
+            "desc": "Parasound Classic pre amplifier, med den bedste lyd",
+            "images": [
+                "/images/forforstaerkere/parasound_classic7100.jpg",
+                "/images/forforstaerkere/parasound_classic7100.jpg",
+                "/images/forforstaerkere/parasound_classic7100.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Parasound Halo 3",
+            "brand": "Creek",
+            "type": "preAmplifier",
+            "price": 999,
+            "desc": "Parasound Halo 3 pre amplifier, med den bedste lyd",
+            "images": [
+                "/images/forforstaerkere/parasound_halop3.jpg",
+                "/images/forforstaerkere/parasound_halop3.jpg",
+                "/images/forforstaerkere/parasound_halop3.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "specs": {
+                "sound": "...",
+                "design": {
+                    "height": 456,
+                    "width": 234,
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
+                },
+                "connectivity": {
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
+                    "type": [
+                        "Bluetooth 5.0",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Benny",
+                        "stars": 4,
+                        "review": "...",
+                        "date": "34. december 2022"
+                    }
+                ]
+            },
+            "stock": 43,
+            "tags": [
+                "bluetooth",
+                "wireless",
+                "airplay",
+                "water resistant"
+            ]
+        },
+        {
+            "id": 12345,
+            "name": "Project Pre Box",
+            "brand": "project",
+            "type": "preAmplifier",
+            "price": 999,
+            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "images": [
+                "/images/forforstaerkere/Project_prebox.jpg",
+                "/images/forforstaerkere/Project_prebox.jpg",
+                "/images/forforstaerkere/Project_prebox.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "EXP Silver",
+                    "code": "use hex"
+                }
+            ],
+            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
             "specs": {
                 "sound": "...",
                 "design": {

@@ -14,8 +14,3 @@ burger.addEventListener("click", function () {
 
 })
 
-const searchBtn = document.getElementsByClassName("navigation__searchBtn")
-
-searchBtn.addEventListener("click", function () {
-
-})

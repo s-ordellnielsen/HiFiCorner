@@ -12,9 +12,9 @@ const sass = gulpSass(tempSass);
 
 function uglyCss() {
 	return gulp
-		.src('src/styles/style.scss')
+		.src('src/style/**/*.scss')
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('build/styles'))
+		.pipe(gulp.dest('build/style'))
 		.pipe(connect.reload());
 };
 
@@ -53,7 +53,7 @@ function startConnection(cb) {
 
 function watchStyle() {
 	gulp.watch(
-		'src/styles/**/*.scss',
+		'src/style/**/*.scss',
 		{ events: 'all', ignoreInitial: false },
 		function (cb) {
 			uglyCss()

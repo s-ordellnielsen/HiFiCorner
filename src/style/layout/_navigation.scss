@@ -1,0 +1,64 @@
+.header{
+    width: 100vw;
+    height: 52px;
+    background-color: grey;
+    position: relative;
+        &__topbar{
+            
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        &__menu{
+            display: none;
+            margin: 6em 0 0 15px;
+            & li{
+                list-style: none;
+            }
+            & a{
+                text-decoration: none;
+                color: black;
+                & img{
+                    background: grey;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+            }
+            
+        }
+}
+.burger{
+margin-right: 5px;
+height: 30px;
+width: 30px;
+background-color: transparent;
+border: none;
+}
+.logoLink{
+    margin: 1px 0 0 5px;
+    width: 50px;
+    width: 50px;
+}
+.navigation{
+    &__searchInputField{
+        position: absolute;
+        top: 82px;
+        width: 80%;
+        &__searchInput{
+            width: 90%;
+        }
+    }
+    &__menu{
+        display: none;
+        margin: 25px 0 0 15px;
+            & li{
+                list-style: none;
+            }
+            & a{
+                text-decoration: none;
+                color: black;
+            }
+            
+    }
+}

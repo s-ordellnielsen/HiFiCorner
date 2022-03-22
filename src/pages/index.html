@@ -5,32 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
     <title>HIFI Corner</title>
 </head>
 
 <body>
     <header class="header">
         <div class="header__Logo">
-            <a href="index.html"><img src="/images/navigation/logo.png" alt="logo"></a>
+            <div class="header__topbar">
+                <a href="index.html" class="logoLink"><img src="/images/navigation/logo.png" alt="logo"></a>
+                <button class="burger"><img src="/images/navigation/burger-open.png" alt=""
+                        class="burger__Icon"></button>
+            </div>
             <ul class="header__menu nav__toggle">
+                <li class="header__menuitem">
+                    <h1>Categories</h1>
+                </li>
                 <li class="header__menuitem"><a href="#">Speakers ></a> </li>
                 <li class="header__menuitem"><a href="#">Headphones > </li>
                 <li class="header__menuitem"><a href="#">Accessoris ></a></li>
-                <li class="header__menuitem"><a href="#">Catogori 1 ></a></li>
-                <li class="header__menuitem"><a href="#">Catogori 2 ></a></li>
+                <li class="header__menuitem"><a href="#">Categori 1 ></a></li>
+                <li class="header__menuitem"><a href="#">Categori 2 ></a></li>
             </ul>
         </div>
-        <nav class="header__Navigation">
-            <button class="burger"><img src="/images/navigation/burger-open.png" alt="" class="burger__Icon"></button>
+        <nav class="header__navigation">
             <ul class="navigation__menu nav__toggle">
+                <li class="navigation__menuItem">
+                    <h1>HiFi Corner</h1>
+                </li>
                 <li class="navigation__menuItem"><a href="#"><img src="/images/navigation/bell.png" alt=""> News ></a>
                 </li>
                 <li class="navigation__menuItem"><a href="#"><img src="/images/navigation/aboutUs.png" alt=""> About us
                         ></a></li>
                 <li class="navigation__menuItem"><a href="#"><img src="/images/navigation/support.png" alt=""> Support
                         ></a></li>
-                <li class="navigation__menuItem"><button class="navigation__searchBtn navigation__IconBG"><img
-                            src="/images/navigation/search.png" alt=""></button></li>
+                <li class="navigation__menuItem">
+                    <div class="navigation__searchInputField">
+                        <input type="search" name="navigation__searchInput" id="navigation__searchInput"
+                            class="navigation__searchInput">
+                        <button class="navigation__searchBtn navigation__IconBG"><img
+                                src="/images/navigation/search.png" alt=""></button>
+                    </div>
+                </li>
 
                 <li class="navigation__menuItem"><a class="navigation__IconBG" href="#"><img
                             src="/images/navigation/map-pin.png" alt=""></a></li>

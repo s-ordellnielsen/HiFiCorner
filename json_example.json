@@ -2,31 +2,34 @@
     "products": [
         {
             "id": 12345,
-            "name": "name",
-            "brand": "Bose",
+            "name": "Creek Classic",
+            "brand": "Creek",
+            "type": "cdPlayer",
             "price": 999,
-            "desc": "...",
+            "desc": "",
             "images": [
-                "url here ... (front pic)",
-                "url here ..."
+                "/images/cd_afspillere/creek_classic_cd.jpg",
+                "/images/cd_afspillere/creek_classic_cd.jpg",
+                "/images/cd_afspillere/creek_classic_cd.jpg"
             ],
             "colors": [
                 {
-                    "name": "Midnight Green",
+                    "name": "Destiny Silver",
                     "code": "use hex"
                 }
             ],
-            "flavor_text": "...",
+            "flavor_text": "Silver Sound, navnet siger sig selv",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
-                    "weigth": 1222,
-                    "design_desc": "..."
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
                 },
                 "connectivity": {
-                    "battery": "4 hours",
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
                         "AirPlay 2"
@@ -51,31 +54,34 @@
         },
         {
             "id": 12345,
-            "name": "Focal",
-            "brand": "Focal",
+            "name": "Creek Destiny",
+            "brand": "Creek",
+            "type": "cdPlayer",
             "price": 999,
-            "desc": "...",
+            "desc": "",
             "images": [
-                "url here ... (front pic)",
-                "url here ..."
+                "/images/cd_afspillere/creek_Destiny_CD.jpg",
+                "/images/cd_afspillere/creek_Destiny_CD.jpg",
+                "/images/cd_afspillere/creek_Destiny_CD.jpg"
             ],
             "colors": [
                 {
-                    "name": "Midnight Green",
+                    "name": "Destiny Silver",
                     "code": "use hex"
                 }
             ],
-            "flavor_text": "...",
+            "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
-                    "weigth": 1222,
-                    "design_desc": "..."
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
                 },
                 "connectivity": {
-                    "battery": "4 hours",
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
                         "AirPlay 2"
@@ -100,80 +106,34 @@
         },
         {
             "id": 12345,
-            "name": "name",
-            "brand": "Bose",
+            "name": "Creek Classic",
+            "brand": "Creek",
+            "type": "cdPlayer",
             "price": 999,
-            "desc": "...",
+            "desc": "",
             "images": [
-                "url here ... (front pic)",
-                "url here ..."
+                "/images/cd_afspillere/creek_classic_cd.jpg",
+                "/images/cd_afspillere/creek_classic_cd.jpg",
+                "/images/cd_afspillere/creek_classic_cd.jpg"
             ],
             "colors": [
                 {
-                    "name": "Midnight Green",
+                    "name": "Destiny Silver",
                     "code": "use hex"
                 }
             ],
-            "flavor_text": "...",
+            "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
-                    "weigth": 1222,
-                    "design_desc": "..."
+                    "weigth": 1200,
+                    "design_desc": "Består af et sleek design af metal."
                 },
                 "connectivity": {
-                    "battery": "4 hours",
-                    "type": [
-                        "Bluetooth 5.0",
-                        "AirPlay 2"
-                    ]
-                },
-                "reviews": [
-                    {
-                        "name": "Benny",
-                        "stars": 4,
-                        "review": "...",
-                        "date": "34. december 2022"
-                    }
-                ]
-            },
-            "stock": 43,
-            "tags": [
-                "bluetooth",
-                "wireless",
-                "airplay",
-                "water resistant"
-            ]
-        },
-        {
-            "id": 12345,
-            "name": "name",
-            "brand": "Bose",
-            "price": 999,
-            "desc": "...",
-            "images": [
-                "url here ... (front pic)",
-                "url here ..."
-            ],
-            "colors": [
-                {
-                    "name": "Midnight Green",
-                    "code": "use hex"
-                }
-            ],
-            "flavor_text": "...",
-            "specs": {
-                "sound": "...",
-                "design": {
-                    "height": 456,
-                    "width": 234,
-                    "weigth": 1222,
-                    "design_desc": "..."
-                },
-                "connectivity": {
-                    "battery": "4 hours",
+                    "battery": "No",
+                    "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
                         "AirPlay 2"
@@ -200,10 +160,10 @@
     "customers": [
         {
             "id": 123456,
-            "username": "kenneth_mill",
-            "first_name": "Kenneth",
+            "username": "Bob",
+            "first_name": "Bob",
             "last_name": "Millard",
-            "email": "kenneth@millard.dk",
+            "email": "bob@millard.dk",
             "password": "kenne1234",
             "phone": 89686345,
             "address": {
@@ -212,7 +172,8 @@
                 "apartment": "...",
                 "zip_code": "...",
                 "city": "...",
-                "country": "..."
+                "country": "...",
+                "states": "..."
             },
             "favorites": [
                 12345,

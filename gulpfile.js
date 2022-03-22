@@ -1,3 +1,4 @@
+
 import gulp from 'gulp';
 import uglifycss from 'gulp-uglifycss';
 import concat from 'gulp-concat';
@@ -12,15 +13,15 @@ const sass = gulpSass(tempSass);
 
 function uglyCss() {
 	return gulp
-		.src('src/styles/style.scss')
+		.src('src/style/**/*.scss')
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('build/styles'))
+		.pipe(gulp.dest('build/style'))
 		.pipe(connect.reload());
 };
 
 function uglyJS() {
 	return gulp
-		.src('src/scripts/*.js')
+		.src('src/scripts/**/*.js')
 		.pipe(concat('script.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('build/scripts'))
@@ -29,7 +30,7 @@ function uglyJS() {
 
 function minifyImg() {
 	return gulp
-		.src('src/images/*')
+		.src('src/images/**/*')
 		.pipe(imagemin())
 		.pipe(gulp.dest('build/images'))
 		.pipe(connect.reload());
@@ -53,7 +54,7 @@ function startConnection(cb) {
 
 function watchStyle() {
 	gulp.watch(
-		'src/styles/*.scss',
+		'src/style/**/*.scss',
 		{ events: 'all', ignoreInitial: false },
 		function (cb) {
 			uglyCss()
@@ -64,7 +65,7 @@ function watchStyle() {
 
 function watchScript() {
 	gulp.watch(
-		'src/scripts/*.js',
+		'src/scripts/**/*.js',
 		{ events: 'all', ignoreInitial: false },
 		function (cb) {
 			uglyJS()

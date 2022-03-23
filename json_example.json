@@ -846,13 +846,72 @@
                 "street": "Langbortivej",
                 "number": "43",
                 "apartment": "",
-                "zip_code": "...",
-                "city": "...",
-                "country": "...",
+                "zip_code": "4040",
+                "city": "SennepVile",
+                "country": "Finland",
+                "states": "Lakupib"
+            },
+            "favorites": [
+                12345,
+                12346,
+                12348,
+                "flere id'er"
+            ],
+            "orders": {
+                "id": 1234567,
+                "order_number": "W0927817"
+            }
+        },
+        {
+            "id": 123456,
+            "username": "apple-hater84",
+            "first_name": "Henrik",
+            "last_name": "Gren",
+            "email": "xxsniperpro@gmail.com",
+            "password": "ahah",
+            "phone": 30129567,
+            "address": {
+                "street": "Arnold nielsens allé",
+                "number": "56",
+                "apartment": "3. th",
+                "zip_code": "2900",
+                "city": "Hellerup",
+                "country": "Denmark",
+                "states": ""
+            },
+            "favorites": [
+                12345,
+                12347,
+                12351,
+                12358,
+                "flere id'er"
+            ],
+            "orders": {
+                "id": 1234567,
+                "order_number": "W0927817"
+            }
+        },
+        {
+            "id": 123456,
+            "username": "Diddly-Dorte",
+            "first_name": "Dorte",
+            "last_name": "Doormat",
+            "email": "diddly-dorte@gmail.com",
+            "password": "diddly",
+            "phone": 27543620,
+            "address": {
+                "street": "Edvard Thomsens vej",
+                "number": "28",
+                "apartment": "",
+                "zip_code": "2300",
+                "city": "København S",
+                "country": "Denmark",
                 "states": "..."
             },
             "favorites": [
                 12345,
+                12355,
+                12350,
                 "flere id'er"
             ],
             "orders": [
@@ -861,73 +920,27 @@
         },
         {
             "id": 123456,
-            "username": "Jens1997",
-            "first_name": "Jens",
-            "last_name": "Jensen",
-            "email": "jens-jensen@gmail.com",
-            "password": "jensebasse1234",
+            "username": "Charlotte-Lund",
+            "first_name": "Charlotte",
+            "last_name": "Notten",
+            "email": "notten83@gmail.com",
+            "password": "1983lund",
             "phone": 89686345,
             "address": {
                 "street": "Langbortivej",
                 "number": "43",
                 "apartment": "",
                 "zip_code": "...",
-                "city": "...",
+                "city": "London",
                 "country": "...",
                 "states": "..."
             },
             "favorites": [
                 12345,
-                "flere id'er"
-            ],
-            "orders": [
-                1234567
-            ]
-        },
-        {
-            "id": 123456,
-            "username": "Jens1997",
-            "first_name": "Jens",
-            "last_name": "Jensen",
-            "email": "jens-jensen@gmail.com",
-            "password": "jensebasse1234",
-            "phone": 89686345,
-            "address": {
-                "street": "Langbortivej",
-                "number": "43",
-                "apartment": "",
-                "zip_code": "...",
-                "city": "...",
-                "country": "...",
-                "states": "..."
-            },
-            "favorites": [
-                12345,
-                "flere id'er"
-            ],
-            "orders": [
-                1234567
-            ]
-        },
-        {
-            "id": 123456,
-            "username": "Jens1997",
-            "first_name": "Jens",
-            "last_name": "Jensen",
-            "email": "jens-jensen@gmail.com",
-            "password": "jensebasse1234",
-            "phone": 89686345,
-            "address": {
-                "street": "Langbortivej",
-                "number": "43",
-                "apartment": "",
-                "zip_code": "...",
-                "city": "...",
-                "country": "...",
-                "states": "..."
-            },
-            "favorites": [
-                12345,
+                12348,
+                12359,
+                12355,
+                12353,
                 "flere id'er"
             ],
             "orders": [
@@ -974,7 +987,7 @@
             "date": "34. december 2022",
             "delivery_date": "35. december 2022",
             "shipment_method": "Wolt Bike",
-            "email": "kenneth@millard.dk",
+            "email": "jens-jensen@gmail.com",
             "phone": 89686345
         }
     ]

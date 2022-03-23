@@ -6,7 +6,7 @@
             "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
-            "desc": "",
+            "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/creek_classic_cd.jpg",
                 "/images/cd_afspillere/creek_classic_cd.jpg",
@@ -18,14 +18,14 @@
                     "code": "use hex"
                 }
             ],
-            "flavor_text": "Silver Sound, navnet siger sig selv",
+            "flavor_text": "Silver Sound, ",
             "specs": {
-                "sound": "...",
+                "sound": "Surround",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Metal"
                 },
                 "connectivity": {
                     "battery": "No",
@@ -58,7 +58,7 @@
             "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
-            "desc": "",
+            "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/creek_Destiny_CD.jpg",
                 "/images/cd_afspillere/creek_Destiny_CD.jpg",
@@ -110,7 +110,7 @@
             "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
-            "desc": "",
+            "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/creek_evo_cd.jpg",
                 "/images/cd_afspillere/creek_evo_cd.jpg",
@@ -162,7 +162,7 @@
             "brand": "creek",
             "type": "cdPlayer",
             "price": 999,
-            "desc": "",
+            "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/Exp_2010S_CD.gif",
                 "/images/cd_afspillere/Exp_2010S_CD.gif",
@@ -214,7 +214,7 @@
             "brand": "creek",
             "type": "dvdPlayer",
             "price": 999,
-            "desc": "Creek EXP Dvd afspiller, med den bedste lyd",
+            "desc": "A DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
                 "/images/dvd_afspillere/creek_classic.jpg",
                 "/images/dvd_afspillere/creek_classic.jpg",
@@ -266,7 +266,7 @@
             "brand": "creek",
             "type": "dvdPlayer",
             "price": 999,
-            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "desc": "Creek EXPosure, a DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
                 "/images/dvd_afspillere/exposure_2010S.jpg",
                 "/images/dvd_afspillere/exposure_2010S.jpg",
@@ -314,15 +314,15 @@
         },
         {
             "id": 12345,
-            "name": "Creek EXPosure",
-            "brand": "creek",
+            "name": "Parasound d200",
+            "brand": "parasound",
             "type": "dvdPlayer",
             "price": 999,
-            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "desc": "A DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg"
+                "/images/dvd_afspillere/parasound_d200.jpg",
+                "/images/dvd_afspillere/parasound_d200.jpg",
+                "/images/dvd_afspillere/parasound_d200.jpg"
             ],
             "colors": [
                 {
@@ -366,15 +366,15 @@
         },
         {
             "id": 12345,
-            "name": "Creek EXPosure",
-            "brand": "creek",
+            "name": "Parasound Halo d3",
+            "brand": "parasound",
             "type": "dvdPlayer",
             "price": 999,
-            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "desc": "Parasound Halo d3, A DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg"
+                "/images/dvd_afspillere/parasound_halod3.jpg",
+                "/images/dvd_afspillere/parasound_halod3.jpg",
+                "/images/dvd_afspillere/parasound_halod3.jpg"
             ],
             "colors": [
                 {
@@ -422,7 +422,7 @@
             "brand": "manley",
             "type": "effectAmplifier",
             "price": 999,
-            "desc": "Manley Mahi effekt forstærker, med den bedste lyd",
+            "desc": "Manley Mahi, An amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
                 "/images/dvd_afspillere/exposure_2010S.jpg",
                 "/images/dvd_afspillere/exposure_2010S.jpg",
@@ -474,7 +474,7 @@
             "brand": "manley",
             "type": "effectAmplifier",
             "price": 999,
-            "desc": "Manley Neo-classic effect amplifier, med den bedste lyd",
+            "desc": "Manley Neo-classic, an amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
                 "/images/effektforstaerkere/manley_neoclassic.jpg",
                 "/images/effektforstaerkere/manley_neoclassic.jpg",
@@ -526,11 +526,11 @@
             "brand": "manley",
             "type": "effectAmplifier",
             "price": 999,
-            "desc": "The Manley Snapper Dvd afspiller, med den bedste lyd",
+            "desc": "The Manley Snapper, An amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg"
+                "/images/effektforstaerkere/manley_snapper.jpg",
+                "/images/effektforstaerkere/manley_snapper.jpg",
+                "/images/effektforstaerkere/manley_snapper.jpg"
             ],
             "colors": [
                 {
@@ -578,11 +578,11 @@
             "brand": "parasound",
             "type": "effectAmplifier",
             "price": 999,
-            "desc": "Parasound Effect Amplifier, med den bedste lyd",
+            "desc": "Parasound Halo, An amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg",
-                "/images/dvd_afspillere/exposure_2010S.jpg"
+                "/images/effektforstaerkere/parasound_haloa23.jpg",
+                "/images/effektforstaerkere/parasound_haloa23.jpg",
+                "/images/effektforstaerkere/parasound_haloa23.jpg"
             ],
             "colors": [
                 {
@@ -630,7 +630,7 @@
             "brand": "creek",
             "type": "preAmplifier",
             "price": 999,
-            "desc": "Creek OBH 22 pre amplifier, med den bedste lyd",
+            "desc": "Creek OBH 22 pre amplifier, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output.",
             "images": [
                 "/images/dvd_afspillere/Creek_OBH_22_Passive_Preamp.jpg",
                 "/images/dvd_afspillere/Creek_OBH_22_Passive_Preamp.jpg",
@@ -682,7 +682,7 @@
             "brand": "parasound",
             "type": "preAmplifier",
             "price": 999,
-            "desc": "Parasound Classic pre amplifier, med den bedste lyd",
+            "desc": "Parasound Classic pre amplifier, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output. lyd",
             "images": [
                 "/images/forforstaerkere/parasound_classic7100.jpg",
                 "/images/forforstaerkere/parasound_classic7100.jpg",
@@ -734,7 +734,7 @@
             "brand": "Creek",
             "type": "preAmplifier",
             "price": 999,
-            "desc": "Parasound Halo 3 pre amplifier, med den bedste lyd",
+            "desc": "Parasound Halo 3 pre amplifier, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output.",
             "images": [
                 "/images/forforstaerkere/parasound_halop3.jpg",
                 "/images/forforstaerkere/parasound_halop3.jpg",
@@ -786,7 +786,7 @@
             "brand": "project",
             "type": "preAmplifier",
             "price": 999,
-            "desc": "Creek EXPosure Dvd afspiller, med den bedste lyd",
+            "desc": "Project Pre Box, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output.",
             "images": [
                 "/images/forforstaerkere/Project_prebox.jpg",
                 "/images/forforstaerkere/Project_prebox.jpg",

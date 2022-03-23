@@ -210,7 +210,7 @@
         },
         {
             "id": 12345,
-            "name": "Creek EXP",
+            "name": "Creek Classic Dvd",
             "brand": "creek",
             "type": "dvdPlayer",
             "price": 999,
@@ -834,6 +834,106 @@
         }
     ],
     "customers": [
+        {
+            "id": 123456,
+            "username": "Jens1997",
+            "first_name": "Jens",
+            "last_name": "Jensen",
+            "email": "jens-jensen@gmail.com",
+            "password": "jensebasse1234",
+            "phone": 89686345,
+            "address": {
+                "street": "Langbortivej",
+                "number": "43",
+                "apartment": "",
+                "zip_code": "...",
+                "city": "...",
+                "country": "...",
+                "states": "..."
+            },
+            "favorites": [
+                12345,
+                "flere id'er"
+            ],
+            "orders": [
+                1234567
+            ]
+        },
+        {
+            "id": 123456,
+            "username": "Jens1997",
+            "first_name": "Jens",
+            "last_name": "Jensen",
+            "email": "jens-jensen@gmail.com",
+            "password": "jensebasse1234",
+            "phone": 89686345,
+            "address": {
+                "street": "Langbortivej",
+                "number": "43",
+                "apartment": "",
+                "zip_code": "...",
+                "city": "...",
+                "country": "...",
+                "states": "..."
+            },
+            "favorites": [
+                12345,
+                "flere id'er"
+            ],
+            "orders": [
+                1234567
+            ]
+        },
+        {
+            "id": 123456,
+            "username": "Jens1997",
+            "first_name": "Jens",
+            "last_name": "Jensen",
+            "email": "jens-jensen@gmail.com",
+            "password": "jensebasse1234",
+            "phone": 89686345,
+            "address": {
+                "street": "Langbortivej",
+                "number": "43",
+                "apartment": "",
+                "zip_code": "...",
+                "city": "...",
+                "country": "...",
+                "states": "..."
+            },
+            "favorites": [
+                12345,
+                "flere id'er"
+            ],
+            "orders": [
+                1234567
+            ]
+        },
+        {
+            "id": 123456,
+            "username": "Jens1997",
+            "first_name": "Jens",
+            "last_name": "Jensen",
+            "email": "jens-jensen@gmail.com",
+            "password": "jensebasse1234",
+            "phone": 89686345,
+            "address": {
+                "street": "Langbortivej",
+                "number": "43",
+                "apartment": "",
+                "zip_code": "...",
+                "city": "...",
+                "country": "...",
+                "states": "..."
+            },
+            "favorites": [
+                12345,
+                "flere id'er"
+            ],
+            "orders": [
+                1234567
+            ]
+        },
         {
             "id": 123456,
             "username": "Jens1997",

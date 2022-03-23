@@ -887,8 +887,8 @@
                 "flere id'er"
             ],
             "orders": {
-                "id": 1234567,
-                "order_number": "W0927817"
+                "id": 1234568,
+                "order_number": "W0927818"
             }
         },
         {
@@ -915,7 +915,10 @@
                 "flere id'er"
             ],
             "orders": [
-                1234567
+                {
+                    "id": 1234569,
+                    "order_number": "W0927819"
+                }
             ]
         },
         {
@@ -925,15 +928,15 @@
             "last_name": "Notten",
             "email": "notten83@gmail.com",
             "password": "1983lund",
-            "phone": 89686345,
+            "phone": 20207140,
             "address": {
-                "street": "Langbortivej",
-                "number": "43",
+                "street": "Kingswood Road",
+                "number": "14",
                 "apartment": "",
-                "zip_code": "...",
-                "city": "London",
-                "country": "...",
-                "states": "..."
+                "zip_code": "8000",
+                "city": "Harrow",
+                "country": "England",
+                "states": "Harrow"
             },
             "favorites": [
                 12345,
@@ -944,24 +947,27 @@
                 "flere id'er"
             ],
             "orders": [
-                1234567
+                {
+                    "id": 1234570,
+                    "order_number": "W0927820"
+                }
             ]
         },
         {
             "id": 123460,
-            "username": "Jens1997",
-            "first_name": "Jens",
-            "last_name": "Jensen",
-            "email": "jens-jensen@gmail.com",
-            "password": "jensebasse1234",
-            "phone": 89686345,
+            "username": "kirstenKniv",
+            "first_name": "Kirsten",
+            "last_name": "Kronborg",
+            "email": "Kirsten-kronborg@gmail.com",
+            "password": "1234",
+            "phone": 23692461,
             "address": {
-                "street": "Langbortivej",
-                "number": "43",
+                "street": "Oakthorpe Road",
+                "number": "24",
                 "apartment": "",
-                "zip_code": "...",
-                "city": "...",
-                "country": "...",
+                "zip_code": "9000",
+                "city": "Oxford",
+                "country": "England",
                 "states": "..."
             },
             "favorites": [
@@ -969,7 +975,10 @@
                 "flere id'er"
             ],
             "orders": [
-                1234567
+                {
+                    "id": 1234571,
+                    "order_number": "W0927817"
+                }
             ]
         }
     ],
@@ -994,8 +1003,8 @@
             "phone": 89686345
         },
         {
-            "id": 1234567,
-            "order_number": "W0927817",
+            "id": 1234568,
+            "order_number": "W0927818",
             "customer_id": 123457,
             "products": [
                 {
@@ -1011,8 +1020,65 @@
             "order_date": "1. april 2022",
             "delivery_date": "4. april 2022",
             "shipment_method": "Wolt Bike",
-            "email": "jens-jensen@gmail.com",
-            "phone": 89686345
+            "email": "xxsniperpro@gmail.com",
+            "phone": 30129567
+        },
+        {
+            "id": 1234569,
+            "order_number": "W0927819",
+            "customer_id": 123458,
+            "products": [
+                {
+                    "product_id": [
+                        12359,
+                        12353
+                    ],
+                    "amount": 2
+                }
+            ],
+            "order_date": "12. March, 2022",
+            "delivery_date": "13. March, 2022",
+            "shipment_method": "UPS Express",
+            "email": "diddly-dorte@gmail.com",
+            "phone": 27543620
+        },
+        {
+            "id": 1234570,
+            "order_number": "W0927820",
+            "customer_id": 123459,
+            "products": [
+                {
+                    "product_id": [
+                        12359,
+                        12353
+                    ],
+                    "amount": 2
+                }
+            ],
+            "order_date": "9. March, 2022",
+            "delivery_date": "11. March, 2022",
+            "shipment_method": "FedEx",
+            "email": "notten83@gmail.com",
+            "phone": 20207140
+        },
+        {
+            "id": 1234571,
+            "order_number": "W0927819",
+            "customer_id": 123460,
+            "products": [
+                {
+                    "product_id": [
+                        12359,
+                        12353
+                    ],
+                    "amount": 2
+                }
+            ],
+            "order_date": "12. March, 2022",
+            "delivery_date": "14. March, 2022",
+            "shipment_method": "UPS Express",
+            "email": "diddly-dorte@gmail.com",
+            "phone": 27543620
         }
     ]
 }

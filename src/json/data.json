@@ -515,7 +515,8 @@
                 "wireless"
                 
             ]
-        },{
+        },
+        {
             "id": 92352,
             "name": "Project Rpm 10",
             "brand": "Project",
@@ -574,6 +575,331 @@
                 ]
             },
             "stock": 17,
+            "tags": [
+                "bluetooth",
+                "wireless"
+                
+            ]
+        },
+        {
+            "id": 22324,
+            "name": "Jolida JD102b",
+            "brand": "Jolida",
+            "type": "rørforstærkere",
+            "price": 1239,
+            "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
+            "images": [
+                "/images/database/jolida_JD102b.jpg", 
+                "/images/database/jolida_JD102b.jpg"
+                
+            ],
+            "colors": [
+                {
+                    "name": "Midnight Green",
+                    "code": "#004953"
+                },
+                {
+                    "name": "Black",
+                    "code": "#00000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFF"
+                }
+
+
+            ],
+            "flavor_text": "En god smag Gammeldags teknologi",
+            "specs": {
+                "sound": "",
+                "design": {
+                    "height": 10,
+                    "width": 18,
+                    "weigth": 20,
+                    "design_desc": [
+                        "Tåler placering i fugtige rum",
+                        "Lækre Matte farver"
+                    ]
+                },
+                
+                "connectivity": {
+                    "power": "100-240V 50/60Hz intern strømforsyning",
+                    "battery": "no", 
+                    "type": [
+                        "Virker med Google Assistent",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Flemming",
+                        "stars": 4,
+                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "date": "23. december 1987"
+                    }
+                ]
+            },
+            "stock": 11,
+            "tags": [
+                "bluetooth",
+                "wireless"
+                
+            ]
+        },
+        {
+            "id": 22624,
+            "name": "Jolida JD202a",
+            "brand": "Jolida",
+            "type": "rørforstærkere",
+            "price": 1239,
+            "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
+            "images": [
+                "/images/database/jolida_JD202a.jpg", 
+                "/images/database/jolida_JD202a.jpg"
+                
+            ],
+            "colors": [
+                {
+                    "name": "Midnight Green",
+                    "code": "#004953"
+                },
+                {
+                    "name": "Black",
+                    "code": "#00000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFF"
+                }
+
+
+            ],
+            "flavor_text": "En god smag Gammeldags teknologi",
+            "specs": {
+                "sound": "",
+                "design": {
+                    "height": 10,
+                    "width": 18,
+                    "weigth": 20,
+                    "design_desc": [
+                        "Tåler placering i fugtige rum",
+                        "Lækre Matte farver"
+                    ]
+                },
+                
+                "connectivity": {
+                    "power": "100-240V 50/60Hz intern strømforsyning",
+                    "battery": "no", 
+                    "type": [
+                        "Virker med Google Assistent",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Flemming",
+                        "stars": 4,
+                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "date": "23. december 1987"
+                    }
+                ]
+            },
+            "stock": 11,
+            "tags": [
+                "bluetooth",
+                "wireless"
+                
+            ]
+        },
+        {
+            "id": 22124,
+            "name": "Jolida JD300b",
+            "brand": "Jolida",
+            "type": "rørforstærkere",
+            "price": 1239,
+            "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
+            "images": [
+                "/images/database/jolida_JD300b.jpg", 
+                "/images/database/jolida_JD300b.jpg"
+                
+            ],
+            "colors": [
+                {
+                    "name": "Midnight Green",
+                    "code": "#004953"
+                },
+                {
+                    "name": "Black",
+                    "code": "#00000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFF"
+                }
+
+
+            ],
+            "flavor_text": "En god smag Gammeldags teknologi",
+            "specs": {
+                "sound": "",
+                "design": {
+                    "height": 10,
+                    "width": 18,
+                    "weigth": 20,
+                    "design_desc": [
+                        "Tåler placering i fugtige rum",
+                        "Lækre Matte farver"
+                    ]
+                },
+                
+                "connectivity": {
+                    "power": "100-240V 50/60Hz intern strømforsyning",
+                    "battery": "no", 
+                    "type": [
+                        "Virker med Google Assistent",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Flemming",
+                        "stars": 4,
+                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "date": "23. december 1987"
+                    }
+                ]
+            },
+            "stock": 11,
+            "tags": [
+                "bluetooth",
+                "wireless"
+                
+            ]
+        },
+        {
+            "id": 12324,
+            "name": "Jolida JD302b",
+            "brand": "Jolida",
+            "type": "rørforstærkere",
+            "price": 1239,
+            "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
+            "images": [
+                "/images/database/jolida_JD302b.jpg", 
+                "/images/database/jolida_JD302b.jpg"
+                
+            ],
+            "colors": [
+                {
+                    "name": "Midnight Green",
+                    "code": "#004953"
+                },
+                {
+                    "name": "Black",
+                    "code": "#00000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFF"
+                }
+
+
+            ],
+            "flavor_text": "En god smag Gammeldags teknologi",
+            "specs": {
+                "sound": "",
+                "design": {
+                    "height": 10,
+                    "width": 18,
+                    "weigth": 20,
+                    "design_desc": [
+                        "Tåler placering i fugtige rum",
+                        "Lækre Matte farver"
+                    ]
+                },
+                
+                "connectivity": {
+                    "power": "100-240V 50/60Hz intern strømforsyning",
+                    "battery": "no", 
+                    "type": [
+                        "Virker med Google Assistent",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Flemming",
+                        "stars": 4,
+                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "date": "23. december 1987"
+                    }
+                ]
+            },
+            "stock": 11,
+            "tags": [
+                "bluetooth",
+                "wireless"
+                
+            ]
+        },
+        {
+            "id": 62324,
+            "name": "Jolida JD502b",
+            "brand": "Jolida",
+            "type": "rørforstærkere",
+            "price": 1239,
+            "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
+            "images": [
+                "/images/database/jolida_JD502b.jpg", 
+                "/images/database/jolida_JD502b.jpg"
+                
+            ],
+            "colors": [
+                {
+                    "name": "Midnight Green",
+                    "code": "#004953"
+                },
+                {
+                    "name": "Black",
+                    "code": "#00000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFF"
+                }
+
+
+            ],
+            "flavor_text": "En god smag Gammeldags teknologi",
+            "specs": {
+                "sound": "",
+                "design": {
+                    "height": 10,
+                    "width": 18,
+                    "weigth": 20,
+                    "design_desc": [
+                        "Tåler placering i fugtige rum",
+                        "Lækre Matte farver"
+                    ]
+                },
+                
+                "connectivity": {
+                    "power": "100-240V 50/60Hz intern strømforsyning",
+                    "battery": "no", 
+                    "type": [
+                        "Virker med Google Assistent",
+                        "AirPlay 2"
+                    ]
+                },
+                "reviews": [
+                    {
+                        "name": "Flemming",
+                        "stars": 4,
+                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "date": "23. december 1987"
+                    }
+                ]
+            },
+            "stock": 11,
             "tags": [
                 "bluetooth",
                 "wireless"

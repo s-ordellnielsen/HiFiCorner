@@ -863,7 +863,7 @@
             }
         },
         {
-            "id": 123456,
+            "id": 123457,
             "username": "apple-hater84",
             "first_name": "Henrik",
             "last_name": "Gren",
@@ -871,12 +871,12 @@
             "password": "ahah",
             "phone": 30129567,
             "address": {
-                "street": "Arnold nielsens allé",
+                "street": "Hempstead road",
                 "number": "56",
-                "apartment": "3. th",
+                "apartment": "",
                 "zip_code": "2900",
-                "city": "Hellerup",
-                "country": "Denmark",
+                "city": "Watford",
+                "country": "England",
                 "states": ""
             },
             "favorites": [
@@ -892,7 +892,7 @@
             }
         },
         {
-            "id": 123456,
+            "id": 123458,
             "username": "Diddly-Dorte",
             "first_name": "Dorte",
             "last_name": "Doormat",
@@ -919,7 +919,7 @@
             ]
         },
         {
-            "id": 123456,
+            "id": 123459,
             "username": "Charlotte-Lund",
             "first_name": "Charlotte",
             "last_name": "Notten",
@@ -948,7 +948,7 @@
             ]
         },
         {
-            "id": 123456,
+            "id": 123460,
             "username": "Jens1997",
             "first_name": "Jens",
             "last_name": "Jensen",
@@ -980,12 +980,36 @@
             "customer_id": 123456,
             "products": [
                 {
-                    "product_id": 12345,
-                    "amount": 1
+                    "product_id": [
+                        12345,
+                        12346
+                    ],
+                    "amount": 2
                 }
             ],
-            "date": "34. december 2022",
+            "order_date": "34. december 2022",
             "delivery_date": "35. december 2022",
+            "shipment_method": "Wolt Bike",
+            "email": "jens-jensen@gmail.com",
+            "phone": 89686345
+        },
+        {
+            "id": 1234567,
+            "order_number": "W0927817",
+            "customer_id": 123457,
+            "products": [
+                {
+                    "product_id": [
+                        12345,
+                        12346,
+                        12359,
+                        12353
+                    ],
+                    "amount": 4
+                }
+            ],
+            "order_date": "1. april 2022",
+            "delivery_date": "4. april 2022",
             "shipment_method": "Wolt Bike",
             "email": "jens-jensen@gmail.com",
             "phone": 89686345

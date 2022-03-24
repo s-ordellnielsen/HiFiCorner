@@ -1,0 +1,46 @@
+.navigation{
+    &__searchInputField{
+        position: absolute;
+        top: 82px;
+        width: 80%;
+        &__searchInput{
+            width: 90%;
+        }
+    }
+    &__iconList{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+        column-gap: 25px;
+        width: 100px;
+        position: absolute;
+        top: 600px;
+        left: 50%;
+        margin-left: -60px;
+    }
+    &__iconContainer{
+        width: 50px;
+        height: 50px;
+        background-color: grey;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__menuIcon{
+        width: 25px;
+        height: 25px;
+    }
+    &__menu{
+        display: none;
+        margin: 25px 0 0 15px;
+            & li{
+                list-style: none;
+            }
+            & a{
+                text-decoration: none;
+                color: black;
+            }
+            
+    }
+}

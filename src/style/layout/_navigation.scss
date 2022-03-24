@@ -19,7 +19,6 @@
                 text-decoration: none;
                 color: black;
                 & img{
-                    background: grey;
                     width: 80px;
                     height: 80px;
                     border-radius: 50%;
@@ -29,36 +28,27 @@
         }
 }
 .burger{
-margin-right: 5px;
-height: 30px;
-width: 30px;
-background-color: transparent;
-border: none;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    &__Icon{
+    transition: all 350ms linear;
+
+    }
 }
 .logoLink{
     margin: 1px 0 0 5px;
     width: 50px;
     width: 50px;
 }
-.navigation{
-    &__searchInputField{
-        position: absolute;
-        top: 82px;
-        width: 80%;
-        &__searchInput{
-            width: 90%;
+
+@media screen and (min-width: 500px){
+    .navigation{
+        display: flex;
+        &__menu{
+            display: block;
         }
-    }
-    &__menu{
-        display: none;
-        margin: 25px 0 0 15px;
-            & li{
-                list-style: none;
-            }
-            & a{
-                text-decoration: none;
-                color: black;
-            }
-            
     }
 }

@@ -17,7 +17,7 @@
                 <button class="burger"><img src="/images/navigation/burger-open.png" alt=""
                         class="burger__Icon"></button>
             </div>
-            <ul class="header__menu nav__toggle">
+            <ul class="header__menu ">
                 <li class="header__menuitem">
                     <h1>Categories</h1>
                 </li>
@@ -29,7 +29,7 @@
             </ul>
         </div>
         <nav class="header__navigation">
-            <ul class="navigation__menu nav__toggle">
+            <ul class="navigation__menu ">
                 <li class="navigation__menuItem">
                     <h1>HiFi Corner</h1>
                 </li>
@@ -43,20 +43,22 @@
                     <div class="navigation__searchInputField">
                         <input type="search" name="navigation__searchInput" id="navigation__searchInput"
                             class="navigation__searchInput">
-                        <button class="navigation__searchBtn navigation__IconBG"><img
-                                src="/images/navigation/search.png" alt=""></button>
+                        <button class="navigation__searchBtn navigation__IconBG"><i data-feather="search"></i></button>
                     </div>
                 </li>
-
-                <li class="navigation__menuItem"><a class="navigation__IconBG" href="#"><img
-                            src="/images/navigation/map-pin.png" alt=""></a></li>
-                <li class="navigation__menuItem"><a class="navigation__IconBG" href="#"><img
-                            src="/images/navigation/ThemeToggle.png" alt=""></a>
-                </li>
-                <li class="navigation__menuItem"><a class="navigation__IconBG" href="#"><img
-                            src="/images/navigation/user.png" alt=""></a></li>
-                <li class="navigation__menuItem"><a class="navigation__IconBG" href="#"><img
-                            src="/images/navigation/shopping-bag.png" alt=""></a>
+                <li class="navigation__menuItem navigation__iconList">
+                    <div class="navigation__iconContainer">
+                        <div class="navigation__menuIcon"><a class="navigation__IconBG" href="#"><i data-feather="map-pin"></i></a></div>
+                    </div>
+                    <div class="navigation__iconContainer">
+                        <div class="navigation__menuIcon"><button class="navigation__IconBG" id="themeToggle"><i data-feather="sun"></i></button></div>
+                    </div>
+                    <div class="navigation__iconContainer">
+                        <div class="navigation__menuIcon"><a class="navigation__IconBG" href="#"><i data-feather="user"></i></a></div>
+                    </div>
+                    <div class="navigation__iconContainer">
+                        <div class="navigation__menuIcon"><a class="navigation__IconBG" href="#"><i data-feather="shopping-bag"></i></a></div>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -65,6 +67,10 @@
     </header>
 
     <script src="/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace()
+      </script>
 </body>
 
 </html>

@@ -86,7 +86,7 @@ function watchPages() {
 
 function watchImages() {
 	gulp.watch(
-		'src/images/*',
+		'src/images/**/*',
 		{ events: 'all', ignoreInitial: false },
 		function (cb) {
 			minifyImg()

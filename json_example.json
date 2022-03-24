@@ -817,9 +817,24 @@
                 },
                 "reviews": [
                     {
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Henrik Gren",
+                        "stars": 4,
+                        "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officia nam animi quisquam, earum optio ",
+                        "date": "34. december 2022"
+                    },
+                    {
+                        "name": "Benny",
+                        "stars": 5,
+                        "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officia nam animi quisquam, earum optio minima accusamus adipisci cum veniam magnam doloribus praesentium aliquam ducimus. Aperiam eius rerum accusantium ",
+                        "date": "34. december 2022"
+                    },
+                    {
                         "name": "Benny",
                         "stars": 4,
-                        "review": "...",
+                        "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officia nam animi quisquam, earum optio minima accusamus adipisci cum veniam magnam doloribus praesentium aliquam ducimus. Aperiam eius rerum accusantium ut, repudiandae modi saepe blanditiis vel consectetur, ipsam tempora, quae quasi iure? Dignissimos accusamus odio qui natus nobis ex nostrum explicabo.",
                         "date": "34. december 2022"
                     }
                 ]

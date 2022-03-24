@@ -48,7 +48,7 @@ function startConnection(cb) {
 	connect.server({
 		root: 'build',
 		livereload: true,
-		port: 3000,
+		port: 4000,
 	});
 };
 

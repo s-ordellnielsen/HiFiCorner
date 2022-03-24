@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$primary: #79BEB3;
+$secondary: #6E8573;
+$tertiary: #62625E;
+$text: var(--text);
+$bg: var(--bg);
+$dark: #214341;
+$light: #EBF2E8;
+
+$x-small: .5rem;            // 8px
+$small: 1rem;               // 16px
+$medium: 1.5rem;            // 24px
+$large: 2rem;               // 32px
+$x-large: 3rem;             // 48px
+
+$border-radius: 1.5rem;     // 24px
+
+:root {
+    font-family: 'Lato';
+}
+
+html {
+    --text: #214341;
+    --bg: #EBF2E8;
+
+    background: var(--bg);
+    color: var(--text);
+
+    transition: background .3s, color .3s;
+}
+
+html[data-theme='dark'] {
+    --text: #EBF2E8;
+    --bg: #214341;
+}

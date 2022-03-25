@@ -34,14 +34,14 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "Silver Sound, ",
+            "flavor_text": "Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "Surround",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Metal"
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
@@ -54,7 +54,7 @@
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -63,7 +63,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -72,7 +72,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -81,7 +81,7 @@
                     }
                 ]
             },
-            "stock": 13,
+            "stock": 54,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -94,7 +94,7 @@
             "name": "Creek Destiny",
             "brand": "creek",
             "type": "cdPlayer",
-            "price": 999,
+            "price": 1399,
             "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/creek_Destiny_CD.jpg",
@@ -123,14 +123,14 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
+            "flavor_text": "Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
-                "sound": "...",
+                "sound": "Surround",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
@@ -143,7 +143,7 @@
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -152,7 +152,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -161,7 +161,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -170,7 +170,7 @@
                     }
                 ]
             },
-            "stock": 62,
+            "stock": 75,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -183,7 +183,7 @@
             "name": "Creek Evo",
             "brand": "creek",
             "type": "cdPlayer",
-            "price": 999,
+            "price": 1699,
             "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/creek_evo_cd.jpg",
@@ -212,14 +212,14 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "Evo Silver Sound, navnet siger sig selv",
+            "flavor_text": "Evo Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
-                "sound": "...",
+                "sound": "Surround/Mono",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
@@ -232,7 +232,7 @@
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -241,7 +241,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -250,7 +250,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -259,7 +259,7 @@
                     }
                 ]
             },
-            "stock": 43,
+            "stock": 65,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -272,7 +272,7 @@
             "name": "Creek EXP",
             "brand": "creek",
             "type": "cdPlayer",
-            "price": 999,
+            "price": 1999,
             "desc": "A CD player is an electronic device that plays audio compact discs, which are a digital optical disc data storage format. CD players were first sold to consumers in 1982. CDs typically contain recordings of audio material such as music or audiobooks.",
             "images": [
                 "/images/cd_afspillere/Exp_2010S_CD.gif",
@@ -301,14 +301,14 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
+            "flavor_text": "Destiny Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
-                "sound": "...",
+                "sound": "Surround/Mono",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
@@ -321,7 +321,7 @@
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -330,7 +330,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -339,7 +339,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -348,7 +348,7 @@
                     }
                 ]
             },
-            "stock": 51,
+            "stock": 12,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -390,27 +390,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
-                "sound": "...",
+                "sound": "Surround/Mono",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Bluray Dvd+"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -419,7 +420,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -428,7 +429,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -437,7 +438,7 @@
                     }
                 ]
             },
-            "stock": 78,
+            "stock": 35,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -450,7 +451,7 @@
             "name": "Creek EXPosure",
             "brand": "creek",
             "type": "dvdPlayer",
-            "price": 999,
+            "price": 1399,
             "desc": "Creek EXPosure, a DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
                 "/images/dvd_afspillere/exposure_2010S.jpg",
@@ -479,27 +480,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
-                "sound": "...",
+                "sound": "Surround/Mono",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Bluray Dvd+"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -508,7 +510,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -517,7 +519,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -526,7 +528,7 @@
                     }
                 ]
             },
-            "stock": 92,
+            "stock": 37,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -539,7 +541,7 @@
             "name": "Parasound d200",
             "brand": "parasound",
             "type": "dvdPlayer",
-            "price": 999,
+            "price": 1699,
             "desc": "A DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
                 "/images/dvd_afspillere/parasound_d200.jpg",
@@ -568,27 +570,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Bluray Dvd+"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -597,7 +600,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -606,7 +609,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -615,7 +618,7 @@
                     }
                 ]
             },
-            "stock": 32,
+            "stock": 91,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -628,7 +631,7 @@
             "name": "Parasound Halo d3",
             "brand": "parasound",
             "type": "dvdPlayer",
-            "price": 999,
+            "price": 1999,
             "desc": "Parasound Halo d3, A DVD player is very similar to a CD player. It has a laser assembly that shines the laser beam onto the surface of the disc to read the pattern of bumps . The DVD player decodes the MPEG-2 encoded movie, turning it into a standard composite video signal.",
             "images": [
                 "/images/dvd_afspillere/parasound_halod3.jpg",
@@ -657,27 +660,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Bluray Dvd+"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -686,7 +690,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -695,7 +699,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -704,7 +708,7 @@
                     }
                 ]
             },
-            "stock": 23,
+            "stock": 64,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -746,27 +750,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Effect Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -775,7 +780,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -784,7 +789,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -793,7 +798,7 @@
                     }
                 ]
             },
-            "stock": 75,
+            "stock": 46,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -806,7 +811,7 @@
             "name": "Manley Neo Effect Amplifier",
             "brand": "manley",
             "type": "effectAmplifier",
-            "price": 999,
+            "price": 1399,
             "desc": "Manley Neo-classic, an amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
                 "/images/effektforstaerkere/manley_neoclassic.jpg",
@@ -835,27 +840,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Effect Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -864,7 +870,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -873,7 +879,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -882,7 +888,7 @@
                     }
                 ]
             },
-            "stock": 54,
+            "stock": 55,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -895,7 +901,7 @@
             "name": "Manley Snapper Effect Amplifier",
             "brand": "manley",
             "type": "effectAmplifier",
-            "price": 999,
+            "price": 1699,
             "desc": "The Manley Snapper, An amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
                 "/images/effektforstaerkere/manley_snapper.jpg",
@@ -924,27 +930,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Effect Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -953,7 +960,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -962,7 +969,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -971,7 +978,7 @@
                     }
                 ]
             },
-            "stock": 61,
+            "stock": 82,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -984,7 +991,7 @@
             "name": "Parasound Halo Effect Amplifier",
             "brand": "parasound",
             "type": "effectAmplifier",
-            "price": 999,
+            "price": 1999,
             "desc": "Parasound Halo, An amplifier is an electronic device that increases the voltage, current, or power of a signal. Amplifiers are used in wireless communications and broadcasting, and in audio equipment of all kinds. They can be categorized as either weak-signal amplifiers or power amplifiers.",
             "images": [
                 "/images/effektforstaerkere/parasound_haloa23.jpg",
@@ -1013,27 +1020,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Effect Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -1042,7 +1050,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -1051,7 +1059,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -1060,7 +1068,7 @@
                     }
                 ]
             },
-            "stock": 82,
+            "stock": 13,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -1102,27 +1110,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Pre Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -1131,7 +1140,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -1140,7 +1149,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -1149,7 +1158,7 @@
                     }
                 ]
             },
-            "stock": 17,
+            "stock": 78,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -1162,7 +1171,7 @@
             "name": "Parasound Classic",
             "brand": "parasound",
             "type": "preAmplifier",
-            "price": 999,
+            "price": 1399,
             "desc": "Parasound Classic pre amplifier, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output. lyd",
             "images": [
                 "/images/forforstaerkere/parasound_classic7100.jpg",
@@ -1191,27 +1200,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Pre Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -1220,7 +1230,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -1229,7 +1239,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -1238,7 +1248,7 @@
                     }
                 ]
             },
-            "stock": 89,
+            "stock": 25,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -1251,7 +1261,7 @@
             "name": "Parasound Halo 3",
             "brand": "Creek",
             "type": "preAmplifier",
-            "price": 999,
+            "price": 1699,
             "desc": "Parasound Halo 3 pre amplifier, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output.",
             "images": [
                 "/images/forforstaerkere/parasound_halop3.jpg",
@@ -1280,27 +1290,28 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
                     "power": "100-240v 50/60hz intern strømforsyning",
                     "type": [
                         "Bluetooth 5.0",
-                        "AirPlay 2"
+                        "AirPlay 2",
+                        "Pre Amplifier"
                     ]
                 },
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -1309,7 +1320,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -1318,7 +1329,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -1327,7 +1338,7 @@
                     }
                 ]
             },
-            "stock": 69,
+            "stock": 61,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -1340,7 +1351,7 @@
             "name": "Project Pre Box",
             "brand": "project",
             "type": "preAmplifier",
-            "price": 999,
+            "price": 1999,
             "desc": "Project Pre Box, In a home theatre system, the pre-amplifier performs two main functions: it handles switching between different line level sources and boosts the signal before sending it to the amplifier. A weak electrical signal becomes strong enough for additional processing, preventing noise and offering cleaner output.",
             "images": [
                 "/images/forforstaerkere/Project_prebox.jpg",
@@ -1369,14 +1380,14 @@
                     "code": "#FFEA79"
                 }
             ],
-            "flavor_text": "EXP Silver Sound, navnet siger sig selv",
+            "flavor_text": "EXP Silver Sound, Get ready to have an Experience. The Ulitmate Dolby 5.1 Surround Sound will leave you with no doubt blaablah",
             "specs": {
                 "sound": "...",
                 "design": {
                     "height": 456,
                     "width": 234,
                     "weigth": 1200,
-                    "design_desc": "Består af et sleek design af metal."
+                    "design_desc": "Stylish, minimal, clean"
                 },
                 "connectivity": {
                     "battery": "No",
@@ -1389,7 +1400,7 @@
                 "reviews": [
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Henrik Gren",
                         "stars": 4,
@@ -1398,7 +1409,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -1407,7 +1418,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -1416,7 +1427,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Dorthe Doormat",
                         "stars": 5,
@@ -1425,7 +1436,7 @@
                     },
                     {
                         "user_icon": [
-                            "/images/user_icons/henrik-grennn.jpg"
+                            "/images/user_icons/henrik-gren.jpeg"
                         ],
                         "username": "Jens Jensen",
                         "stars": 4,
@@ -1434,7 +1445,7 @@
                     }
                 ]
             },
-            "stock": 38,
+            "stock": 17,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -1446,7 +1457,7 @@
     "customers": [
         {
             "id": 123456,
-            "username": "Jens1997",
+            "username": "Jens1998",
             "first_name": "Jens",
             "last_name": "Jensen",
             "email": "jens-jensen@gmail.com",
@@ -1468,7 +1479,7 @@
                 "flere id'er"
             ],
             "orders": {
-                "id": 1234567,
+                "customer_order_id": 1234567,
                 "order_number": "W0927817"
             }
         },
@@ -1497,7 +1508,7 @@
                 "flere id'er"
             ],
             "orders": {
-                "id": 1234568,
+                "customer_order_id": 1234568,
                 "order_number": "W0927818"
             }
         },
@@ -1526,7 +1537,7 @@
             ],
             "orders": [
                 {
-                    "id": 1234569,
+                    "customer_order_id": 1234569,
                     "order_number": "W0927819"
                 }
             ]
@@ -1558,7 +1569,7 @@
             ],
             "orders": [
                 {
-                    "id": 1234570,
+                    "customer_order-id": 1234570,
                     "order_number": "W0927820"
                 }
             ]
@@ -1586,7 +1597,7 @@
             ],
             "orders": [
                 {
-                    "id": 1234571,
+                    "customer_order-id": 1234571,
                     "order_number": "W0927817"
                 }
             ]

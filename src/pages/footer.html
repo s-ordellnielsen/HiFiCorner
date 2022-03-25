@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../style/style.css" />
+        <script src="https://unpkg.com/feather-icons"></script>
+
+	</head>
+	<body>
+
+        <!-- Just to test light/dark mode, do not include in template -->
+        <input type="checkbox" name="themeToggle" id="themeToggle" />
+		<label for="themeToggle" class="themeToggleIcon">
+			<div class="lightIcon">
+				<div class="lightIcon__circle"></div>
+				<div class="lightIcon__line lightIcon__line1"></div>
+				<div class="lightIcon__line lightIcon__line2"></div>
+				<div class="lightIcon__line lightIcon__line3"></div>
+				<div class="lightIcon__line lightIcon__line4"></div>
+				<div class="lightIcon__line lightIcon__line5"></div>
+				<div class="lightIcon__line lightIcon__line6"></div>
+				<div class="lightIcon__line lightIcon__line7"></div>
+				<div class="lightIcon__line lightIcon__line8"></div>
+			</div>
+			<i data-feather="moon" class="darkIcon"></i>
+		</label>
+
+        <!-- Start from here please -->
+
+        <footer class="pageFooter">
+            <section class="pageFooter__col">
+                <img class="pageFooter__logo" src="../images/logo-large-primary.svg" alt="HiFi Corners logo in primary color">
+
+                <blockquote class="pageFooter__quote">
+                    English design.<br>Sound of another world.
+                    <span>– Mike Kyed</span>
+                </blockquote>
+
+                <small class="pageFooter__copyrights">
+                    Copyright © HiFi Corner Ltd. All rights reserved
+                </small>
+            </section>
+            <section class="pageFooter__col">
+                <ul class="pageFooter__links">
+                    <li>
+                        <a href="./categories.html">Categories</a>
+                        <ul>
+                            <a href="./categories.html">Speakers</a>
+                        </ul>
+                    </li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./support.html">Support</a></li>
+                </ul>
+            </section>
+            <section class="pageFooter__col">
+                <p>Subscribe to our newsletter</p>
+                <form class="pageFooter__form">
+                    <input type="email" name="footerSub" id="footerSub">
+                    <button>Subscribe</button>
+                </form>
+            </section>
+        </footer>
+
+		<script src="../scripts/script.js"></script>
+        <script>
+			feather.replace()
+		</script>
+    </body>
+</html>

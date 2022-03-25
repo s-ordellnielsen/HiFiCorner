@@ -1,0 +1,70 @@
+.pageFooter {
+    border-top: 2px solid $light;
+    background: $dark;
+    padding: $large max($medium, calc((100% - 1200px) / 2));
+    color: $light;
+    display: flex;
+    gap: $medium;
+
+    &__col {
+        width: 33%;
+    }
+
+    &__logo {
+        margin-bottom: $medium;
+    }
+
+    &__quote {
+        font-size: 1.2rem;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        color: $primary;
+        margin-bottom: $small;
+
+        & span {
+            display: block;
+            color: $light;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    &__copyrights {
+        opacity: .5;
+    }
+
+    &__form {
+        display: flex;
+        gap: $x-small;
+        width: 100%;
+
+        & input {
+            width: 100%;
+            background: $light;
+            border-radius: $border-radius;
+            border: 3px solid $light;
+            padding: $x-small $small;
+            font-family: 'Montserrat';
+            font-size: 14px;
+            color: $dark;
+            transition: .3s;
+
+            &:focus {
+                outline: none;
+                border-color: $primary;
+                box-shadow: 0 0 $medium -.5rem $primary;
+            }
+        }
+
+        & button {
+            font-size: 14px;
+            padding: $x-small $small;
+            border-radius: $border-radius;
+            border: none;
+            font-family: 'Montserrat';
+            font-weight: 600;
+            color: $dark;
+            cursor: pointer;
+        }
+    }
+}

@@ -67,4 +67,25 @@
             cursor: pointer;
         }
     }
+
+    &__links {
+        & li {
+            font-weight: 700;
+            margin-bottom: $medium;
+            font-family: 'Montserrat';
+            color: $primary;
+
+            & ul {
+                margin-top: $x-small;
+                margin-left: $small;
+
+                & li {
+                    font-weight: 500;
+                    font-family: 'Lato';
+                    color: $light;
+                    margin-bottom: $x-small;
+                }
+            }
+        }
+    }
 }

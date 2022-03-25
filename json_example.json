@@ -14,8 +14,24 @@
             ],
             "colors": [
                 {
-                    "name": "Destiny Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "Silver Sound, ",
@@ -65,7 +81,7 @@
                     }
                 ]
             },
-            "stock": 43,
+            "stock": 13,
             "tags": [
                 "bluetooth",
                 "wireless",
@@ -87,8 +103,24 @@
             ],
             "colors": [
                 {
-                    "name": "Destiny Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
@@ -160,8 +192,24 @@
             ],
             "colors": [
                 {
-                    "name": "Evo Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "Evo Silver Sound, navnet siger sig selv",
@@ -233,8 +281,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "Destiny Silver Sound, navnet siger sig selv",
@@ -306,8 +370,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -379,8 +459,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -452,8 +548,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -525,8 +637,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -598,8 +726,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -671,8 +815,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -744,8 +904,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -817,8 +993,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -890,8 +1082,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -963,8 +1171,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -1036,8 +1260,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",
@@ -1109,8 +1349,24 @@
             ],
             "colors": [
                 {
-                    "name": "EXP Silver",
-                    "code": "use hex"
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                },
+                {
+                    "name": "Red",
+                    "code": "#E53B3B"
+                },
+                {
+                    "name": "Purple",
+                    "code": "#7167E1"
+                },
+                {
+                    "name": "Yellow",
+                    "code": "#FFEA79"
                 }
             ],
             "flavor_text": "EXP Silver Sound, navnet siger sig selv",

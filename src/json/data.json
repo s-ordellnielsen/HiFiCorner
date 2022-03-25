@@ -8,7 +8,7 @@
             "price": 1960,
             "desc": "Smart og kompakt højtaler til trådløs musik i mindre rum som f.eks. badeværelse eller børneværelse. Indbygget mikrofon til stemmestyring.",
             "images": [
-                "/images/database/wooden-Speaker(1).jpg", 
+                "/images/database/wooden-Speaker(1).jpg",
                 "/images/database/wooden-Speaker(2).jpg",
                 "/images/database/wooden-Speaker(3).jpg"
             ],
@@ -25,8 +25,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "De hurtigste og nemmeste højtaler at tage på farten",
             "specs": {
@@ -40,10 +38,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -51,10 +48,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Benny",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Benny",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "34. december 2022"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "34. december 2022"
                     }
                 ]
             },
@@ -74,7 +74,7 @@
             "price": 1250,
             "desc": "Creek designs have improved over the years, but in a quiet, friendly, unassuming, evolutionary (rather than revolutionary) way. Under discussion today is the new flagship of the Creek integrated line",
             "images": [
-                "/images/database/creek_classic5350SE.jpg", 
+                "/images/database/creek_classic5350SE.jpg",
                 "/images/database/creek_classic5350SE.jpg"
             ],
             "colors": [
@@ -90,8 +90,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -105,10 +103,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -116,10 +113,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Harry",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Harry",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -127,7 +127,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -138,7 +137,7 @@
             "price": 1450,
             "desc": "Creek designs have improved over the years, but in a quiet, friendly, unassuming, evolutionary (rather than revolutionary) way. Under discussion today is the new flagship of the Creek integrated line",
             "images": [
-                "/images/database/creek_a501.jpg", 
+                "/images/database/creek_a501.jpg",
                 "/images/database/creek_classic5350SE.jpg"
             ],
             "colors": [
@@ -154,8 +153,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -169,10 +166,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -180,10 +176,13 @@
                 },
                 "reviews": [
                     {
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
                         "name": "bjørn",
                         "stars": 5,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "This is a nice design and Easy to use",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -191,7 +190,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -202,7 +200,7 @@
             "price": 1699,
             "desc": "Creek designs have improved over the years, but in a quiet, friendly, unassuming, evolutionary (rather than revolutionary) way. Under discussion today is the new flagship of the Creek integrated line",
             "images": [
-                "/images/database/creek_destinyamp.jpg", 
+                "/images/database/creek_destinyamp.jpg",
                 "/images/database/creek_destinyamp.jpg"
             ],
             "colors": [
@@ -218,8 +216,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -233,10 +229,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -244,10 +239,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Magerith",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Magerith",
                         "stars": 3,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "I really needed this and couldnt find it anywhere",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -255,7 +253,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -266,7 +263,7 @@
             "price": 1239,
             "desc": "Creek designs have improved over the years, but in a quiet, friendly, unassuming, evolutionary (rather than revolutionary) way. Under discussion today is the new flagship of the Creek integrated line",
             "images": [
-                "/images/database/manley_snapperInt.jpg", 
+                "/images/database/manley_snapperInt.jpg",
                 "/images/database/manley_snapperInt.jpg"
             ],
             "colors": [
@@ -282,8 +279,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -297,10 +292,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -308,10 +302,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Harry",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Harry",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -319,7 +316,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -330,7 +326,7 @@
             "price": 1239,
             "desc": "Creek designs have improved over the years, but in a quiet, friendly, unassuming, evolutionary (rather than revolutionary) way. Under discussion today is the new flagship of the Creek integrated line",
             "images": [
-                "/images/database/manley_snapperInt.jpg", 
+                "/images/database/manley_snapperInt.jpg",
                 "/images/database/manley_snapperInt.jpg"
             ],
             "colors": [
@@ -346,8 +342,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -361,10 +355,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -372,10 +365,13 @@
                 },
                 "reviews": [
                     {
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
                         "name": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -383,7 +379,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -394,7 +389,7 @@
             "price": 1239,
             "desc": "Grammofon med Ortofon OM-5 e",
             "images": [
-                "/images/database/Project_Debut_3_bl.jpg", 
+                "/images/database/Project_Debut_3_bl.jpg",
                 "/images/database/Project_Debut_3_red_1.jpg",
                 "/images/database/Project_Debut_3_yellow_1.jpg"
             ],
@@ -411,8 +406,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -426,10 +419,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -437,10 +429,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -448,7 +443,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -459,9 +453,8 @@
             "price": 1239,
             "desc": "Grammofon med Ortofon OM-5 e",
             "images": [
-                "/images/database/Project_rpm_5.jpg", 
+                "/images/database/Project_rpm_5.jpg",
                 "/images/database/Project_rpm_5.jpg"
-                
             ],
             "colors": [
                 {
@@ -476,8 +469,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -491,10 +482,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -502,10 +492,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -513,7 +506,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -524,9 +516,8 @@
             "price": 1239,
             "desc": "Grammofon med Ortofon OM-5 e",
             "images": [
-                "/images/database/Project_rpm10.jpg", 
+                "/images/database/Project_rpm10.jpg",
                 "/images/database/Project_rpm10.jpg"
-                
             ],
             "colors": [
                 {
@@ -541,8 +532,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -556,10 +545,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -567,10 +555,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -578,7 +569,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -589,9 +579,8 @@
             "price": 1239,
             "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
             "images": [
-                "/images/database/jolida_JD102b.jpg", 
+                "/images/database/jolida_JD102b.jpg",
                 "/images/database/jolida_JD102b.jpg"
-                
             ],
             "colors": [
                 {
@@ -606,8 +595,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -621,10 +608,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -632,10 +618,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -643,7 +632,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -654,9 +642,8 @@
             "price": 1239,
             "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
             "images": [
-                "/images/database/jolida_JD202a.jpg", 
+                "/images/database/jolida_JD202a.jpg",
                 "/images/database/jolida_JD202a.jpg"
-                
             ],
             "colors": [
                 {
@@ -671,8 +658,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -686,10 +671,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -697,10 +681,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -708,7 +695,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -719,9 +705,8 @@
             "price": 1239,
             "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
             "images": [
-                "/images/database/jolida_JD300b.jpg", 
+                "/images/database/jolida_JD300b.jpg",
                 "/images/database/jolida_JD300b.jpg"
-                
             ],
             "colors": [
                 {
@@ -736,8 +721,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -751,10 +734,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -762,10 +744,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -773,7 +758,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -784,9 +768,8 @@
             "price": 1239,
             "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
             "images": [
-                "/images/database/jolida_JD302b.jpg", 
+                "/images/database/jolida_JD302b.jpg",
                 "/images/database/jolida_JD302b.jpg"
-                
             ],
             "colors": [
                 {
@@ -801,8 +784,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -816,10 +797,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -827,10 +807,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -838,7 +821,6 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
         },
         {
@@ -849,9 +831,8 @@
             "price": 1239,
             "desc": "To the average audiophile, the name JoLida should be no stranger. Mike Allen, founder of JoLida, has been designing and manufacturing tubed and hybrid amplifiers and source equipment for quite some time.",
             "images": [
-                "/images/database/jolida_JD502b.jpg", 
+                "/images/database/jolida_JD502b.jpg",
                 "/images/database/jolida_JD502b.jpg"
-                
             ],
             "colors": [
                 {
@@ -866,8 +847,6 @@
                     "name": "White",
                     "code": "#FFFFF"
                 }
-
-
             ],
             "flavor_text": "En god smag Gammeldags teknologi",
             "specs": {
@@ -881,10 +860,9 @@
                         "Lækre Matte farver"
                     ]
                 },
-                
                 "connectivity": {
                     "power": "100-240V 50/60Hz intern strømforsyning",
-                    "battery": "no", 
+                    "battery": "no",
                     "type": [
                         "Virker med Google Assistent",
                         "AirPlay 2"
@@ -892,10 +870,13 @@
                 },
                 "reviews": [
                     {
-                        "name": "Flemming",
+                        "user_icon": [
+                            "/images/user_icons/henrik-grennn.jpg"
+                        ],
+                        "username": "Flemming",
                         "stars": 4,
-                        "review": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
-                        "date": "23. december 1987"
+                        "review_comment": "The box this comes in is 5 yard by 6 centimeter and weights 12 kilogram.",
+                        "review_date": "23. december 1987"
                     }
                 ]
             },
@@ -903,15 +884,9 @@
             "tags": [
                 "bluetooth",
                 "wireless"
-                
             ]
-        },
-        
+        }
     ],
-
-
-
-
     "customers": [
         {
             "id": 771155,
@@ -929,7 +904,6 @@
                 "city": "Oak Lawn",
                 "country": "Usa",
                 "states": "Illinois"
-                
             },
             "favorites": [
                 93721,
@@ -937,6 +911,91 @@
             ],
             "orders": [
                 93721
+            ]
+        },
+        {
+            "id": 712155,
+            "username": "Carsten90",
+            "first_name": "Carsten",
+            "last_name": "Jensen",
+            "email": "hawofef923@flowminer.com",
+            "password": "Mig1234",
+            "phone": 23114244,
+            "address": {
+                "street": "That St",
+                "number": "48",
+                "apartment": "",
+                "zip_code": "32428",
+                "city": "porter lake",
+                "country": "Canada",
+                "states": ""
+            },
+            "favorites": [
+                93721,
+                77241,
+                "flere id'er"
+            ],
+            "orders": [
+                93721,
+                77241
+            ]
+        },
+        {
+            "id": 771155,
+            "username": "Bob2009",
+            "first_name": "Oogway",
+            "last_name": "Shifu",
+            "email": "todafa3411@tourcc.com",
+            "password": "ygdassil987",
+            "phone": 23116744,
+            "address": {
+                "street": "Fake street",
+                "number": "123",
+                "apartment": "",
+                "zip_code": "60456",
+                "city": "Oak Lawn",
+                "country": "Usa",
+                "states": "Illinois"
+            },
+            "favorites": [
+                93721,
+                "re id'er"
+            ],
+            "orders": [
+                93721
+            ]
+        },
+        {
+            "id": 113165,
+            "username": "Gummibjørn",
+            "first_name": "Gustav",
+            "last_name": "Hjulmand",
+            "email": "sezumy@thecarinformation.com",
+            "password": "Hjulmand1834",
+            "phone": 23114244,
+            "address": {
+                "street": "Pulsen",
+                "number": "8",
+                "apartment": "",
+                "zip_code": "2600",
+                "city": "Roskilde",
+                "country": "Denmark",
+                "states": ""
+            },
+            "favorites": [
+                83721,
+                67241,
+                "flere id'er"
+            ],
+            "orders": [
+                {
+                    "costumer_order_id": 222742,
+                    "costumer_number": 31731
+                },
+                {
+                    "costumer_order_id": 447722,
+                    "costumer_number": 57241
+                }
             ]
         }
     ],
@@ -947,15 +1006,37 @@
             "customer_id": 771155,
             "products": [
                 {
-                    "product_id": 93721,
-                    "amount": 1
+                    "product_id": [
+                        93721,
+                        11123
+                    ],
+                    "amounts":[
+                        1,
+                        1
+                    ]
                 }
             ],
-            "date": "34. december 2022",
-            "delivery_date": "35. december 2023",
+            "order_date": "31. december 2022",
+            "delivery_date": "23. december 2023",
             "shipment_method": "Wolt Bike",
             "email": "todafa3411@tourcc.com",
             "phone": 23116744
+        },
+        {
+            "id": 56382,
+            "order_number": "z7511577",
+            "customer_id": 779175,
+            "products": [
+                {
+                    "product_id": 52521,
+                    "amount": 8
+                }
+            ],
+            "review_date": "10. september 2022",
+            "delivery_date": "24. november 2022",
+            "shipment_method": "Wolt Bike",
+            "email": "todafa3411@tourcc.com",
+            "phone": 23144742
         }
     ]
 }

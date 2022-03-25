@@ -29,6 +29,19 @@
         }
     }
 
+    &__paymentMethods {
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin: $x-large 0 $large;
+
+        gap: $x-small;
+
+        & img {
+            height: $large;
+        }
+    }
+
     &__copyrights {
         opacity: .5;
     }
@@ -71,13 +84,13 @@
     &__links {
         & li {
             font-weight: 700;
-            margin-bottom: $medium;
+            margin-bottom: $large;
             font-family: 'Montserrat';
             color: $primary;
 
             & ul {
-                margin-top: $x-small;
-                margin-left: $small;
+                margin-top: $small;
+                margin-left: $medium;
 
                 & li {
                     font-weight: 500;

@@ -1,13 +1,20 @@
 .header{
     width: 100vw;
     height: 52px;
-    background-color: grey;
+    background-color: $primary;
     position: relative;
+    display: inline-grid;
+    flex-direction: column;
+    &__navigation{
+        background-color: $primary;
+    }
         &__topbar{
-            
         display: flex;
         justify-content: space-between;
         align-items: center;
+        }
+        &__logo{
+            background-color: $primary;
         }
         &__menu{
             display: none;
@@ -17,7 +24,7 @@
             }
             & a{
                 text-decoration: none;
-                color: black;
+                color: var(--text);
                 & img{
                     width: 80px;
                     height: 80px;
@@ -26,6 +33,9 @@
             }
             
         }
+}
+#themeToggle{
+    display: none;
 }
 .burger{
     margin-right: 5px;
@@ -44,11 +54,18 @@
     width: 50px;
 }
 
-@media screen and (min-width: 500px){
+@media (min-width: 700px){
+    .header{
+        background-color: var(--bg);
+    }
     .navigation{
         display: flex;
         &__menu{
             display: block;
+        }
+        &__iconContainer{
+            width: 50px;
+            height: 50px;
         }
     }
 }

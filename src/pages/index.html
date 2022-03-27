@@ -11,7 +11,7 @@
 
 <body>
     <header class="header">
-        <div class="header__Logo">
+        <div class="header__logo">
             <div class="header__topbar">
                 <a href="index.html" class="logoLink"><img src="/images/navigation/logo.png" alt="logo"></a>
                 <button class="burger"><img src="/images/navigation/burger-open.png" alt=""
@@ -51,7 +51,22 @@
                         <div class="navigation__menuIcon"><a class="navigation__IconBG" href="#"><i data-feather="map-pin"></i></a></div>
                     </div>
                     <div class="navigation__iconContainer">
-                        <div class="navigation__menuIcon"><button class="navigation__IconBG" id="themeToggle"><i data-feather="sun"></i></button></div>
+                        <div class="navigation__menuIcon">
+                            <input type="checkbox" name="themeToggle" id="themeToggle" />
+                            <label for="themeToggle" class="themeToggleIcon">
+                                <div class="lightIcon">
+                                    <div class="lightIcon__circle"></div>
+                                    <div class="lightIcon__line lightIcon__line1"></div>
+                                    <div class="lightIcon__line lightIcon__line2"></div>
+                                    <div class="lightIcon__line lightIcon__line3"></div>
+                                    <div class="lightIcon__line lightIcon__line4"></div>
+                                    <div class="lightIcon__line lightIcon__line5"></div>
+                                    <div class="lightIcon__line lightIcon__line6"></div>
+                                    <div class="lightIcon__line lightIcon__line7"></div>
+                                    <div class="lightIcon__line lightIcon__line8"></div>
+                                </div>
+                                <i data-feather="moon" class="darkIcon"></i>
+                            </label></div>
                     </div>
                     <div class="navigation__iconContainer">
                         <div class="navigation__menuIcon"><a class="navigation__IconBG" href="#"><i data-feather="user"></i></a></div>

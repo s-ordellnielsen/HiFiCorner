@@ -19,5 +19,3 @@ burger.addEventListener("click", function () {
     }
 
 })
-navMenu.classList.add("open")
-navMenu.classList.remove("open")

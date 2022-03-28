@@ -80,6 +80,39 @@
     .burger{
         display: none;
     }
+    .header{   
+        position: relative;
+       
+        &__menu{
+         position: absolute;
+         top: -6em;
+         left: $x-large;
+        }
+        .navigation__searchInput{
+            width: 10px;
+        }
+    }
+    .header__menu{
+        position: relative;
+        display: inline-block;
+        &item{
+            display: none;  
+            position: absolute;
+            z-index: 1;
+            
+        }
+        &item:first-of-type{
+            display: block;
+            margin-top: -45px;
+           
+        }
+        
+.header__menu:hover &item  {
+    display: block;
+    position: relative;
+    padding: 0px 0px;
+    }
+}
 }
 
 

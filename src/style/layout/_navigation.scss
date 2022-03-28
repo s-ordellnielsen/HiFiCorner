@@ -1,20 +1,23 @@
+.wrapper{
+    background-color: $primary;
+    transition: height 350ms ease-in-out;
+}
+
 .header{
     width: 100vw;
     height: 52px;
-    background-color: $primary;
     position: relative;
     display: inline-grid;
     flex-direction: column;
-    &__navigation{
-        background-color: $primary;
-    }
+    
         &__topbar{
         display: flex;
+        background-color: $primary;
         justify-content: space-between;
         align-items: center;
         }
-        &__logo{
-            background-color: $primary;
+        &__open{
+            display: block;
         }
         &__menu{
             display: none;
@@ -43,29 +46,12 @@
     width: 30px;
     background-color: transparent;
     border: none;
-    &__Icon{
-    transition: all 350ms linear;
-
-    }
 }
 .logoLink{
     margin: 1px 0 0 5px;
     width: 50px;
     width: 50px;
 }
-
-@media (min-width: 700px){
-    .header{
-        background-color: var(--bg);
-    }
-    .navigation{
-        display: flex;
-        &__menu{
-            display: block;
-        }
-        &__iconContainer{
-            width: 50px;
-            height: 50px;
-        }
-    }
+.header__open{
+    display: block;
 }

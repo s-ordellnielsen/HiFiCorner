@@ -10,6 +10,7 @@
     &__searchBtn{
         color: var(--text);
         background-color: var(--bg);
+        border: 2px solid var(--bg);
         border-radius: 50%;
         padding: $x-small;
     }
@@ -28,7 +29,7 @@
         column-gap: 25px;
         width: 100px;
         position: absolute;
-        top: 600px;
+        top: 30em;
         left: 50%;
         margin-left: -90px;
     }
@@ -57,4 +58,31 @@
             }
             
     }
+}
+@media screen and (min-width: 700px){
+    .header{
+        background-color: var(--bg);
+        &__menu{
+            display: block;
+        }
+    }
+    .navigation__menu{
+        display: block;
+    }
+    .header__navigation{
+        display: flex;
+        
+        &__iconContainer{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .burger{
+        display: none;
+    }
+}
+
+
+.navigation__open{
+    display: block;
 }

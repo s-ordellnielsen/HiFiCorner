@@ -1029,7 +1029,10 @@
             "products": [
                 {
                     "product_id": 52521,
-                    "amount": 8
+                    "amounts": [
+                        1,
+                        1
+                    ]
                 }
             ],
             "review_date": "10. september 2022",

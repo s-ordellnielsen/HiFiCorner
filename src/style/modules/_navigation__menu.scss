@@ -30,8 +30,8 @@
         width: 100px;
         position: absolute;
         top: 30em;
-        left: 50%;
-        margin-left: -90px;
+        right: 50%;
+        margin-right: -$medium;
     }
     &__iconContainer{
         width: 80px;
@@ -60,14 +60,29 @@
     }
 }
 @media screen and (min-width: 700px){
+    .wrapper{
+        background-color: var(--bg);
+    }
     .header{
         background-color: var(--bg);
         &__menu{
             display: block;
         }
     }
-    .navigation__menu{
-        display: block;
+    .navigation{
+        &__searchInput{
+            width: 10px;
+        }
+        &__iconList{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 0;
+            column-gap: 5px;
+            top: 0;
+            right: 20em;
+        }
+        &__menu{
+            display: block;
+        }
     }
     .header__navigation{
         display: flex;
@@ -88,9 +103,6 @@
          top: -6em;
          left: $x-large;
         }
-        .navigation__searchInput{
-            width: 10px;
-        }
     }
     .header__menu{
         position: relative;
@@ -105,22 +117,23 @@
         &item:first-of-type{
             display: block;
             margin-top: -45px;
-           
+            
         }
         
-.header__menu:hover &item  {
-    display: block;
-    position: relative;
-    padding: 0px 0px;
+        .header__menu:hover &item  {
+            display: block;
+            position: relative;
+            padding: 0px 0px;
+        }
     }
-}
+    
 
     .header__topbar{
         background-color: var(--bg);
     }
 }
 
-
-.navigation__open{
-    display: block;
-}
+    .navigation__open{
+        display: block;
+    }
+    

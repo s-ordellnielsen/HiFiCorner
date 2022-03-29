@@ -3,6 +3,7 @@ const burgerIcon = document.getElementsByClassName("burger__Icon")[0]
 const navMenu = document.getElementsByClassName("navigation__menu")[0]
 const headerMenu = document.getElementsByClassName("header__menu")[0]
 const wrapper = document.getElementsByClassName("wrapper")[0]
+const logo = document.getElementsByClassName("headerLogo")[0]
 
 burger.addEventListener("click", function () {
 

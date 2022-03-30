@@ -1,0 +1,17 @@
+#register{
+display: flex;
+flex-direction: column;
+align-items:center ;
+}
+#register_checkbox{
+    display: flex;
+    flex-direction: row;
+    
+}
+body{
+    background-color: #79BEB3;
+}
+
+input[type="checkbox" i]{
+    border: black solid 2px;
+}

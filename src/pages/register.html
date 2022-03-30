@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/style/layout/_form.css">
 </head>
 <body>
   <form action="" id="register">
@@ -16,8 +17,13 @@
       <input type="password" name="password" id="register_password">
       <label for="register_repeat">Gentag din Adgangskode</label>
       <input type="password" name="repeat" id="register_repeat">
-      <input type="checkbox" name="" id="register checkbox">
-      <input type="submit" value="Submit">
+      <div id="register_checkbox">
+        <input type="checkbox" name="" id="register_checkboxing">
+        <label for="register_checkboxing">Tilmeld til Newsletter</label>
+      </div>
+        <span id="register_errormessage"></span>
+        <input type="submit" value="register" id="register_submit">
   </form>  
+  <script src="/src/scripts/modules/register.js"></script>
 </body>
 </html>

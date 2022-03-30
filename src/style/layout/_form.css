@@ -1,7 +1,17 @@
+:root{
+    --radius: 25px;
+    --bgcolor:#b2d8cd;
+    --padding:6px;
+    --border: none;
+    --font: 25px
+}
+
+
 #register{
 display: flex;
 flex-direction: column;
 align-items:center ;
+gap: 10px;
 }
 #register_checkbox{
     display: flex;
@@ -9,9 +19,59 @@ align-items:center ;
     
 }
 body{
-    background-color: #79BEB3;
+    background-color: #ebf2e8;
 }
 
 input[type="checkbox" i]{
     border: black solid 2px;
+}
+
+#register label{
+    color: #214341;
+}
+#register_errormessage{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+    
+}
+
+#register_submit{
+    background-color: #79BEB3;
+    border-radius: var(--radius);
+    border: var(--border);
+    font-size: 20px;
+    padding: var(--padding);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#register_username{
+    border-radius: var(--radius);
+    background-color: var(--bgcolor);
+    padding: var(--padding);
+    border: var(--border);
+    font-size: var(--font);
+}
+#register_password{
+    border-radius: var(--radius);
+    background-color: var(--bgcolor);
+    padding: var(--padding);
+    border: var(--border); 
+    font-size: var(--font);
+}
+#register_email{
+    border-radius: var(--radius);
+    background-color: var(--bgcolor);
+    padding: var(--padding);
+    border: var(--border);
+    font-size: var(--font);
+}
+#register_repeat{
+    border-radius: var(--radius);
+    background-color: var(--bgcolor);
+    padding: var(--padding);
+    border: var(--border);
+    font-size: var(--font);
 }

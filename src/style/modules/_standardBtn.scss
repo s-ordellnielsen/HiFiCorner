@@ -1,3 +1,36 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 40px 10px 40px;
+}
+.productDecription__reviewBasis{
+    color: #79BEB3;
+}
+.productDecription__stars{
+    margin-top: $large;
+    line-height:$small;
+}
+.productDecription__shipping{
+    color: #79BEB3;
+    line-height: $x-large;
+}
+.productDecription__price{
+    font-weight: 700;
+    font-size: $large;
+    padding-top: $medium;
+    padding-bottom: $small;
+}
+.productDescription__flavor_text{
+    margin-top:$x-small;
+    color: #214341a9;
+    font-weight:600;
+}
+.productImages__arrowLeftDiv , .productImages__arrowRightDiv{
+    display: none;
+}
 .standardBtn {
     border-radius: $border-radius;
     border: none;
@@ -6,9 +39,11 @@
     font-size: $small;
     font-weight: 700;
     padding: $small;
+    width: 100%;
 }
 .btn{
     display:flex;
     justify-content: center;
     align-items: center;
+
 }

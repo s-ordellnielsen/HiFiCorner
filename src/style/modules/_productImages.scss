@@ -1,5 +1,10 @@
+.productDescription__name{
+margin-top:$x-large;
+}
+
 .productDescription__productImages{
     display: flex;
+    margin-top:$large;
 }
 
 .productDescription__thumbnails{
@@ -17,7 +22,7 @@
 .productDescription__thumbnailImg{
     height: 100%;
     width: 100%;
-    border-radius: $x-small;
+    border-radius: $medium;
 
 }
 
@@ -27,7 +32,8 @@
 }
 
 .productImages__currentImageDiv{
-    width: 65vw;
+    width: 60vw;
+    padding-left: $small;
 }
 
 .productImages__CurrentImageImg{

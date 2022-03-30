@@ -1,8 +1,12 @@
 
-function getAllProducts() {
-    return fetch("http://localhost:3001/products")
+async function getAllProducts() {
+    fetch("http://localhost:3001/products", {
+        mode: 'cors',
+        headers: {
+            'Access-Control-Allow-Origin': ' * '
+        }
+    })
         .then(function (response) {
-            console.log(response);
             if (response.status !== 200) {
                 console.log('fejl')
                 return []
@@ -10,7 +14,9 @@ function getAllProducts() {
             return response.json()
         })
         .then(function (data) {
-            pList(data.results);
-            console.log("her er data");
+            console.log(data);
+            pList(data);
+
         })
 }
+getAllProducts()

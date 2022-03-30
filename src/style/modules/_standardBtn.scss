@@ -18,7 +18,7 @@ body{
     line-height: $x-large;
 }
 .productDecription__price{
-    font-weight: 700;
+    font-weight: 800;
     font-size: $large;
     padding-top: $medium;
     padding-bottom: $small;
@@ -26,7 +26,7 @@ body{
 .productDescription__flavor_text{
     margin-top:$x-small;
     color: #214341a9;
-    font-weight:600;
+    font-weight:500;
 }
 .productImages__arrowLeftDiv , .productImages__arrowRightDiv{
     display: none;

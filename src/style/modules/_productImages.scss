@@ -1,3 +1,5 @@
+
+
 .productDescription__productImages{
     display: flex;
 }
@@ -10,7 +12,7 @@
 .productDescription__thumbnail{
     
     width: 16vw;
-    margin: $small;
+    margin: $small $medium 2vw 0;
     
 }
 
@@ -22,12 +24,23 @@
 }
 
 .productImages__productDisplay{
-    width: 70vw;
+    width: 100%;
+    padding: $small 0 $small 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .productImages__currentImageDiv{
-    width: 65vw;
+    width: 60vw;
+    height: 30vw;
+}
+
+.productImages__arrowLeftDiv{
+    display: none;
+}
+
+.productImages__arrowRightDiv{
+    display: none;
 }
 
 .productImages__CurrentImageImg{
@@ -36,13 +49,63 @@
     border-radius: $small; 
 }
 
+.productDescription__flavor_text{
+    color: rgba(33, 67, 65, 0.651);
+    font-weight: 500;
+    font-size: $medium;
+}
+
+.productDecription__reviewBasis{
+    color: $primary;
+    font-size: $small;
+
+   
+}
+
+.feather-star{
+    height: $large;
+    width: $large;
+}
+
+.productDecription__price{
+    font-weight: 800;
+    font-size: $large;
+    color: $text;
+}
+
+.productDecription__addToCart{
+    width: 100%;
+    font-size: $medium;
+    font-weight: 600;
+}
+
+.productDecription__shipping{
+    color: $primary;
+    font-size: $small;
+}
+
+.productDescription__productImages{
+    margin: 0 0 $medium 0;
+}
+
+
 
 
 @media screen and (min-width: 900px){
 
+
+
     .productDescription__thumbnails{
         display: flex;
        
+    }
+
+    .productImages__arrowLeftDiv{
+        display: initial;
+    }
+    
+    .productImages__arrowRightDiv{
+        display: initial;
     }
 
 }

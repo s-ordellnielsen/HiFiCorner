@@ -4,8 +4,8 @@
     --padding:6px;
     --border: none;
     --font: 25px
-}
 
+}
 
 #register{
 display: flex;
@@ -20,10 +20,6 @@ gap: 10px;
 }
 body{
     background-color: #ebf2e8;
-}
-
-input[type="checkbox" i]{
-    border: black solid 2px;
 }
 
 #register label{

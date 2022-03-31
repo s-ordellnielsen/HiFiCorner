@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="/src/style/layout/_form.css">
 </head>
 <body>
-  <form action="" id="register">
+  <article class="register">
+
+    <form action="" id="register">
+      <h1>Register</h1>
       <label for="register_username">Skriv dit Brugernavn</label>
       <input type="text" id="register_username" name="username">
       <label for="register_email">Skriv din Email</label>
@@ -21,9 +24,10 @@
         <input type="checkbox" name="" id="register_checkboxing">
         <label for="register_checkboxing">Tilmeld til Newsletter</label>
       </div>
-        <span id="register_errormessage"></span>
-        <input type="submit" value="register" id="register_submit">
-  </form>  
+      <span id="register_errormessage"></span>
+      <input type="submit" value="register" id="register_submit">
+    </form>  
+  </article>
   <script src="/src/scripts/modules/register.js"></script>
 </body>
 </html>

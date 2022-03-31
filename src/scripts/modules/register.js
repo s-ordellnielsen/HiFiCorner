@@ -6,7 +6,8 @@ var email = document.getElementById("register_email");
 var checkbox = document.getElementById("register_checkbox");
 
 
-
+var randomid = Math.floor(Math.random()* 100000) + 1;
+console.log(randomid)
 
 
 var validregex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -17,13 +18,21 @@ const errormessagesPlaceholder = document.getElementById("register_errormessage"
 form.addEventListener("submit", checker)
 
 
+
 function checker(event) {
     event.preventDefault()
+    function localItem(){
+const person = {
+    name: userName.value,
+    password: password.value,
+    email: email.value
+    
+}
+window.localStorage.setItem(`#${randomid}`, JSON.stringify(person))
+}
     errormessages = []
     
-    
-    
-    if (!userName.value.lenght > 0) {
+    if (userName.value.lenght === "" || !userName.value > 0 ) {
         errormessages.push(" Username too short")
     }
     if (!email.value.match(validregex)){
@@ -41,10 +50,11 @@ function checker(event) {
     }
     else{
         alert("du er registret")
+        localItem()
+        window.location.assign("/index.html")
     }
     
 }
 // local storage 
-function localItem(){
-    localStorage.setItem(`${userName.value}`, `5`)
-}
+
+

@@ -1,0 +1,12 @@
+.categories {
+
+    &__flavorText {
+        text-align: center;
+    }
+
+
+    &__listProduct {
+        display: flex;
+        flex-direction: column;
+    }
+}

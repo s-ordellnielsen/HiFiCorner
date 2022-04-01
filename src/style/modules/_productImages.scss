@@ -20,6 +20,8 @@
     height: 100%;
     width: 100%;
     border-radius: $x-small;
+    border: 1px solid $primary;
+    
 
 }
 
@@ -46,7 +48,8 @@
 .productImages__CurrentImageImg{
     height: 100%;
     width: 100%;
-    border-radius: $small; 
+    border-radius: $x-small;
+    border: 2px solid $primary;
 }
 
 .productDescription__flavor_text{

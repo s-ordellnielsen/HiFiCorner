@@ -41,6 +41,7 @@ body{
     padding: var(--padding);
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
 }
 
 #register_username{

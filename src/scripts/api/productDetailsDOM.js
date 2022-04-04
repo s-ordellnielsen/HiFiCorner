@@ -1,5 +1,5 @@
 
-async function getProductDetails(id) {
+function getProductDetails(id) {
     fetch("http://localhost:3001/products", {
         mode: 'cors',
         headers: {
@@ -14,12 +14,18 @@ async function getProductDetails(id) {
             return response.json()
         })
         .then(function (data) {
-            console.log(data);
+            console.log("data fra l 16", data);
 
-            let product = data.results.find(element => element.name === id)
+
+            let product = data.find(element => element.id === id)
+
+            console.log("found", product)
             
             document.title += " - " + data.name
-            let output = `
+
+            let productName = document.getElementsByClassName("productDescription__name")[0]
+
+            /*let output = `
             <main class="page">
 
         <section class="productDescription standardMargin">
@@ -36,7 +42,7 @@ async function getProductDetails(id) {
                 <p class="productDescription__compareP">Compare</p>
             </div>
 
-            <h1 class="productDescription__name x-largeH1">Marshall Bullshit Brand V5</h1>
+            <h1 class="productDescription__name x-largeH1"> ${data.name}</h1>
             <div class="productDescription__productImages">
                 <div class="productDescription__thumbnails">
                     <div class="productDescription__thumbnail"><img class="productDescription__thumbnailImg"
@@ -204,10 +210,8 @@ async function getProductDetails(id) {
             
             `
 
-            document.querySelector(".page").innerHTML += output
+            document.querySelector(".page").innerHTML += output*/
 
         })
 }
-getAllProducts()
 
-export default getProductDetails

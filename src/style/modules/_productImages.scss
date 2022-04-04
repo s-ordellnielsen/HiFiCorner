@@ -6,13 +6,14 @@
 
 .productDescription__thumbnails{
     width: 20vw;
+    margin: $small 0 0 0;
 }
 
 //gummigSed
 .productDescription__thumbnail{
     
     width: 16vw;
-    margin: $small $medium 2vw 0;
+    margin: 0 $medium 3vw 0;
     
 }
 
@@ -20,7 +21,7 @@
     height: 100%;
     width: 100%;
     border-radius: $x-small;
-    border: 1px solid $primary;
+    //border: 1px solid $primary;
     
 
 }
@@ -49,7 +50,7 @@
     height: 100%;
     width: 100%;
     border-radius: $x-small;
-    border: 2px solid $primary;
+    //border: 2px solid $primary;
 }
 
 .productDescription__flavor_text{

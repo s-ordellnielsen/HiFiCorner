@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
+    <script defer src="/scripts/api/cartDOM.js"></script>
     <title>HIFI Corner</title>
 </head>
 
@@ -94,8 +95,21 @@
 
         </div>
     </header>
+    <div id="productsDiv">
+    </div>
+    <div class="sidenav">
+        <div>
+            <h1 id="cart-title">Shopping Cart</h1>
+            <hr>
+        </div>
+        <div id="list">
+            <ul class="list-of-items">
+            </ul>
+        </div>
+        <div id="checkout">
+        </div>
+    </div>
 
-    <script src="/scripts/script.js"></script>
     <script src=" https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script>
         feather.replace()

@@ -42,6 +42,61 @@ margin-top:$x-large;
     border-radius: $small; 
 }
 
+// *************************** product review ******************
+.reviewpr{
+    padding-top: $large ;
+    padding-bottom: $x-large;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.reviewThisProduct{
+    background-color: $primary;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviewThisProduct p{
+    font-size:$small;
+    font-weight:600;
+}
+  // ****************************  specs styling ****************************
+  
+  .productSpecs__specHead{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+ // *************************** similarProducts ****************************
+
+ .similarProducts{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    }
+
+    .similarProducts__currentImageDiv{
+        padding-top:$large;
+        margin-bottom:$large;
+        border-radius: 23px;
+    }
+    .productImagesCurrentImage__disc{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: $small;
+    }
+    .productImagesCurrentImage__disc h3{
+        font-weight:700;
+    }
+
 
 
 @media screen and (min-width: 900px){

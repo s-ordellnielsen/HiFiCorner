@@ -30,6 +30,12 @@ function getProductDetails(id) {
             let productPrice = document.getElementsByClassName("productDecription__price")[0]
             let soundDesc = document.getElementsByClassName("productSpecs__soundDesc")[0]
             let productHeight = document.getElementsByClassName("productSpecs__height")[0]
+            let productWidth = document.getElementsByClassName("productSpecs__width")[0]
+            let productWeight = document.getElementsByClassName("productSpecs__weight")[0]
+            let productDesignDesc = document.getElementsByClassName("productSpecs__designDesc")[0]
+            let productBattery = document.getElementsByClassName("productSpecs__battery")[0]
+            let productPowerSupply = document.getElementsByClassName("productSpecs__powerSupply")[0]
+
 
             //Product description
             productName.innerText = product.name
@@ -40,14 +46,24 @@ function getProductDetails(id) {
             //specs
             soundDesc.innerText = product.specs.sound
 
+            
             let heightInt = product.specs.design.height;
             let heightString = heightInt.toString();
+            productHeight.innerHTML = "Height: " + heightString + " mm";
 
-            productHeight.innertext = heightString + "mm";
+            let widthInt = product.specs.design.width;
+            let widthString = widthInt.toString();
+            productWidth.innerHTML = "Width: " + widthString + " mm";
 
-            console.log("heightInt", heightInt)
+            let weightInt = product.specs.design.weigth;
+            let weightString = weightInt.toString();
+            productWeight.innerHTML = "Weight: " + weightString + " grams";
 
-            console.log("heightString", heightString)
+            productDesignDesc.innerText = "Design description: " + product.specs.design.design_desc
+
+            productBattery.innerText = "Battery: " + product.specs.connectivity.battery
+
+            productPowerSupply.innerText = "Power supply: " + product.specs.connectivity.power
 
 
 

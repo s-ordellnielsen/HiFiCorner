@@ -10,8 +10,11 @@ var passwordRepeatLabel = document.getElementById("password-re-label")
 var passwordLabel = document.getElementById("password-label")
 
 
-var randomid = Math.floor(Math.random()* 100000) + 1;
-console.log(randomid)
+var randomId = Math.floor(Math.random()* 100000) + 1;
+console.log(randomId)
+
+
+
 
 
 var validregex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;

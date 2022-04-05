@@ -1,3 +1,4 @@
+
 var form = document.getElementById("register");
 var userName = document.getElementById("register_username");
 var password = document.getElementById("register_password");
@@ -32,13 +33,22 @@ function checker(event) {
     event.preventDefault()
     // local storage start
     function localItem(){
-const person = {
-    name: userName.value,
-    password: password.value,
-    email: email.value
+    const person = {
+        name: userName.value,
+        password: password.value,
+        email: email.value
+        
+    }
+    window.localStorage.setItem(`#${randomId}`, JSON.stringify(person))
     
-}
-window.localStorage.setItem(`#${randomid}`, JSON.stringify(person))
+    fetch("http://localhost:3001/customers", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        body: JSON.stringify(person)
+    }).then((response) => response.json()).then(data => console.log(data))
+
 }
 // local storage end
     errormessages = []
@@ -92,12 +102,11 @@ window.localStorage.setItem(`#${randomid}`, JSON.stringify(person))
     }
     else{
 
-        alert("du er registret")
+        // alert("du er registret")
         localItem()
-        window.location.assign("/index.html")
+        // window.location.assign("/index.html")
     }
     
 }
-
 
 

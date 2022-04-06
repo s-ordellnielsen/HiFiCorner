@@ -1,9 +1,10 @@
 var loginForm = document.getElementById("login")
 var loginUsername = document.getElementById("login_username")
 var loginPassword = document.getElementById("login_password")
+var loginErrorPassword = document.getElementById("")
+var loginErrorUsername = document.getElementById("")
 
-function logindb(){
-fetch("http://localhost:3001/customers", {
+var logindb = fetch("http://localhost:3001/customers", {
     method: "GET",
     headers: {
         "Content-Type": "application/json; charset=UTF-8"
@@ -12,8 +13,9 @@ fetch("http://localhost:3001/customers", {
 })
 .then((response) => response.json()).then(data => console.log(data))
 
-}
-logindb()
+console.log(logindb)
+
+
 
 
 

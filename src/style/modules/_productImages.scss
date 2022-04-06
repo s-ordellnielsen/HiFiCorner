@@ -9,13 +9,14 @@ margin-top:$x-large;
 
 .productDescription__thumbnails{
     width: 20vw;
+    margin: $small 0 0 0;
 }
 
 //gummigSed
 .productDescription__thumbnail{
     
     width: 16vw;
-    margin: $small;
+    margin: 0 $medium 3vw 0;
     
 }
 
@@ -27,8 +28,10 @@ margin-top:$x-large;
 }
 
 .productImages__productDisplay{
-    width: 70vw;
+    width: 100%;
+    padding: $small 0 $small 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .productImages__currentImageDiv{
@@ -39,7 +42,8 @@ margin-top:$x-large;
 .productImages__CurrentImageImg{
     height: 100%;
     width: 100%;
-    border-radius: $small; 
+    border-radius: $x-small;
+    //border: 2px solid $primary;
 }
 
 // *************************** product review ******************
@@ -101,9 +105,19 @@ margin-top:$x-large;
 
 @media screen and (min-width: 900px){
 
+
+
     .productDescription__thumbnails{
         display: flex;
        
+    }
+
+    .productImages__arrowLeftDiv{
+        display: initial;
+    }
+    
+    .productImages__arrowRightDiv{
+        display: initial;
     }
 
 }

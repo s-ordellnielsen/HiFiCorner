@@ -46,7 +46,9 @@ function getProductDetails(id) {
             //specs
             soundDesc.innerText = product.specs.sound
 
-            
+            //Herunder forsøger jeg at stifte specs om fra integer til string,
+            //så målene kan printes via innertext, men det lykkes kun via innerHTML
+            //Ved I hvorfor?
             let heightInt = product.specs.design.height;
             let heightString = heightInt.toString();
             productHeight.innerHTML = "Height: " + heightString + " mm";
@@ -57,7 +59,7 @@ function getProductDetails(id) {
 
             let weightInt = product.specs.design.weigth;
             let weightString = weightInt.toString();
-            productWeight.innerHTML = "Weight: " + weightString + " grams";
+            productWeight.innerHTML = "Weight: " + weightString + " g";
 
             productDesignDesc.innerText = "Design description: " + product.specs.design.design_desc
 

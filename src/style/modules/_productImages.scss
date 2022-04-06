@@ -104,6 +104,15 @@ margin-top:$x-large;
 
 
 @media screen and (min-width: 900px){
+    .productDescription__productImages{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .productImages__productDisplay{
+        height: 300px;
+        width: 250px;
+        
+    }
 
 
 

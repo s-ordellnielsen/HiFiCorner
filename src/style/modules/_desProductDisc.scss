@@ -1,3 +1,42 @@
-@media (min-width:900px) {
-    
+@media screen and (min-width:900px) {
+.productDescription{
+    display: flex;
+    justify-content:space-between;
+}
+.productDescription__flavor_text{
+    font-size:$large;
+    font-weight:700;
+}
+.productDescription__desc{
+    margin-top:$small;
+    font-size:$small;
+    font-weight: 500;
+}
+.productDecription__colorPicker{
+    margin-top:$small;
+}
+.productDescription__article{
+    padding-left:$x-large;
+}
+.productDescription__rating{
+    display: flex;
+    align-items:center;
+}
+.productDecription__reviewBasis{
+    padding-top: $medium;
+    padding-left: $small;
+}
+// *************************** button styles ***************************
+
+.standardBtn{
+    border-radius: $border-radius;
+    border: none;
+    color: $dark;
+    background-color: $primary;
+    font-size: $small;
+    font-weight: 700;
+    padding: $small;
+    width: 30%;
+    cursor: pointer;
+}
 }

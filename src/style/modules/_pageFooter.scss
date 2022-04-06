@@ -1,17 +1,20 @@
 .pageFooter {
     border-top: 2px solid $light;
     background: $dark;
-    padding: $large max($medium, calc((100% - 1200px) / 2));
+    padding: $large max($medium, calc((100% - 1200px) / 2)) calc(1.5 * $x-large);
     color: $light;
-    display: flex;
+    justify-content: space-between;
     gap: $medium;
+    position: relative;
+    text-align: center;
 
     &__col {
-        width: 33%;
+        width: 100%;
     }
 
     &__logo {
         margin-bottom: $medium;
+        height: 4rem;
     }
 
     &__quote {
@@ -34,6 +37,7 @@
         max-width: 100%;
         flex-wrap: wrap;
         margin: $x-large 0 $large;
+        justify-content: center;
 
         gap: $x-small;
 
@@ -45,13 +49,19 @@
     }
 
     &__copyrights {
+        position: absolute;
         opacity: .5;
+        bottom: $small;
+        width: 100%;
+        left: 0;
     }
 
     &__form {
         display: flex;
         gap: $x-small;
         width: 100%;
+        margin: $x-small 0 $small;
+        position: relative;
 
         & input {
             width: 100%;
@@ -83,22 +93,58 @@
         }
     }
 
+    &__errorMessage {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        max-width: 1rem;
+        bottom: 0;
+        background-color: $primary;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        border-radius: $border-radius;
+        box-shadow: 0 0 $medium -.5rem $dark;
+        pointer-events: none;
+        cursor: default;
+        overflow: hidden;
+        opacity: 0;
+        white-space: nowrap;
+        justify-content: center;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        transition: .5s, width .7s .3s, color .7s .3s, max-width .7s .3s;
+
+        &.false {
+            opacity: 1;
+            width: 100%;
+            max-width: 100%;
+            padding: 0 2rem 0 1rem;
+            bottom: -3rem;
+            color: $dark;
+            height: 2.5rem;
+        }
+    }
+
     &__links {
         & li {
             font-weight: 700;
             margin-bottom: $large;
             font-family: 'Montserrat';
             color: $primary;
+            font-size: 18px;
 
             & ul {
-                margin-top: $small;
-                margin-left: $medium;
+                margin-top: $x-small;
 
                 & li {
                     font-weight: 500;
                     font-family: 'Lato';
                     color: $light;
                     margin-bottom: $x-small;
+                    font-size: initial;
                 }
             }
         }
@@ -107,10 +153,10 @@
     &__soMe {
         display: flex;
         gap: $x-small;
+        margin-top: $x-small;
 
         & a {
             background: $primary;
-            // padding: $x-small $large;
             border-radius: 100px;
             width: 100%;
             display: flex;
@@ -119,6 +165,8 @@
             height: $x-large;
             min-width: $x-large;
             transition: .2s;
+
+            border: 3px solid $primary;
 
             & svg {
                 color: $dark;
@@ -129,8 +177,39 @@
             &:hover {
                 transform: scale(1.1);
 
+                background: $light;
+
                 & svg {
                     transform: scale(1.1);
+
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .pageFooter {
+        display: flex;
+        text-align: start;
+
+        &__col {
+            width: fit-content;
+        }
+
+        &__paymentMethods {
+            justify-content: flex-start;
+        }
+
+        &__copyrights {
+            position: static;
+        }
+
+        &__links {
+            & li {
+                & ul {
+                    margin-left: $small;
                 }
             }
         }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../style/style.css" />
+        <script src="https://unpkg.com/feather-icons"></script>
+
+	</head>
+	<body>
+
+        <!-- Just to test light/dark mode, do not include in template -->
+        <input type="checkbox" name="themeToggle" id="themeToggle" />
+		<label for="themeToggle" class="themeToggleIcon">
+			<div class="lightIcon">
+				<div class="lightIcon__circle"></div>
+				<div class="lightIcon__line lightIcon__line1"></div>
+				<div class="lightIcon__line lightIcon__line2"></div>
+				<div class="lightIcon__line lightIcon__line3"></div>
+				<div class="lightIcon__line lightIcon__line4"></div>
+				<div class="lightIcon__line lightIcon__line5"></div>
+				<div class="lightIcon__line lightIcon__line6"></div>
+				<div class="lightIcon__line lightIcon__line7"></div>
+				<div class="lightIcon__line lightIcon__line8"></div>
+			</div>
+			<i data-feather="moon" class="darkIcon"></i>
+		</label>
+
+        <!-- Start from here please -->
+
+        <footer class="pageFooter">
+            <section class="pageFooter__col">
+                <img class="pageFooter__logo" src="../images/logo-large-primary.svg" alt="HiFi Corners logo in primary color">
+
+                <blockquote class="pageFooter__quote">
+                    English design.<br>Sound of another world.
+                    <span>– Mike Kyed</span>
+                </blockquote>
+
+                <article class="pageFooter__paymentMethods">
+                    <img src="../images/stripe.svg" alt="">
+                    <img src="../images/visa.svg" alt="">
+                    <img src="../images/mastercard.svg" alt="">
+                    <img src="../images/apple-pay.svg" alt="">
+                    <img src="../images/paypal.svg" alt="">
+                </article>
+
+                <small class="pageFooter__copyrights">
+                    Copyright © HiFi Corner Ltd. All rights reserved <br>
+                    Designed and developed by HiFi Corner Gruppe #A
+                </small>
+            </section>
+            <section class="pageFooter__col">
+                <ul class="pageFooter__links">
+                    <li>
+                        <a href="./categories.html">Categories</a>
+                        <ul>
+                            <li><a href="./categories.html">Speakers</a></li>
+                            <li><a href="./categories.html">Headphones</a></li>
+                            <li><a href="./categories.html">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./news.html">News</a>
+                        <ul>
+                            <li><a href="./news.html">Newsroom</a></li>
+                            <li><a href="./news-article.html">Latest issue</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./about.html">About Us</a>
+                        <ul>
+                            <li><a href="./about.html">Our Story</a></li>
+                            <li><a href="./about.html">Leadership</a></li>
+                            <li><a href="./about.html">Career Opportunities</a></li>
+                            <li><a href="./about.html">Investors</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./support.html">Support</a>
+                        <ul>
+                            <li><a href="./support.html">Customer Service</a></li>
+                            <li><a href="./support.html">Installation</a></li>
+                            <li><a href="./support.html">Solutions</a></li>
+                            <li><a href="./support.html">How to's</a></li>
+                            <li><a href="./support.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="pageFooter__col">
+                <p>Subscribe to our newsletter</p>
+                <form class="pageFooter__form" novalidate>
+                    <input type="email" name="footerSub" id="footerSub">
+                    <button>Subscribe</button>
+                    <span class="pageFooter__errorMessage">Please enter a valid email</span>
+                </form>
+                <h3>Follow us on social media</h3>
+                <article class="pageFooter__soMe">
+                    <a href="https://www.instagram.com/hifi_corner/">
+                        <i data-feather="instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/HiFiCorner/">
+                        <i data-feather="facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/hifi_corner">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCY21Dx3ibHem-kL3G0hmOmQ">
+                        <i data-feather="youtube"></i>
+                    </a>
+                </article>
+            </section>
+        </footer>
+
+		<script src="../scripts/script.js"></script>
+        <script>
+			feather.replace()
+		</script>
+    </body>
+</html>

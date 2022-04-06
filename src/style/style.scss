@@ -1,20 +1,14 @@
 // Import Base
-
 @import "base/variables";
 @import "base/resets";
 
-
 // Import Layout
-
+@import "layout/landing";
 
 // Import Modules
-@import "modules/compareLink";
-@import "modules/x-largeH1";
+@import "modules/themeToggle";
 @import "modules/standardBtn";
-@import "modules/productImages";
-@import "modules/colorPicker";
-
+@import "modules/pageFooter";
 
 
 // Import Themes
-

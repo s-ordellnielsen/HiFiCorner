@@ -1,7 +1,10 @@
-
+.productDescription__name{
+margin-top:$x-large;
+}
 
 .productDescription__productImages{
     display: flex;
+    margin-top:$large;
 }
 
 .productDescription__thumbnails{
@@ -20,9 +23,7 @@
 .productDescription__thumbnailImg{
     height: 100%;
     width: 100%;
-    border-radius: $x-small;
-    //border: 1px solid $primary;
-    
+    border-radius: $medium;
 
 }
 
@@ -35,15 +36,7 @@
 
 .productImages__currentImageDiv{
     width: 60vw;
-    height: 30vw;
-}
-
-.productImages__arrowLeftDiv{
-    display: none;
-}
-
-.productImages__arrowRightDiv{
-    display: none;
+    padding-left: $small;
 }
 
 .productImages__CurrentImageImg{
@@ -53,45 +46,60 @@
     //border: 2px solid $primary;
 }
 
-.productDescription__flavor_text{
-    color: rgba(33, 67, 65, 0.651);
-    font-weight: 500;
-    font-size: $medium;
+// *************************** product review ******************
+.reviewpr{
+    padding-top: $large ;
+    padding-bottom: $x-large;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.reviewThisProduct{
+    background-color: $primary;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.productDecription__reviewBasis{
-    color: $primary;
-    font-size: $small;
-
-   
+.reviewThisProduct p{
+    font-size:$small;
+    font-weight:600;
 }
+  // ****************************  specs styling ****************************
+  
+  .productSpecs__specHead{
+      display: flex;
+      justify-content: space-between;
+  }
 
-.feather-star{
-    height: $large;
-    width: $large;
-}
 
-.productDecription__price{
-    font-weight: 800;
-    font-size: $large;
-    color: $text;
-}
+ // *************************** similarProducts ****************************
 
-.productDecription__addToCart{
-    width: 100%;
-    font-size: $medium;
-    font-weight: 600;
-}
+ .similarProducts{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    }
 
-.productDecription__shipping{
-    color: $primary;
-    font-size: $small;
-}
-
-.productDescription__productImages{
-    margin: 0 0 $medium 0;
-}
-
+    .similarProducts__currentImageDiv{
+        padding-top:$large;
+        margin-bottom:$large;
+        border-radius: 25px;
+    }
+    .productImagesCurrentImage__disc{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: $small;
+    }
+    .productImagesCurrentImage__disc h3{
+        font-weight:800;
+    }
 
 
 

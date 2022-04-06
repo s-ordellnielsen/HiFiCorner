@@ -67,6 +67,16 @@ function getProductDetails(id) {
 
             productPowerSupply.innerText = "Power supply: " + product.specs.connectivity.power
 
+            let productConnectivityTypes = product.specs.connectivity.type
+
+            productConnectivityTypes.forEach((element) => {
+                let ConnectivitytypeLi = document.createElement(li)
+                ConnectivitytypeLi.classlist
+            })
+
+
+            
+
 
 
            

@@ -1,31 +1,33 @@
 @media screen and (min-width:900px) {
-.productDescription{
-    display: flex;
-    justify-content:space-between;
-}
-.productDescription__flavor_text{
+    .productDescription{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .productDescription__flavor_text{
     font-size:$large;
     font-weight:700;
-}
-.productDescription__desc{
+    }
+
+    .productDescription__desc{
     margin-top:$small;
     font-size:$small;
     font-weight: 500;
-}
-.productDecription__colorPicker{
+    }
+    .productDecription__colorPicker{
     margin-top:$small;
-}
-.productDescription__article{
+    }
+    .productDescription__article{
     padding-left:$x-large;
-}
-.productDescription__rating{
+    }
+    .productDescription__rating{
     display: flex;
     align-items:center;
-}
-.productDecription__reviewBasis{
+    }
+    .productDecription__reviewBasis{
     padding-top: $medium;
     padding-left: $small;
-}
+    }
 // *************************** button styles ***************************
 
 .standardBtn{
@@ -38,5 +40,5 @@
     padding: $small;
     width: 30%;
     cursor: pointer;
-}
+    }
 }

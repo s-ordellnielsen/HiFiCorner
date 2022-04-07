@@ -1,37 +1,49 @@
-@media  screen and (min-width: 900px) {
+
     .productDecription__colorPicker-Orange{
     width: $large;
     height: $large;
     border-radius: 50%;
     border: 2px solid $primary;
     background-color: chocolate;
-}
-.productDecription__colorPicker-Grey{
+    }
+
+    .productDecription__colorPicker-Grey{
     width: $large;
     height: $large;
     border-radius: 50%;
     border: 2px solid $primary;
     background-color: grey;
-}
-.productDecription__colorPicker-Black{
+    }
+
+    .productDecription__colorPicker-Black{
     width: $large;
     height: $large;
     border-radius: 50%;
     border: 2px solid $primary;
     background-color: black;
-}
-.productDecription__colorPicker-Red{
+    }
+
+    .productDecription__colorPicker-Red{
     width: $large;
     height: $large;
     border-radius: 50%;
     border: 2px solid $primary;
     background-color: red;
-}
-.productDecription__colorPickerDiv{
+    }
+
+    .productDecription__colorPickerDiv{
    display: flex;
    padding-top:$small;
-   justify-content: space-between;
-   margin-right: 77%;
-}
-}
+   justify-content: start;
+   
+    }
+
+    .productDecription__colorPicker{
+        width: $large;
+        height: $large;
+        border-radius: 50%;
+        border: 2px solid $primary;
+        margin-right: 3vw;
+    }
+
 

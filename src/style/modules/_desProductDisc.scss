@@ -40,5 +40,16 @@
     padding: $small;
     width: 30%;
     cursor: pointer;
+    transition: 0.7s ease;
+    }
+    .standardBtn:hover {
+        transform: scale(1.1);
+        background-color: $dark;
+    }
+    .standardBtn h4{
+        transition: 0.7s ease;
+    }
+    .standardBtn:hover h4{
+        color: aliceblue;
     }
 }

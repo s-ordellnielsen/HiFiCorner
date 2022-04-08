@@ -37,6 +37,7 @@ function getProductDetails(id) {
             let productPowerSupply = document.getElementsByClassName("productSpecs__powerSupply")[0]
             let productConnectivityTypeUL = document.getElementsByClassName("productSpecs__type")[0]
             let productReviewsArticle = document.getElementsByClassName("productSpecs__reviews")[0]
+            let productStock = document.getElementsByClassName("productSpecs__stockAmount")[0]
 
             //Her første del af URLstring til databasen (til at linke til fx images)
             let localHost3001 = "http://localhost:3001"
@@ -154,6 +155,8 @@ function getProductDetails(id) {
                 productReviewsArticle.appendChild(reviewCommentP)
                 productReviewsArticle.appendChild(reviewDateP)
             })
+
+            productStock.innerText = product.stock
 
 
             

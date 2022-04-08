@@ -113,14 +113,46 @@ function getProductDetails(id) {
 
                 let reviewRating = element.stars
                 console.log("reviewRating", reviewRating) //antal stjerner
-                let reviewRatingP = document.createElement("p")
+
                 let reviewStarsDiv = document.createElement("div")
                 reviewStarsDiv.classList.add("productSpecs__reviewStarsDiv")
-                let currentRatingStars = starSVG * reviewRating
-                reviewStarsDiv.innerHTML = currentRatingStars
-                console.log("svgTimes", reviewStarsDiv.innerHTML)
                 
 
+                //Herunder har vi en tom string
+                let currentRatingStars = ""
+
+                //Og dette for-loop fylder den tomme string med det antal starSVG'er, som er angivet i reviewRating 
+                for(let i = 0; i < reviewRating; i++){
+                    currentRatingStars += starSVG
+                }
+
+                console.log("currentRatingStars", currentRatingStars)
+
+                reviewStarsDiv.innerHTML = currentRatingStars
+                
+                let reviewRatingP = document.createElement("p")
+                reviewRatingP.classList.add("productSpecs__reviewRatingP")
+                let reviewRatingPInnerText = document.createTextNode("("+ element.stars +")")
+                reviewRatingP.appendChild(reviewRatingPInnerText)
+                let reviewRatingDiv = document.createElement("div")
+                reviewRatingDiv.appendChild(reviewStarsDiv)
+                reviewRatingDiv.appendChild(reviewRatingP)
+
+                let reviewCommentP = document.createElement("p")
+                reviewCommentP.classList.add("productSpecs__reviewCommentP")
+                let reviewCommentPInnerText = document.createTextNode(element.review_comment)
+                reviewCommentP.appendChild(reviewCommentPInnerText)
+
+                let reviewDateP = document.createElement("p")
+                reviewDateP.classList.add("productSpecs__reviewDateP")
+                let reviewDatePInnerText = document.createTextNode(element.review_date)
+                reviewDateP.appendChild(reviewCommentPInnerText)
+
+
+                productReviewsArticle.appendChild(userInfoDiv)
+                productReviewsArticle.appendChild(reviewRatingDiv)
+                productReviewsArticle.appendChild(reviewCommentP)
+                productReviewsArticle.appendChild(reviewDateP)
             })
 
 

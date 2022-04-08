@@ -1,6 +1,46 @@
 .cartPaymentOptions {
 
-    & article {
+    display: flex;
+    flex-direction: column;
+    gap: $large;
+    align-items: flex-end;
+
+    &__article {
         display: flex;
+        align-items: center;
+        height: 76px;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        color: $primary;
+        gap: $small;
+        font-size: $small;
+    }
+
+    &__button {
+        padding: $medium $x-large;
+        border-radius: $border-radius;
+        border: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+
+        background: $primary;
+        color: $dark;
+
+        cursor: pointer;
+        
+        &--applePay {            
+            background: #000000;
+            color: #ffffff;
+        }
+
+        &--paypal {
+            padding: $x-small $x-large;
+            background: #F6C657;
+        }
+
+        & img {
+            height: 48px;
+        }
     }
 }

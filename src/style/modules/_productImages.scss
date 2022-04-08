@@ -63,11 +63,24 @@ margin-top:$x-large;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: all 0.7s;
+}
+.reviewThisProduct:hover{
+    background-color:$dark;
 }
 
 .reviewThisProduct p{
     font-size:$small;
     font-weight:600;
+}
+.feather-message-square{
+    color: $dark;
+}
+.reviewThisProduct:hover p{
+color: #fff;
+}
+.feather-message-square:hover{
+    color: #fff;
 }
   // ****************************  specs styling ****************************
   
@@ -77,29 +90,6 @@ margin-top:$x-large;
   }
 
 
- // *************************** similarProducts ****************************
-
- .similarProducts{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-    }
-
-    .similarProducts__currentImageDiv{
-        padding-top:$large;
-        margin-bottom:$large;
-        border-radius: 25px;
-    }
-    .productImagesCurrentImage__disc{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: $small;
-    }
-    .productImagesCurrentImage__disc h3{
-        font-weight:800;
-    }
 
 
 
@@ -107,10 +97,11 @@ margin-top:$x-large;
     .productDescription__productImages{
         display: flex;
         flex-direction: column-reverse;
+        flex-wrap: wrap;
     }
     .productImages__productDisplay{
         height: 300px;
-        width: 250px;
+        width:500px;
         
     }
 
@@ -118,7 +109,14 @@ margin-top:$x-large;
 
     .productDescription__thumbnails{
         display: flex;
-       
+        margin-left:$small;
+        width: 360px;
+    }
+    .productDescription__thumbnail{
+        transition: 0.7s ease;
+    }
+    .productDescription__thumbnail:hover{
+        transform: scale(1.5);
     }
 
     .productImages__arrowLeftDiv{

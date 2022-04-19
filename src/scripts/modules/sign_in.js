@@ -46,7 +46,7 @@ function login(event){
     if(loginErrorPassword.lenght !== 0){
         loginErrorPassword.innerText = loginPErrormessage
     }
-    if(loginErrorPassword == 0 & loginErrorUsername.lenght == 0){
+    if(loginErrorPassword.lenght == 0 & loginErrorUsername.lenght == 0){
         window.location.assign("/src/pages/profile")
     }
     

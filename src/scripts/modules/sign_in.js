@@ -46,8 +46,9 @@ function login(event){
     if(loginErrorPassword.lenght !== 0){
         loginErrorPassword.innerText = loginPErrormessage
     }
-    else{
-        window.location.href("/src/pages/profile.html")
+    if(loginErrorPassword == 0 & loginErrorUsername.lenght == 0){
+        window.location.assign("/src/pages/profile")
     }
+    
     
 }

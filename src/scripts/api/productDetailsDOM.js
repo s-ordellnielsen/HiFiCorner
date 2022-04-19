@@ -39,6 +39,8 @@ function getProductDetails(id) {
             let productReviewsArticle = document.getElementsByClassName("productSpecs__reviews")[0]
             let productStock = document.getElementsByClassName("productSpecs__stockAmount")[0]
 
+            let productAmount = document.getElementsByClassName("productDecription__amount")[0]
+
             //Her første del af URLstring til databasen (til at linke til fx images)
             let localHost3001 = "http://localhost:3001"
             
@@ -147,7 +149,7 @@ function getProductDetails(id) {
                 let reviewDateP = document.createElement("p")
                 reviewDateP.classList.add("productSpecs__reviewDateP")
                 let reviewDatePInnerText = document.createTextNode(element.review_date)
-                reviewDateP.appendChild(reviewCommentPInnerText)
+                reviewDateP.appendChild(reviewDatePInnerText)
 
 
                 productReviewsArticle.appendChild(userInfoDiv)
@@ -157,6 +159,18 @@ function getProductDetails(id) {
             })
 
             productStock.innerText = product.stock
+
+            let productColorsArray = product.colors
+            console.log(productColorsArray)
+
+            productColorsArray.forEach(function (element){
+                let colorPickerWrapper = document.createElement("div")
+                colorPickerWrapper.classList.add("productDecription__colorPickerWrapper")
+                let colorPicker = document.createElement("div")
+                colorPicker.classList.add("productDecription__colorPicker")
+                let productColorOptionName = product.color.name
+                let productColorOptionHex = product.color.code
+            })
 
 
             

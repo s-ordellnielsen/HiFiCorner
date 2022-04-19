@@ -25,7 +25,7 @@ function renderOneProduct(products) {
     cartDiv.appendChild(newElement)
 }
 
-fetch("http://localhost:3001/cart_items")
+fetch("http://localhost:3001/cartItems")
     .then(response => response.json())
     .then(cartItemsArray => {
         cartArray = cartItemsArray;
@@ -52,7 +52,7 @@ const addButton = newElement.querySelector(".cartDiv__addButton")
 addButton.addEventListener("click", event => {
     findListOfItems.innerText = ""
 
-    fetch("http://localhost:3001/cart_items", {
+    fetch("http://localhost:3001/cartItems", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -74,7 +74,7 @@ addButton.addEventListener("click", event => {
 const removeButton = newLi.querySelector(".cardDiv__deleteButton")
 removeButton.addEventListener("click", event => {
     newLi.remove()
-    fetch(`http://localhost:3001/cart_items/${cartItem.id}`, {
+    fetch(`http://localhost:3001/cartItems/${cartItem.id}`, {
         method: "DELETE"
     })
         .then(response => response.json())

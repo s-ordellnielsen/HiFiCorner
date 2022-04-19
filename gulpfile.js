@@ -18,6 +18,13 @@ function uglyCss() {
 		.pipe(gulp.dest('build/style'))
 		.pipe(connect.reload());
 };
+function BuilduglyCss() {
+	return gulp
+		.src('src/style/**/*.scss')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('build/style'))
+		
+};
 
 function uglyJS() {
 	return gulp
@@ -27,6 +34,15 @@ function uglyJS() {
 		.pipe(gulp.dest('build/scripts'))
 		.pipe(connect.reload());
 };
+function BuilduglyJS() {
+	return gulp
+		.src('src/scripts/**/*.js')
+		.pipe(concat('script.js'))
+		.pipe(uglify())
+		.pipe(gulp.dest('build/scripts'))
+		
+};
+
 
 function minifyImg() {
 	return gulp
@@ -35,6 +51,13 @@ function minifyImg() {
 		.pipe(gulp.dest('build/images'))
 		.pipe(connect.reload());
 };
+function BuildminifyImg() {
+	return gulp
+		.src('src/images/**/*')
+		.pipe(imagemin())
+		.pipe(gulp.dest('build/images'))
+		
+};
 
 function minifyHtml() {
 	return gulp
@@ -42,6 +65,13 @@ function minifyHtml() {
 		.pipe(htmlmin({ collapseWhitespace: true }))
 		.pipe(gulp.dest('build'))
 		.pipe(connect.reload());
+};
+function BuildminifyHtml() {
+	return gulp
+		.src('src/pages/*.html')
+		.pipe(htmlmin({ collapseWhitespace: true }))
+		.pipe(gulp.dest('build'))
+		
 };
 
 function startConnection(cb) {

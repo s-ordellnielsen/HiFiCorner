@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log ind</title>
-    <link rel="stylesheet" href="/src/style/layout/login.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-    <form action="/src/pages/profile.html" id="login">
-        <img src="/src/images/profile.png" id="login_img" alt="">
+    <input type="checkbox" name="themeToggle" id="themeToggle" />
+		<label for="themeToggle" class="themeToggleIcon">
+			<div class="lightIcon">
+				<div class="lightIcon__circle"></div>
+				<div class="lightIcon__line lightIcon__line1"></div>
+				<div class="lightIcon__line lightIcon__line2"></div>
+				<div class="lightIcon__line lightIcon__line3"></div>
+				<div class="lightIcon__line lightIcon__line4"></div>
+				<div class="lightIcon__line lightIcon__line5"></div>
+				<div class="lightIcon__line lightIcon__line6"></div>
+				<div class="lightIcon__line lightIcon__line7"></div>
+				<div class="lightIcon__line lightIcon__line8"></div>
+			</div>
+			<i data-feather="moon" class="darkIcon"></i>
+		</label>
+    <form  id="login">
+        <img src="/images/profile.png" id="login_img" alt="">
         <label for="login_username">Skriv dit brugernavn</label>
         <input type="text" id="login_username">
         <span>Har du glemt dit brugernavn <a href="#" id="login_help">Klik her</a></span>
@@ -20,9 +35,9 @@
         <span id="login_errorpassword"></span>
         <input type="submit" id="login_button" value="Login">
         <p>Eller</p>
-        <a id="login_signup" href="/**/pages/sign_up.html">Tilmeld</a>
+        <a id="login_signup" href="sign_up.html">Tilmeld</a>
     </form>
 
-    <script src="/src/scripts/modules/sign_in.js"></script>
+    <script src="/scripts/script.js"></script>
 </body>
 </html>

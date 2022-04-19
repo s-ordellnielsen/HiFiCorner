@@ -14,7 +14,6 @@ async function heroProduct() {
             return response.json()
         })
         .then(function (data) {
-            console.log(data)
             heroDom(data);
         })
 }

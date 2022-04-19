@@ -15,8 +15,15 @@ function uglyCss() {
 	return gulp
 		.src('src/style/**/*.scss')
 		.pipe(sass().on('error', sass.logError))
+		// giv et andet navn under develpoment
 		.pipe(gulp.dest('build/style'))
 		.pipe(connect.reload());
+};
+function buildCss() {
+	return gulp
+		.src('src/style/**/*.scss')
+		.pipe(sass())
+		.pipe(gulp.dest('build/style'))
 };
 
 function uglyJS() {
@@ -24,24 +31,46 @@ function uglyJS() {
 		.src('src/scripts/**/*.js')
 		.pipe(concat('script.js'))
 		.pipe(uglify())
+		// giv et andet navn under develpoment
 		.pipe(gulp.dest('build/scripts'))
 		.pipe(connect.reload());
+};
+function buildJS() {
+	return gulp
+		.src('src/scripts/**/*.js')
+		.pipe(concat('script.js'))
+		.pipe(uglify())
+		.pipe(gulp.dest('build/scripts'))
 };
 
 function minifyImg() {
 	return gulp
 		.src('src/images/**/*')
 		.pipe(imagemin())
+		// giv et andet navn under develpoment
 		.pipe(gulp.dest('build/images'))
 		.pipe(connect.reload());
+};
+function buildImages() {
+	return gulp
+		.src('src/images/**/*')
+		.pipe(imagemin())
+		.pipe(gulp.dest('build/images'))
 };
 
 function minifyHtml() {
 	return gulp
 		.src('src/pages/*.html')
 		.pipe(htmlmin({ collapseWhitespace: true }))
+		// giv et andet navn under develpoment
 		.pipe(gulp.dest('build'))
 		.pipe(connect.reload());
+};
+function buildHtml() {
+	return gulp
+		.src('src/pages/*.html')
+		.pipe(htmlmin({ collapseWhitespace: true }))
+		.pipe(gulp.dest('build'))
 };
 
 function startConnection(cb) {
@@ -106,3 +135,4 @@ export const watcher = gulp.parallel(
 );
 
 export default gulp.parallel(watcher, startConnection);
+export const build = gulp.parallel(buildHtml, buildCss, buildJS, buildImages)

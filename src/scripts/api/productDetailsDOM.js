@@ -27,6 +27,7 @@ function getProductDetails(id) {
             let productName = document.getElementsByClassName("productDescription__name")[0]
             let productDesc = document.getElementsByClassName("productDescription__desc")[0]
             let productFlavorText = document.getElementsByClassName("productDescription__flavor_text")[0]
+            let colorPickerDiv = document.getElementsByClassName("productDecription__colorPickerDiv")[0]
             let productPrice = document.getElementsByClassName("productDecription__price")[0]
             let productSoundDesc = document.getElementsByClassName("productSpecs__soundDesc")[0]
             let productHeight = document.getElementsByClassName("productSpecs__height")[0]
@@ -161,16 +162,45 @@ function getProductDetails(id) {
             productStock.innerText = product.stock
 
             let productColorsArray = product.colors
-            console.log(productColorsArray)
+            console.log("productColorsArray", productColorsArray)
+
+            let chosenColorCode = ""
+            let chosenColorName = ""
 
             productColorsArray.forEach(function (element){
                 let colorPickerWrapper = document.createElement("div")
                 colorPickerWrapper.classList.add("productDecription__colorPickerWrapper")
                 let colorPicker = document.createElement("div")
                 colorPicker.classList.add("productDecription__colorPicker")
-                let productColorOptionName = product.color.name
-                let productColorOptionHex = product.color.code
+                let colorNameP = document.createElement("p")
+                colorNameP.classList.add("productDecription__colorNameP")
+                let colorCode = element.code
+                let colorName = element.name
+
+                colorPicker.style.backgroundColor = colorCode
+                colorNameP.innerText = colorName
+
+                colorPickerWrapper.appendChild(colorPicker)
+                colorPickerWrapper.appendChild(colorNameP)
+
+                colorPickerDiv.appendChild(colorPickerWrapper) 
+                
+                colorPickerWrapper.addEventListener("click", (function(){
+                    colorPicker.style.border = "3px solid black"
+                    //styling
+                    chosenColorCode = element.code
+                    chosenColorName = element.name
+                }))
+
+                console.log("chosenColorName", chosenColorName)
+
+
+
             })
+
+           
+
+
 
 
             
@@ -180,5 +210,9 @@ function getProductDetails(id) {
            
 
         })
+}
+
+function colorPicker(){
+
 }
 

@@ -168,7 +168,21 @@ function getProductDetails(id) {
             let chosenColorName = ""
 
             productColorsArray.forEach(function (element){
-                let colorPickerWrapper = document.createElement("div")
+                let colorPickerLabel = document.createElement("label")
+                let colorPickerInput = document.createElement("input")
+
+                let colorCode = element.code
+                let colorName = element.name
+                
+                colorPickerInput.name = "color"
+                colorPickerInput.id = colorName
+
+                let colorPicker = document.createElement("div")
+                let colorPickerSpan = document.createElement("span")
+
+                colorPickerInput.type = "radio"
+
+                /*let colorPickerWrapper = document.createElement("div")
                 colorPickerWrapper.classList.add("productDecription__colorPickerWrapper")
                 let colorPicker = document.createElement("div")
                 colorPicker.classList.add("productDecription__colorPicker")
@@ -190,7 +204,7 @@ function getProductDetails(id) {
                     //styling
                     chosenColorCode = element.code
                     chosenColorName = element.name
-                }))
+                }))*/
 
                 console.log("chosenColorName", chosenColorName)
 

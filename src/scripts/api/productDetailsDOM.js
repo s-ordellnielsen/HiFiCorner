@@ -40,7 +40,7 @@ function getProductDetails(id) {
             let productReviewsArticle = document.getElementsByClassName("productSpecs__reviews")[0]
             let productStock = document.getElementsByClassName("productSpecs__stockAmount")[0]
 
-            let productAmount = document.getElementsByClassName("productDecription__amount")[0]
+            let productAmountInput = document.getElementsByClassName("productDecription__amount")[0]
 
             //Her første del af URLstring til databasen (til at linke til fx images)
             let localHost3001 = "http://localhost:3001"
@@ -170,9 +170,6 @@ function getProductDetails(id) {
             let productColorsArray = product.colors
             console.log("productColorsArray", productColorsArray)
 
-            let chosenColorCode = ""
-            let chosenColorName = ""
-
             productColorsArray.forEach(function (element){
                 let colorPickerLabel = document.createElement("label")
                 let colorPickerInput = document.createElement("input")
@@ -198,41 +195,15 @@ function getProductDetails(id) {
 
                 colorPickerLabel.appendChild(colorPickerInput)
                 colorPickerLabel.appendChild(colorPicker)
-                colorPickerLabel.appendChild(colorPickerLabel)
+                colorPickerLabel.appendChild(colorPickerSpan)
 
                 colorPickerDiv.appendChild(colorPickerLabel)
 
-                
-
-                /*let colorPickerWrapper = document.createElement("div")
-                colorPickerWrapper.classList.add("productDecription__colorPickerWrapper")
-                let colorPicker = document.createElement("div")
-                colorPicker.classList.add("productDecription__colorPicker")
-                let colorNameP = document.createElement("p")
-                colorNameP.classList.add("productDecription__colorNameP")
-                let colorCode = element.code
-                let colorName = element.name
-
-                colorPicker.style.backgroundColor = colorCode
-                colorNameP.innerText = colorName
-
-                colorPickerWrapper.appendChild(colorPicker)
-                colorPickerWrapper.appendChild(colorNameP)
-
-                colorPickerDiv.appendChild(colorPickerWrapper) 
-                
-                colorPickerWrapper.addEventListener("click", (function(){
-                    colorPicker.style.border = "3px solid black"
-                    //styling
-                    chosenColorCode = element.code
-                    chosenColorName = element.name
-                }))*/
-
-                console.log("chosenColorName", chosenColorName)
-
-
-
             })
+
+            let productAmount = productAmountInput.value
+
+            console.log("productAmout", productAmount)
 
            
 
@@ -248,7 +219,7 @@ function getProductDetails(id) {
         })
 }
 
-function colorPicker(){
+
 
 }
 

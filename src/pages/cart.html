@@ -25,6 +25,12 @@
         </div>
     </div>
     <script src="appCart.js"></script>
+    <script>
+        if(localStorage.getItem('cartTable')){
+            document.querySelector('.menu-cart').style.display="list-item";
+            document.querySelector('.cart-count').innerHTML = localStorage.getItem('cartAmount')
+        }
+    </script>
 </body>
 
 </html>

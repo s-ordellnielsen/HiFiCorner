@@ -6,9 +6,9 @@ if (ls) {
     let cartItems = []
 }
 
-var amount = document.querySelector('').value
-var productId = document.querySelector('').value
-var color = document.querySelector('').value
+var amount = document.querySelector('.amount').value
+var productId = document.querySelector('.productId').value
+var color = document.querySelector('color').value
 
 let item {
     amount : amount,

@@ -1,5 +1,5 @@
 let ls = localStorage.getItem('cartItem')
-console.log("cartItem");
+
 if (ls) {
     let cartItems = JSON.parse(ls)
 } else {

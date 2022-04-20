@@ -55,6 +55,12 @@ function getProductDetails(id) {
             productFlavorText.innerText = product.flavor_text
             productPrice.innerText = "£" + product.price
 
+            //input:hidden med id som value
+            let inputID = document.createElement("input")
+            inputID.type = "hidden"
+            inputID.value = product.id
+            console.log("inputID", inputID)
+
             //specs
             productSoundDesc.innerText = product.specs.sound
 
@@ -173,14 +179,30 @@ function getProductDetails(id) {
 
                 let colorCode = element.code
                 let colorName = element.name
+
+                colorPickerLabel.classList.add("productDecription__colorPickerLabel")
                 
                 colorPickerInput.name = "color"
                 colorPickerInput.id = colorName
+                colorPickerInput.classList.add("productDecription__colorPickerInput")
+                colorPickerInput.type = "radio"
+
 
                 let colorPicker = document.createElement("div")
-                let colorPickerSpan = document.createElement("span")
+                colorPicker.classList.add("productDecription__colorPicker")
+                colorPicker.style.backgroundColor = colorCode
 
-                colorPickerInput.type = "radio"
+                let colorPickerSpan = document.createElement("span")
+                colorPickerSpan.classList.add("productDecription__colorPickerSpan")
+                colorPickerSpan.innerText = colorName
+
+                colorPickerLabel.appendChild(colorPickerInput)
+                colorPickerLabel.appendChild(colorPicker)
+                colorPickerLabel.appendChild(colorPickerLabel)
+
+                colorPickerDiv.appendChild(colorPickerLabel)
+
+                
 
                 /*let colorPickerWrapper = document.createElement("div")
                 colorPickerWrapper.classList.add("productDecription__colorPickerWrapper")

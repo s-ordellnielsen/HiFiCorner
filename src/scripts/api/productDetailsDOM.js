@@ -201,9 +201,12 @@ function getProductDetails(id) {
 
             })
 
-            let productAmount = productAmountInput.value
+            productAmountInput.addEventListener("change", (function(event){
+                var productAmount = event.target.value
+                console.log("productAmount", productAmount)
+            }))
 
-            console.log("productAmout", productAmount)
+            
 
            
 
@@ -221,5 +224,5 @@ function getProductDetails(id) {
 
 
 
-}
+
 

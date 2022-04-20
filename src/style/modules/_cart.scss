@@ -1,0 +1,63 @@
+.cart {
+    padding: $x-large;
+    position: relative;
+    border-radius: $border-radius;
+    display: flex;
+    flex-direction: column;
+    margin: $x-large 0;
+
+    &--empty {
+        background: $primary50;
+    }
+
+
+    &__empty {
+
+        &Header {
+            font-family: 'Montserrat';
+            font-size: 32px;
+            margin-bottom: $small;
+            color: $dark;
+        }
+
+        &Text {
+            font-size: 18px;
+            margin-bottom: $large;
+            color: $dark;
+        }
+
+        &Btn {
+            padding: $small $large;
+            background: $dark;
+            color: $primary;
+            width: fit-content;
+            border-radius: $border-radius;
+            font-size: 18px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            margin-bottom: $small;
+
+            cursor: pointer;
+
+            transition: .3s;
+
+            &--random {
+                background: $primary;
+                color: $dark;
+            }
+
+            &:hover {
+                // transform: scale(1.05);
+                filter: brightness(.9);
+            }
+        }
+
+        &Hero {
+            align-self: flex-end;
+            margin-top: calc(($x-large * 4) * (0 - 1));
+        }
+    }
+}

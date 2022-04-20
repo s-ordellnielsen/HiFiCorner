@@ -183,6 +183,17 @@ function getProductDetails(id) {
                 colorPickerInput.id = colorName
                 colorPickerInput.classList.add("productDecription__colorPickerInput")
                 colorPickerInput.type = "radio"
+                let colorPickerInputChecked = document.querySelector(".productDecription__colorPickerInput:checked")
+                console.log("colorPickerInputChecked", colorPickerInputChecked)
+
+                //change-event**
+                /*if (colorPickerInput.checked){
+                    let colorChoise = colorPickerInput.id
+                    console.log("colorChoise", colorChoise)
+                }
+                //let colorChoise = colorPickerInputChecked.id
+
+                //console.log("colorChoise", colorChoise)*/
 
 
                 let colorPicker = document.createElement("div")

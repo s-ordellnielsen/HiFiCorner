@@ -14,7 +14,6 @@ function profile(){
     //document.getElementsByClassName("profile__details")[0].innerHTML += output
     
 }
-var profileElement = document.querySelector(".profile__details")
-if(profileElement){
-    profile()
-}
+export default profile
+
+

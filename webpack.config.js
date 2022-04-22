@@ -2,19 +2,19 @@ const path = require('path');
 
 module.exports = {
 	entry: {
-		index: './src/index.js',
-		about: './src/about.js',
-        article: './src/article.js',
-		cart: './src/cart.js',
-		categories: './src/categories.js',
-		comparison: './src/comparison.js',
-		contact: './src/contact.js',
-		location: './src/location.js',
-		news: './src/news.js',
-		package: './src/package.js',
-		product: './src/product.js',
-		search: './src/search.js',
-		support: './src/support.js'
+		index: './src/scripts/index.js',
+		about: './src/scripts/about.js',
+        article: './src/scripts/article.js',
+		cart: './src/scripts/cart.js',
+		categories: './src/scripts/categories.js',
+		comparison: './src/scripts/comparison.js',
+		contact: './src/scripts/contact.js',
+		location: './src/scripts/location.js',
+		news: './src/scripts/news.js',
+		package: './src/scripts/package.js',
+		product: './src/scripts/product.js',
+		search: './src/scripts/search.js',
+		support: './src/scripts/support.js'
 	},
 	output: {
 		filename: '[name].bundle.js',

@@ -1,13 +1,57 @@
-function productMain() {
+import productGallery from "./productGallery.js"
+
+function productMain(id) {
+
     const element = document.createElement('main')
-    element.classList.add('page')
+        element.classList.add('page')
 
-    element.innerText = `
     
-    <main class="page">
+    
+    fetch("http://localhost:3001/products/"+id, {
+        mode: 'cors',
+        headers: {
+            'Access-Control-Allow-Origin': ' * '
+        }
+    })
+    .then(function (response) {
+        if (response.status !== 200) {
+            console.log('fejl')
+            return []
+        }
+        return response.json()
+    })
+    .then(function (product) {
+        
+        
+        
+        element.innerHTML = `
+            
+            <section class="productDescription standardMargin">
+            <h1 class="productDescription__name x-largeH1">${product.name}</h1>
+            ${productGallery(product)}
+            <p class="productDescription__desc">${product.desc}</p>
 
-        <section class="productDescription standardMargin">
-            <div class="productDescription__compare">
+        `
+
+       
+       
+
+         })
+    
+
+ 
+ return element
+
+    
+
+               
+               
+            
+    
+    
+
+       
+           /* <div class="productDescription__compare">
                 <div class="productDescription__compareArrows">
                     <div class="compareArrows__arrowLeftDiv">
                         <i data-feather="arrow-left"></i>
@@ -20,7 +64,7 @@ function productMain() {
                 <p class="productDescription__compareP">Compare</p>
             </div>
 
-            <h1 class="productDescription__name x-largeH1">_________</h1>
+            
             <div class="productDescription__productImages">
                 <div class="productDescription__thumbnails">
                     <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
@@ -211,6 +255,8 @@ function productMain() {
     `
 
     
-    return element
+    return element*/
 }
-document.body.appendChild(productMain())
+
+
+export default productMain

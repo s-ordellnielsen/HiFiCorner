@@ -28,7 +28,7 @@
 			"    ",
 			"    return element",
 			"}",
-			"document.body.appendChilc($1())"
+			"document.body.appendChild($1())"
 		]
 	}
 }

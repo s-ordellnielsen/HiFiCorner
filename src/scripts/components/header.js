@@ -1,5 +1,9 @@
 import "../../style/style.scss"
-
+import burgerOpen from "../../images/navigation/burger-open.png"
+import bell from "../../images/navigation/bell.png"
+import aboutUs from "../../images/navigation/aboutUs.png"
+import support from "../../images/navigation/support.png"
+import feather from "feather-icons"
 function header() {
     const element = document.createElement('div')
     element.classList.add('wrapper')
@@ -20,7 +24,7 @@ function header() {
                                 fill="#214341" />
                         </svg>
                     </a>
-                    <button class="burger"><img src="/images/navigation/burger-open.png" alt=""
+                    <button class="burger"><img src="${burgerOpen}" alt=""
                             class="burger__Icon"></button>
                 </div>
                 <ul class="header__menu ">
@@ -44,22 +48,21 @@ function header() {
                     <li class="navigation__menuItem">
                         <h1>HiFi Corner</h1>
                     </li>
-                    <li class="navigation__menuItem"><a href="news.html"><img src="/images/navigation/bell.png" alt="">
+                    <li class="navigation__menuItem"><a href="news.html"><img src="${bell}" alt="">
                             News
                             <span class="mobileText"> ></span></a>
                     </li>
-                    <li class="navigation__menuItem"><a href="about.html"><img src="/images/navigation/aboutUs.png"
+                    <li class="navigation__menuItem"><a href="about.html"><img src="${aboutUs}"
                                 alt=""> About
                             us
                             <span class="mobileText"> ></span></a></li>
-                    <li class="navigation__menuItem"><a href="support.html"><img src="/images/navigation/support.png"
+                    <li class="navigation__menuItem"><a href="support.html"><img src="${support}"
                                 alt="">
                             Support
                             <span class="mobileText"> ></span></a></li>
                     <li class="navigation__menuItem navigation__iconList">
                         <div class="navigation__searchInputField">
-                            <button class="navigation__searchBtn navigation__IconBG"><i
-                                    data-feather="search"></i></button>
+                            <button class="navigation__searchBtn navigation__IconBG">${feather.icons.search.toSvg}</button>
                             <input type="search" name="navigation__searchInput" id="navigation__searchInput"
                                 class="navigation__searchInput">
 

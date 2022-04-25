@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
 	entry: {
-		index: './src/scripts/components/header.js',
+		header: './src/scripts/components/header.js',
 
 	},
 	output: {

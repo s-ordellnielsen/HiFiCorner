@@ -1,4 +1,3 @@
-
 import "../../style/style.scss"
 import burgerOpen from "../../images/navigation/burger-open.png"
 import bell from "../../images/navigation/bell.png"
@@ -107,10 +106,11 @@ function header() {
                 </ul >
             </nav >
         </div >
-    </header >
+    </header >  
     `
 
     return element
+
 }
 
 document.body.append(header())

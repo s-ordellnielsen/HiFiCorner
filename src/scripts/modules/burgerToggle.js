@@ -1,3 +1,4 @@
+
 const burger = document.getElementsByClassName("burger")[0]
 const burgerIcon = document.getElementsByClassName("burger__Icon")[0]
 const navMenu = document.getElementsByClassName("navigation__menu")[0]
@@ -20,4 +21,3 @@ burger.addEventListener("click", function () {
     }
 
 })
-

@@ -1,3 +1,4 @@
+import "../style/style.scss"
 import cart__breadcrump from "./components/cart__breadcrump.js"
 
 function cart() {
@@ -5,7 +6,6 @@ function cart() {
     element.classList.add('wrapper')
     
     element.appendChild(cart__breadcrump())
-    
     return element
 }
 document.body.append(cart())

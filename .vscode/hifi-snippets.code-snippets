@@ -28,7 +28,7 @@
 			"    ",
 			"    return element",
 			"}",
-			"document.body.append($1())"
+			"document.body.appendChilc($1())"
 		]
 	}
 }

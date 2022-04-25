@@ -8,3 +8,13 @@ toggle.addEventListener('change', function() {
         document.documentElement.setAttribute('data-theme', 'light')
     };
 })
+
+function themeToggle() {
+	const element = document.createElement('div')
+	element.classList.add('wrapper')
+	
+	// Code here
+	
+	return element
+}
+document.body.append(themeToggle())

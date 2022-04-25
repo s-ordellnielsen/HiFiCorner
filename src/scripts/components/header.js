@@ -1,3 +1,4 @@
+
 import "../../style/style.scss"
 import burgerOpen from "../../images/navigation/burger-open.png"
 import bell from "../../images/navigation/bell.png"

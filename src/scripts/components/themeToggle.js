@@ -1,22 +1,10 @@
-const burger = document.getElementsByClassName("burger")[0]
-const burgerIcon = document.getElementsByClassName("burger__Icon")[0]
-const navMenu = document.getElementsByClassName("navigation__menu")[0]
-const headerMenu = document.getElementsByClassName("header__menu")[0]
-const wrapper = document.getElementsByClassName("wrapper")[0]
-const logo = document.getElementsByClassName("headerLogo")[0]
+let toggle = document.getElementById('themeToggle');
 
-burger.addEventListener("click", function () {
-
-    if (navMenu.classList.contains("navigation__open") && headerMenu.classList.contains("header__open")) {
-        navMenu.classList.remove("navigation__open")
-        headerMenu.classList.remove("header__open")
-        burgerIcon.src = "/images/navigation/burger-open.png"
-        wrapper.style.height = "0"
-    } else {
-        navMenu.classList.add("navigation__open")
-        headerMenu.classList.add("header__open")
-        burgerIcon.src = "/images/navigation/burger-close.png"
-        wrapper.style.height = "100vh"
+toggle.addEventListener('change', function() {
+    if (this.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark')
     }
-
+    else {
+        document.documentElement.setAttribute('data-theme', 'light')
+    };
 })

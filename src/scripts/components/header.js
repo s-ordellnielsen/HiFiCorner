@@ -4,6 +4,9 @@ import bell from "../../images/navigation/bell.png"
 import aboutUs from "../../images/navigation/aboutUs.png"
 import support from "../../images/navigation/support.png"
 import feather from "feather-icons"
+
+
+
 function header() {
     const element = document.createElement('div')
     element.classList.add('wrapper')
@@ -62,15 +65,16 @@ function header() {
                             <span class="mobileText"> ></span></a></li>
                     <li class="navigation__menuItem navigation__iconList">
                         <div class="navigation__searchInputField">
-                            <button class="navigation__searchBtn navigation__IconBG">${feather.icons.search.toSvg}</button>
+                            <button class="navigation__searchBtn navigation__IconBG">${feather.icons.search.toSvg()}</button>
                             <input type="search" name="navigation__searchInput" id="navigation__searchInput"
                                 class="navigation__searchInput">
 
                         </div>
                         <div class="navigation__iconContainer">
                             <div class="navigation__menuIcon"><a class="navigation__IconBG" href="location.html"
-                                    aria-label="goes to location"><i data-feather="map-pin"></i></a></div>
-                        </div>
+                                    aria-label="goes to location">${feather.icons["map-pin"].toSvg()
+        }</a ></div >
+                        </div >
                         <div class="navigation__iconContainer">
                             <div class="navigation__menuIcon">
                                 <input type="checkbox" name="themeToggle" id="themeToggle" />
@@ -86,25 +90,26 @@ function header() {
                                         <div class="lightIcon__line lightIcon__line7"></div>
                                         <div class="lightIcon__line lightIcon__line8"></div>
                                     </div>
-                                    <i data-feather="moon" class="darkIcon"></i>
+                                    ${feather.icons.moon.toSvg()}
                                 </label>
                             </div>
                         </div>
                         <div class="navigation__iconContainer">
                             <div class="navigation__menuIcon"><a class="navigation__IconBG" href="sign-up.html"
-                                    aria-label="sign up"><i data-feather="user"></i></a></div>
+                                    aria-label="sign up">${feather.icons.user.toSvg()}</a></div>
                         </div>
                         <div class="navigation__iconContainer">
                             <div class="navigation__menuIcon"><a class="navigation__IconBG" href="cart.html"
-                                    aria-label="cart site"><i data-feather="shopping-bag"></i></a></div>
+                                    aria-label="cart site">${feather.icons["shopping-bag"].toSvg()}</a></div>
                         </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+                    </li >
+                </ul >
+            </nav >
+        </div >
+    </header >
     `
 
     return element
 }
+
 document.body.append(header())

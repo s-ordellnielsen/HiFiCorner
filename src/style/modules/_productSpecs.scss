@@ -43,6 +43,34 @@
 }
 
 
+// ***************************productSpecs standardMargin ******************
+
+.productSpecs__userIconDiv img{
+    width: 30px;
+    height: 30px;
+    border-radius:$border-radius;
+}
+.productSpecs__userInfoDiv{
+    display: flex;
+    align-items: center;
+}
+.productSpecs__userNameP{
+    margin-left: $x-small;
+}
+.productSpecs__reviewRatingDiv{
+    margin-bottom: $small;
+}
+.productSpecs__reviewStarsDiv{
+    margin-top: $x-small;
+}
+.productSpecs__eachUserReviewRatingDiv{
+    display: flex;
+    align-items: center;
+}
+.productSpecs__reviewRatingP{
+    margin-left: $x-small;
+}
+
 
 @media screen and (min-width:900px) {
     .productSpecs__lines{

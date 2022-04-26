@@ -9,6 +9,12 @@
     font-size:$medium;
     margin-bottom: $small;
 }
+
+// ***************************amount styles ******************
+.amount{
+    display: flex;
+    align-items: center;
+}
 .standardBtn{
     border-radius: $border-radius;
     border: none;
@@ -62,6 +68,8 @@
     padding-top: $medium;
     padding-left: $small;
     }
+
+
 // *************************** button styles ***************************
 
 .standardBtn{

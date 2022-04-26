@@ -104,6 +104,8 @@ function getProductDetails(id) {
             console.log("productReviewsArray", productReviewsArray)
 
             productReviewsArray.forEach(function (element){
+                let userReviewDiv = document.createElement("div")
+                userReviewDiv.classList.add("productSpecs__reviewRatingDiv")
                 let userIcon = document.createElement("img")
                 //Herunder concatinater jeg første del af URLtsring til databasen med anden del af URL'en billedet hentet fra databasen
                 userIcon.src = localHost3001 + element.user_icon[0]
@@ -160,10 +162,12 @@ function getProductDetails(id) {
                 reviewDateP.appendChild(reviewDatePInnerText)
 
 
-                productReviewsArticle.appendChild(userInfoDiv)
-                productReviewsArticle.appendChild(reviewRatingDiv)
-                productReviewsArticle.appendChild(reviewCommentP)
-                productReviewsArticle.appendChild(reviewDateP)
+                userReviewDiv.appendChild(userInfoDiv)
+                userReviewDiv.appendChild(reviewRatingDiv)
+                userReviewDiv.appendChild(reviewCommentP)
+                userReviewDiv.appendChild(reviewDateP)
+
+                productReviewsArticle.appendChild(userReviewDiv)
             })
 
             productStock.innerText = product.stock

@@ -1,10 +1,17 @@
 import productGallery from "./productGallery.js"
+import productHeadline from "./productHeadline.js"
 
 function productMain(id) {
 
-    const element = document.createElement('main')
+        //creates alle elementer her?
+
+        const element = document.createElement('main')
         element.classList.add('page')
 
+        let sectionProductDescription = document.createElement("section")
+        
+        sectionProductDescription.classList.add("productDescription")
+        sectionProductDescription.classList.add("standardMargin")
     
     
     fetch("http://localhost:3001/products/"+id, {
@@ -22,23 +29,17 @@ function productMain(id) {
     })
     .then(function (product) {
         
+        sectionProductDescription.appendChild(productHeadline(product.name))
+        sectionProductDescription.appendChild(productGallery(product))
         
         
-        element.innerHTML = `
-            
-            <section class="productDescription standardMargin">
-            <h1 class="productDescription__name x-largeH1">${product.name}</h1>
-            ${productGallery(product)}
-            <p class="productDescription__desc">${product.desc}</p>
-
-        `
 
        
        
 
          })
     
-
+element.appendChild(sectionProductDescription)
  
  return element
 

@@ -145,6 +145,7 @@ function getProductDetails(id) {
                 let reviewRatingPInnerText = document.createTextNode("("+ element.stars +")")
                 reviewRatingP.appendChild(reviewRatingPInnerText)
                 let reviewRatingDiv = document.createElement("div")
+                reviewRatingDiv.classList.add("productSpecs__reviewRatingDiv")
                 reviewRatingDiv.appendChild(reviewStarsDiv)
                 reviewRatingDiv.appendChild(reviewRatingP)
 

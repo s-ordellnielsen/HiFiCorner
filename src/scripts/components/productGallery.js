@@ -3,20 +3,26 @@
 function productGallery(product) {
    // const element = document.createElement('div')
     //element.classList.add('productDescription__productImages')
-    let element = `
-    <div className="productDescription__productImages">
+
+let thumbnailClick = function(){
+    console.log("click")
+}
+    let element = document.createElement("div")
+    element.classList.add("productDescription__productImages")
+    element.innerHTML = `
+   
     <div class="productDescription__thumbnails">
-                    <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
+                    <div class="productDescription__thumbnail" onclick=${thumbnailClick()}><img class="productDescription__thumbnailImg"
                                 src=${`http://localhost:3001${product.images[0]}`}
-                                alt="klik for at se en stor udgave af dette billede"></a>
+                                alt="klik for at se en stor udgave af dette billede">
                     </div>
-                    <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
+                    <div class="productDescription__thumbnail"><img class="productDescription__thumbnailImg"
                                 src=${`http://localhost:3001${product.images[1]}`}
-                                alt="klik for at se en stor udgave af dette billede"></a>
+                                alt="klik for at se en stor udgave af dette billede">
                     </div>
-                    <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
+                    <div class="productDescription__thumbnail"><img class="productDescription__thumbnailImg"
                                 src=${`http://localhost:3001${product.images[2]}`}
-                                alt="klik for at se en stor udgave af dette billede"></a>
+                                alt="klik for at se en stor udgave af dette billede">
                     </div>
                 </div>
                 <div class="productImages__productDisplay">
@@ -24,7 +30,7 @@ function productGallery(product) {
                         <i data-feather="arrow-left-circle"></i>
                     </div>
                     <div class="productImages__currentImageDiv">
-                        <a href="#"> <img src="/images/placeholder_img.jpg" alt="Billede af produktet"
+                        <a href="#"> <img src=${`http://localhost:3001${product.images[0]}`} alt="Billede af produktet"
                                 class="productImages__CurrentImageImg"></a>
                     </div>
                     <div class="productImages__arrowRightDiv">
@@ -32,9 +38,48 @@ function productGallery(product) {
                     </div>
 
                 </div>
-            </div>
+        
     `
 
+    let dbURL = "http://localhost:3001"
+    let currentImage = element.getElementsByClassName("productImages__CurrentImageImg")[0]
+
+    /*const thumbnailAll = document.querySelectorAll(".productDescription__thumbnailImg");
+
+    thumbnailAll.forEach(function (element) {
+
+        element.addEventListener("click", function (event) {
+
+    
+            currentImage.setAttribute("src", element.href);
+            console.log("imgLink", element.href)
+            
+        });
+    })
+    */
+
+    console.log("currentImgSrc", currentImage.src)
+
+    function setSrc(e){
+        currentImage.setAttribute = e.target.src
+        console.log("changeImg")
+    }
+    
+    element.getElementsByClassName("productDescription__thumbnailImg")[0].addEventListener("click", setSrc)
+    
+
+    element.getElementsByClassName("productDescription__thumbnailImg")[1].addEventListener("click", setSrc)
+
+  
+    element.getElementsByClassName("productDescription__thumbnailImg")[2].addEventListener("click", setSrc)
+
+    //
+
+    
     return element
 }
 export default productGallery
+
+        //currentImage.src = dbURL + product.images[0]
+        //currentImage.setAttribute("src", dbURL + product.images[0]);
+        //console.log(currentImage.src)

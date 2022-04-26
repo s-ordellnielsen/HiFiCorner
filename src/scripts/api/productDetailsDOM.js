@@ -146,10 +146,10 @@ function getProductDetails(id) {
                 reviewRatingP.classList.add("productSpecs__reviewRatingP")
                 let reviewRatingPInnerText = document.createTextNode("("+ element.stars +")")
                 reviewRatingP.appendChild(reviewRatingPInnerText)
-                let reviewRatingDiv = document.createElement("div")
-                reviewRatingDiv.classList.add("productSpecs__reviewRatingDiv")
-                reviewRatingDiv.appendChild(reviewStarsDiv)
-                reviewRatingDiv.appendChild(reviewRatingP)
+                let eachUserReviewRatingDiv = document.createElement("div")
+                eachUserReviewRatingDiv.classList.add("productSpecs__eachUserReviewRatingDiv")
+                eachUserReviewRatingDiv.appendChild(reviewStarsDiv)
+                eachUserReviewRatingDiv.appendChild(reviewRatingP)
 
                 let reviewCommentP = document.createElement("p")
                 reviewCommentP.classList.add("productSpecs__reviewCommentP")
@@ -163,7 +163,7 @@ function getProductDetails(id) {
 
 
                 userReviewDiv.appendChild(userInfoDiv)
-                userReviewDiv.appendChild(reviewRatingDiv)
+                userReviewDiv.appendChild(eachUserReviewRatingDiv)
                 userReviewDiv.appendChild(reviewCommentP)
                 userReviewDiv.appendChild(reviewDateP)
 

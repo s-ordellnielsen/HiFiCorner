@@ -95,6 +95,4 @@ let thumbnailClick = function(){
 }
 export default productGallery
 
-        //currentImage.src = dbURL + product.images[0]
-        //currentImage.setAttribute("src", dbURL + product.images[0]);
-        //console.log(currentImage.src)
+    

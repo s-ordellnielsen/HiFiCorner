@@ -1,3 +1,3 @@
-import packagePage from './components/packageDOM.js';
+import packagePageBanner from './components/packageDOM.js';
 
-document.body.appendChild(packagePage())
+document.body.appendChild(packagePageBanner())

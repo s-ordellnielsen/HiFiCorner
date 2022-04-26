@@ -1,7 +1,7 @@
 import '../../style/layout/_package.scss';
 import packageIcon from '../../images/packageIcon.png';
 
-function packagePage() {
+function packagePageBanner() {
     const element = document.createElement('div')
     element.classList.add('wrapper')
 
@@ -18,8 +18,9 @@ function packagePage() {
         <section class="packageSection__slider">
 
         </section>
+
         `
 
     return element
 }
-export default packagePage
+export default packagePageBanner

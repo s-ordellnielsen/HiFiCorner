@@ -36,15 +36,15 @@ export default function burgerToggle() {
                <li class="header__menuitem">
                    <h1>Categories</h1>
                </li>
-               <li class="header__menuitem"><a href="categories.html/speakers">Speakers<span class="mobileText">
+               <li class="header__menuitem"><a href="/categories/?type=speakers">Speakers<span class="mobileText">
                            ></span></a> </li>
-               <li class="header__menuitem"><a href="categories.html/headphones">Headphones<span
+               <li class="header__menuitem"><a href="/categories/?type=headphones">Headphones<span
                            class="mobileText"> ></span> </li>
-               <li class="header__menuitem"><a href="categories.html/accessoris">Accessories<span
+               <li class="header__menuitem"><a href="/categories/?type=accessories">Accessories<span
                            class="mobileText"> ></span></a></li>
-               <li class="header__menuitem"><a href="categories.html/cdplayer">Categori 1<span class="mobileText">
+               <li class="header__menuitem"><a href="/categories/?type=cdplayer">CD player<span class="mobileText">
                            ></span></a></li>
-               <li class="header__menuitem"><a href="categories.html/turntable">Categori 2<span class="mobileText">
+               <li class="header__menuitem"><a href="/categories/?type=turntable">Turntable<span class="mobileText">
                            ></span></a></li>
            </ul>
        </div>
@@ -53,27 +53,27 @@ export default function burgerToggle() {
                <li class="navigation__menuItem">
                    <h1>HiFi Corner</h1>
                </li>
-               <li class="navigation__menuItem"><a href="news.html"><img src="${bell}" alt="">
+               <li class="navigation__menuItem"><a href="/news/"><img src="${bell}" alt="">
                        News
                        <span class="mobileText"> ></span></a>
                </li>
-               <li class="navigation__menuItem"><a href="about.html"><img src="${aboutUs}"
+               <li class="navigation__menuItem"><a href="/about/"><img src="${aboutUs}"
                            alt=""> About
                        us
                        <span class="mobileText"> ></span></a></li>
-               <li class="navigation__menuItem"><a href="support.html"><img src="${support}"
+               <li class="navigation__menuItem"><a href="/support/"><img src="${support}"
                            alt="">
                        Support
                        <span class="mobileText"> ></span></a></li>
                <li class="navigation__menuItem navigation__iconList">
                    <div class="navigation__searchInputField">
                        <button class="navigation__searchBtn navigation__IconBG">${feather.icons.search.toSvg()}</button>
-                       <input type="search" name="navigation__searchInput" id="navigation__searchInput"
+                       <input type="search" placeholder="search sites, products.." name="navigation__searchInput" id="navigation__searchInput"
                            class="navigation__searchInput">
 
                    </div>
                    <div class="navigation__iconContainer">
-                       <div class="navigation__menuIcon"><a class="navigation__IconBG" href="location.html"
+                       <div class="navigation__menuIcon"><a class="navigation__IconBG" href="/location/"
                                aria-label="goes to location">${feather.icons["map-pin"].toSvg()}</a ></div >
                    </div >
                    <div class="navigation__iconContainer">
@@ -82,11 +82,11 @@ export default function burgerToggle() {
                        </div>
                    </div>
                    <div class="navigation__iconContainer">
-                       <div class="navigation__menuIcon"><a class="navigation__IconBG" href="sign-up.html"
+                       <div class="navigation__menuIcon"><a class="navigation__IconBG" href="/signup/"
                                aria-label="sign up">${feather.icons.user.toSvg()}</a></div>
                    </div>
                    <div class="navigation__iconContainer">
-                       <div class="navigation__menuIcon"><a class="navigation__IconBG" href="cart.html"
+                       <div class="navigation__menuIcon"><a class="navigation__IconBG" href="/cart/"
                                aria-label="cart site">${feather.icons["shopping-bag"].toSvg()}</a></div>
                    </div>
                </li >

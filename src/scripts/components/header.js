@@ -4,7 +4,7 @@ import bell from "../../images/navigation/bell.png"
 import aboutUs from "../../images/navigation/aboutUs.png"
 import support from "../../images/navigation/support.png"
 import feather from "feather-icons"
-
+import '../../style/modules/_themeToggle.scss'
 
 
 function header() {
@@ -78,21 +78,21 @@ function header() {
                         </div >
                         <div class="navigation__iconContainer">
                             <div class="navigation__menuIcon">
-                                <input type="checkbox" name="themeToggle" id="themeToggle" />
-                                <label for="themeToggle" class="themeToggleIcon">
-                                    <div class="lightIcon">
-                                        <div class="lightIcon__circle"></div>
-                                        <div class="lightIcon__line lightIcon__line1"></div>
-                                        <div class="lightIcon__line lightIcon__line2"></div>
-                                        <div class="lightIcon__line lightIcon__line3"></div>
-                                        <div class="lightIcon__line lightIcon__line4"></div>
-                                        <div class="lightIcon__line lightIcon__line5"></div>
-                                        <div class="lightIcon__line lightIcon__line6"></div>
-                                        <div class="lightIcon__line lightIcon__line7"></div>
-                                        <div class="lightIcon__line lightIcon__line8"></div>
-                                    </div>
-                                    ${feather.icons.moon.toSvg()}
-                                </label>
+                            <input type="checkbox" name="themeToggle" id="themeToggle" class="themeToggle__input" />
+		<label for="themeToggle" class="themeToggle__icon">
+			<div class="themeToggle__icon--light">
+				<div class="themeToggle__icon--light__circle"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--1"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--2"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--3"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--4"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--5"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--6"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--7"></div>
+				<div class="themeToggle__icon--light__line themeToggle__icon--light__line--8"></div>
+			</div>
+			${feather.icons.moon.toSvg({ class: 'themeToggle__icon--dark' })}
+		</label>
                             </div>
                         </div>
                         <div class="navigation__iconContainer">

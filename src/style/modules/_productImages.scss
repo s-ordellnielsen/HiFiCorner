@@ -14,18 +14,19 @@ margin-top:$x-large;
 
 //gummigSed
 .productDescription__thumbnail{
-    
     width: 16vw;
     margin: 0 $medium 3vw 0;
-    
+    transition: 0.7s ease;
 }
-
+.productDescription__thumbnail:hover{
+    transform: scale(1.5);
+}
 .productDescription__thumbnailImg{
     height: 100%;
     width: 100%;
     border-radius: $medium;
-
 }
+
 
 .productImages__productDisplay{
     width: 100%;

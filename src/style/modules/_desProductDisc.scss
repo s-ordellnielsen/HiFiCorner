@@ -1,3 +1,33 @@
+// ***************************styling product Description for mobil device ************************
+
+.productDescription__flavor_text{
+    font-weight:700;
+    font-size:$medium;
+    margin-bottom: $small;
+}
+.standardBtn{
+    border-radius: $border-radius;
+    border: none;
+    color: $dark;
+    background-color: $primary;
+    font-size: $small;
+    font-weight: 700;
+    padding: $small;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s ease;
+    }
+    .standardBtn:hover {
+        transform: scale(1.1);
+        background-color: $dark;
+    }
+    .standardBtn h4{
+        transition: 0.7s ease;
+    }
+    .standardBtn:hover h4{
+        color: aliceblue;
+    }
+
 @media screen and (min-width:900px) {
     .productDescription{
         display: flex;
@@ -31,25 +61,15 @@
 // *************************** button styles ***************************
 
 .standardBtn{
-    border-radius: $border-radius;
-    border: none;
-    color: $dark;
-    background-color: $primary;
-    font-size: $small;
-    font-weight: 700;
-    padding: $small;
     width: 30%;
-    cursor: pointer;
-    transition: 0.7s ease;
     }
-    .standardBtn:hover {
-        transform: scale(1.1);
-        background-color: $dark;
-    }
-    .standardBtn h4{
-        transition: 0.7s ease;
-    }
-    .standardBtn:hover h4{
-        color: aliceblue;
+}
+
+
+// *************************** grid template area styling ***************************
+
+@media screen and (min-width:900px) {
+    .x-mobil{
+        display: none;
     }
 }

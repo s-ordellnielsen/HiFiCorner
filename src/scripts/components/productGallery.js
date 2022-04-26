@@ -61,7 +61,7 @@ let thumbnailClick = function(){
     console.log("currentImgSrc", currentImage.src)
 
     function setSrc(e){
-        currentImage.setAttribute = e.target.src
+        currentImage.setAttribute("src", e.target.src)
         console.log("changeImg")
     }
     
@@ -73,7 +73,22 @@ let thumbnailClick = function(){
   
     element.getElementsByClassName("productDescription__thumbnailImg")[2].addEventListener("click", setSrc)
 
-    //
+
+
+
+    /*pile-funktionalitet herunder - nice to 
+
+    
+
+    element.getElementsByClassName("productImages__arrowLeftDiv")[0].addEventListener("click", function(){
+
+    })
+
+    element.getElementsByClassName("productImages__arrowRightDiv")[0].addEventListener("click", function(){
+
+    })
+    */
+
 
     
     return element

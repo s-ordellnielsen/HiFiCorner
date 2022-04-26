@@ -1,6 +1,6 @@
 
 function getProductDetails(id) {
-    fetch("http://localhost:3001/products", {
+    fetch("http://localhost:3001/products/"+id, {
         mode: 'cors',
         headers: {
             'Access-Control-Allow-Origin': ' * '
@@ -13,12 +13,12 @@ function getProductDetails(id) {
             }
             return response.json()
         })
-        .then(function (data) {
-            console.log("data fra l 16", data);
+        .then(function (product) {
+            
 
             //Herunder sammenligner vi id fra databasen på server med id fra querryString
             //Og ud fra den sammenligning kan vi deklarere en product-variabel
-            let product = data.find(element => element.id === id)
+            //Slet product = data.find(element => element.id === id)
 
             console.log("found", product)
             
@@ -27,6 +27,7 @@ function getProductDetails(id) {
             let productName = document.getElementsByClassName("productDescription__name")[0]
             let productDesc = document.getElementsByClassName("productDescription__desc")[0]
             let productFlavorText = document.getElementsByClassName("productDescription__flavor_text")[0]
+            let colorPickerDiv = document.getElementsByClassName("productDecription__colorPickerDiv")[0]
             let productPrice = document.getElementsByClassName("productDecription__price")[0]
             let productSoundDesc = document.getElementsByClassName("productSpecs__soundDesc")[0]
             let productHeight = document.getElementsByClassName("productSpecs__height")[0]
@@ -37,6 +38,9 @@ function getProductDetails(id) {
             let productPowerSupply = document.getElementsByClassName("productSpecs__powerSupply")[0]
             let productConnectivityTypeUL = document.getElementsByClassName("productSpecs__type")[0]
             let productReviewsArticle = document.getElementsByClassName("productSpecs__reviews")[0]
+            let productStock = document.getElementsByClassName("productSpecs__stockAmount")[0]
+
+            let productAmountInput = document.getElementsByClassName("productDecription__amount")[0]
 
             //Her første del af URLstring til databasen (til at linke til fx images)
             let localHost3001 = "http://localhost:3001"
@@ -50,6 +54,12 @@ function getProductDetails(id) {
             productDesc.innerText = product.desc
             productFlavorText.innerText = product.flavor_text
             productPrice.innerText = "£" + product.price
+
+            //input:hidden med id som value
+            let inputID = document.createElement("input")
+            inputID.type = "hidden"
+            inputID.value = product.id
+            console.log("inputID", inputID)
 
             //specs
             productSoundDesc.innerText = product.specs.sound
@@ -113,15 +123,105 @@ function getProductDetails(id) {
 
                 let reviewRating = element.stars
                 console.log("reviewRating", reviewRating) //antal stjerner
-                let reviewRatingP = document.createElement("p")
+
                 let reviewStarsDiv = document.createElement("div")
                 reviewStarsDiv.classList.add("productSpecs__reviewStarsDiv")
-                let currentRatingStars = starSVG * reviewRating
-                reviewStarsDiv.innerHTML = currentRatingStars
-                console.log("svgTimes", reviewStarsDiv.innerHTML)
                 
 
+                //Herunder har vi en tom string
+                let currentRatingStars = ""
+
+                //Og dette for-loop fylder den tomme string med det antal starSVG'er, som er angivet i reviewRating 
+                for(let i = 0; i < reviewRating; i++){
+                    currentRatingStars += starSVG
+                }
+
+                console.log("currentRatingStars", currentRatingStars)
+
+                reviewStarsDiv.innerHTML = currentRatingStars
+                
+                let reviewRatingP = document.createElement("p")
+                reviewRatingP.classList.add("productSpecs__reviewRatingP")
+                let reviewRatingPInnerText = document.createTextNode("("+ element.stars +")")
+                reviewRatingP.appendChild(reviewRatingPInnerText)
+                let reviewRatingDiv = document.createElement("div")
+                reviewRatingDiv.appendChild(reviewStarsDiv)
+                reviewRatingDiv.appendChild(reviewRatingP)
+
+                let reviewCommentP = document.createElement("p")
+                reviewCommentP.classList.add("productSpecs__reviewCommentP")
+                let reviewCommentPInnerText = document.createTextNode(element.review_comment)
+                reviewCommentP.appendChild(reviewCommentPInnerText)
+
+                let reviewDateP = document.createElement("p")
+                reviewDateP.classList.add("productSpecs__reviewDateP")
+                let reviewDatePInnerText = document.createTextNode(element.review_date)
+                reviewDateP.appendChild(reviewDatePInnerText)
+
+
+                productReviewsArticle.appendChild(userInfoDiv)
+                productReviewsArticle.appendChild(reviewRatingDiv)
+                productReviewsArticle.appendChild(reviewCommentP)
+                productReviewsArticle.appendChild(reviewDateP)
             })
+
+            productStock.innerText = product.stock
+
+            let productColorsArray = product.colors
+            console.log("productColorsArray", productColorsArray)
+
+            productColorsArray.forEach(function (element){
+                let colorPickerLabel = document.createElement("label")
+                let colorPickerInput = document.createElement("input")
+
+                let colorCode = element.code
+                let colorName = element.name
+
+                colorPickerLabel.classList.add("productDecription__colorPickerLabel")
+                
+                colorPickerInput.name = "color"
+                colorPickerInput.id = colorName
+                colorPickerInput.classList.add("productDecription__colorPickerInput")
+                colorPickerInput.type = "radio"
+                let colorPickerInputChecked = document.querySelector(".productDecription__colorPickerInput:checked")
+                console.log("colorPickerInputChecked", colorPickerInputChecked)
+
+                //change-event**
+                /*if (colorPickerInput.checked){
+                    let colorChoise = colorPickerInput.id
+                    console.log("colorChoise", colorChoise)
+                }
+                //let colorChoise = colorPickerInputChecked.id
+
+                //console.log("colorChoise", colorChoise)*/
+
+
+                let colorPicker = document.createElement("div")
+                colorPicker.classList.add("productDecription__colorPicker")
+                colorPicker.style.backgroundColor = colorCode
+
+                let colorPickerSpan = document.createElement("span")
+                colorPickerSpan.classList.add("productDecription__colorPickerSpan")
+                colorPickerSpan.innerText = colorName
+
+                colorPickerLabel.appendChild(colorPickerInput)
+                colorPickerLabel.appendChild(colorPicker)
+                colorPickerLabel.appendChild(colorPickerSpan)
+
+                colorPickerDiv.appendChild(colorPickerLabel)
+
+            })
+
+            productAmountInput.addEventListener("change", (function(event){
+                var productAmount = event.target.value
+                console.log("productAmount", productAmount)
+            }))
+
+            
+
+           
+
+
 
 
             
@@ -132,4 +232,8 @@ function getProductDetails(id) {
 
         })
 }
+
+
+
+
 

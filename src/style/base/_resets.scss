@@ -1,3 +1,15 @@
+//mobile wrapper
+.wrapper {
+    margin: 10px;
+}
+
+//Desktop wrapper
+@media screen and(min-width: 768px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +18,8 @@
     list-style: none;
 }
 
-img, svg {
+img,
+svg {
     max-width: 100%;
 }
 

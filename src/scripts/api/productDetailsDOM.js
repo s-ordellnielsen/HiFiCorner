@@ -1,6 +1,6 @@
 
 function getProductDetails(id) {
-    fetch("http://localhost:3001/products", {
+    fetch("http://localhost:3001/products/"+id, {
         mode: 'cors',
         headers: {
             'Access-Control-Allow-Origin': ' * '
@@ -13,12 +13,12 @@ function getProductDetails(id) {
             }
             return response.json()
         })
-        .then(function (data) {
-            console.log("data fra l 16", data);
+        .then(function (product) {
+            
 
             //Herunder sammenligner vi id fra databasen på server med id fra querryString
             //Og ud fra den sammenligning kan vi deklarere en product-variabel
-            let product = data.find(element => element.id === id)
+            //Slet product = data.find(element => element.id === id)
 
             console.log("found", product)
             

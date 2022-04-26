@@ -30,17 +30,20 @@
 
 
         &__boldTopText {
+            font-weight: bold;
             font-size: $small;
             padding: 10px 10px 40px 40px;
         }
 
-        &__middleText {
+        &__boldMiddleText {
+            font-weight: bold;
             font-size: $large;
             padding: 10px 80px 40px 40px;
 
         }
 
-        &__bottomText {
+        &__boldBottomText {
+            font-weight: bold;
             font-size: $medium;
             padding: 10px 70px 40px 80px;
         }
@@ -77,12 +80,12 @@
                 padding: 30px 10px 40px 40px;
             }
 
-            &__middleText {
+            &__boldMiddleText {
                 font-size: $x-large;
                 padding: 70px 90px 40px 40px;
             }
 
-            &__bottomText {
+            &__boldBottomText {
                 font-size: $large;
                 padding: 70px 110px 20px 110px;
             }

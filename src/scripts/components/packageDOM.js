@@ -11,8 +11,8 @@ function packagePage() {
             <img class="packageSection__img" src="${packageIcon}" alt="" />
             <aside class="packageSection__aside">
                 <p class="packageSection__aside__boldTopText">Connected Speakers - Surround Sound</p>
-                <p class="packageSection__aside__middleText">Sound in every corner of your home</p>
-                <p class="packageSection__aside__bottomText">Surround Sound - Package Deals</p>
+                <p class="packageSection__aside__boldMiddleText">Sound in every corner of your home</p>
+                <p class="packageSection__aside__boldBottomText">Surround Sound - Package Deals</p>
             </aside>
         </section>
         <section class="packageSection__slider">

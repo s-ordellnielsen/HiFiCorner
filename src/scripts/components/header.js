@@ -14,6 +14,7 @@ function header() {
     // Code here
     element.innerHTML = `
      <header class="header__wrapper" style="height: 0px;">
+   
         <div class="header">
             <div class="header__logo">
                 <div class="header__topbar">

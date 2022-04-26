@@ -14,7 +14,9 @@ module.exports = {
 		package: './src/scripts/package.js',
 		product: './src/scripts/product.js',
 		search: './src/scripts/search.js',
-		support: './src/scripts/support.js'
+		support: './src/scripts/support.js',
+		sign_in: './src/scripts/sign_in.js',
+		profile: './src/scripts/profile.js'
 	},
 	output: {
 		filename: '[name].bundle.js',

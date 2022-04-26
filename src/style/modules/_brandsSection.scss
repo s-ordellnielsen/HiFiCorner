@@ -1,0 +1,16 @@
+.landing__brands {
+    &TextSection {}
+
+    &IconSection {
+        display: grid;
+        grid-template-columns: repeat(4* 1fr);
+    }
+}
+
+.brandsContainer {
+    &__brandIcon {}
+
+    &__brandLink {}
+
+    &__brandText {}
+}

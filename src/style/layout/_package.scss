@@ -1,0 +1,31 @@
+@import '../base/variables';
+
+.packageSection {
+    display: flex;
+
+    &__header {
+        display: flex;
+        font-size: $x-large;
+    }
+
+    &__aside {
+        border-radius: $border-radius;
+        background-color: $tertiary;
+        width: 550px;
+        height: 640px;
+        color: $light;
+
+        &__boldTopText {
+            font-size: $medium;
+        }
+
+        &__middleText {
+            font-size: $x-large;
+        }
+
+        &__bottomText {
+            font-size: $large;
+        }
+    }
+
+}

@@ -18,6 +18,13 @@
     margin-bottom:$large; 
     border-radius: 25px;
 }
+.similarProducts__currentImageDiv{
+    margin-left: $large;
+    transition: 0.7s ease;
+}
+.similarProducts__currentImageDiv:hover{
+    transform: scale(1.1);
+}
 .productImagesCurrentImage__disc{
     display: flex;
     align-items: center;
@@ -27,9 +34,7 @@
 .productImagesCurrentImage__disc h3{
     font-weight:800;
 }
-.productSpecs li {
-    list-style-type: none;
-}
+
 .reviewpr{
     transition: 0.7s ease;
 }
@@ -47,9 +52,7 @@
         border: 1px solid $primary;
         border-radius:$border-radius;
     }
-    .productSpecs li {
-        list-style-type: none;
-    }
+    
     .productSpecs{
         margin-top:$x-large;
     }
@@ -70,12 +73,5 @@
     .similarProducts__images{
         display: flex;
         
-    }
-    .similarProducts__currentImageDiv{
-        margin-left: $large;
-        transition: 0.7s ease;
-    }
-    .similarProducts__currentImageDiv:hover{
-        transform: scale(1.1);
     }
 }

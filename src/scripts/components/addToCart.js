@@ -7,12 +7,12 @@ function addToCart(product) {
     addToCartH4.innerText = `Add to cart`
     element.appendChild(addToCartH4)
     
-    element.addEventListener("click", addProductToCart)
+    element.addEventListener("click", addItemToCart)
     
     return element
 }
 export default addToCart
 
-function addProductToCart(){
+function addItemToCart(){
     console.log("productAdd")
 }

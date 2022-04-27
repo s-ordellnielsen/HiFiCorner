@@ -2,6 +2,8 @@ import productDescriptionRating from "./productDescriptionRating"
 import productDesc from "./productDesc.js"
 import productHeadlineDesktop from "./productHeadlineDesktop.js"
 import productDescriptionFlavorText from "./productDescriptionFlavorText.js"
+import colorPicker from "./colorPicker.js" 
+import addToCart from "./addToCart.js"
 
 function productDescriptionArticle(product) {
     const element = document.createElement('article')
@@ -25,9 +27,48 @@ function productDescriptionArticle(product) {
 
     productDescriptionDirectionWrapper.appendChild(productDescriptionRatingPlusDesc)
 
-    productDescriptionDirectionWrapper.appendChild()
+    productDescriptionDirectionWrapper.appendChild(colorPicker(product))
 
     element.appendChild(productDescriptionDirectionWrapper)
+
+    let price = document.createElement("p")
+    price.classList.add("productDecription__price")
+    price.innerText = "£" + product.price
+    element.appendChild(price)
+
+    let addToCartAndAmount = document.createElement("div")
+    addToCartAndAmount.classList.add("addToCartAndAmount")
+
+    let amountDiv = document.createElement("div")
+    amountDiv.classList.add("amount")
+
+    let amountLabel = document.createElement("label")
+    amountLabel.setAttribute("for", "amount")
+    amountLabel.innerText = "Amount: "
+    amountDiv.appendChild(amountLabel)
+
+
+    let amountInput = document.createElement("input")
+    amountInput.type = "number"
+    amountInput.name = "amount"
+    amountInput.id = "amount"
+    amountInput.value = 1
+    amountInput.min = 1
+    amountInput.max = 10
+    amountInput.classList.add("productDecription__amount")
+
+    //function
+
+    amountDiv.appendChild(amountInput)
+
+
+    addToCartAndAmount.appendChild(amountDiv)
+
+    addToCartAndAmount.appendChild(addToCart())
+
+    element.appendChild(addToCartAndAmount)
+
+   
     
     
     

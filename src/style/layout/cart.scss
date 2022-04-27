@@ -4,11 +4,15 @@
 	width: calc(100% - (24px * 2));
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	gap: $large;
 }
 
 @media screen and (min-width: 1248px) {
 	.cart {
 		width: 100%;
 		max-width: 1200px;
+		gap: $x-large;
 	}
 }

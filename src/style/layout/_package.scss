@@ -8,8 +8,6 @@
     justify-content: center;
     align-items: center;
 
-
-
     &__img {
         padding-bottom: 30px;
     }
@@ -27,7 +25,6 @@
         border-radius: $border-radius;
         background-color: $tertiary;
         color: $light;
-
 
         &__boldTopText {
             font-weight: bold;
@@ -47,8 +44,22 @@
             font-size: $medium;
             padding: 10px 70px 40px 80px;
         }
+
+.packageSectionList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+    &__label{
+        border-radius: $border-radius;
+        background-color: $tertiary;
+        color: $light;
     }
 
+
+
+    }
 }
 
 //Desktop
@@ -89,6 +100,21 @@
                 font-size: $large;
                 padding: 70px 110px 20px 110px;
             }
+
+    .packageSectionList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } 
+        &__label{
+            border-radius: $border-radius;
+            background-color: $tertiary;
+            color: $light;
+    }
+
+
+
         }
     }
 }

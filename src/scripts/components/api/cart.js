@@ -11,11 +11,12 @@ var productId = document.querySelector('.productDescription__id').value
 var color = document.querySelector('.productDescription__color').value
 
 let item = {
-    'amount' : amount,
-    'id' : productId,
-    'color' : color
+    'amount': amount,
+    'id': productId,
+    'color': productColor
 }
 
 cartItems.push(item)
 
 localStorage.setItem('cartItems')
+

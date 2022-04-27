@@ -56,7 +56,7 @@ function loginvalidate(event){
     loginErrorMessage = []
     fetch(`http://localhost:3001/customers?username=${loginusername.value}&password=${loginpassword.value}`).then(response => response.json()).then(data => {
         if(data.length == 0){
-            loginErrorMessage.push("there was an error with you login")
+            loginErrorMessage.push("there was an error with your login")
             loginplaceErrorMessage.innerHTML = loginErrorMessage
         }
         else{

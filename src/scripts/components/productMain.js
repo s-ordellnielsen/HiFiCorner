@@ -1,5 +1,7 @@
+import productDesc from "./productDesc.js"
 import productGallery from "./productGallery.js"
 import productHeadline from "./productHeadline.js"
+import productDescriptionArticle from "./productDescriptionArticle.js"
 
 function productMain(id) {
 
@@ -9,9 +11,10 @@ function productMain(id) {
         element.classList.add('page')
 
         let sectionProductDescription = document.createElement("section")
-        
         sectionProductDescription.classList.add("productDescription")
         sectionProductDescription.classList.add("standardMargin")
+
+        
     
     
     fetch("http://localhost:3001/products/"+id, {
@@ -31,13 +34,16 @@ function productMain(id) {
         
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))
+        sectionProductDescription.appendChild(productDescriptionArticle(product))
+        
+
         
         
 
        
        
 
-         })
+    })
     
 element.appendChild(sectionProductDescription)
  
@@ -65,36 +71,7 @@ element.appendChild(sectionProductDescription)
                 <p class="productDescription__compareP">Compare</p>
             </div>
 
-            
-            <div class="productDescription__productImages">
-                <div class="productDescription__thumbnails">
-                    <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
-                                src="/images/placeholder_img.jpg"
-                                alt="klik for at se en stor udgave af dette billede"></a>
-                    </div>
-                    <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
-                                src="/images/placeholder_img.jpg"
-                                alt="klik for at se en stor udgave af dette billede"></a>
-                    </div>
-                    <div class="productDescription__thumbnail"><a href="#"><img class="productDescription__thumbnailImg"
-                                src="/images/placeholder_img.jpg"
-                                alt="klik for at se en stor udgave af dette billede"></a>
-                    </div>
-                </div>
-                <div class="productImages__productDisplay">
-                    <div class="productImages__arrowLeftDiv">
-                        <i data-feather="arrow-left-circle"></i>
-                    </div>
-                    <div class="productImages__currentImageDiv">
-                        <a href="#"> <img src="/images/placeholder_img.jpg" alt="Billede af produktet"
-                                class="productImages__CurrentImageImg"></a>
-                    </div>
-                    <div class="productImages__arrowRightDiv">
-                        <i data-feather="arrow-right-circle"></i>
-                    </div>
 
-                </div>
-            </div>
             <article class="productDescription__article">
 
                 <div class="productDescription__directionWrapper">

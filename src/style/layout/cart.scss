@@ -7,6 +7,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: $large;
+	transition: .3s;
 }
 
 @media screen and (min-width: 1248px) {

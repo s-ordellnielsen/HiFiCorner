@@ -1,0 +1,15 @@
+@import '../base/variables';
+@import '../states/cartList--empty.scss';
+
+.cartList {
+	padding: $small;
+    position: relative;
+    border-radius: $border-radius;
+    display: flex;
+    flex-direction: column;
+    margin: $x-large 0;
+
+	&__list {
+		background: $primary50;
+	}
+}

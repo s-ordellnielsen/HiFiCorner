@@ -13,6 +13,6 @@ function addToCart(product) {
 }
 export default addToCart
 
-function addItemToCart(){
+function addItemToCart(product){
     console.log("productAdd")
 }

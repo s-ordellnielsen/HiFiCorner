@@ -1,6 +1,5 @@
-import '../../style/layout/_package.scss';
 import '../../style/modules/_standardBtn.scss';
-import '../../style/modules/_themeToggle.scss';
+
 
 import packageIcon from '../../images/packageIcon.png';
 

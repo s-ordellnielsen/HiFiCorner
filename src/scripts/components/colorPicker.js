@@ -1,6 +1,6 @@
-function colorPicker() {
-    const element = document.createElement('div')
-    element.classList.add('productDecription__colorPickerDiv')
+function colorPicker(product) {
+    const colorPickerElement = document.createElement('div')
+    colorPickerElement.classList.add('productDecription__colorPickerDiv')
 
     let productColorsArray = product.colors
             console.log("productColorsArray", productColorsArray)
@@ -13,6 +13,7 @@ function colorPicker() {
                 let colorName = element.name
 
                 colorPickerLabel.classList.add("productDecription__colorPickerLabel")
+                colo
                 
                 colorPickerInput.name = "color"
                 colorPickerInput.id = colorName
@@ -43,12 +44,12 @@ function colorPicker() {
                 colorPickerLabel.appendChild(colorPicker)
                 colorPickerLabel.appendChild(colorPickerSpan)
 
-                element.appendChild(colorPickerLabel)
+                colorPickerElement.appendChild(colorPickerLabel)
 
             })
     
     // Code here
     
-    return element
+    return colorPickerElement
 }
 export default colorPicker

@@ -1,11 +1,15 @@
 import productDescriptionRating from "./productDescriptionRating"
 import productDesc from "./productDesc.js"
+import productHeadlineDesktop from "./productHeadlineDesktop.js"
+import productDescriptionFlavorText from "./productDescriptionFlavorText.js"
 
 function productDescriptionArticle(product) {
     const element = document.createElement('article')
     element.classList.add('productDescription__article')
 
     console.log("halloArticle")
+
+    element.appendChild(productHeadlineDesktop(product.name))
 
     let productDescriptionDirectionWrapper = document.createElement("div")
     productDescriptionDirectionWrapper.classList.add("productDescription__directionWrapper")
@@ -15,9 +19,13 @@ function productDescriptionArticle(product) {
 
     productDescriptionRatingPlusDesc.appendChild(productDescriptionRating(product))
 
+    productDescriptionRatingPlusDesc.appendChild(productDescriptionFlavorText(product.flavor_text))
+
     productDescriptionRatingPlusDesc.appendChild(productDesc(product.desc))
 
     productDescriptionDirectionWrapper.appendChild(productDescriptionRatingPlusDesc)
+
+    productDescriptionDirectionWrapper.appendChild()
 
     element.appendChild(productDescriptionDirectionWrapper)
     

@@ -1,13 +1,8 @@
-import packagePageBanner from './components/packageDOM.js';
 
 
-function packagePage() {
-    const element = document.createElement('')
-    element.classList.add('wrapper')
-    
+import packagePageBanner from './components/packageBannerDOM.js';
+import packagePageList from './components/packageListDOM.js'
 
-    element.appendChild(packagePageBanner())
-    
-    return element
-}
+
 document.body.appendChild(packagePageBanner())
+document.body.appendChild(packagePageList())

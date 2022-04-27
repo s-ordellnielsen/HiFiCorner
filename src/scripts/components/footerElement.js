@@ -5,6 +5,7 @@ import mastercardLogo from '../../images/mastercard.svg'
 import applepayLogo from '../../images/apple-pay.svg'
 import paypalLogo from '../../images/paypal.svg'
 import feather from 'feather-icons'
+import '../../style/modules/pageFooter.scss'
 
 export default function footerElement() {
 	let element = document.createElement('footer')

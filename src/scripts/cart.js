@@ -1,10 +1,11 @@
 import themeToggle from './components/themeToggle.js'
 import cartBreadcrump from './components/cartBreadcrump.js'
 import '../style/style.scss'
+import '../style/layout/cart.scss'
 
 function cart() {
 	const element = document.createElement('div')
-	element.classList.add('wrapper')
+	element.classList.add('cart')
 	
 	// Code here
 

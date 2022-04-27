@@ -58,7 +58,11 @@
         }
     }
 }
-
+.landing__newsLetter{
+    &Article{
+        text-align: center;
+    }
+}
 .rad-label {
     display: flex;
     align-items: center;

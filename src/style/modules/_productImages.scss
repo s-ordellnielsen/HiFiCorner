@@ -1,3 +1,4 @@
+
 .productDescription__name{
 margin-top:$x-large;
 }
@@ -95,23 +96,30 @@ color: #fff;
 
 
 @media screen and (min-width: 900px){
+
+    .productImages__CurrentImageImg {
+        margin-bottom:800px;
+    }
     .productDescription__productImages{
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap;
+        justify-content:space-between;
     }
     .productImages__productDisplay{
         height: 300px;
         width:500px;
-        
+        position: relative;
+        top: 15%;
     }
 
 
 
     .productDescription__thumbnails{
         display: flex;
-        margin-left:$small;
-        width: 360px;
+        margin-left:13%;
+        width: 400px;
+        margin-bottom: $medium;
     }
     .productDescription__thumbnail{
         transition: 0.7s ease;

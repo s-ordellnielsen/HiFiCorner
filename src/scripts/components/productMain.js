@@ -14,7 +14,7 @@ function productMain(id) {
         sectionProductDescription.classList.add("productDescription")
         sectionProductDescription.classList.add("standardMargin")
 
-        let sectionProductSpecs = document.createElement("section")
+        
 
         
     
@@ -39,6 +39,9 @@ function productMain(id) {
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))
         sectionProductDescription.appendChild(productDescriptionArticle(product))
+
+
+        
         
 
         
@@ -50,18 +53,14 @@ function productMain(id) {
     })
     
 element.appendChild(sectionProductDescription)
-element.appendChild(sectionProductSpecs)
+element.appendChild(sectionProductSpecs())
  
  return element
 
     
 
                
-               
             
-    
-    
-
        
            /*
 

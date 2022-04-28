@@ -22,10 +22,28 @@ function colorPicker(product) {
                 let colorPickerInputChecked = document.querySelector(".productDecription__colorPickerInput:checked")
                 console.log("colorPickerInputChecked", colorPickerInputChecked)
 
+                if (colorPickerInput.checked){
+                    colorPickerInput.style.border = "4px solid #214341"
+                }
+                
+
                 console.log("colorCode", colorCode)
 
+                
+
                 colorPickerInput.addEventListener("change", (function(event){
+
+                    let colorPickers = document.getElementsByClassName("productDecription__colorPicker")
+
+                    colorPickers.forEach(function(element){
+                        element.classList.remove("productDecription__colorPicker--selected")
+                
+                    })
+
+                    event.target.classList.add("productDecription__colorPicker--selected")
+                    
                     var chosenColor = event.target.id
+                    
                     console.log("chosenColor", chosenColor)
                 }))
 

@@ -9,8 +9,7 @@ let thumbnailClick = function(){
 }
     let element = document.createElement("div")
     element.classList.add("productDescription__productImages")
-    element.innerHTML = `
-   
+    element.innerHTML = ` 
     <div class="productDescription__thumbnails">
                     <div class="productDescription__thumbnail" onclick=${thumbnailClick()}><img class="productDescription__thumbnailImg"
                                 src=${`http://localhost:3001${product.images[0]}`}

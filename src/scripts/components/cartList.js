@@ -1,3 +1,4 @@
+import printCart from './printCart.js'
 import '../../style/modules/cartList.scss'
 import ghostImg from '../../images/cart-human.svg'
 
@@ -11,7 +12,7 @@ export default function cartList() {
 	if (cartItemsLs) {
 		cartItems = JSON.parse(cartItemsLs)
 
-		printCart(cartItems)
+		element.appendChild(printCart(cartItems))
 	}
 	else {
 		let burnerItem = {
@@ -21,7 +22,7 @@ export default function cartList() {
 		}
 		let burnerItem2 = {
 			amount: 1,
-			id: 12344,
+			id: 12348,
 			color: "Red"
 		}
 
@@ -33,27 +34,7 @@ export default function cartList() {
 		emptyCart()
 	}
 
-	console.log(cartItems);
-
-	function printCart(items) {
-		let totalPrice = 0
-		let itemCount = items.length
-
-		let cartItemsList = document.createElement('ul')
-		cartItemsList.classList.add('cartList__list')
-		items.forEach( function(elm) {
-			let item = document.createElement('li')
-			item.classList.add('cartList__listItem')
-
-			item.innerHTML = `
-				<img src="" alt="" />
-				<h3>${elm.id}</h3>
-			`
-
-			cartItemsList.appendChild(item)
-		})
-		element.appendChild(cartItemsList)
-	}
+	// console.log(cartItems);
 
 	function emptyCart() {
 		element.classList.add('cartList--empty')

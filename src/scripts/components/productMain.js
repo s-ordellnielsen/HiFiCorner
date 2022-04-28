@@ -31,6 +31,8 @@ function productMain(id) {
         return response.json()
     })
     .then(function (product) {
+
+        document.title += "HiFi Corner - " + product.name
         
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))

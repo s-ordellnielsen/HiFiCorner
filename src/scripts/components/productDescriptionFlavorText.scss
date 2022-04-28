@@ -1,0 +1,12 @@
+
+
+@media screen and (max-width: 800px){
+    .L-deskt{
+        display: none;
+    }
+}
+.productDescription__flavor_text{
+    font-weight:700;
+    font-size:$medium;
+    margin-bottom: $small;
+}

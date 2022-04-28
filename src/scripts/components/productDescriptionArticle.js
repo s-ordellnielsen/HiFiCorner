@@ -4,6 +4,7 @@ import productHeadlineDesktop from "./productHeadlineDesktop.js"
 import productDescriptionFlavorText from "./productDescriptionFlavorText.js"
 import colorPicker from "./colorPicker.js" 
 import addToCart from "./addToCart.js"
+import "./productDescriptionArticles.scss"
 
 
 function productDescriptionArticle(product) {

@@ -1,5 +1,13 @@
 @import "../../style/base/_variables.scss";
-
+.productImagesCurrentImage__disc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: $small;
+}
+.productImagesCurrentImage__disc h3{
+    font-weight:800;
+}
 .productDescription__productImages{
     display: flex;
     margin-top:$large;
@@ -89,7 +97,9 @@
     //border: 2px solid $primary;
 }
 
-
+.productImagesCurrentImage{
+    height: 130px;
+}
 
 
 

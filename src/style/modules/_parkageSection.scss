@@ -1,0 +1,44 @@
+.landing{
+    &__parkage {
+        text-align: center;
+    }
+
+    &__parkageImage {
+        width: 100%;
+        display: flex;
+    }
+
+    &__parkageArticle {
+        height: 60vh;
+        background-color: $tertiary;
+        color: $light;
+
+        &Overtext {
+            padding-top: $large;
+            font-size: $medium;
+        }
+
+        &Midtext {
+            margin: $large auto;
+            font-size: $large;
+            width: 284px;
+        }
+
+        &Bottomtext {
+            margin: $large 0;
+            padding-bottom: $large;
+            font-size: $medium;
+            font-weight: bold;
+        }
+
+        &Buttonlink {
+            text-decoration: none;
+            color: $text;
+            background-color: $primary;
+            padding: $small $x-large;
+            border-radius: $border-radius;
+            font-weight: bold;
+            font-size: medium;
+        }
+    }
+}

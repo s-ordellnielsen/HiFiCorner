@@ -1,0 +1,17 @@
+.landing{
+    &__hero {
+        margin: 0 auto;
+
+        &Product {
+            position: relative;
+        }
+
+        &ProductBody {}
+
+        &ProductImage {}
+
+        &ProductLink {
+            text-decoration: none;
+        }
+    }
+}

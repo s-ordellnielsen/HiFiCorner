@@ -1,0 +1,250 @@
+@import '../base/variables';
+
+.pageFooter {
+    border-top: 2px solid $light;
+    background: $dark;
+    padding: $large max($medium, calc((100% - 1200px) / 2)) calc(1.5 * $x-large);
+    color: $light;
+    justify-content: space-between;
+    gap: $medium;
+    position: relative;
+    text-align: center;
+    margin-top: $x-large;
+
+    &__col {
+        width: 100%;
+    }
+
+    &__logo {
+        margin-bottom: $medium;
+        height: 4rem;
+    }
+
+    &__quote {
+        font-size: 1.2rem;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        color: $primary;
+        margin-bottom: $small;
+
+        & span {
+            display: block;
+            color: $light;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    &__paymentMethods {
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin: $x-large 0 $large;
+        justify-content: center;
+
+        gap: $x-small;
+
+        & img {
+            height: $large;
+            border-radius: 100px;
+            box-shadow: 0 $x-small $small rgba($color: #000000, $alpha: 0.2);
+        }
+    }
+
+    &__copyrights {
+        position: absolute;
+        opacity: .5;
+        bottom: $small;
+        width: 100%;
+        left: 0;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: $x-small;
+        width: 100%;
+        margin: $x-small 0 $small;
+        position: relative;
+
+        & input {
+            width: 100%;
+            background: $light;
+            border-radius: $border-radius;
+            border: 3px solid $light;
+            padding: $x-small $small;
+            font-family: 'Montserrat';
+            font-size: 14px;
+            color: $dark;
+            transition: .3s;
+
+            &:focus {
+                outline: none;
+                border-color: $primary;
+                box-shadow: 0 0 $medium -.5rem $primary;
+            }
+        }
+
+        & button {
+            font-size: 14px;
+            padding: $x-small $small;
+            border-radius: $border-radius;
+            border: 3px solid $primary;
+            font-family: 'Montserrat';
+            font-weight: 600;
+            color: $dark;
+            cursor: pointer;
+            background: $primary;
+
+            transition: .3s;
+            -webkit-transition: .3s;
+        }
+    }
+
+    &__errorMessage {
+        position: absolute;
+        height: 1rem;
+        width: 1rem;
+        max-width: 1rem;
+        bottom: 0;
+        top: 0;
+        background-color: $primary;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        border-radius: $border-radius;
+        box-shadow: 0 0 $medium -.5rem $dark;
+        pointer-events: none;
+        cursor: default;
+        overflow: hidden;
+        opacity: 0;
+        white-space: nowrap;
+        justify-content: center;
+        z-index: 1000;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        transition: .5s, width .7s .3s, color .7s .3s, max-width .7s .3s;
+        -webkit-transition: .5s, width .7s .3s, color .7s .3s, max-width .7s .3s;
+
+        &.false {
+            opacity: 1;
+            width: 100%;
+            max-width: 100%;
+            top: -3rem;
+            padding: 0 2rem 0 1rem;
+            color: $dark;
+            height: 2.5rem;
+        }
+    }
+
+    &__links {
+        & li {
+            font-weight: 700;
+            margin-bottom: $large;
+            font-family: 'Montserrat';
+            color: $primary;
+            font-size: 18px;
+
+            & ul {
+                margin-top: $x-small;
+
+                & li {
+                    font-weight: 500;
+                    font-family: 'Lato';
+                    color: $light;
+                    margin-bottom: $x-small;
+                    font-size: initial;
+                }
+            }
+        }
+    }
+
+    &__soMe {
+        display: flex;
+        gap: $x-small;
+        margin-top: $x-small;
+
+        & a {
+            background: $primary;
+            border-radius: 100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: $x-large;
+            min-width: $x-large;
+            transition: .2s;
+
+            border: 3px solid $primary;
+
+            & svg {
+                color: $dark;
+                stroke-width: 3px;
+                transition: .4s;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+
+                background: $light;
+
+                & svg {
+                    transform: scale(1.1);
+
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .pageFooter {
+        display: flex;
+        text-align: start;
+
+        &__col {
+            width: fit-content;
+        }
+
+        &__paymentMethods {
+            justify-content: flex-start;
+        }
+
+        &__copyrights {
+            position: static;
+        }
+
+        &__form {
+            flex-direction: row;
+
+            & button {
+                &:hover {
+                    transform: scale(1.1);
+                    background: $light;
+                    color: $primary;
+                }
+            }
+        }
+
+        &__errorMessage {
+            bottom: 0;
+            top: auto;
+
+            &.false {
+                top: auto;
+                bottom: -3rem;
+            }
+        }
+
+        &__links {
+            & li {
+                & ul {
+                    margin-left: $small;
+                }
+            }
+        }
+    }
+}

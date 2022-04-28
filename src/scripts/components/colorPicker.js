@@ -1,3 +1,5 @@
+import  "./colorPicker.scss";
+
 function colorPicker(product) {
     const colorPickerElement = document.createElement('div')
     colorPickerElement.classList.add('productDecription__colorPickerDiv')

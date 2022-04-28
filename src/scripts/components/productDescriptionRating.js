@@ -8,13 +8,32 @@ function productDescriptionRating(product) {
     let productDecriptionStars = document.createElement("div")
     productDecriptionStars.classList.add("productDecription__stars")
 
-    //find antal reviews og regn gennemsnit og math round af
 
 
 
-    let productAvergageRating = ""
+    
 
-    let productAmountOfReviews = ""
+    let productAmountOfReviews = product.specs.reviews.length
+
+
+
+ 
+   
+
+    let allStars = 0;
+    product.specs.reviews.forEach((singleReview) => allStars = allStars + singleReview.stars)
+    console.log("allStars", allStars)
+    let productAvergageRating = (allStars / productAmountOfReviews).toFixed(1)
+
+    console.log("average", productAvergageRating)
+
+
+
+
+
+    
+
+    
 
     productDecriptionStarsAndRatingFigure.appendChild(productDecriptionStars)
 

@@ -14,6 +14,8 @@ function productMain(id) {
         sectionProductDescription.classList.add("productDescription")
         sectionProductDescription.classList.add("standardMargin")
 
+        let sectionProductSpecs = document.createElement("section")
+
         
     
     
@@ -31,6 +33,8 @@ function productMain(id) {
         return response.json()
     })
     .then(function (product) {
+
+        document.title += "HiFi Corner - " + product.name
         
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))
@@ -46,6 +50,7 @@ function productMain(id) {
     })
     
 element.appendChild(sectionProductDescription)
+element.appendChild(sectionProductSpecs)
  
  return element
 
@@ -58,61 +63,7 @@ element.appendChild(sectionProductDescription)
     
 
        
-           /* <div class="productDescription__compare">
-                <div class="productDescription__compareArrows">
-                    <div class="compareArrows__arrowLeftDiv">
-                        <i data-feather="arrow-left"></i>
-                    </div>
-                    <div class="compareArrows__arrowRightDiv">
-                        <i data-feather="arrow-right"></i>
-                    </div>
-
-                </div>
-                <p class="productDescription__compareP">Compare</p>
-            </div>
-
-
-            <article class="productDescription__article">
-
-                <div class="productDescription__directionWrapper">
-                    <div class="productDescription__ratingPlusDesc">
-                        <div class="productDescription__rating">
-                            <div class="productDecription__stars">
-                                <i data-feather="star"></i>
-                                <i data-feather="star"></i>
-                                <i data-feather="star"></i>
-                                <i data-feather="star"></i>
-                                <i data-feather="star"></i>
-                            </div>
-                            <p class="productDecription__ratingFigure"></p>
-                            <p class="productDecription__reviewBasis">Based on <span
-                                    class="productDecription__totalReviews">76</span> reviews.</p>
-                        </div>
-                        <h3 class="productDescription__flavor_text">________</h3>
-                        <p class="productDescription__desc">__________ __ __________ __ ____ __________ __ ____
-                            __________ __________ __ ____ __________ __ __________ __ ____
-                        </p>
-                    </div>
-                    <div class="productDecription__colorPickerDiv">
-                        
-
-
-                    </div>
-                </div>
-                <p class="productDecription__price">100£</p>
-                <div class="addToCartAndAmount">
-                    <button class="productDecription__addToCart standardBtn">
-                        <h4>Add to cart</h4>
-                    </button>
-                    <input type="number" name="amount" id="" class="productDecription__amount" value="1" min="1" max="10">
-                </div>
-                <p class="productDecription__shipping">Shipping every day at 5:00 PM</p>
-
-
-
-            </article>
-
-        </section>
+           /*
 
         <section class="productSpecs standardMargin">
             <div class="productSpecs__lines"></div>

@@ -15,7 +15,7 @@ function colorPicker(product) {
                 let colorName = element.name
 
                 colorPickerLabel.classList.add("productDecription__colorPickerLabel")
-                colo
+                
                 
                 colorPickerInput.name = "color"
                 colorPickerInput.id = colorName
@@ -24,14 +24,32 @@ function colorPicker(product) {
                 let colorPickerInputChecked = document.querySelector(".productDecription__colorPickerInput:checked")
                 console.log("colorPickerInputChecked", colorPickerInputChecked)
 
-                //change-event**
-                /*if (colorPickerInput.checked){
-                    let colorChoise = colorPickerInput.id
-                    console.log("colorChoise", colorChoise)
+                if (colorPickerInput.checked){
+                    colorPickerInput.style.border = "4px solid #214341"
                 }
-                //let colorChoise = colorPickerInputChecked.id
+                
 
-                //console.log("colorChoise", colorChoise)*/
+                console.log("colorCode", colorCode)
+
+                
+
+                colorPickerInput.addEventListener("change", (function(event){
+
+                    let colorPickers = document.getElementsByClassName("productDecription__colorPicker")
+
+                    colorPickers.forEach(function(element){
+                        element.classList.remove("productDecription__colorPicker--selected")
+                
+                    })
+
+                    event.target.classList.add("productDecription__colorPicker--selected")
+                    
+                    var chosenColor = event.target.id
+                    
+                    console.log("chosenColor", chosenColor)
+                }))
+
+
 
 
                 let colorPicker = document.createElement("div")

@@ -1,0 +1,71 @@
+@import "../../style/base/_variables.scss";
+
+.productSpecs__specHead{
+    display: flex;
+    justify-content: space-between;
+}
+.productSpecs__lines{
+    margin-top:$x-small;
+    margin-bottom:$x-small;
+    width: 100%;
+    border: 1px solid $primary;
+    border-radius:$border-radius;
+}
+.productSpecs__userIconDiv img{
+    width: 30px;
+    height: 30px;
+    border-radius:$border-radius;
+}
+.productSpecs__userInfoDiv{
+    display: flex;
+    align-items: center;
+}
+.productSpecs__userNameP{
+    margin-left: $x-small;
+}
+.productSpecs__reviewRatingDiv{
+    margin-bottom: $small;
+}
+.productSpecs__reviewStarsDiv{
+    margin-top: $x-small;
+}
+.productSpecs__eachUserReviewRatingDiv{
+    display: flex;
+    align-items: center;
+}
+.productSpecs__reviewRatingP{
+    margin-left: $x-small;
+}
+
+
+@media screen and (min-width:900px) {
+    .productSpecs__lines{
+        margin-top:$x-small;
+        margin-bottom:$x-small;
+        width: 100%;
+        border: 1px solid $primary;
+        border-radius:$border-radius;
+    }
+    
+    .productSpecs{
+        margin-top:$x-large;
+    }
+    .productSpecs__specHead{
+        font-size:$medium;
+    }   .reviewpr{
+        transition: 0.7s ease;
+    }
+    .reviewpr:hover{
+        transform: scale(1.1);
+    }
+    .similarProducts__header{
+        font-size:$large;
+    }
+    .productImagesCurrentImage{
+        height: 130px;
+    }
+    .similarProducts__images{
+        display: flex;
+        
+    }
+}

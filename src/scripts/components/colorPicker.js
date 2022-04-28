@@ -13,7 +13,7 @@ function colorPicker(product) {
                 let colorName = element.name
 
                 colorPickerLabel.classList.add("productDecription__colorPickerLabel")
-                colo
+                
                 
                 colorPickerInput.name = "color"
                 colorPickerInput.id = colorName
@@ -21,6 +21,8 @@ function colorPicker(product) {
                 colorPickerInput.type = "radio"
                 let colorPickerInputChecked = document.querySelector(".productDecription__colorPickerInput:checked")
                 console.log("colorPickerInputChecked", colorPickerInputChecked)
+
+                console.log("colorCode", colorCode)
 
                 //change-event**
                 /*if (colorPickerInput.checked){

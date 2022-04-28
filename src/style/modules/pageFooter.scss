@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .pageFooter {
     border-top: 2px solid $light;
     background: $dark;
@@ -7,6 +9,7 @@
     gap: $medium;
     position: relative;
     text-align: center;
+    margin-top: $x-large;
 
     &__col {
         width: 100%;
@@ -58,6 +61,7 @@
 
     &__form {
         display: flex;
+        flex-direction: column;
         gap: $x-small;
         width: 100%;
         margin: $x-small 0 $small;
@@ -85,11 +89,15 @@
             font-size: 14px;
             padding: $x-small $small;
             border-radius: $border-radius;
-            border: none;
+            border: 3px solid $primary;
             font-family: 'Montserrat';
             font-weight: 600;
             color: $dark;
             cursor: pointer;
+            background: $primary;
+
+            transition: .3s;
+            -webkit-transition: .3s;
         }
     }
 
@@ -99,6 +107,7 @@
         width: 1rem;
         max-width: 1rem;
         bottom: 0;
+        top: 0;
         background-color: $primary;
         color: transparent;
         display: flex;
@@ -111,18 +120,20 @@
         opacity: 0;
         white-space: nowrap;
         justify-content: center;
+        z-index: 1000;
 
         left: 50%;
         transform: translateX(-50%);
 
         transition: .5s, width .7s .3s, color .7s .3s, max-width .7s .3s;
+        -webkit-transition: .5s, width .7s .3s, color .7s .3s, max-width .7s .3s;
 
         &.false {
             opacity: 1;
             width: 100%;
             max-width: 100%;
+            top: -3rem;
             padding: 0 2rem 0 1rem;
-            bottom: -3rem;
             color: $dark;
             height: 2.5rem;
         }
@@ -204,6 +215,28 @@
 
         &__copyrights {
             position: static;
+        }
+
+        &__form {
+            flex-direction: row;
+
+            & button {
+                &:hover {
+                    transform: scale(1.1);
+                    background: $light;
+                    color: $primary;
+                }
+            }
+        }
+
+        &__errorMessage {
+            bottom: 0;
+            top: auto;
+
+            &.false {
+                top: auto;
+                bottom: -3rem;
+            }
         }
 
         &__links {

@@ -1,0 +1,14 @@
+@import '../base/variables';
+
+.cart {
+	width: calc(100% - (24px * 2));
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 1248px) {
+	.cart {
+		width: 100%;
+		max-width: 1200px;
+	}
+}

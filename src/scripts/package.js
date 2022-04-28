@@ -1,13 +1,24 @@
-import packagePageBanner from './components/packageDOM.js';
+import themeToggle from './components/themeToggle.js'
 
-document.body.appendChild(())
-document.body.appendChild(packagePageBanner())
-function package.js"() {
-const element = document.createElement('')
-element.classList.add('wrapper')
+import packagePageBanner from './components/packageBannerDOM.js';
+import packagePageList from './components/packageListDOM.js'
+import footerElement from './components/footerElement.js'
 
-// Code here
+import '../style/layout/_package.scss';
+import '../style/style.scss'
 
-return element
+function packageJS() {
+    const element = document.createElement('div')
+    element.classList.add('wrapper')
+
+    // Code here
+    document.body.appendChild(themeToggle())
+    return element
 }
-document.body.appendChild(header())
+
+document.body.appendChild(packagePageBanner())
+
+document.body.appendChild(packagePageList())
+document.body.appendChild(footerElement())
+document.body.appendChild(packageJS())
+

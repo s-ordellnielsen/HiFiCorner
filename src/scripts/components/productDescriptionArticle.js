@@ -5,6 +5,7 @@ import productDescriptionFlavorText from "./productDescriptionFlavorText.js"
 import colorPicker from "./colorPicker.js" 
 import addToCart from "./addToCart.js"
 
+
 function productDescriptionArticle(product) {
     const element = document.createElement('article')
     element.classList.add('productDescription__article')
@@ -57,7 +58,10 @@ function productDescriptionArticle(product) {
     amountInput.max = 10
     amountInput.classList.add("productDecription__amount")
 
-    //function
+    amountInput.addEventListener("change", (function(event){
+        var productAmount = event.target.value
+        console.log("productAmount", productAmount)
+    }))
 
     amountDiv.appendChild(amountInput)
 
@@ -67,6 +71,11 @@ function productDescriptionArticle(product) {
     addToCartAndAmount.appendChild(addToCart())
 
     element.appendChild(addToCartAndAmount)
+
+    let productDescriptionShipping = document.createElement("p")
+    productDescriptionShipping.classList.add("productDecription__shipping")
+    productDescriptionShipping.innerText = `Shipping every day at 5:00 PM`
+
 
    
     

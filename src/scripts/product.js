@@ -14,6 +14,8 @@ function product () {
     element.classList.add('wrapper')
 
     
+
+
     element.appendChild(productMain(id))
     
     // Code here

@@ -24,14 +24,12 @@ function colorPicker(product) {
 
                 console.log("colorCode", colorCode)
 
-                //change-event**
-                /*if (colorPickerInput.checked){
-                    let colorChoise = colorPickerInput.id
-                    console.log("colorChoise", colorChoise)
-                }
-                //let colorChoise = colorPickerInputChecked.id
+                colorPickerInput.addEventListener("change", (function(event){
+                    var chosenColor = event.target.id
+                    console.log("chosenColor", chosenColor)
+                }))
 
-                //console.log("colorChoise", colorChoise)*/
+
 
 
                 let colorPicker = document.createElement("div")

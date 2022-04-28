@@ -1,7 +1,8 @@
 import productDesc from "./productDesc.js"
 import productGallery from "./productGallery.js"
 import productHeadline from "./productHeadline.js"
-import productDescriptionArticle from "./productDescriptionArticle.js"
+import productDescriptionArticle from "./productDescriptionArticle.js";
+import productSpecs from "./productSpecs.js";
 
 function productMain(id) {
 
@@ -53,7 +54,7 @@ function productMain(id) {
     })
     
 element.appendChild(sectionProductDescription)
-element.appendChild(sectionProductSpecs())
+element.appendChild(productSpecs())
  
  return element
 

@@ -1,4 +1,4 @@
-import "./"
+
 
 function productSpecs(product) {
     const element = document.createElement('section')

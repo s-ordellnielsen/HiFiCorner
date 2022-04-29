@@ -3,6 +3,9 @@
 .header__wrapper {
     background-color: $primary;
     transition: height 350ms ease-in-out;
+    width: 100%;
+    position: fixed;
+    transition: .3s;
 }
 
 .header {
@@ -17,6 +20,7 @@
         background-color: $primary;
         justify-content: space-between;
         align-items: center;
+        transition: .3s;
     }
 
     &__open {

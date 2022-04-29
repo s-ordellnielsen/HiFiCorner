@@ -1,0 +1,68 @@
+@import '../base/variables';
+
+.header__wrapper {
+    background-color: $primary;
+    transition: height 350ms ease-in-out;
+}
+
+.header {
+    width: 100vw;
+    height: 52px;
+    position: relative;
+    display: inline-grid;
+    flex-direction: column;
+
+    &__topbar {
+        display: flex;
+        background-color: $primary;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__open {
+        display: block;
+    }
+
+    &__menu {
+        display: none;
+        margin: 6em 0 0 15px;
+
+        & li {
+            list-style: none;
+        }
+
+        & a {
+            text-decoration: none;
+            color: var(--text);
+
+            & img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}
+
+#themeToggle {
+    display: none;
+}
+
+.burger {
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.logoLink {
+    margin: 1px 0 0 5px;
+    width: 50px;
+    width: 50px;
+}
+
+.header__open {
+    display: block;
+}

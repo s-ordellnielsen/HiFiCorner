@@ -1,14 +1,19 @@
-.landing__newsLetter{
-    &Article{
+@import "../base/variables";
+
+.landing__newsLetter {
+    &Article {
         text-align: center;
-        &h1{
+
+        &h1 {
             font-size: $x-large;
         }
-        &p{
+
+        &p {
             font-size: $medium;
         }
     }
 }
+
 .rad-label {
     display: flex;
     align-items: center;
@@ -40,7 +45,7 @@
     width: 22px;
     height: 22px;
     border-radius: 100px;
-    background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+    background: linear-gradient(to right bottom, $primary, $primary50);
     position: relative;
 }
 

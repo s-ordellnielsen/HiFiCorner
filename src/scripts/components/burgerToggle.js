@@ -11,10 +11,11 @@ import '../../style/modules/_themeToggle.scss'
 
 
 export default function burgerToggle() {
-    let element = document.createElement("div")
+    let element = document.createElement("header")
+    element.style.height = "0px"
+    element.classList.add("header__wrapper")
 
     element.innerHTML = `
-    <header class="header__wrapper" style="height: 0px;">
    
    <div class="header">
        <div class="header__logo">
@@ -93,7 +94,6 @@ export default function burgerToggle() {
            </ul >
        </nav >
    </div >
-</header >  
     `
 
     const burger = element.querySelector(".burger")

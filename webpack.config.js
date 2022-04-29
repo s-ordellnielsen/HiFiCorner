@@ -4,7 +4,7 @@ module.exports = {
 	entry: {
 		index: './src/scripts/index.js',
 		about: './src/scripts/about.js',
-        article: './src/scripts/article.js',
+		article: './src/scripts/article.js',
 		cart: './src/scripts/cart.js',
 		categories: './src/scripts/categories.js',
 		comparison: './src/scripts/comparison.js',

@@ -63,35 +63,35 @@
 					transition: .4s calc(.2s / 8 * 3);
 					-webkit-transition: .4s calc(.2s / 8 * 3);
 				}
-				
+
 				&--4 {
 					transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 4)) translateX(12px);
 
 					transition: .4s calc(.2s / 8 * 4);
 					-webkit-transition: .4s calc(.2s / 8 * 4);
 				}
-				
+
 				&--5 {
 					transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 5)) translateX(12px);
 
 					transition: .4s calc(.2s / 8 * 5);
 					-webkit-transition: .4s calc(.2s / 8 * 5);
 				}
-				
+
 				&--6 {
 					transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 6)) translateX(12px);
 
 					transition: .4s calc(.2s / 8 * 6);
 					-webkit-transition: .4s calc(.2s / 8 * 6);
 				}
-				
+
 				&--7 {
 					transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 7)) translateX(12px);
 
 					transition: .4s calc(.2s / 8 * 7);
 					-webkit-transition: .4s calc(.2s / 8 * 7)
 				}
-				
+
 				&--8 {
 					transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 8)) translateX(12px);
 
@@ -116,7 +116,7 @@
 	}
 }
 
-#themeToggle:checked + .themeToggle__icon {
+#themeToggle:checked+.themeToggle__icon {
 	& .themeToggle__icon--light {
 		transform: translateY(calc($small * (0 - 1))) rotate(180deg);
 
@@ -133,24 +133,31 @@
 			&--1 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 1));
 			}
+
 			&--2 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 2));
 			}
+
 			&--3 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 3));
 			}
+
 			&--4 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 4));
 			}
+
 			&--5 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 5));
 			}
+
 			&--6 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 6));
 			}
+
 			&--7 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 7));
 			}
+
 			&--8 {
 				transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 8));
 			}

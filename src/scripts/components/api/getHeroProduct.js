@@ -1,6 +1,6 @@
 
-async function heroProduct() {
-    fetch("http://localhost:3001/products", {
+function heroProduct() {
+    return fetch("http://localhost:3001/products", {
         mode: 'cors',
         headers: {
             'Access-Control-Allow-Origin': ' * '
@@ -13,8 +13,5 @@ async function heroProduct() {
             }
             return response.json()
         })
-        .then(function (data) {
-            heroDom(data);
-        })
 }
-heroProduct()
+export default heroProduct

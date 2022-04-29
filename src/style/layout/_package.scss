@@ -44,23 +44,56 @@
             font-size: $medium;
             padding: 10px 70px 40px 80px;
         }
+    }
+}
 
 .packageSectionList {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
-    &__label{
-        border-radius: $border-radius;
-        background-color: $tertiary;
-        color: $light;
+    text-align: center;
+
+    &__article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $secondary;
     }
 
+    &__container {
+        width: 100%;
+        height: 350px;
+        margin: 0 auto;
 
+        padding: 30px;
 
+    }
+
+    &__article:first-of-type {
+        border-radius: $border-radius $border-radius 0 0;
+
+    }
+
+    &__article:nth-of-type(2) {
+        border-radius: 0 0 $border-radius $border-radius;
+        margin-bottom: 30px;
+    }
+
+    &__article:nth-of-type(3) {
+        border-radius: $border-radius $border-radius 0 0;
+    }
+
+    &__article:nth-of-type(4) {
+        border-radius: 0 0 $border-radius $border-radius;
     }
 }
+
+
+
+
 
 //Desktop
 @media screen and(min-width: 768px) {
@@ -100,21 +133,51 @@
                 font-size: $large;
                 padding: 70px 110px 20px 110px;
             }
+        }
+    }
 
     .packageSectionList {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    } 
-        &__label{
-            border-radius: $border-radius;
-            background-color: $tertiary;
-            color: $light;
-    }
 
+        &__container {
+            width: 50%;
+            height: 350px;
+            margin: 0 auto;
+            background-color: red;
+            padding: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
 
+        &__article {
+            width: 50%;
+            height: 400px;
+            margin: 0 auto;
+            background-color: red;
+            padding: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
 
+        &__article:first-of-type {
+            border-radius: $border-radius 0 0 $border-radius;
+
+        }
+
+        &__article:nth-of-type(2) {
+            border-radius: 0 $border-radius $border-radius 0;
+        }
+
+        &__article:nth-of-type(3) {
+            border-radius: $border-radius 0 0 $border-radius;
+        }
+
+        &__article:nth-of-type(4) {
+            border-radius: 0 $border-radius $border-radius 0;
         }
     }
 }

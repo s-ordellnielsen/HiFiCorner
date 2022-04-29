@@ -20,7 +20,7 @@ export default function printCart(items) {
 				<input type="number" class="amount" id="amount" value="${item.amount}" />
 				<button>${feather.icons.plus.toSvg()}</button>
 			</div>
-			<p>${product.price * item.amount}</p>
+			<p>€${product.price * item.amount}</p>
 		`;
 		});
 

@@ -1,3 +1,6 @@
+import productSpecsReviewArticle from "./productSpecsReviewArticle.js"
+import productSpecsConnectivityTypeUL from "./productSpecsConnectivityTypeUL.js"
+
 
 
 function productSpecs(product) {
@@ -45,6 +48,73 @@ function productSpecs(product) {
     let productSpecsLinesDesign = document.createElement("div")
     productSpecsLinesDesign.classList.add("productSpecs__lines")
     element.appendChild(productSpecsLinesDesign)
+
+    let productSpecsDesignArticle = document.createElement("article")
+    productSpecsDesignArticle.classList.add("productSpecs__designArticle")
+    productSpecsDesignArticle.innerHTML =`
+        <div class="productSpecs__specHead">
+
+        <h3 class="productSpecs__header">Design</h3>
+        <i data-feather="arrow-down-circle"></i>
+        </div>
+        <ul class="productSpecs__design">
+        <li class="productSpecs__height">Height: ${product.specs.design.height}  mm</li>
+        <li class="productSpecs__width">Width: ${product.specs.design.width} mm</li>
+        <li class="productSpecs__weight">Weight: ${product.specs.design.weigth} g</li>
+        <li class="productSpecs__designDesc">Design description: ${product.specs.design.design_desc}.</li>
+        </ul>
+    `
+    element.appendChild(productSpecsDesignArticle)
+
+    let productSpecsDesignUL = element.querySelector(".productSpecs__design")
+
+    console.log("designUL", productSpecsDesignUL)
+
+    element.querySelector(".productSpecs__designArticle").addEventListener("click", function(){
+        console.log("designVis")
+        productSpecsDesignUL.classList.toggle("productSpecs__design--visible")
+        
+    })
+
+    //style: closed: opaci 0, height: 0 overfl: hidden 
+    //style: --visible: opacity 1 height "define" transition: "define"
+
+
+
+    let productSpecsLinesConnectivity = document.createElement("div")
+    productSpecsLinesConnectivity.classList.add("productSpecs__lines")
+    element.appendChild(productSpecsLinesConnectivity)
+
+    let productSpecsConnectivityArticle = document.createElement("article")
+    productSpecsConnectivityArticle.classList.add("productSpecs__connectivityArticle")
+    productSpecsConnectivityArticle.innerHTML =`
+        <div class="productSpecs__specHead">
+
+            <h3 class="productSpecs__header">Connectivity</h3>
+            <i data-feather="arrow-down-circle"></i>
+        </div>
+        <ul class="productSpecs__connectivity">
+            <li class="productSpecs__battery">Battery: ${product.specs.connectivity.battery}</li>
+            <li class="productSpecs__powerSupply">Power supply: ${product.specs.connectivity.power}</li>
+
+        </ul>
+    `
+
+    
+
+    let productSpecsConnectivityUL = productSpecsConnectivityArticle.querySelector(".productSpecs__connectivity")
+
+    console.log("uliUL", productSpecsConnectivityUL)
+    productSpecsConnectivityUL.appendChild(productSpecsConnectivityTypeUL(product))
+    element.appendChild(productSpecsConnectivityUL)
+
+    element.appendChild(productSpecsReviewArticle(product))
+
+    element.appendChild(productSpecsReviewArticle(product))
+
+
+
+    
 
     // Code here
 

@@ -5,12 +5,15 @@ function productSpecs(product) {
     element.classList.add('productSpecs')
     element.classList.add('standardMargin')
 
-    let productSpecsLines = document.createElement("div")
-    productSpecsLines.classList.add("productSpecs__lines")
-    element.appendChild(productSpecsLines)
+    let productSpecsLinesSound = document.createElement("div")
+    productSpecsLinesSound.classList.add("productSpecs__lines")
+    element.appendChild(productSpecsLinesSound)
 
     let productSpecsSoundArticle = document.createElement("article")
     productSpecsSoundArticle.classList.add("productSpecs__soundArticle")
+
+  
+
     productSpecsSoundArticle.innerHTML = `
         <div class="productSpecs__specHead">
                     <h3 class="productSpecs__header">Sound</h3>
@@ -18,13 +21,34 @@ function productSpecs(product) {
                 </div>
                 <ul class="productSpecs__sound">
                     <li class="productSpecs__soundDesc">
+                        ${product.specs.sound}
 
                     </li>
 
                 </ul>
         `
+    element.appendChild(productSpecsSoundArticle)
+
+    let productSpecsSoundUL = element.querySelector(".productSpecs__sound")
+
+    console.log("soundUL", productSpecsSoundUL)
+
+    element.querySelector(".productSpecs__soundArticle").addEventListener("click", function(){
+        console.log("soundVis")
+        productSpecsSoundUL.classList.toggle("productSpecs__sound--visible")
+        
+    })
+
+    //style: closed: opaci 0, height: 0 overfl: hidden 
+    //style: --visible: opacity 1 height "define" transition: "define"
     
+    let productSpecsLinesDesign = document.createElement("div")
+    productSpecsLinesDesign.classList.add("productSpecs__lines")
+    element.appendChild(productSpecsLinesDesign)
+
     // Code here
+
+
     
     return element
 }
@@ -32,19 +56,7 @@ export default productSpecs
 
 /*
 <section class="productSpecs standardMargin">
-            <div class="productSpecs__lines"></div>
-            <article class="productSpecs__soundArticle">
-                <div class="productSpecs__specHead">
-                    <h3 class="productSpecs__header">Sound</h3>
-                    <i data-feather="arrow-down-circle"></i>
-                </div>
-                <ul class="productSpecs__sound">
-                    <li class="productSpecs__soundDesc">
-
-                    </li>
-
-                </ul>
-            </article>
+       
             <div class="productSpecs__lines"></div>
             <article class="productSpecs__designArticle">
 

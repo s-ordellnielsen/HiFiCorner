@@ -10,7 +10,6 @@ export default function fetchCartItem(id) {
 			}
 		})
 		.then(function (data) {
-			console.log(data)
 			return data
 		});
 }

@@ -1,5 +1,7 @@
+
+
 body{
-    background-color: #ebf2e8;
+    background-color: $bg;
 }
 .login{
     display: flex;
@@ -10,7 +12,7 @@ body{
 #login_username, #login_password{
     border-radius: 25px;
     border: none;
-    background-color: #b2d8cd;
+    background-color: $primary;
     font-size: 20px;
     width: 350px;
     padding: 10px 5px 10px 5px;
@@ -30,7 +32,7 @@ body{
 #login_signup, #login_button{
     border-radius: 25px;
     border: none;
-    background-color: #79BEB3;
+    background-color: $primary;
     color: black;
     padding: 10px 30px 10px 30px;
     text-decoration: none;

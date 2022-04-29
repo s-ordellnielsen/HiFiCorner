@@ -27,14 +27,14 @@ function profileDetail() {
     
 
         <div class="profile__information">
-            <input type="text" value="${data.first_name}" readonly />
-    <input type="text" value="${data.last_name}" readonly/>
-    <input type="text" value="${data.email}" readonly/>
-    <input type="text" value="${data.phone}" readonly/>
-    <input type="text" value="${data.address.country}" readonly/>
-    <input type="text" value="${data.address.zip_code}" readonly/>
-    <input type="text" value="${data.address.city}" readonly/>
-    <input type="text" value="${data.address.number}" readonly/>
+    <input type="text" value="${data.first_name}" readonly placeholder="Name" />
+    <input type="text" value="${data.last_name}" readonly placeholder="last name"/>
+    <input type="text" value="${data.email}" readonly placeholder="email"/>
+    <input type="text" value="${data.phone}" readonly placeholder="Phone number"/>
+    <input type="text" value="${data.address.country}" readonly placeholder="country"/>
+    <input type="text" value="${data.address.zip_code}" readonly placeholder="Zip-Code"/>
+    <input type="text" value="${data.address.city}" readonly placeholder="city"/>
+    <input type="text" value="${data.address.number}" readonly placeholder="Adress number"/>
 </div>  
 
     `

@@ -1,0 +1,58 @@
+@import "/src/style/base/variables.scss";
+.profile_details{
+    display: grid;
+    grid-template-areas: 
+    "a a b b"
+    "a a b b"
+    ". . . ."
+    ". . . ."
+    "c c c c"
+    "c c c c"
+    ;
+}
+body{
+    background-color: var(--bg);
+}
+.profile__image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.profile__userprofile{
+grid-area: a;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.profile__favoritelist{
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+& .profile_buttons{
+    display: flex;  
+    gap: $large;
+}
+}
+.profile_favorites{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile__information{
+    grid-area: c;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    grid-gap: 10px;
+    width: 100%;
+    justify-content: center;    
+    & input{
+        width: 200px;
+        height:25px;
+        border: none;
+        background-color: $dark;
+        color: white;
+    }
+}

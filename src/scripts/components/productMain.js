@@ -42,6 +42,10 @@ function productMain(id) {
         inputID.type = "hidden"
         inputID.value = product.id
         console.log("inputID", inputID)
+
+        let productID = inputID.value
+
+        console.log("productID", productID)
         
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))

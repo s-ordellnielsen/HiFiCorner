@@ -1,13 +1,13 @@
 // Import Base
-@import "base/_resets";
-@import "base/_variables";
-
+@import "base/variables";
+@import "base/resets";
 
 // Import Layout
-@import "layout/_navigation";
+@import "layout/landing";
 
 // Import Modules
-@import "modules/_navigation__menu";
-@import "modules/_themeToggle";
+@import "modules/themeToggle";
+@import "modules/standardBtn";
+
 
 // Import Themes

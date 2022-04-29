@@ -32,7 +32,7 @@ function colorPicker(product) {
                 console.log("colorCode", colorCode)
 
                 colorPickerInput.addEventListener("change", function(event){
-
+                    /*
                     let colorPickers = element.querySelectorAll(".productDecription__colorPicker").toArray()
 
                     console.log("colorPickers", colorPickers)
@@ -42,6 +42,7 @@ function colorPicker(product) {
                         element.classList.remove("productDecription__colorPicker--selected")
                 
                     })
+                    */
 
 
                     event.target.classList.add("productDecription__colorPicker--selected")
@@ -50,9 +51,6 @@ function colorPicker(product) {
                     
                     console.log("chosenColor", chosenColor)
                 })
-
-
-
 
 
 

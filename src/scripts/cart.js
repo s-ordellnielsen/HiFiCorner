@@ -2,6 +2,7 @@ import themeToggle from './components/themeToggle.js'
 import cartBreadcrump from './components/cartBreadcrump.js'
 import footerElement from './components/footerElement.js'
 import cartList from './components/cartList.js'
+import header from './components/header.js'
 import '../style/style.scss'
 import '../style/layout/cart.scss'
 
@@ -15,5 +16,6 @@ function cart() {
 	
 	return element
 }
+document.body.appendChild(header())
 document.body.appendChild(cart())
 document.body.appendChild(footerElement())

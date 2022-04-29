@@ -43,6 +43,7 @@ function productMain(id) {
         inputID.value = product.id
         console.log("inputID", inputID)
 
+        //Herunder er productID, som skal videre til Cart
         let productID = inputID.value
 
         console.log("productID", productID)

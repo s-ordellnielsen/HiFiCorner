@@ -1,6 +1,6 @@
 import "../../style/layout/_navigation.scss"
 import "../../style/modules/_navigation__menu.scss"
-import themeToggle from "../modules/themeToggle.js"
+import themeToggle from "./themeToggle.js"
 import "../../style/style.scss"
 import burgerOpen from "../../images/navigation/burger-open.png"
 import bell from "../../images/navigation/bell.png"

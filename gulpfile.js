@@ -27,6 +27,14 @@ function uglyJS() {
 		.pipe(gulp.dest('build/scripts'))
 		.pipe(connect.reload());
 };
+function uglyJSDOM() {
+	return gulp
+		.src('src/scripts/api/*.js')
+		.pipe(concat('productDOM.js'))
+		.pipe(uglify())
+		.pipe(gulp.dest('build/scripts'))
+		.pipe(connect.reload());
+};
 
 function minifyImg() {
 	return gulp
@@ -69,6 +77,7 @@ function watchScript() {
 		{ events: 'all', ignoreInitial: false },
 		function (cb) {
 			uglyJS()
+			uglyJSDOM()
 			cb()
 		}
 	);
@@ -87,7 +96,7 @@ function watchPages() {
 
 function watchImages() {
 	gulp.watch(
-		'src/images/*',
+		'src/images/**/*',
 		{ events: 'all', ignoreInitial: false },
 		function (cb) {
 			minifyImg()
@@ -96,7 +105,7 @@ function watchImages() {
 	);
 };
 
-export { uglyCss, uglyJS, minifyImg, minifyHtml, startConnection };
+export { uglyCss, uglyJS, uglyJSDOM, minifyImg, minifyHtml, startConnection };
 
 export const watcher = gulp.parallel(
 	watchStyle,

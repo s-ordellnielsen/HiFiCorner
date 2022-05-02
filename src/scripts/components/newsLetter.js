@@ -11,96 +11,96 @@ export default function newsLetter() {
                 <p>Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
             </article>
             <form class="landing__newsLetterForm">
-                <input type="email" name="" id="">
+                <input type="email" name="" class="landing__newsLetterFormInputField" id="landing__newsLetterFormInputField">
                 <div class="newsLetter__formTextBox">
-                    <span class="newsLetter__formDesktopText"></span>
+                    <span class="landing__newsLetterFormDesktopText"></span>
                     <p class=""></p>
                 </div>
-                <div class="newsLetter__radCheckbox">
+                <div class="landing__newsLetterRadCheckbox">
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">Bowers & Wilkins</div>
+                        <div class="rad-text">Creek</div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">Bosé</div>
+                        <div class="rad-text">Parasound</div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">Harman/kardon </div>
+                        <div class="rad-text">Manley </div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">JBL</div>
+                        <div class="rad-text">Project</div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">Klipsch</div>
+                        <div class="rad-text">OBJ</div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">KEF</div>
+                        <div class="rad-text">Jolada</div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">FOCAL</div>
+                        <div class="rad-text">Bang & Olufson</div>
                     </label>
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
-                        <div class="rad-text">B&O</div>
+                        <div class="rad-text">Creek</div>
                     </label>
                 </div>
-                <div class="newsLetter__radCheckboxMore">
+                <div class="landing__newsLetterRadCheckboxMore">
                     <div>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">Bowers & Wilkins</div>
+                            <div class="rad-text">Creek</div>
                         </label>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">Bosé</div>
+                            <div class="rad-text">Parasound</div>
                         </label>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">Harman/kardon </div>
+                            <div class="rad-text">Manley </div>
                         </label>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">JBL</div>
+                            <div class="rad-text">Project</div>
                         </label>
                     </div>
                     <div>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">Klipsch</div>
+                            <div class="rad-text">OBJ</div>
                         </label>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">KEF</div>
+                            <div class="rad-text">Jolada</div>
                         </label>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">FOCAL</div>
+                            <div class="rad-text">Bang & Olufson</div>
                         </label>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
-                            <div class="rad-text">B&O</div>
+                            <div class="rad-text">Creek </div>
                         </label>
                     </div>
                 </div>

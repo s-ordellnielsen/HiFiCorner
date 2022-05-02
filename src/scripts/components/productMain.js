@@ -36,6 +36,15 @@ function productMain(id) {
     .then(function (product) {
 
         document.title += "HiFi Corner - " + product.name
+
+        //input:hidden med id som value
+        let inputID = document.createElement("input")
+        inputID.type = "hidden"
+        inputID.value = product.id
+        console.log("inputID", inputID)
+        let productID = inputID.value
+
+        console.log("productID", productID)
         
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))

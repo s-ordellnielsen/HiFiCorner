@@ -2,17 +2,38 @@
 
 .landing__newsLetter {
     &Article {
+        margin-top: $x-large;
+        padding-top: $x-large;
         text-align: center;
+        width: 100vw;
+        height: 40vh;
+        background-color: $secondary12;
 
-        &h1 {
-            font-size: $x-large;
+        & h1 {
+            margin: 0 $x-large;
+            font-size: $large;
         }
 
-        &p {
+        & p {
+            margin-top: $medium;
             font-size: $medium;
         }
     }
+
 }
+
+.landing__newsLetterForm {
+    background-color: $tertiary;
+
+    &InputField {
+        margin: 0 auto;
+        width: 80%;
+        border-radius: $border-radius;
+        padding: $small $medium
+    }
+}
+
+
 
 .rad-label {
     display: flex;

@@ -3,6 +3,8 @@ import cartBreadcrump from './components/cartBreadcrump.js'
 import footerElement from './components/footerElement.js'
 import cartList from './components/cartList.js'
 import header from './components/header.js'
+import cartBtn from './components/cartBtn.js'
+import btn from './components/btn.js'
 import '../style/style.scss'
 import '../style/layout/cart.scss'
 
@@ -13,6 +15,7 @@ function cart() {
 	element.appendChild(themeToggle())
 	element.appendChild(cartBreadcrump())
 	element.appendChild(cartList())
+	element.appendChild(btn(cartBtn))
 	
 	return element
 }

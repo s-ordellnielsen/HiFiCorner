@@ -1,4 +1,6 @@
 @import "../../style/base/_variables.scss";
+@import "./productDescriptionFlavorText.scss";
+
 @media screen and (min-width:900px) {
     .productDescription__flavor_text{
     font-size:$large;

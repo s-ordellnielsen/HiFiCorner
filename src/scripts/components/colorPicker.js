@@ -1,4 +1,7 @@
-import  "./colorPicker.scss";
+import "../../style/base/_variables.scss";
+import "./colorPicker.scss";
+
+
 
 function colorPicker(product) {
     const colorPickerElement = document.createElement('div')

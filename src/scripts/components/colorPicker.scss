@@ -1,6 +1,4 @@
 @import "../../style/base/_variables.scss";
-
-
     .productDecription__colorPicker-Orange{
         width: $large;
         height: $large;
@@ -39,6 +37,7 @@
         display: flex;
         padding-top:$small;
         justify-content: start;
+        
         }
     
         .productDecription__colorPicker{

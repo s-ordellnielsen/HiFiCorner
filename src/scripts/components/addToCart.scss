@@ -1,0 +1,33 @@
+
+.standardBtn{
+    width: 30%;
+} 
+@media screen and (min-width:900px) {
+.x-mobil{
+            display: none;
+}
+
+.standardBtn{
+    border-radius: $border-radius;
+    border: none;
+    color: $dark;
+    background-color: $primary;
+    font-size: $small;
+    font-weight: 700;
+    padding: $small;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s ease;
+    }
+    .standardBtn:hover {
+        transform: scale(1.1);
+        background-color: $dark;
+    }
+    .standardBtn h4{
+        transition: 0.7s ease;
+    }
+    .standardBtn:hover h4{
+        color: aliceblue;
+    }
+    }
+    

@@ -1,3 +1,6 @@
+import "../../style/base/_variables.scss";
+import "./addToCart.scss";
+
 function addToCart(product) {
     const element = document.createElement('button')
     element.classList.add('productDecription__addToCart')

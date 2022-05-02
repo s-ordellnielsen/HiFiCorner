@@ -1,4 +1,5 @@
-
+import "../../style/base/_variables.scss";
+import "./productSpecs.scss";
 
 function productSpecs(product) {
     const element = document.createElement('section')

@@ -40,6 +40,8 @@ function productMain(id) {
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))
         sectionProductDescription.appendChild(productDescriptionArticle(product))
+        element.appendChild(sectionProductDescription)
+        element.appendChild(productSpecs(product))
 
 
         
@@ -53,8 +55,7 @@ function productMain(id) {
 
     })
     
-element.appendChild(sectionProductDescription)
-element.appendChild(productSpecs())
+
  
  return element
 

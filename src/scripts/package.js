@@ -1,4 +1,5 @@
 import themeToggle from './components/themeToggle.js'
+import burgerToggle from "./components/burgerToggle.js"
 
 import packagePageBanner from './components/packageBannerDOM.js';
 
@@ -17,9 +18,10 @@ function packageJS() {
     const element = document.createElement('div')
     element.classList.add('wrapper')
 
-    document.body.appendChild(themeToggle())
+    document.body.appendChild(burgerToggle())
     return element
 }
+
 document.body.appendChild(packageJS())
 
 document.body.appendChild(packagePageBanner())

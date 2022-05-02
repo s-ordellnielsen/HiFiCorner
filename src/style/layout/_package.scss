@@ -10,6 +10,7 @@
 
     &__img {
         padding-bottom: 30px;
+        padding: 0px 10px 30px 10px;
     }
 
     &__header {
@@ -19,13 +20,15 @@
         justify-content: center;
         align-items: center;
         padding: 30px;
+        padding-top: 80px;
     }
 
     &__aside {
         border-radius: $border-radius;
         background-color: $tertiary;
         color: $light;
-        margin-bottom: 30px;
+        margin: 0px 10px 30px 10px;
+
 
         &__boldTopText {
             font-weight: bold;
@@ -88,23 +91,26 @@
     }
 
     &__article:first-of-type {
-        border-radius: $border-radius $border-radius 0 0;
-
+        background-color: $secondary;
+        color: $dark;
     }
 
     &__article:nth-of-type(2) {
-        border-radius: 0 0 $border-radius $border-radius;
-        margin-bottom: 30px;
+        background-color: $tertiary;
+        color: $light;
         padding-bottom: 30px;
     }
 
     &__article:nth-of-type(3) {
-        border-radius: $border-radius $border-radius 0 0;
+        background-color: $secondary;
+        color: $dark;
     }
 
     &__article:nth-of-type(4) {
-        border-radius: 0 0 $border-radius $border-radius;
+        background-color: $tertiary;
+        color: $light;
         padding-bottom: 30px;
+
     }
 
     &__seeMoreBtn {
@@ -177,7 +183,7 @@
 }
 
 //Desktop
-@media screen and(min-width: 768px) {
+@media screen and(min-width: 1200px) {
     .packageSectionBanner {
         display: flex;
         flex-direction: row;
@@ -263,6 +269,8 @@
         }
 
         &__article:nth-of-type(2) {
+            background-color: $secondary;
+            color: $dark;
             border-radius: 0 $border-radius $border-radius 0;
         }
 
@@ -271,6 +279,8 @@
         }
 
         &__article:nth-of-type(4) {
+            background-color: $secondary;
+            color: $dark;
             border-radius: 0 $border-radius $border-radius 0;
         }
 

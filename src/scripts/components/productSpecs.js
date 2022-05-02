@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+
 import "./productSpecs.scss";
 import productSpecsReviewArticle from "./productSpecsReviewArticle.js"
 import productSpecsConnectivityTypeUL from "./productSpecsConnectivityTypeUL.js"
@@ -6,6 +6,8 @@ import productSpecsConnectivityTypeUL from "./productSpecsConnectivityTypeUL.js"
 
 
 function productSpecs(product) {
+console.log("product", product)
+
     const element = document.createElement('section')
     element.classList.add('productSpecs')
     element.classList.add('standardMargin')

@@ -24,33 +24,38 @@ function colorPicker(product) {
                 let colorPickerInputChecked = document.querySelector(".productDecription__colorPickerInput:checked")
                 console.log("colorPickerInputChecked", colorPickerInputChecked)
 
+
                /* if (colorPickerInput.checked){
                     colorPickerInput.style.border = "4px solid #214341"
                 }*/
-                
-
-                console.log("colorCode", colorCode)
 
                 colorPickerInput.addEventListener("change", function(event){
-                    /*
-                    let colorPickers = element.querySelectorAll(".productDecription__colorPicker").toArray()
-
+                    console.log("clickColorPicker")
+                        
+                    let colorPickers = colorPickerElement.getElementsByClassName("productDecription__colorPicker")
+    
                     console.log("colorPickers", colorPickers)
-
-                    //is not a function(?)
+    
+                    /*//is not a function(?)
                     colorPickers.forEach(function(element){
                         element.classList.remove("productDecription__colorPicker--selected")
                 
                     })
                     */
-
-
+    
+    
                     event.target.classList.add("productDecription__colorPicker--selected")
                     
                     var chosenColor = event.target.id
                     
                     console.log("chosenColor", chosenColor)
                 })
+    
+                
+
+                console.log("colorCode", colorCode)
+
+                
 
 
 
@@ -70,6 +75,12 @@ function colorPicker(product) {
 
             })
 
+            let colorPickerRadio = colorPickerElement.getElementsByClassName("productDecription__colorPickerInput")
+            
+
+        console.log("colorPickerRadio", colorPickerRadio)
+
+            
 
     
     // Code here

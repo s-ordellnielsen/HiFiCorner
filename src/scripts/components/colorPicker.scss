@@ -1,6 +1,7 @@
 @import "../../style/base/_variables.scss";
     .productDecription__colorPicker--selected{
         border: 2px solid #333;
+        background:black;
     }
     .productDecription__colorPicker-Orange{
         width: $large;

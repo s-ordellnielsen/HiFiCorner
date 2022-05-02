@@ -1,5 +1,7 @@
 @import "../../style/base/_variables.scss";
-
+.productSpecs__design , .productSpecs__soundDesc , .productSpecs__stock{
+    list-style: none;
+}
 .productSpecs__specHead{
     display: flex;
     justify-content: space-between;

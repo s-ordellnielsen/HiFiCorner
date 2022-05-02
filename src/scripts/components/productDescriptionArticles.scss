@@ -33,3 +33,17 @@
         display: none;
     }
 }
+.productSpecs__connectivityArticle {
+    
+    & ul{
+    opacity: 1;
+    opacity: none;
+    height: 0;
+    overflow:hidden;
+    }
+
+
+}
+.productSpecs__connectivity--visible {
+    height: 300px;
+}

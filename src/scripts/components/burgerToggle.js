@@ -2,10 +2,6 @@ import "../../style/layout/_navigation.scss"
 import "../../style/modules/_navigation__menu.scss"
 import themeToggle from "./themeToggle.js"
 import "../../style/style.scss"
-
-import bell from "../../images/navigation/bell.png"
-import aboutUs from "../../images/navigation/aboutUs.png"
-import support from "../../images/navigation/support.png"
 import feather from "feather-icons"
 import '../../style/modules/_themeToggle.scss'
 

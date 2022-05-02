@@ -4,6 +4,7 @@ export default function packageSection() {
     const element = document.createElement('section')
     element.classList.add('landing__package')
     element.innerHTML = `
+
 <img class="landing__parkageImage" src="/images/connected-speakers.png" alt="">
     <article class="landing__parkageArticle">
         <p class="landing__parkageArticleOvertext">Connected Speakers<br> -<br> Surround Sound</p>

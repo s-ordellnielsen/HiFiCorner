@@ -1,19 +1,28 @@
 @import "../base/variables";
 
 .landing {
-    &__parkage {
+
+
+    &__package {
+
         text-align: center;
+
+
     }
 
     &__parkageImage {
         width: 100%;
         display: flex;
+
     }
 
     &__parkageArticle {
+
         text-align: center;
         height: 60vh;
+        width: 100%;
         background-color: $tertiary;
+
         color: $light;
 
         &Overtext {
@@ -42,6 +51,29 @@
             border-radius: $border-radius;
             font-weight: bold;
             font-size: medium;
+        }
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .landing {
+        &__package {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: 100px;
+        }
+
+        &__parkageImage {
+            width: 80%;
+            height: 69vh;
+            margin-left: 11em;
+            border-radius: $border-radius;
+        }
+
+        &__parkageArticle {
+            height: 69vh;
+            width: 80%;
+            border-radius: $border-radius;
         }
     }
 }

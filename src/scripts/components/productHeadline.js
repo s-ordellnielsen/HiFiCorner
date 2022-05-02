@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+
 import "./productHeadline.scss"
 function productHeadline(text) {
     const element = document.createElement('h1')

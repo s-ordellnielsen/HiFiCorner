@@ -1,3 +1,5 @@
+import "../../style/base/_variables.scss";
+
 function productHeadlineDesktop(text) {
     const element = document.createElement('h2')
     element.classList.add('productDescription__name')

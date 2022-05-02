@@ -1,3 +1,5 @@
+import "../../style/base/_variables.scss";
+
 function similarProducts() {
     const element = document.createElement('section')
     element.classList.add('similarProducts')

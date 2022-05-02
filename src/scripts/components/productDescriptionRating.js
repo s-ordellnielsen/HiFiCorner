@@ -1,3 +1,5 @@
+import "../../style/base/_variables.scss";
+
 function productDescriptionRating(product) {
     const element = document.createElement('div')
     element.classList.add('productDescription__rating')

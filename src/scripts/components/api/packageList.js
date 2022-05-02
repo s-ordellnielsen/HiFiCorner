@@ -3,7 +3,7 @@ import fetchPackagelist from './fetchPackagelist.js';
 
 function packageList() {
     const element = document.createElement('section');
-    element.classList.add('packageSectionList', 'wrapper');
+    element.classList.add('packageSectionList');
 
     fetchPackagelist()
         .then(itemPackages => {

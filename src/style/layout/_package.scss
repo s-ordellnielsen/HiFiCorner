@@ -127,9 +127,54 @@
     }
 }
 
+.favoriteProductsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
+    &__header {
+        font-size: $large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
 
+    &__imgContainer {
+        font-size: $large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__img {
+        border-radius: $border-radius;
+        padding-bottom: 10px;
+    }
+
+    &__tagContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    &__itemName {
+        font-family: 'Lato';
+        font-size: $medium;
+    }
+
+    &__price {
+        font-size: $medium;
+    }
+}
 
 //Desktop
 @media screen and(min-width: 768px) {
@@ -190,6 +235,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin: 0px 80px;
 
         &__container {
             width: 50%;
@@ -235,6 +281,64 @@
 
         &__flavorText {
             padding: 10px;
+        }
+
+        &__price {
+            font-size: $medium;
+        }
+    }
+
+    .favoriteProductsList {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__container {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__header {
+            font-size: $large;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        &__imgContainer {
+            font-size: $large;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        &__img {
+            border-radius: $border-radius;
+            padding-bottom: 10px;
+        }
+
+        &__tagContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        &__itemName {
+            font-family: 'Lato';
+            font-size: $medium;
         }
 
         &__price {

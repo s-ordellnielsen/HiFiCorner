@@ -1,23 +1,24 @@
-import fetchFavoriteProducts from "./fetchFavoriteProducts";
+import fetchFavoriteProducts from "./fetchFavoriteProducts.js";
 
 function favoriteProductsList() {
-    const element = document.createElement('')
-    element.classList.add('wrapper')
+    const section = document.createElement('section')
+    section.classList.add('wrapper')
 
     fetchFavoriteProducts()
         .then(productFavorites => {
             productFavorites.forEach(productFavorit => {
-                const favoriteSection = document.createElement('section')
-                favoriteSection.classList.add('packageSectionFavorites')
-                favoriteSection = `
+                const favoriteProductsSection = document.createElement('section')
+                favoriteProductsSection.classList.add('packageSectionFavorites')
+                favoriteProductsSection = `
                     <h2>hrello</h2>
                     <p>hrello</p>
                 `
+                section.appendChild(favoriteProductsSection)
             })
         })
 
     // Code here
 
-    return element
+    return section;
 }
 export default favoriteProductsList

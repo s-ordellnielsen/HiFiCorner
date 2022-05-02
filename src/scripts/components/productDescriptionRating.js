@@ -1,4 +1,5 @@
 import "../../style/base/_variables.scss";
+import "./productDescriptionRating.scss";
 
 function productDescriptionRating(product) {
     const element = document.createElement('div')

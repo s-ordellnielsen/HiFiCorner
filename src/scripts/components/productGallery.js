@@ -1,5 +1,5 @@
-
-
+import "../../style/base/_variables.scss";
+import "./productGallery.scss";
 function productGallery(product) {
    // const element = document.createElement('div')
     //element.classList.add('productDescription__productImages')

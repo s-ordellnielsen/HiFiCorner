@@ -1,6 +1,6 @@
 import productMain from "./components/productMain.js"
 import getURL from "./singleProduct.js"
-
+import "../../style/base/_variables.scss";
 
 
 

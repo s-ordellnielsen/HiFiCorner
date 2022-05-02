@@ -1,3 +1,5 @@
+import "../../style/base/_variables.scss";
+import "./productSpecs.scss";
 import productSpecsReviewArticle from "./productSpecsReviewArticle.js"
 import productSpecsConnectivityTypeUL from "./productSpecsConnectivityTypeUL.js"
 
@@ -14,8 +16,6 @@ function productSpecs(product) {
 
     let productSpecsSoundArticle = document.createElement("article")
     productSpecsSoundArticle.classList.add("productSpecs__soundArticle")
-
-  
 
     productSpecsSoundArticle.innerHTML = `
         <div class="productSpecs__specHead">

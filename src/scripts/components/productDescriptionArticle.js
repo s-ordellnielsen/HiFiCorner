@@ -5,7 +5,7 @@ import productDescriptionFlavorText from "./productDescriptionFlavorText.js"
 import colorPicker from "./colorPicker.js" 
 import addToCart from "./addToCart.js"
 import "./productDescriptionArticles.scss"
-
+import "../../style/base/_variables.scss";
 
 function productDescriptionArticle(product) {
     const element = document.createElement('article')

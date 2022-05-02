@@ -1,3 +1,6 @@
+import "../../style/base/_variables.scss";
+import "./productDescriptionRating.scss";
+
 function productDescriptionRating(product) {
     const element = document.createElement('div')
     element.classList.add('productDescription__rating')
@@ -8,32 +11,32 @@ function productDescriptionRating(product) {
     let productDecriptionStars = document.createElement("div")
     productDecriptionStars.classList.add("productDecription__stars")
 
+
+
+
+    
+
     let productAmountOfReviews = product.specs.reviews.length
 
-    //Her er reviewStar som ren svg. Tak Sebastian (download svg > højreklik på svg i browser > undersøg > se svg-koden i 'elements' > højreklik på koden > vælg 'edit as html' > kopier til udklipsholder)
-    let starSVG = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'
+
+
+ 
+   
 
     let allStars = 0;
     product.specs.reviews.forEach((singleReview) => allStars = allStars + singleReview.stars)
     console.log("allStars", allStars)
     let productAvergageRating = (allStars / productAmountOfReviews).toFixed(1)
-    let productAvergageRatingRound = (allStars / productAmountOfReviews).toFixed(0)
-
-
-    let productAllRatingStars = ""
-
-    //Og dette for-loop fylder den tomme string med det antal starSVG'er, som er angivet i reviewRating 
-    for(let i = 0; i < productAvergageRatingRound; i++){
-        productAllRatingStars += starSVG
-    }
-
-    
-
-    productDecriptionStars.innerHTML = productAllRatingStars
-
 
     console.log("average", productAvergageRating)
 
+
+
+
+
+    
+
+    
 
     productDecriptionStarsAndRatingFigure.appendChild(productDecriptionStars)
 

@@ -3,7 +3,7 @@ import productGallery from "./productGallery.js"
 import productHeadline from "./productHeadline.js"
 import productDescriptionArticle from "./productDescriptionArticle.js";
 import productSpecs from "./productSpecs.js";
-
+import "../../style/base/_variables.scss";
 function productMain(id) {
 
         //creates alle elementer her?
@@ -36,24 +36,12 @@ function productMain(id) {
     .then(function (product) {
 
         document.title += "HiFi Corner - " + product.name
-
-        //input:hidden med id som value
-        let inputID = document.createElement("input")
-        inputID.type = "hidden"
-        inputID.value = product.id
-        console.log("inputID", inputID)
-
-        //Herunder er productID, som skal videre til Cart
-        let productID = inputID.value
-
-        console.log("productID", productID)
         
         sectionProductDescription.appendChild(productHeadline(product.name))
         sectionProductDescription.appendChild(productGallery(product))
         sectionProductDescription.appendChild(productDescriptionArticle(product))
 
-        element.appendChild(sectionProductDescription)
-        element.appendChild(productSpecs(product))
+
         
         
 
@@ -65,7 +53,8 @@ function productMain(id) {
 
     })
     
-
+element.appendChild(sectionProductDescription)
+element.appendChild(productSpecs())
  
  return element
 

@@ -8,6 +8,7 @@
 	flex-direction: column;
 	gap: $large;
 	transition: .3s;
+	padding-top: $x-large;
 }
 
 @media screen and (min-width: 1248px) {

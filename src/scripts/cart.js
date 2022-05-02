@@ -1,4 +1,4 @@
-import themeToggle from './components/themeToggle.js'
+// import themeToggle from './components/themeToggle.js'
 import cartBreadcrump from './components/cartBreadcrump.js'
 import footerElement from './components/footerElement.js'
 import cartList from './components/cartList.js'
@@ -9,10 +9,9 @@ import '../style/style.scss'
 import '../style/layout/cart.scss'
 
 function cart() {
-	const element = document.createElement('div')
+	const element = document.createElement('main')
 	element.classList.add('cart')
 	
-	element.appendChild(themeToggle())
 	element.appendChild(cartBreadcrump(['active', '', '']))
 	element.appendChild(cartList())
 	element.appendChild(btn(cartBtn))

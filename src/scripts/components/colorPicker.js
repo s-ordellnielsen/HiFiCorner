@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+
 import "./colorPicker.scss";
 
 

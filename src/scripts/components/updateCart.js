@@ -8,5 +8,5 @@ export default function updateCart(product, item, index, prices) {
 	})
 	document.getElementsByClassName('listItem__total')[index].innerHTML = `€${product.price * item.amount}`
 	document.querySelector('.listItem__totalAmount').innerHTML = `Items in cart: ${itemCount}`
-	document.querySelector('.listItem__totalPrice').innerHTML = `Total: ${totalPrice}`
+	document.querySelector('.listItem__totalPrice').innerHTML = `Total: €${totalPrice}`
 }

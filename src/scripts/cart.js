@@ -13,7 +13,7 @@ function cart() {
 	element.classList.add('cart')
 	
 	element.appendChild(themeToggle())
-	element.appendChild(cartBreadcrump())
+	element.appendChild(cartBreadcrump(['active', '', '']))
 	element.appendChild(cartList())
 	element.appendChild(btn(cartBtn))
 	

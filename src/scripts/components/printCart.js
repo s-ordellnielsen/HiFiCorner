@@ -45,7 +45,7 @@ export default function printCart(items) {
 			totalPrice += item.amount * product.price
 
 			document.querySelector('.listItem__totalAmount').innerHTML = `Items in cart: ${itemCount}`
-			document.querySelector('.listItem__totalPrice').innerHTML = `Total: ${totalPrice}`
+			document.querySelector('.listItem__totalPrice').innerHTML = `Total: €${totalPrice}`
 		});
 
 
@@ -55,7 +55,7 @@ export default function printCart(items) {
 	totalLi.classList.add('listItem', 'listItem__totalLi')
 	totalLi.innerHTML = `
 		<p class="listItem__totalAmount">Items in cart: ${itemCount}</p>
-		<p class="listItem__totalPrice">${totalPrice}</p>
+		<p class="listItem__totalPrice">Total: €${totalPrice}</p>
 	`
 	cartItemsList.appendChild(totalLi)
 	return cartItemsList;

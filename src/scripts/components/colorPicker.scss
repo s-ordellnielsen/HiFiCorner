@@ -41,6 +41,7 @@
         }
     
         .productDecription__colorPicker{
+            cursor: pointer;
             width: $large;
             height: $large;
             border-radius: 50%;
@@ -58,3 +59,10 @@
         .productDecription__colorPicker{
             margin-top:$small;
             }
+
+        @media screen and (min-width:900px){
+            .productDecription__colorPicker{
+                margin-top:$small;
+                }
+
+        }

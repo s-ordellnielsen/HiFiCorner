@@ -4,7 +4,10 @@ function brandSection() {
     const element = document.createElement("section")
     element.classList.add("landing__brands")
     element.innerHTML = `
-            <article class="landing__brandsTextSection"></article>
+            <article class="landing__brandsTextSection">
+                <h2>Only the best is good enough</h2>
+                <p>Check our wide range of premium brands</p>
+            </article>
             <article class="landing__brandsIconSection">
                 <div class="brandsContainers">
                     <div class="brandsContainers__brandIcon">

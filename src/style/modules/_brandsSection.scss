@@ -1,5 +1,15 @@
 .landing__brands {
-    &TextSection {}
+    &TextSection {
+        text-align: center;
+        margin-top: $x-large;
+        margin-bottom: 2em;
+        font-size: 1em;
+
+        h2 {
+            font-weight: bolder;
+            font-size: 2.5em;
+        }
+    }
 
     &IconSection {
         display: grid;
@@ -29,4 +39,16 @@
     &__brandLink {}
 
     &__brandText {}
+}
+
+
+@media screen and (min-width: 830px) {
+    .landing__brands {
+        &IconSection {
+            grid-template-columns: repeat(4, 1fr);
+            width: 800px;
+            column-gap: 35px;
+            row-gap: 20px;
+        }
+    }
 }

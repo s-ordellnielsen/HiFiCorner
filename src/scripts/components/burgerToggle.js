@@ -2,10 +2,6 @@ import "../../style/layout/_navigation.scss"
 import "../../style/modules/_navigation__menu.scss"
 import themeToggle from "./themeToggle.js"
 import "../../style/style.scss"
-import burgerOpen from "../../images/navigation/burger-open.png"
-import bell from "../../images/navigation/bell.png"
-import aboutUs from "../../images/navigation/aboutUs.png"
-import support from "../../images/navigation/support.png"
 import feather from "feather-icons"
 import '../../style/modules/_themeToggle.scss'
 
@@ -30,8 +26,7 @@ export default function burgerToggle() {
                            fill="#214341" />
                    </svg>
                </a>
-               <button class="burger"><img src="${burgerOpen}" alt=""
-                       class="burger__Icon" id="burger_toggle"></button>
+               <button class="burger" id="burger__Click">${feather.icons.menu.toSvg()}</button>
            </div>
            <ul class="header__menu ">
                <li class="header__menuitem">
@@ -54,16 +49,14 @@ export default function burgerToggle() {
                <li class="navigation__menuItem">
                    <h1>HiFi Corner</h1>
                </li>
-               <li class="navigation__menuItem"><a href="/news/"><img src="${bell}" alt="">
+               <li class="navigation__menuItem"><a href="/news/">${feather.icons.bell.toSvg()}
                        News
                        <span class="mobileText"> ></span></a>
                </li>
-               <li class="navigation__menuItem"><a href="/about/"><img src="${aboutUs}"
-                           alt=""> About
+               <li class="navigation__menuItem"><a href="/about/">${feather.icons.users.toSvg()}> About
                        us
                        <span class="mobileText"> ></span></a></li>
-               <li class="navigation__menuItem"><a href="/support/"><img src="${support}"
-                           alt="">
+               <li class="navigation__menuItem"><a href="/support/">${feather.icons.phone.toSvg()}
                        Support
                        <span class="mobileText"> ></span></a></li>
                <li class="navigation__menuItem navigation__iconList">
@@ -97,7 +90,7 @@ export default function burgerToggle() {
     `
 
     const burger = element.querySelector(".burger")
-    const burgerIcon = element.querySelector(".burger__Icon")
+    const burgerClick = element.querySelector("#burger__Click")
     const navMenu = element.querySelector(".navigation__menu")
     const headerMenu = element.querySelector(".header__menu")
     const wrapper = element.querySelector(".header__wrapper")
@@ -107,12 +100,12 @@ export default function burgerToggle() {
         if (navMenu.classList.contains("navigation__open") && headerMenu.classList.contains("header__open")) {
             navMenu.classList.remove("navigation__open")
             headerMenu.classList.remove("header__open")
-            burgerIcon.src = "navigation/burger-open.png"
+            burgerClick.innerHTML = feather.icons.menu.toSvg()
             wrapper.style.height = "0"
         } else {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")
-            burgerIcon.src = "navigation/burger-close.png"
+            burgerClick.innerHTML = feather.icons.x.toSvg()
             wrapper.style.height = "100vh"
         }
 

@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+
 function about() {
     const element = document.createElement('div')
     element.classList.add('wrapper')

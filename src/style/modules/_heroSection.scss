@@ -1,17 +1,40 @@
-.landing{
+.landing {
     &__hero {
         margin: 0 auto;
 
         &Product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             position: relative;
+            height: 60vh;
+            z-index: -1;
+            padding-top: 55px;
+            width: 100%;
+
         }
 
-        &ProductBody {}
+        &ProductBody {
+            color: var(--text);
+            text-align: center;
+            font-size: $x-large;
+            margin-bottom: 40px;
+        }
 
-        &ProductImage {}
+        &ProductImage {
+            text-align: center;
+        }
 
         &ProductLink {
             text-decoration: none;
+            background-color: $primary;
+            border-radius: $border-radius;
+            margin-top: 40px;
+            width: 200px;
+            text-align: center;
+            height: 5vh;
+            font-size: $medium;
         }
     }
 }

@@ -42,6 +42,9 @@ function colorPicker(product) {
                 
                     })
                     */
+                    
+                    console.log("cpe", colorPickerElement.querySelector(".productDecription__colorPicker--selected"))
+                    colorPickerElement.querySelector(".productDecription__colorPicker--selected")?.classList.remove("productDecription__colorPicker--selected")
     
     
                     event.target.classList.add("productDecription__colorPicker--selected")

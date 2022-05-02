@@ -20,7 +20,7 @@ export default function burgerToggle() {
    <div class="header">
        <div class="header__logo">
            <div class="header__topbar">
-               <a href="index.html" class="logoLink"><svg class="headerLogo" width="48" height="48"
+               <a href="/" class="logoLink"><svg class="headerLogo" width="48" height="48"
                        viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                        <path
                            d="M7.02539 30H8.79492V26.4375H12.6035V30H14.373V21.5449H12.6035V24.9785H8.79492V21.5449H7.02539V30ZM16.4238 30H18.1934V21.5449H16.4238V30ZM7.02539 41H8.79492V37.6719H12.2344V36.2715H8.79492V34.0039H12.5625V32.5449H7.02539V41ZM14.1973 41H15.9668V32.5449H14.1973V41Z"

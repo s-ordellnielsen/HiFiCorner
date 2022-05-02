@@ -1,4 +1,6 @@
-.landing{
+@import "../base/variables";
+
+.landing {
     &__parkage {
         text-align: center;
     }
@@ -9,6 +11,7 @@
     }
 
     &__parkageArticle {
+        text-align: center;
         height: 60vh;
         background-color: $tertiary;
         color: $light;

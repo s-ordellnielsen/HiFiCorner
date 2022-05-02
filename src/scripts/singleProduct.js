@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+
 function getURL(){
 let queries = new URLSearchParams(window.location.search)
 

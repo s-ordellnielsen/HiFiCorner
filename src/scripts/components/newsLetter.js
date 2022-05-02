@@ -16,7 +16,7 @@ export default function newsLetter() {
                     <span class="landing__newsLetterFormDesktopText"></span>
                     <p class=""></p>
                 </div>
-                <div class="landing__newsLetterRadCheckbox">
+                <div class="landing__newsLetterFormRadCheckbox">
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
@@ -58,7 +58,7 @@ export default function newsLetter() {
                         <div class="rad-text">Creek</div>
                     </label>
                 </div>
-                <div class="landing__newsLetterRadCheckboxMore">
+                <div class="landing__newsLetterFormRadCheckboxMore">
                     <div>
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">

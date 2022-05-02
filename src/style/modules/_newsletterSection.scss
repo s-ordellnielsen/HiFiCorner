@@ -31,6 +31,15 @@
         border-radius: $border-radius;
         padding: $small $medium
     }
+
+    &RadCheckbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &RadCheckboxMore {
+        display: flex;
+    }
 }
 
 

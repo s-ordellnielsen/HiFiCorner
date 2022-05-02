@@ -96,7 +96,7 @@ function productSpecs(product) {
         <ul class="productSpecs__connectivity">
             <li class="productSpecs__battery">Battery: ${product.specs.connectivity.battery}</li>
             <li class="productSpecs__powerSupply">Power supply: ${product.specs.connectivity.power}</li>
-
+            <h4>Connection types:</h4>
         </ul>
     `
 
@@ -106,13 +106,38 @@ function productSpecs(product) {
 
     console.log("uliUL", productSpecsConnectivityUL)
     productSpecsConnectivityUL.appendChild(productSpecsConnectivityTypeUL(product))
-    element.appendChild(productSpecsConnectivityUL)
+    
+    
+
+    element.appendChild(productSpecsConnectivityArticle)
+
+
+
+    element.querySelector(".productSpecs__connectivityArticle").addEventListener("click", function(){
+        console.log("connectVis")
+        productSpecsConnectivityUL.classList.toggle("productSpecs__connectivity--visible")
+        
+    })
+
+
+    let productSpecsLinesReview = document.createElement("div")
+    productSpecsLinesReview.classList.add("productSpecs__lines")
+    element.appendChild(productSpecsLinesReview)
 
     element.appendChild(productSpecsReviewArticle(product))
 
-    element.appendChild(productSpecsReviewArticle(product))
-
-
+    let productSpecsStockArticle = document.createElement("article")
+    productSpecsStockArticle.classList.add("productSpecs__stockArticle")
+    productSpecsStockArticle.innerHTML =`
+    <div class="productSpecs__specHead">
+                    <h3 class="productSpecs__header">Inventory</h3>
+                    <i data-feather="arrow-down-circle"></i>
+                </div>
+                <ul class="productSpecs__stock">
+                    <li>Number of items in stock: <span class="productSpecs__stockAmount">${product.stock}</span></li>
+                </ul>
+    `
+    element.appendChild(productSpecsStockArticle)
 
     
 

@@ -1,4 +1,4 @@
-import "./productDescriptionFlavor.scss";
+import "./productDescriptionFlavorText.scss";
 import "../../style/base/_variables.scss";
 
 function productDescriptionFlavorText(text) {

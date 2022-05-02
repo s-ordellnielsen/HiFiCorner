@@ -1,4 +1,3 @@
-
 function fetchPackageList() {
     return fetch("http://localhost:3001/packages", {
         mode: 'cors',

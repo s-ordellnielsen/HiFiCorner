@@ -69,7 +69,7 @@ function signUpForm() {
                 profile_picture: profileicon,
                 phone: "",
                 password: registerPassword.value,
-                adress: {
+                address: {
                     street: "",
                     number: "",
                     apartment: "",

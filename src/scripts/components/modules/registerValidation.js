@@ -46,28 +46,18 @@ function signUpForm() {
     var errorEmailPlaceholder = []
     var errorRepeatPlaceholder = []
 
-    console.log(errorPassword)
+    var tester = true
 
-    registerUsername.addEventListener("input", function(){
-        if(registerUsername.value.length < 1){
-            errorUsername.style.display = "inline"
-
-        }
-        
-    })
-    registerPassword.addEventListener("input", function(){
-        if(registerPassword.value.length < 1 || registerPassword.value.match(registerRepeat)){
-            errorPassword.style.display = "inline"
-            errorRepeat.style.display = "inline"
-
-        }
-        
-    })
+    
 
     element.addEventListener("submit", registerValidate)
     
     function registerValidate(event) {
         event.preventDefault()
+
+        
+
+
         
         function data() {
             
@@ -107,38 +97,48 @@ function signUpForm() {
         
 
         if(registerUsername.value.length < 1){
-            errorUsernamePlaceholder.push("Your username was too short")
+            errorUsername.innerHTML = "error with username"
+            tester = false
+        }
+        else{
+            errorUsername.innerHTML = ""
+            tester = true
         }
         if(registerPassword.value.length < 1){
-            errorPasswordPlaceholder.push("Error with your password")
-            console.log(errorPasswordPlaceholder)
-
+            errorPassword.innerHTML = "error with you password"
+            tester = false
+        }
+        else{
+            errorPassword.innerHTML = ""
+            tester =true
         }
         if(!registerEmail.value.match(validregex)){
-            errorEmailPlaceholder.push("Your email is invalid")
+            errorEmail.innerHTML = "Your email is invalid"
+            tester = false
         }
-        if(!registerRepeat.value.match(registerPassword.value)){
-            errorRepeatPlaceholder.push("Your password doesnt match")
-        }
-
-
-
-        if(!errorEmailPlaceholder.length == 0){
-            errorEmail.innerHTML = errorEmailPlaceholder
-        }
-        if(!errorPasswordPlaceholder.length == 0){
-            errorPassword.innerHTML = errorPasswordPlaceholder
-        }
-        if(!errorRepeatPlaceholder.length == 0){
-            errorRepeat.innerHTML = errorRepeatPlaceholder
-        }
-        if(!errorUsernamePlaceholder.length == 0){
-            errorUsername.innerHTML = errorUsernamePlaceholder
-        }
-
         else{
-            data()
+            errorEmail.innerHTML = ""
+            tester = true
+        }
+        if(!registerRepeat.value.match(registerPassword.value) || registerRepeat.value.length < 1){
+            tester = false
+            errorRepeat.innerHTML = "Your password doesnt match"
+            
+        }
+        else{
+            tester = true
+            errorRepeat.innerHTML = ""
+        }
+
+
+
+        
+        
+
+        if(tester == true){
+            alert("Your profile has been created")
             window.location.href = "/"
+            data()
         }
         
         

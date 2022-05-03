@@ -8,7 +8,7 @@ import '../../style/modules/_themeToggle.scss'
 
 export default function burgerToggle() {
     let element = document.createElement("header")
-    element.style.height = "0px"
+    element.style.height = "0vh"
     element.classList.add("header__wrapper")
 
     element.innerHTML = `
@@ -100,15 +100,48 @@ export default function burgerToggle() {
             navMenu.classList.remove("navigation__open")
             headerMenu.classList.remove("header__open")
             burgerClick.innerHTML = feather.icons.menu.toSvg()
-            element.style.height = "0px"
-        } else {
+            element.style.height = "0vh"
+
+        }
+
+        else {
+            navMenu.classList.add("navigation__open")
+            headerMenu.classList.add("header__open")
+            burgerClick.innerHTML = feather.icons.x.toSvg()
+            element.style.height = "100vh"
+
+        }
+
+    })
+
+
+
+    //this is a quick fix, dont mind it, dont touch it, never ask questions, it works.
+    function myFunction(x) {
+        if (x.matches) {
+            navMenu.classList.remove("navigation__open")
+            headerMenu.classList.remove("header__open")
+            burgerClick.innerHTML = feather.icons.menu.toSvg()
+            element.style.height = "0vh"
+
+        }
+        else if (x.matches < "830px") {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")
             burgerClick.innerHTML = feather.icons.x.toSvg()
             element.style.height = "100vh"
         }
+    }
 
-    })
+    var x = window.matchMedia("(min-width: 830px)")
+    myFunction(x)
+    x.addListener(myFunction)
+
+
+
+
+
     element.querySelector("#darkmode").appendChild(themeToggle())
     return element;
 }
+

@@ -22,6 +22,7 @@
         justify-content: space-between;
         align-items: center;
         transition: .3s;
+
     }
 
     &__open {
@@ -74,7 +75,11 @@
 }
 
 @media screen and (min-width: 830px) {
-    .header__wrapper {
-        display: none;
+    .header {
+        &__topbar {
+            height: 69px;
+        }
     }
+
+
 }

@@ -67,7 +67,7 @@ function signUpForm() {
                 first_name: "",
                 last_name: "",
                 email: registerEmail.value,
-                profile_picture: "images/profile.png",
+                profile_picture: "images/ProfilePics/profile.png",
                 phone: "",
                 password: registerPassword.value,
                 address: {

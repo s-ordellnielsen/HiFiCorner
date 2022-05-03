@@ -1,6 +1,15 @@
+@import "../../style/base/_variables.scss";
+
 @media screen and (min-width:900px) {
     .productDescription__rating{
         display: flex;
         align-items:center;
         }
+}
+.productDecription__starsAndRatingFigure{
+    display: flex;
+    align-items:center;
+}
+.productDecription__reviewBasis{
+    color: $primary;
 }

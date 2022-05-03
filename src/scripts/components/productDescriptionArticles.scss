@@ -1,7 +1,15 @@
 @import "../../style/base/_variables.scss";
 
+.productImages__arrowLeftDiv, .productImages__arrowRightDiv{
+    display: none;
+}
+.productDecription__price{
+    font-size:$large;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 800px){
-    .L-deskt{
+    .l-deskt{
         display: none;
     }
 }

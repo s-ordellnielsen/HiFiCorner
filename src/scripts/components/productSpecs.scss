@@ -1,7 +1,80 @@
 @import "../../style/base/_variables.scss";
+
+.productSpecs__sound{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.productSpecs__sound--visible {
+    opacity: 1;
+    height: 100px;
+    transition: all 0.5s;
+    color: black;
+}
+.productSpecs__design {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.productSpecs__design--visible{
+    opacity: 1;
+    height: 100px;
+    transition: all 0.5s;
+    color: black;
+}
+.productSpecs__connectivity{
+
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+} 
+
+.productSpecs__connectivity--visible{
+    opacity: 1;
+    height: 100px;
+    transition: all 0.5s;
+    color: black;
+
+}
+.productSpecs__reviews{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.productSpecs__connectivity--visible{
+    opacity: 1;
+    height: auto;
+    transition: all 0.5s;
+    color: black;
+}
+
+.productSpecs__stock {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+.productSpecs__connectivity--visible{
+    opacity: 1;
+    height: auto;
+    transition: all 0.5s;
+    color: black;
+
+}
+
+
+
+
+
 .productSpecs__design , .productSpecs__soundDesc , .productSpecs__stock{
     list-style: none;
 }
+
 .productSpecs__specHead{
     display: flex;
     justify-content: space-between;

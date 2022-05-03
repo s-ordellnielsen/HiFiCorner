@@ -1,0 +1,57 @@
+@import "../../style/base/_variables.scss";
+
+.productImages__arrowLeftDiv, .productImages__arrowRightDiv{
+    display: none;
+}
+.productDecription__price{
+    font-size:$large;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px){
+    .l-deskt{
+        display: none;
+    }
+}
+.amount{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width:900px) {
+    .productDescription{
+        display: flex;
+        justify-content:space-between;
+    }
+
+
+    .productDescription__desc{
+    margin-top:$small;
+    font-size:$small;
+    font-weight: 500;
+    }
+    .productDescription__article{
+    padding-left:$x-large;
+    }
+}
+@media screen and (min-width:900px) {
+    .x-mobil{
+        display: none;
+    }
+}
+.productSpecs__connectivityArticle {
+    
+    & ul{
+    opacity: 1;
+    opacity: none;
+    height: 0;
+    overflow:hidden;
+    }
+
+
+}
+.productSpecs__connectivity--visible {
+    height: 300px;
+}

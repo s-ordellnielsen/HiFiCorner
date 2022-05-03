@@ -1,4 +1,4 @@
-import fetchPackagelist from './fetchPackagelist.js';
+import fetchPackagelist from './api/fetchPackagelist.js';
 
 
 function packageList() {

@@ -4,10 +4,10 @@ import burgerToggle from "./components/burgerToggle.js"
 import packagePageBanner from './components/packageBannerDOM.js';
 
 
-import packageList from './components/api/packageList.js'
+import packageList from './components/packageList.js'
 
-import favoriteProductsHeader from './components/modules/favoriteProductsHeader.js'
-import favoriteProductsList from './components/modules/favoriteProductsList.js'
+import favoriteProductsHeader from './components/favoriteProductsHeader.js'
+import favoriteProductsList from './components/favoriteProductsList.js'
 
 import footerElement from './components/footerElement.js'
 

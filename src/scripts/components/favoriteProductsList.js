@@ -1,4 +1,4 @@
-import fetchFavoriteProducts from "../api/fetchFavoriteProducts.js";
+import fetchFavoriteProducts from "./api/fetchFavoriteProducts.js";
 
 function favoriteProductsList() {
     const section = document.createElement('section')

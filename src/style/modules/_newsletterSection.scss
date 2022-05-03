@@ -5,7 +5,6 @@
 
 .landing__newsLetterSection {
 
-
     color: $tertiary;
     background-color: $secondary12;
 
@@ -21,25 +20,6 @@
         font-size: $medium;
         text-align: center;
         padding-top: 30px;
-    }
-
-    &Article {
-        margin-top: $x-large;
-        padding-top: $x-large;
-        text-align: center;
-        width: 100%;
-
-        background-color: $secondary12;
-
-        & h1 {
-            margin: 0 $x-large;
-            font-size: $large;
-        }
-
-        & p {
-            margin-top: $medium;
-            font-size: $medium;
-        }
     }
 
 }
@@ -164,7 +144,6 @@
 //Desktop
 @media screen and (min-width: 1200px) {
     .landing__newsLetterSection {
-
         display: flex;
         color: $tertiary;
         background-color: $secondary12;
@@ -175,7 +154,7 @@
         margin-top: 40px;
 
 
-        &Article {
+        &__article {
             background-color: $secondary12;
             margin: 40px 20px 0px 20px;
             border-radius: $border-radius;
@@ -184,7 +163,7 @@
         }
 
         &__header {
-            font-size: $large;
+            font-size: $x-large;
             text-align: center;
         }
 

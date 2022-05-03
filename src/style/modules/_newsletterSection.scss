@@ -22,6 +22,12 @@
 
 }
 
+.landing__newsLetterArticle {
+    &__text {
+        margin-bottom: 100px;
+    }
+}
+
 .landing__newsLetterForm {
     background-color: $tertiary;
 

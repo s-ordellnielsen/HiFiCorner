@@ -8,7 +8,7 @@ export default function newsLetter() {
     element.innerHTML = `
     <article class="landing__newsLetterArticle">
                 <h1>You want 10% discount on your next order?</h1>
-                <p>Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
+                <p class="landing__newsLetterArticle__text">Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
             </article>
             <form class="landing__newsLetterForm">
                 <div class="landing__newsLetterFormInput">

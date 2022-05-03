@@ -1,5 +1,5 @@
 function fetchFavoriteProducts() {
-    return fetch("http://localhost:3001/favorites", {
+    return fetch("http://localhost:3001/favorites/", {
         mode: 'cors',
         headers: {
             'Access-Control-Allow-Origin': ' * '

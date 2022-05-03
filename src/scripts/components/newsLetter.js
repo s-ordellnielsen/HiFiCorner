@@ -6,15 +6,17 @@ export default function newsLetter() {
     const element = document.createElement('section')
     element.classList.add('landing__newsLetter')
     element.innerHTML = `
-    <article class="landing__newsLetterArticle">
-                <h1>You want 10% discount on your next order?</h1>
-                <p class="landing__newsLetterArticle__text">Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
-            </article>
+    
+    <section class="landing__newsLetterSection">
+        <article class="landing__newsLetterSectionArticle">
+                <h1 class="landing__newsLetterSection__header">You want 10% discount on your next order?</h1>
+                <p class="landing__newsLetterSection__text">Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
+                </article>
             <form class="landing__newsLetterForm">
                 <div class="landing__newsLetterFormInput">
-                    <h1>Write your Email</h1>
+                    <h1 class="landing__newsLetterForm__header">Write your Email</h1>
                     <input type="email" name="" class="landing__newsLetterFormInputField" id="landing__newsLetterFormInputField">
-                    <span>Whats your preferences? <br> Choose your options:</span>
+                    <p class="landing__newsLetterForm__text">Whats your preferences? <br> Choose your options:</p>
                 </div>
                 <div class="newsLetter__formTextBox">
                     <span class="landing__newsLetterFormDesktopText"></span>
@@ -61,7 +63,9 @@ export default function newsLetter() {
                         <div class="rad-design"></div>
                         <div class="rad-text">Creek</div>
                     </label>
+                    <p class="landing__newsLetterForm__moreText">More alternatives? <br> Choose your options:</p>
                 </div>
+                
                 <div class="landing__newsLetterFormRadCheckboxMore">
                     <div>
                         <label class="rad-label">
@@ -109,6 +113,8 @@ export default function newsLetter() {
                     </div>
                 </div>
             </form>
+        </article>
+        </section>
     `
 
     return element;

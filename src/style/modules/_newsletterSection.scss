@@ -1,12 +1,34 @@
 @import "../base/variables";
 
-.landing__newsLetter {
+
+//Mobile
+
+.landing__newsLetterSection {
+
+
+    color: $tertiary;
+    background-color: $secondary12;
+
+    padding-top: 80px;
+    margin-top: 40px;
+
+    &__header {
+        font-size: $large;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: $medium;
+        text-align: center;
+        padding-top: 30px;
+    }
+
     &Article {
         margin-top: $x-large;
         padding-top: $x-large;
         text-align: center;
         width: 100%;
-        height: 40vh;
+
         background-color: $secondary12;
 
         & h1 {
@@ -22,14 +44,24 @@
 
 }
 
-.landing__newsLetterArticle {
-    &__text {
-        margin-bottom: 100px;
-    }
-}
-
 .landing__newsLetterForm {
+
+    margin-top: 80px;
     background-color: $tertiary;
+
+    &__header {
+        font-size: $medium;
+        text-align: left;
+
+        padding: 20px 0px 20px 0px;
+    }
+
+    &__text {
+        font-size: $small;
+        text-align: left;
+
+        padding: 20px 0px 10px 0px;
+    }
 
     &Input {
         margin: 0 auto;
@@ -46,6 +78,15 @@
         padding: $small $medium
     }
 
+    &__moreText {
+        border-top: 1px solid #ccc;
+        color: $light;
+        font-size: $small;
+        text-align: left;
+
+        padding: 20px 0px 10px 30px;
+    }
+
     &RadCheckbox {
         display: flex;
         flex-direction: column;
@@ -55,8 +96,6 @@
         display: flex;
     }
 }
-
-
 
 .rad-label {
     display: flex;
@@ -120,4 +159,72 @@
 
 .rad-input:checked~.rad-text {
     color: hsl(0, 0%, 40%);
+}
+
+//Desktop
+@media screen and (min-width: 1200px) {
+    .landing__newsLetterSection {
+
+        display: flex;
+        color: $tertiary;
+        background-color: $secondary12;
+
+        width: 100%;
+
+        padding-top: 80px;
+        margin-top: 40px;
+
+
+        &Article {
+            background-color: $secondary12;
+            margin: 40px 20px 0px 20px;
+            border-radius: $border-radius;
+            width: 60%;
+            height: 300px;
+        }
+
+        &__header {
+            font-size: $large;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: $medium;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+    }
+
+    .landing__newsLetterForm {
+        align-items: center;
+        width: 40%;
+        border-radius: $border-radius;
+        background-color: $tertiary;
+
+
+        &Input {
+            margin: 0 auto;
+            width: 80%;
+            color: $bg;
+        }
+
+        &InputField {
+            display: block;
+            width: 100%;
+            border: none;
+            background-color: $bg;
+            border-radius: $border-radius;
+            padding: $small $medium
+        }
+
+        &RadCheckbox {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &RadCheckboxMore {
+            display: flex;
+        }
+    }
 }

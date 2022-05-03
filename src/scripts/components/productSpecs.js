@@ -20,7 +20,7 @@ console.log("product", product)
     productSpecsSoundArticle.classList.add("productSpecs__soundArticle")
 
     productSpecsSoundArticle.innerHTML = `
-        <div class="productSpecs__specHead">
+        <div class="productSpecs__specHead sheadSound">
                     <h3 class="productSpecs__header">Sound</h3>
                     <i data-feather="arrow-down-circle"></i>
                 </div>
@@ -38,7 +38,7 @@ console.log("product", product)
 
     console.log("soundUL", productSpecsSoundUL)
 
-    element.querySelector(".productSpecs__soundArticle").addEventListener("click", function(){
+    element.querySelector(".sheadSound").addEventListener("click", function(){
         console.log("soundVis")
         productSpecsSoundUL.classList.toggle("productSpecs__sound--visible")
         
@@ -54,7 +54,7 @@ console.log("product", product)
     let productSpecsDesignArticle = document.createElement("article")
     productSpecsDesignArticle.classList.add("productSpecs__designArticle")
     productSpecsDesignArticle.innerHTML =`
-        <div class="productSpecs__specHead">
+        <div class="productSpecs__specHead sheadDesign">
 
         <h3 class="productSpecs__header">Design</h3>
         <i data-feather="arrow-down-circle"></i>
@@ -72,7 +72,7 @@ console.log("product", product)
 
     console.log("designUL", productSpecsDesignUL)
 
-    element.querySelector(".productSpecs__designArticle").addEventListener("click", function(){
+    element.querySelector(".sheadDesign").addEventListener("click", function(){
         console.log("designVis")
         productSpecsDesignUL.classList.toggle("productSpecs__design--visible")
         
@@ -90,7 +90,7 @@ console.log("product", product)
     let productSpecsConnectivityArticle = document.createElement("article")
     productSpecsConnectivityArticle.classList.add("productSpecs__connectivityArticle")
     productSpecsConnectivityArticle.innerHTML =`
-        <div class="productSpecs__specHead">
+        <div class="productSpecs__specHead  sheadConnectivity">
 
             <h3 class="productSpecs__header">Connectivity</h3>
             <i data-feather="arrow-down-circle"></i>
@@ -115,7 +115,7 @@ console.log("product", product)
 
 
 
-    element.querySelector(".productSpecs__connectivityArticle").addEventListener("click", function(){
+    element.querySelector(".sheadConnectivity").addEventListener("click", function(){
         console.log("connectVis")
         productSpecsConnectivityUL.classList.toggle("productSpecs__connectivity--visible")
         
@@ -131,7 +131,7 @@ console.log("product", product)
     let productSpecsStockArticle = document.createElement("article")
     productSpecsStockArticle.classList.add("productSpecs__stockArticle")
     productSpecsStockArticle.innerHTML =`
-    <div class="productSpecs__specHead">
+    <div class="productSpecs__specHead sheadStock">
                     <h3 class="productSpecs__header">Inventory</h3>
                     <i data-feather="arrow-down-circle"></i>
                 </div>
@@ -143,7 +143,7 @@ console.log("product", product)
 
     let productSpecsStockUL = element.querySelector(".productSpecs__stock")
 
-    element.querySelector(".productSpecs__stockArticle").addEventListener("click", function(){
+    element.querySelector(".sheadStock").addEventListener("click", function(){
         console.log("stockVis")
         productSpecsStockUL.classList.toggle("productSpecs__connectivity--visible")
         

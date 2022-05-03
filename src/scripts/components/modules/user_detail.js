@@ -10,7 +10,7 @@ function profileDetail() {
     console.log(data)
     
     element.innerHTML = `
-    <button class="change"></button>
+    <button class="change">${feather.icons["edit-3"].toSvg()}</button>
     <div class="profile__userprofile">
     <img src="http://localhost:3001/${data.profile_picture}" class="profile__image">
     <p>${data.username}</p>
@@ -29,7 +29,7 @@ function profileDetail() {
     </div>
     
 
-        <div class="profile__information">
+        <form class="profile__information">
     <input type="text" value="${data.first_name}"  placeholder="Name" />
     <input type="text" value="${data.last_name}"  placeholder="last name"/>
     <input type="text" value="${data.email}"  placeholder="email"/>
@@ -38,12 +38,14 @@ function profileDetail() {
     <input type="text" value="${data.address.zip_code}"  placeholder="Zip-Code"/>
     <input type="text" value="${data.address.city}"  placeholder="city"/>
     <input type="text" value="${data.address.number}"  placeholder="Adress number"/>
-</div>  
+</form>  
 
     `
     
     
     var test = element.querySelector(".change")
+    var edit = element.querySelector(".profile__information")
+
     var favoritesElement = element.querySelector(".profile_favorites")
     data.favorites.forEach(function(favorite){
         fetch("http://localhost:3001/products/"+favorite).then(result => result.json()).then(favoriteData => {
@@ -54,7 +56,10 @@ function profileDetail() {
     })
 
     test.addEventListener("click", function(){
+        edit.classList.toggle("profile__information--edit")
+        test.classList.toggle("change--active")
 
+        
     })
 
     // Code here

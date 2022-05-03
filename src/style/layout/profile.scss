@@ -39,7 +39,18 @@ align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.change{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: $primary;
+    border: none;
 
+    
+}
+.change--active{
+    background-color: red;
+}
 .profile__information{
     grid-area: c;
     margin-top: 150px;
@@ -49,11 +60,15 @@ align-items: center;
     width: 100%;
     justify-content: center;    
     & input{
-        width: 200px;
-        height:25px;
+        font-size: 20px;
+        width: 400px;
+        height:30px;
         border: none;
         background-color: $dark;
         color: white;
     }
     pointer-events: none;
+}
+.profile__information--edit{
+pointer-events: all;
 }

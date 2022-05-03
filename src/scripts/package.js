@@ -1,6 +1,6 @@
 import burgerToggle from "./components/burgerToggle.js"
 
-import packagePageBanner from './components/packageBannerDOM.js';
+import packagePageBanner from './components/packagePageBanner.js';
 
 
 import packageList from './components/packageList.js'

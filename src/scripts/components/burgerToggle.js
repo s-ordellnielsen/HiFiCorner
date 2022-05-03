@@ -53,7 +53,7 @@ export default function burgerToggle() {
                        News
                        <span class="mobileText"> ></span></a>
                </li>
-               <li class="navigation__menuItem"><a href="/about/">${feather.icons.users.toSvg()}> About
+               <li class="navigation__menuItem"><a href="/about/">${feather.icons.users.toSvg()} About
                        us
                        <span class="mobileText"> ></span></a></li>
                <li class="navigation__menuItem"><a href="/support/">${feather.icons.phone.toSvg()}
@@ -93,7 +93,6 @@ export default function burgerToggle() {
     const burgerClick = element.querySelector("#burger__Click")
     const navMenu = element.querySelector(".navigation__menu")
     const headerMenu = element.querySelector(".header__menu")
-    const wrapper = element.querySelector(".header__wrapper")
 
     burger.addEventListener("click", function () {
 
@@ -101,12 +100,12 @@ export default function burgerToggle() {
             navMenu.classList.remove("navigation__open")
             headerMenu.classList.remove("header__open")
             burgerClick.innerHTML = feather.icons.menu.toSvg()
-            wrapper.style.height = "0px"
+            element.style.height = "0px"
         } else {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")
             burgerClick.innerHTML = feather.icons.x.toSvg()
-            wrapper.style.height = "100vh"
+            element.style.height = "100vh"
         }
 
     })

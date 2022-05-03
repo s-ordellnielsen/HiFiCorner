@@ -8,7 +8,7 @@ import '../../style/modules/_themeToggle.scss'
 
 export default function burgerToggle() {
     let element = document.createElement("header")
-    element.style.height = "0px"
+    element.style.height = "0vh"
     element.classList.add("header__wrapper")
 
     element.innerHTML = `

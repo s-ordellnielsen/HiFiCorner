@@ -6,6 +6,7 @@
     width: 100%;
     position: fixed;
     transition: .3s;
+    z-index: 10000;
 }
 
 .header {
@@ -69,4 +70,10 @@
 
 .header__open {
     display: block;
+}
+
+@media screen and (min-width: 830px) {
+    .header__wrapper {
+        display: none;
+    }
 }

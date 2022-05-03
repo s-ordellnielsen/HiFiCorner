@@ -6,8 +6,8 @@ import packagePageBanner from './components/packageBannerDOM.js';
 
 import packageList from './components/api/packageList.js'
 
-import favoriteProductsHeader from './components/api/favoriteProductsHeader.js'
-import favoriteProductsList from './components/api/favoriteProductsList.js'
+import favoriteProductsHeader from './components/modules/favoriteProductsHeader.js'
+import favoriteProductsList from './components/modules/favoriteProductsList.js'
 
 import footerElement from './components/footerElement.js'
 

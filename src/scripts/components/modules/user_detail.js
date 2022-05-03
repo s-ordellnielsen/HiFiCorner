@@ -87,8 +87,9 @@ function profileDetail() {
 
             }).then(response => response.json())
             .then(data => sessionStorage.setItem("user", JSON.stringify(data)))
-
+            alert("Your profile has been updated")
         }
+
         
     })
 

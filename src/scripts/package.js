@@ -1,4 +1,3 @@
-import themeToggle from './components/themeToggle.js'
 import burgerToggle from "./components/burgerToggle.js"
 
 import packagePageBanner from './components/packageBannerDOM.js';

@@ -96,7 +96,7 @@ function productSpecsReviewArticle(product) {
     
     reviewElement.querySelector(".sheadReviews").addEventListener("click", function(){
         console.log("reviewVis")
-        productSpecsReviews.classList.toggle("productSpecs__connectivity--visible")
+        productSpecsReviews.classList.toggle("productSpecs__reviews--visible")
         
     })
    

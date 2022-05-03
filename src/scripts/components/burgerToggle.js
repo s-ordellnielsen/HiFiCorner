@@ -102,7 +102,6 @@ export default function burgerToggle() {
             burgerClick.innerHTML = feather.icons.menu.toSvg()
             element.style.height = "0vh"
 
-
         }
 
         else {
@@ -110,6 +109,7 @@ export default function burgerToggle() {
             headerMenu.classList.add("header__open")
             burgerClick.innerHTML = feather.icons.x.toSvg()
             element.style.height = "100vh"
+
         }
 
     })
@@ -119,8 +119,13 @@ export default function burgerToggle() {
     //this is a quick fix, dont mind it, dont touch it, never ask questions, it works.
     function myFunction(x) {
         if (x.matches) {
+            navMenu.classList.remove("navigation__open")
+            headerMenu.classList.remove("header__open")
+            burgerClick.innerHTML = feather.icons.menu.toSvg()
             element.style.height = "0vh"
-        } else {
+
+        }
+        else if (x.matches < "830px") {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")
             burgerClick.innerHTML = feather.icons.x.toSvg()

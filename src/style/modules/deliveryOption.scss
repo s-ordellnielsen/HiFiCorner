@@ -1,0 +1,123 @@
+@import '../base/variables';
+
+.deliveryOptions {
+	display: flex;
+	gap: $medium;
+	margin-top: $x-large;
+}
+
+.deliveryOption {
+	background: $primary50;
+	width: 25%;
+	border-radius: $border-radius;
+	height: 360px;
+	padding: $small;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: $small;
+
+	&__logo {
+		position: relative;
+		height: 120px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: $x-small;
+
+		& span {
+			font-family: 'Montserrat';
+			display: flex;
+			align-items: center;
+			opacity: .5;
+			gap: $x-small;
+			font-weight: 600;
+
+			& svg {
+				height: $small;
+				width: $small;
+				stroke-width: 3px;
+			}
+		}
+
+		&Blur {
+			position: absolute;
+			height: 70%;
+			bottom: -4px;
+			opacity: .5;
+			filter: blur(16px);
+			z-index: 2;
+
+			&--wolt {
+				height: 50%;
+			}
+		}
+
+		&Image {
+			position: absolute;
+			height: 100%;
+			bottom: 0;
+			z-index: 3;
+
+			&--wolt {
+				height: 70%;
+			}
+		}
+	}
+
+	&__name {
+		font-size: 24px;
+		font-family: 'Montserrat';
+		font-weight: 800;
+	}
+
+	&__duration {
+		opacity: .7;
+	}
+
+	&__price {
+		font-family: 'Montserrat';
+		font-weight: 600;
+	}
+
+	&__submit {
+		justify-self: flex-end;
+		margin-top: auto;
+		height: 48px;
+		border-radius: 16px;
+		border: none;
+		background: $primary;
+		font-family: 'Montserrat';
+		font-size: 16px;
+		font-weight: 600;
+		color: $dark;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: $x-small;
+		transition: .3s;
+
+		& svg {
+			height: $small;
+			width: $small;
+			stroke-width: 3px;
+			transition: .3s;
+		}
+
+
+		&:hover {
+			filter: brightness(.9);
+
+			& svg {
+				animation: margin-left .3s ease-in-out;
+			}
+		}
+	}
+}
+
+@keyframes margin-left {
+	50% {
+		margin-left: $x-small;
+	}
+}

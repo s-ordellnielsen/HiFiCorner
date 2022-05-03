@@ -1,0 +1,51 @@
+@import '../base/variables';
+
+.deliveryForm {
+	display: flex;
+	flex-direction: column;
+	gap: $x-large;
+
+	&__inputRow {
+		display: flex;
+		width: 100%;
+		gap: $large;
+	}
+
+	&__label {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: $x-small;
+	}
+
+	&__labelText {
+		font-family: 'Montserrat';
+		margin-left: $medium;
+		color: $primary;
+		font-weight: 500;
+	}
+
+	&__input {
+		height: 56px;
+		padding: 0 $medium;
+		border-radius: $border-radius;
+		border: 3px solid transparent;
+		font-size: 18px;
+		font-weight: 600;
+		background: $primary50;
+		color: $dark;
+
+		font-family: inherit;
+
+		transition: .3s;
+
+		&::placeholder {
+			opacity: .5;
+		}
+
+		&:focus {
+			outline: none;
+			border: 3px solid $primary;
+		}
+	}
+}

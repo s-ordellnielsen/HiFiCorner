@@ -1,5 +1,6 @@
 import "../../../style/layout/register.scss"
 import profileicon from "../../../images/profile.png"
+console.log(profileicon.split("/").at(-1))
 
 function signUpForm() {
     const element = document.createElement('form')
@@ -66,7 +67,7 @@ function signUpForm() {
                 first_name: "",
                 last_name: "",
                 email: registerEmail.value,
-                profile_picture: profileicon,
+                profile_picture: profileicon.split("/").at(-1),
                 phone: "",
                 password: registerPassword.value,
                 address: {

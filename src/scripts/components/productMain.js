@@ -39,10 +39,13 @@ function productMain(id) {
 
         //input:hidden med id som value
         let inputID = document.createElement("input")
+        inputID.classList.add("productID")
         inputID.type = "hidden"
         inputID.value = product.id
         console.log("inputID", inputID)
         let productID = inputID.value
+        element.appendChild(inputID)
+
 
         console.log("productID", productID)
         
@@ -63,6 +66,8 @@ function productMain(id) {
        
 
     })
+
+
     
 
  

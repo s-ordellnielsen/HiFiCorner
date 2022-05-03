@@ -63,7 +63,7 @@
 
 		& svg {
 			margin-left: $x-small;
-			transform: rotate(-5deg);
+			transform: translate(-1px, -0.5px) rotate(-5deg);
 		}
 	}
 }
@@ -76,7 +76,7 @@
 	15% {
 		opacity: .7;
 	}
-	30% {
+	40% {
 		width: $small;
 		transform: translateX(0);
 	}

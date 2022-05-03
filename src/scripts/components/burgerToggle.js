@@ -28,7 +28,7 @@ export default function burgerToggle() {
                </a>
                <button class="burger" id="burger__Click">${feather.icons.menu.toSvg()}</button>
            </div>
-           <ul class="header__menu ">
+           <ul class="header__menu">
                <li class="header__menuitem">
                    <h1>Categories</h1>
                </li>
@@ -53,7 +53,7 @@ export default function burgerToggle() {
                        News
                        <span class="mobileText"> ></span></a>
                </li>
-               <li class="navigation__menuItem"><a href="/about/">${feather.icons.users.toSvg()}> About
+               <li class="navigation__menuItem"><a href="/about/">${feather.icons.users.toSvg()} About
                        us
                        <span class="mobileText"> ></span></a></li>
                <li class="navigation__menuItem"><a href="/support/">${feather.icons.phone.toSvg()}
@@ -100,7 +100,7 @@ export default function burgerToggle() {
             navMenu.classList.remove("navigation__open")
             headerMenu.classList.remove("header__open")
             burgerClick.innerHTML = feather.icons.menu.toSvg()
-            element.style.height = "0"
+            element.style.height = "0px"
         } else {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")

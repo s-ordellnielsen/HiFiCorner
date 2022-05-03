@@ -141,6 +141,14 @@ console.log("product", product)
     `
     element.appendChild(productSpecsStockArticle)
 
+    let productSpecsStockUL = element.querySelector(".productSpecs__stock")
+
+    element.querySelector(".productSpecs__stockArticle").addEventListener("click", function(){
+        console.log("stockVis")
+        productSpecsStockUL.classList.toggle("productSpecs__connectivity--visible")
+        
+    })
+
     
 
     // Code here

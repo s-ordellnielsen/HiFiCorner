@@ -16,6 +16,8 @@
 	flex-direction: column;
 	text-align: center;
 	gap: $small;
+	cursor: pointer;
+	transition: .3s;
 
 	&__logo {
 		position: relative;
@@ -80,6 +82,10 @@
 		font-weight: 600;
 	}
 
+	&__radio {
+		display: none;
+	}
+
 	&__submit {
 		justify-self: flex-end;
 		margin-top: auto;
@@ -113,6 +119,10 @@
 				animation: margin-left .3s ease-in-out;
 			}
 		}
+	}
+
+	&--checked {
+		background: $primary;
 	}
 }
 

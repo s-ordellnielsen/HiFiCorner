@@ -100,8 +100,12 @@ export default function burgerToggle() {
             navMenu.classList.remove("navigation__open")
             headerMenu.classList.remove("header__open")
             burgerClick.innerHTML = feather.icons.menu.toSvg()
-            element.style.height = "0px"
-        } else {
+            element.style.height = "0vh"
+
+
+        }
+
+        else {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")
             burgerClick.innerHTML = feather.icons.x.toSvg()
@@ -109,6 +113,30 @@ export default function burgerToggle() {
         }
 
     })
+
+
+
+    //this is a quick fix, dont mind it, dont touch it, never ask questions, it works.
+    function myFunction(x) {
+        if (x.matches) {
+            element.style.height = "0vh"
+        } else {
+            navMenu.classList.add("navigation__open")
+            headerMenu.classList.add("header__open")
+            burgerClick.innerHTML = feather.icons.x.toSvg()
+            element.style.height = "100vh"
+        }
+    }
+
+    var x = window.matchMedia("(min-width: 830px)")
+    myFunction(x)
+    x.addListener(myFunction)
+
+
+
+
+
     element.querySelector("#darkmode").appendChild(themeToggle())
     return element;
 }
+

@@ -1,4 +1,5 @@
 import "../../../style/layout/profile.scss"
+import feather from "feather-icons"
 
 function profileDetail() {
 
@@ -8,7 +9,9 @@ function profileDetail() {
     var data = JSON.parse(window.sessionStorage.getItem('user'))
     console.log(data)
     
-    element.innerHTML = `<div class="profile__userprofile">
+    element.innerHTML = `
+    <button class="change"></button>
+    <div class="profile__userprofile">
     <img src="http://localhost:3001/${data.profile_picture}" class="profile__image">
     <p>${data.username}</p>
     <h1>Your orders</h1>
@@ -27,17 +30,20 @@ function profileDetail() {
     
 
         <div class="profile__information">
-    <input type="text" value="${data.first_name}" readonly placeholder="Name" />
-    <input type="text" value="${data.last_name}" readonly placeholder="last name"/>
-    <input type="text" value="${data.email}" readonly placeholder="email"/>
-    <input type="text" value="${data.phone}" readonly placeholder="Phone number"/>
-    <input type="text" value="${data.address.country}" readonly placeholder="country"/>
-    <input type="text" value="${data.address.zip_code}" readonly placeholder="Zip-Code"/>
-    <input type="text" value="${data.address.city}" readonly placeholder="city"/>
-    <input type="text" value="${data.address.number}" readonly placeholder="Adress number"/>
+    <input type="text" value="${data.first_name}"  placeholder="Name" />
+    <input type="text" value="${data.last_name}"  placeholder="last name"/>
+    <input type="text" value="${data.email}"  placeholder="email"/>
+    <input type="text" value="${data.phone}"  placeholder="Phone number"/>
+    <input type="text" value="${data.address.country}"  placeholder="country"/>
+    <input type="text" value="${data.address.zip_code}"  placeholder="Zip-Code"/>
+    <input type="text" value="${data.address.city}"  placeholder="city"/>
+    <input type="text" value="${data.address.number}"  placeholder="Adress number"/>
 </div>  
 
     `
+    
+    
+    var test = element.querySelector(".change")
     var favoritesElement = element.querySelector(".profile_favorites")
     data.favorites.forEach(function(favorite){
         fetch("http://localhost:3001/products/"+favorite).then(result => result.json()).then(favoriteData => {
@@ -45,6 +51,10 @@ function profileDetail() {
             favorite_name.innerHTML = favoriteData.name
             favoritesElement.appendChild(favorite_name)
         })
+    })
+
+    test.addEventListener("click", function(){
+
     })
 
     // Code here

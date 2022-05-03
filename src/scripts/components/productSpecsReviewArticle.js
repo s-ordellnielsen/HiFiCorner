@@ -9,13 +9,15 @@ function productSpecsReviewArticle(product) {
 
 
     reviewElement.innerHTML =`
-                <div class="productSpecs__specHead">
+                <div class="productSpecs__specHead sheadReviews">
                     <h3 class="productSpecs__header">Reviews</h3>
                     <i data-feather="arrow-down-circle"></i>
                 </div>
     `
-    let productSpecsReviews = document.createElement("article")
+    let productSpecsReviews = document.createElement("div")
     productSpecsReviews.classList.add("productSpecs__reviews")
+
+  
 
 
 
@@ -87,13 +89,21 @@ function productSpecsReviewArticle(product) {
         userReviewDiv.appendChild(reviewCommentP)
         userReviewDiv.appendChild(reviewDateP)
 
-        reviewElement.appendChild(userReviewDiv)
+        productSpecsReviews.appendChild(userReviewDiv)
+
+        reviewElement.appendChild(productSpecsReviews)
     })
     
-
+    reviewElement.querySelector(".sheadReviews").addEventListener("click", function(){
+        console.log("reviewVis")
+        productSpecsReviews.classList.toggle("productSpecs__connectivity--visible")
+        
+    })
+   
     // Code here
     
     return reviewElement
+    
 }
 export default productSpecsReviewArticle
 

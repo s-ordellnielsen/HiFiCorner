@@ -58,6 +58,7 @@ function productDescriptionArticle(product) {
     amountInput.min = 1
     amountInput.max = 10
     amountInput.classList.add("productDecription__amount")
+    amountInput.classList.add("productAmount")
 
     amountInput.addEventListener("change", (function(event){
         var productAmount = event.target.value

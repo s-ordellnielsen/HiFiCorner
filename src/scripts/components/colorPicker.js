@@ -10,6 +10,15 @@ function colorPicker(product) {
     let productColorsArray = product.colors
             console.log("productColorsArray", productColorsArray)
 
+            var chosenColor = ""
+
+            let chosenColorInput = document.createElement("input")
+            chosenColorInput.classList.add("chosenColorInput")
+            chosenColorInput.classList.add("productColor")
+            chosenColorInput.type = "text"
+            chosenColorInput.value = chosenColor
+            colorPickerElement.appendChild(chosenColorInput)
+
     productColorsArray.forEach(function (element){
                 let colorPickerLabel = document.createElement("label")
                 let colorPickerInput = document.createElement("input")
@@ -32,8 +41,20 @@ function colorPicker(product) {
                     colorPickerInput.style.border = "4px solid #214341"
                 }*/
 
+                console.log("defaultColor", productColorsArray[0].name)
+
+                var defaultColor = productColorsArray[0].name
+
+                chosenColor = defaultColor
+
+
+
+
+
                 colorPickerInput.addEventListener("change", function(event){
                     console.log("clickColorPicker")
+
+                    
                         
                     let colorPickers = colorPickerElement.getElementsByClassName("productDecription__colorPicker")
     
@@ -52,9 +73,18 @@ function colorPicker(product) {
     
                     event.target.classList.add("productDecription__colorPicker--selected")
                     
-                    var chosenColor = event.target.id
+                    chosenColor = event.target.id
+
+
+
+
+                    chosenColorInput.value = event.target.id
+                   
+                    console.log("chosenColorInput", chosenColorInput)
                     
                     console.log("chosenColor", chosenColor)
+
+
                 })
     
                 

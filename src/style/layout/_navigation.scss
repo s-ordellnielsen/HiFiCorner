@@ -6,6 +6,7 @@
     width: 100%;
     position: fixed;
     transition: .3s;
+    z-index: 10000;
 }
 
 .header {
@@ -25,6 +26,7 @@
 
     &__open {
         display: block;
+
     }
 
     &__menu {

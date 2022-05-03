@@ -11,7 +11,11 @@ export default function newsLetter() {
                 <p>Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
             </article>
             <form class="landing__newsLetterForm">
-                <input type="email" name="" class="landing__newsLetterFormInputField" id="landing__newsLetterFormInputField">
+                <div class="landing__newsLetterFormInput">
+                    <h1>Write your Email</h1>
+                    <input type="email" name="" class="landing__newsLetterFormInputField" id="landing__newsLetterFormInputField">
+                    <span>Whats your preferences? <br> Choose your options:</span>
+                </div>
                 <div class="newsLetter__formTextBox">
                     <span class="landing__newsLetterFormDesktopText"></span>
                     <p class=""></p>

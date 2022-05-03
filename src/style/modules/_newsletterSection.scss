@@ -25,9 +25,17 @@
 .landing__newsLetterForm {
     background-color: $tertiary;
 
-    &InputField {
+    &Input {
         margin: 0 auto;
         width: 80%;
+        color: $bg;
+    }
+
+    &InputField {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: $bg;
         border-radius: $border-radius;
         padding: $small $medium
     }

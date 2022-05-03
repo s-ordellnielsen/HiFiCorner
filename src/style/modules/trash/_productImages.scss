@@ -1,0 +1,136 @@
+
+
+.productDescription__productImages{
+    display: flex;
+    margin-top:$large;
+}
+
+.productDescription__thumbnails{
+    width: 20vw;
+    margin: $small 0 0 0;
+}
+
+//gummigSed
+.productDescription__thumbnail{
+    width: 16vw;
+    margin: 0 $medium 3vw 0;
+    transition: 0.7s ease;
+}
+.productDescription__thumbnail:hover{
+    transform: scale(1.5);
+}
+.productDescription__thumbnailImg{
+    height: 100%;
+    width: 100%;
+    border-radius: $medium;
+}
+
+
+.productImages__productDisplay{
+    width: 100%;
+    padding: $small 0 $small 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productImages__currentImageDiv{
+    width: 60vw;
+    padding-left: $small;
+}
+
+.productImages__CurrentImageImg{
+    height: 100%;
+    width: 100%;
+    border-radius: $x-small;
+    //border: 2px solid $primary;
+}
+
+// *************************** product review ******************
+.reviewpr{
+    padding-top: $large ;
+    padding-bottom: $x-large;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.reviewThisProduct{
+    background-color: $primary;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.7s;
+}
+.reviewThisProduct:hover{
+    background-color:$dark;
+}
+
+.reviewThisProduct p{
+    font-size:$small;
+    font-weight:600;
+}
+.feather-message-square{
+    color: $dark;
+}
+.reviewThisProduct:hover p{
+color: #fff;
+}
+.feather-message-square:hover{
+    color: #fff;
+}
+  // ****************************  specs styling ****************************
+  
+  .productSpecs__specHead{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+
+
+
+@media screen and (min-width: 900px){
+
+    .productImages__CurrentImageImg {
+        margin-bottom:800px;
+    }
+    .productDescription__productImages{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .productImages__productDisplay{
+        height: 300px;
+        width:500px;
+        position: relative;
+        top: 15%;
+    }
+
+
+
+    .productDescription__thumbnails{
+        display: flex;
+        margin-left:13%;
+        width: 400px;
+        margin-bottom: $medium;
+    }
+    .productDescription__thumbnail{
+        transition: 0.7s ease;
+    }
+    .productDescription__thumbnail:hover{
+        transform: scale(1.5);
+    }
+
+    .productImages__arrowLeftDiv{
+        display: initial;
+    }
+    
+    .productImages__arrowRightDiv{
+        display: initial;
+    }
+
+}

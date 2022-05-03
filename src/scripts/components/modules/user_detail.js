@@ -86,7 +86,7 @@ function profileDetail() {
                 body: JSON.stringify(updateddata)
 
             }).then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => sessionStorage.setItem("user", JSON.stringify(data)))
 
         }
         

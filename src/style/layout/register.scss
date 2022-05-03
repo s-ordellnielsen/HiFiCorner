@@ -1,0 +1,65 @@
+@import "../base/variables";
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+
+    &_email {
+        background-color: $primary;
+        border-radius: $border-radius;
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        border: none;
+    }
+
+    &_username {
+        background-color: $primary;
+        border-radius: $border-radius;
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        border: none;
+    }
+
+    &_password {
+        background-color: $primary;
+        border-radius: $border-radius;
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        border: none;
+
+        &_repeat {
+            background-color: $primary;
+            border-radius: $border-radius;
+            width: 200px;
+            height: 30px;
+            font-size: 15px;
+            border: none;
+        }
+    }
+
+    &_checkbox {
+        & label {
+            margin-right: 0;
+        }
+    }
+
+    &_submit {
+        background-color: $primary;
+        border-radius: $border-radius;
+        border: none;
+        width: 150px;
+        font-size: 20px;
+    }
+}
+.errormessage{
+
+   
+    
+}

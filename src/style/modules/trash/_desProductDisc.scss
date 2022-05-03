@@ -1,0 +1,87 @@
+// ***************************styling product Description for mobil device ************************
+@media screen and (max-width: 800px){
+    .L-deskt{
+        display: none;
+    }
+}
+.productDescription__flavor_text{
+    font-weight:700;
+    font-size:$medium;
+    margin-bottom: $small;
+}
+
+// ***************************amount styles ******************
+.amount{
+    display: flex;
+    align-items: center;
+}
+.standardBtn{
+    border-radius: $border-radius;
+    border: none;
+    color: $dark;
+    background-color: $primary;
+    font-size: $small;
+    font-weight: 700;
+    padding: $small;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s ease;
+    }
+    .standardBtn:hover {
+        transform: scale(1.1);
+        background-color: $dark;
+    }
+    .standardBtn h4{
+        transition: 0.7s ease;
+    }
+    .standardBtn:hover h4{
+        color: aliceblue;
+    }
+
+@media screen and (min-width:900px) {
+    .productDescription{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .productDescription__flavor_text{
+    font-size:$large;
+    font-weight:700;
+    }
+
+    .productDescription__desc{
+    margin-top:$small;
+    font-size:$small;
+    font-weight: 500;
+    }
+    .productDecription__colorPicker{
+    margin-top:$small;
+    }
+    .productDescription__article{
+    padding-left:$x-large;
+    }
+    .productDescription__rating{
+    display: flex;
+    align-items:center;
+    }
+    .productDecription__reviewBasis{
+    padding-top: $medium;
+    padding-left: $small;
+    }
+
+
+// *************************** button styles ***************************
+
+.standardBtn{
+    width: 30%;
+    }
+}
+
+
+
+
+@media screen and (min-width:900px) {
+    .x-mobil{
+        display: none;
+    }
+}

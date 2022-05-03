@@ -1,14 +1,41 @@
-
 @import "../../style/base/_variables.scss";
+
+
+.page{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 900px){
+
+    .page{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
 .standardBtn {
-    border-radius: 18px;
+    border-radius: $border-radius;
     border: none;
     color: #214341;
     background-color: #40a393;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    padding: 12px 12px;
+    padding:1px;
+    transition: 0.7s;
+}
+.standardBtn:hover {
+    transform: scale(1.1);
+    background-color: $dark;
+}
+.standardBtn h4{
+    transition: 0.7s ease;
+}
+.standardBtn:hover h4{
+    color: aliceblue;
 }
 .btn{
     display:flex;
@@ -18,7 +45,7 @@
 
 
 .standardBtn{
-    width: 30%;
+    width: 100%;
 }
 @media screen and (min-width:900px) {
 .x-mobil{

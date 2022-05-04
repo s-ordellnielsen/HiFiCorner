@@ -1,0 +1,59 @@
+    
+    .productDecription__colorPicker-Orange{
+    width: $large;
+    height: $large;
+    border-radius: 50%;
+    border: 2px solid $primary;
+    background-color: chocolate;
+    }
+
+    .productDecription__colorPicker-Grey{
+    width: $large;
+    height: $large;
+    border-radius: 50%;
+    border: 2px solid $primary;
+    background-color: grey;
+    }
+
+    .productDecription__colorPicker-Black{
+    width: $large;
+    height: $large;
+    border-radius: 50%;
+    border: 2px solid $primary;
+    background-color: black;
+    }
+
+    .productDecription__colorPicker-Red{
+    width: $large;
+    height: $large;
+    border-radius: 50%;
+    border: 2px solid $primary;
+    background-color: red;
+    }
+    .productDecription__colorPickerDiv span {
+        display: none;
+    }
+    .productDecription__colorPickerDiv{
+    display: flex;
+    padding-top:$small;
+    justify-content: start;
+    }
+
+    .productDecription__colorPicker{
+        width: $large;
+        height: $large;
+        border-radius: 50%;
+        border: 2px solid $primary;
+        margin-right: $small;
+        transition: all 0.7s;
+    }
+    .productDecription__colorPicker:hover{
+        transform: scale(1.1);
+    }
+
+    .productDecription__colorPickerDiv input{
+        display:none;
+    }
+
+
+

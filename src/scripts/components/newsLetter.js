@@ -2,6 +2,7 @@ import "../../style/style.scss"
 import "../../style/modules/_newsLetterSection.scss"
 
 import ratings from '../../images/ratings.png';
+
 export default function newsLetter() {
     const element = document.createElement('section')
     element.classList.add('landing__newsLetter')

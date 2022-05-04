@@ -1,0 +1,381 @@
+@import '../base/resets';
+@import '../base/variables';
+
+//Mobile
+.packageSectionBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img {
+        padding-bottom: 30px;
+        padding: 0px 10px 30px 10px;
+    }
+
+    &__header {
+        font-size: $x-large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-top: 80px;
+    }
+
+    &__aside {
+        border-radius: $border-radius;
+        background-color: $tertiary;
+        color: $light;
+        margin: 0px 10px 30px 10px;
+
+
+        &__boldTopText {
+            font-weight: bold;
+            font-size: $small;
+            padding: 10px 10px 40px 40px;
+        }
+
+        &__boldMiddleText {
+            padding: 10px;
+            font-weight: bold;
+            font-size: $large;
+            padding: 10px 80px 40px 40px;
+
+        }
+
+        &__boldBottomText {
+            font-weight: bold;
+            font-size: $medium;
+            padding: 10px 70px 40px 80px;
+        }
+    }
+
+    &__ratingsContainer {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+    }
+
+    &__ratings {
+        margin: 30px;
+    }
+    &__ratingsContainerOnLanding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__ratingsOnLanding {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+.packageSectionList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__img {
+        height: 60%;
+    }
+
+    &__article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $secondary;
+    }
+
+    &__container {
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    &__article:first-of-type {
+        background-color: $secondary;
+        color: $dark;
+    }
+
+    &__article:nth-of-type(2) {
+        background-color: $tertiary;
+        color: $light;
+        padding-bottom: 30px;
+    }
+
+    &__article:nth-of-type(3) {
+        background-color: $secondary;
+        color: $dark;
+    }
+
+    &__article:nth-of-type(4) {
+        background-color: $tertiary;
+        color: $light;
+        padding-bottom: 30px;
+
+    }
+
+    &__seeMoreBtn {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    &__itemName {
+        font-family: 'Lato';
+        font-size: $medium;
+    }
+
+    &__flavorText {
+        padding: 10px;
+    }
+
+    &__price {
+        font-size: $medium;
+    }
+}
+
+.favoriteProductsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &__header {
+        font-size: $large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    &__imgContainer {
+        font-size: $large;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__img {
+        border-radius: $border-radius;
+        padding-bottom: 10px;
+    }
+
+    &__tagContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    &__itemName {
+        font-family: 'Lato';
+        font-size: $medium;
+    }
+
+    &__price {
+        font-size: $medium;
+    }
+}
+
+//Desktop
+@media screen and(min-width: 1200px) {
+    .packageSectionBanner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            padding-bottom: 0px;
+        }
+
+        &__header {
+
+            display: flex;
+            font-size: $x-large;
+        }
+
+        &__aside {
+            border-radius: $border-radius;
+            background-color: $tertiary;
+            width: 550px;
+            height: 640px;
+            color: $light;
+            margin-bottom: 0px;
+
+            &__boldTopText {
+                font-size: $medium;
+                padding: 30px 10px 40px 40px;
+            }
+
+            &__boldMiddleText {
+                font-size: $x-large;
+                padding: 70px 90px 40px 40px;
+            }
+
+            &__boldBottomText {
+                font-size: $large;
+                padding: 70px 110px 20px 110px;
+            }
+        }
+
+        &__ratingsContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__ratings {
+            width: 50%;
+            margin: 60px;
+        }
+        &__ratingsContainerOnLanding {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__ratingsOnLanding {
+            margin: 80px 30px;
+            width: 95%;
+        }
+    }
+
+    .packageSectionList {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 80px;
+
+        &__container {
+            width: 50%;
+            height: 400px;
+            margin: 0 auto;
+            background-color: $secondary;
+            padding: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        &__article {
+            width: 50%;
+            height: 500px;
+            margin: 0 auto;
+            background-color: $secondary;
+            padding: 10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        &__article:first-of-type {
+            border-radius: $border-radius 0 0 $border-radius;
+
+        }
+
+        &__article:nth-of-type(2) {
+            background-color: $secondary;
+            color: $dark;
+            border-radius: 0 $border-radius $border-radius 0;
+        }
+
+        &__article:nth-of-type(3) {
+            border-radius: $border-radius 0 0 $border-radius;
+        }
+
+        &__article:nth-of-type(4) {
+            background-color: $secondary;
+            color: $dark;
+            border-radius: 0 $border-radius $border-radius 0;
+        }
+
+        &__itemName {
+            font-family: 'Lato';
+            font-size: $medium;
+        }
+
+        &__flavorText {
+            padding: 10px;
+        }
+
+        &__price {
+            font-size: $medium;
+        }
+
+        &__seeMoreBtn {
+            margin-bottom: 30px;
+        }
+    }
+
+    .favoriteProductsList {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__container {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &__header {
+            font-size: $large;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        &__imgContainer {
+            font-size: $large;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        &__img {
+            border-radius: $border-radius;
+            padding-bottom: 10px;
+        }
+
+        &__tagContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        &__itemName {
+            font-family: 'Lato';
+            font-size: $medium;
+        }
+
+        &__price {
+            font-size: $medium;
+        }
+    }
+}

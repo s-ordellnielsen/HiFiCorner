@@ -1,6 +1,7 @@
 import "../../style/style.scss"
 import "../../style/modules/_newsLetterSection.scss"
-import "../../style/layout"
+import "../../style/layout/_package.scss"
+import "../../style/modules/_standardBtn.scss"
 import ratings from '../../images/ratings.png';
 
 export default function newsLetter() {
@@ -12,8 +13,8 @@ export default function newsLetter() {
         <article class="landing__newsLetterSection__article">
                 <h1 class="landing__newsLetterSection__header">You want 10% discount on your next order?</h1>
                 <p class="landing__newsLetterSection__text">Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
-                <div class="packageSectionBanner__ratingsContainer">
-            <img class="packageSectionBanner__ratings" src="${ratings}" alt="Ratings from Customers" />
+                <div class="packageSectionBanner__ratingsContainerOnLanding">
+            <img class="packageSectionBanner__ratingsOnLanding" src="${ratings}" alt="Ratings from Customers" />
         </div>
                 </article>
                 
@@ -22,12 +23,15 @@ export default function newsLetter() {
                     <h1 class="landing__newsLetterForm__header">Write your Email</h1>
                     <input type="email" name="" class="landing__newsLetterFormInputField" id="landing__newsLetterFormInputField">
                     <p class="landing__newsLetterForm__text">Whats your preferences? <br> Choose your options:</p>
+                    <div class="landing__newsLetterForm__textBox">
+                        <p class="landing__newsLetterForm__textBoxMore">Sign up for the newsletter and get 10% off</p>
+
+                    
                 </div>
-                <div class="newsLetter__formTextBox">
-                    <span class="landing__newsLetterFormDesktopText"></span>
-                    <p class=""></p>
                 </div>
+                
                 <div class="landing__newsLetterFormRadCheckbox">
+                    <div class="rad-label-container">
                     <label class="rad-label">
                         <input type="checkbox" class="rad-input" name="rad">
                         <div class="rad-design"></div>
@@ -68,11 +72,12 @@ export default function newsLetter() {
                         <div class="rad-design"></div>
                         <div class="rad-text">Creek</div>
                     </label>
+</div>
                     <p class="landing__newsLetterForm__moreText">More alternatives? <br> Choose your options:</p>
                 </div>
                 
                 <div class="landing__newsLetterFormRadCheckboxMore">
-                    <div>
+                    <div class="">
                         <label class="rad-label">
                             <input type="checkbox" class="rad-input" name="rad">
                             <div class="rad-design"></div>
@@ -115,7 +120,9 @@ export default function newsLetter() {
                             <div class="rad-design"></div>
                             <div class="rad-text">Creek </div>
                         </label>
+                        <input type="submit"  name="InputBtn" class="landing__newsLetterFormInputBtn standardBtn" id="landing__newsLetterFormInputBtn">
                     </div>
+                    
                 </div>
             </form>
         </article>

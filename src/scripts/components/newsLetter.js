@@ -12,6 +12,9 @@ export default function newsLetter() {
                 <h1 class="landing__newsLetterSection__header">You want 10% discount on your next order?</h1>
                 <p class="landing__newsLetterSection__text">Subscribe to the Newsletter of HiFiCorner. Receive News and Inspiration</p>
                 </article>
+                <div class="packageSectionBanner__ratingsContainer">
+            <img class="packageSectionBanner__ratings" src="${ratings}" alt="Ratings from Customers" />
+        </div>
             <form class="landing__newsLetterForm">
                 <div class="landing__newsLetterFormInput">
                     <h1 class="landing__newsLetterForm__header">Write your Email</h1>

@@ -1,9 +1,12 @@
-@import "../../style/base/_variables.scss";
+@import '../base/variables';
 
 
 .page{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+}
+body {
+    margin: 10px 40px 10px 40px
 }
 
 
@@ -22,10 +25,10 @@
     color: #214341;
     background-color: #40a393;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: $x-small;
     font-weight: 700;
-    padding:1px;
-    transition: 0.7s;
+    padding:$x-small;
+    transition: 0.7s ease;
 }
 .standardBtn:hover {
     transform: scale(1.1);

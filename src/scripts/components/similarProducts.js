@@ -10,7 +10,7 @@ function similarProducts(product) {
 
     let simProdH2 = document.createElement("h2")
     simProdH2.classList.add("similarProducts__header")
-    
+
 
     fetch("http://localhost:3001/products?type="+productType+"&_limit=3", {
         mode: 'cors',
@@ -30,7 +30,8 @@ function similarProducts(product) {
         console.log("simProd", similarProducts)
 
         similarProducts.forEach((element) => {
-            document.createElement()
+            //document.createElement()
+            console.log("simnames", element.name)
         })
 
         

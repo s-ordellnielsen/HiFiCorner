@@ -1,6 +1,5 @@
 @import "../base/variables";
 
-
 //Mobile
 
 .landing__newsLetterSection {
@@ -20,11 +19,9 @@
         text-align: center;
         padding-top: 30px;
     }
-
 }
 
 .landing__newsLetterForm {
-
     margin-top: 80px;
     background-color: $tertiary;
 
@@ -143,43 +140,49 @@
 //Desktop
 @media screen and (min-width: 1200px) {
     .landing__newsLetterSection {
+        border-radius: $border-radius;
         display: flex;
         color: $tertiary;
         background-color: $secondary12;
-
-        width: 100%;
-
+        
+        width: 90%;
         padding-top: 80px;
-        margin-top: 40px;
-
+        margin: 0 auto;
+        margin-top: 100px;
 
         &__article {
-            background-color: $secondary12;
-            margin: 40px 20px 0px 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: transparent;
+            margin: 20px 20px 0px 20px;
             border-radius: $border-radius;
             width: 60%;
             height: 300px;
+            align-items: center;
         }
 
         &__header {
             font-size: $x-large;
             text-align: center;
+            width: 60%;
         }
 
         &__text {
             font-size: $medium;
             text-align: center;
             padding-top: 30px;
+            width: 26%;
         }
 
     }
 
     .landing__newsLetterForm {
         align-items: center;
-        width: 40%;
+        width: 30%;
         border-radius: $border-radius;
         background-color: $tertiary;
-
+        margin-top: 50px;
+        margin-bottom: 50px;
 
         &Input {
             margin: 0 auto;

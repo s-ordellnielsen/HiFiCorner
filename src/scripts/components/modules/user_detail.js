@@ -22,8 +22,8 @@ function profileDetail() {
             
         </div>
         <div class="profile_buttons">
-        <input type="button" value="back" />
-        <input type="button" value="forward" />
+        <button>${feather.icons["arrow-left"].toSvg()}</button>
+        <button>${feather.icons["arrow-right"].toSvg()}</button>
         </div>
     </div>
     

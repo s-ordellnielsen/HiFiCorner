@@ -1,14 +1,17 @@
 @import "/src/style/base/variables.scss";
-.profile_details{
-    display: grid;
-    grid-template-areas: 
-    "a a b b"
-    "a a b b"
-    ". . . ."
-    ". . . ."
-    "c c c c"
-    "c c c c"
-    ;
+@media screen and (min-width: 830px){
+    
+    .profile_details{
+        display: grid;
+        grid-template-areas: 
+        "a a b b"
+        "a a b b"
+        ". . . ."
+        ". . . ."
+        "c c c c"
+        "c c c c"
+        ;
+    }
 }
 body{
     background-color: var(--bg);
@@ -19,13 +22,17 @@ body{
     border-radius: 50%;
     
 }
+
 .profile__userprofile{
 grid-area: a;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-top: 150px;
 }
+
 .profile__favoritelist{
+    margin-top: 150px;
     grid-area: b;
     display: flex;
     flex-direction: column;
@@ -33,6 +40,13 @@ align-items: center;
 & .profile_buttons{
     display: flex;  
     gap: $large;
+
+    & button{
+        border-radius: 50%;
+        border: none;
+        background-color: $dark;
+        padding: 10px;
+    }
 }
 }
 .profile_favorites{

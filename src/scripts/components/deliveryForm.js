@@ -45,6 +45,10 @@ export default function deliveryForm() {
 				<p class="deliveryOption__price">€14.99</p>
 				<!-- <button class="deliveryOption__submit">Use UPS ${feather.icons['arrow-right'].toSvg()}</button> -->
 				<input type="radio" name="dOptions" class="deliveryOption__radio"/>
+				<div class="deliveryOption__button">
+					Use UPS
+					<div>${feather.icons.check.toSvg()}</div>
+				</div>
 			</label>
 			<label class="deliveryOption">
 				<div class="deliveryOption__logo">
@@ -56,6 +60,10 @@ export default function deliveryForm() {
 				<p class="deliveryOption__price">€3.99</p>
 				<!-- <button class="deliveryOption__submit">Use FedEx ${feather.icons['arrow-right'].toSvg()}</button> -->
 				<input type="radio" name="dOptions" class="deliveryOption__radio"/>
+				<div class="deliveryOption__button">
+					Use FedEx
+					<div>${feather.icons.check.toSvg()}</div>
+				</div>
 			</label>
 			<label class="deliveryOption">
 				<div class="deliveryOption__logo">
@@ -67,6 +75,10 @@ export default function deliveryForm() {
 				<p class="deliveryOption__price">Free</p>
 				<!-- <button class="deliveryOption__submit">Use Royal Mail ${feather.icons['arrow-right'].toSvg()}</button> -->
 				<input type="radio" name="dOptions" class="deliveryOption__radio"/>
+				<div class="deliveryOption__button">
+					Use Royal Mail
+					<div>${feather.icons.check.toSvg()}</div>
+				</div>
 			</label>
 			<label class="deliveryOption">
 				<div class="deliveryOption__logo">

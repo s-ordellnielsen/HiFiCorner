@@ -97,6 +97,8 @@ export default function deliveryForm() {
 				</div>
 			</label>
 		</section>
+
+		<button className="delivery__button">Go to checkout ${feather.icons['credit-card'].toSvg()}</button>
 	`
 
 	element.querySelector('.deliveryOptions').addEventListener('click', function(e) {

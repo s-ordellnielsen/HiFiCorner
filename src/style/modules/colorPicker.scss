@@ -1,4 +1,4 @@
-@import "../../style/base/_variables.scss";
+@import '../base/variables';
     .productDecription__colorPicker--selected{
         border: 2px solid #333;
         background:black;
@@ -46,11 +46,11 @@
     
         .productDecription__colorPicker{
             cursor: pointer;
-            width: $large;
-            height: $large;
+            width: $medium;
+            height: $medium;
             border-radius: 50%;
             border: 2px solid $primary;
-            margin-right: $small;
+            margin-right: $x-small;
             transition: all 0.7s;
         }
         .productDecription__colorPicker:hover{
@@ -67,6 +67,7 @@
         @media screen and (min-width:900px){
             .productDecription__colorPicker{
                 margin-top:$small;
+                
                 }
 
         }

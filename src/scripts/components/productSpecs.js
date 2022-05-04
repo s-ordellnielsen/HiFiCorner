@@ -149,7 +149,7 @@ console.log("product", product)
 
     element.querySelector(".sheadStock").addEventListener("click", function(){
         console.log("stockVis")
-        productSpecsStockUL.classList.toggle("productSpecs__connectivity--visible")
+        productSpecsStockUL.classList.toggle("productSpecs__stock--visible")
         
     })
 

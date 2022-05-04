@@ -1,5 +1,5 @@
 
-import "./productSpecs.scss";
+import "../../style/modules/productSpecs.scss";
 import productSpecsReviewArticle from "./productSpecsReviewArticle.js"
 import productSpecsConnectivityTypeUL from "./productSpecsConnectivityTypeUL.js"
 

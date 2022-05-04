@@ -1,5 +1,5 @@
 
-import "./colorPicker.scss";
+import "../../style/modules/colorPicker.scss";
 
 
 

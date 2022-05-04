@@ -15,13 +15,7 @@ module.exports = {
 		product: './src/scripts/product.js',
 		search: './src/scripts/search.js',
 		support: './src/scripts/support.js',
-<<<<<<< HEAD
 		productlist: './src/scripts/productlist.js'
-=======
-		sign_in: './src/scripts/sign_in.js',
-		profile: './src/scripts/profile.js',
-		signup: './src/scripts/signup.js'
->>>>>>> main
 	},
 	output: {
 		filename: '[name].bundle.js',

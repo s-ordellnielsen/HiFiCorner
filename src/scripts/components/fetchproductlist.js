@@ -1,22 +1,27 @@
 import fetchproductList from "./api/getproductlist.js";
+import "../../style/layout/productlist.scss"
 function fetchproducts() {
     const element = document.createElement('section')
     element.classList.add('productsectionlist')
 
+
+
+
     fetchproductList()
         .then(products => {
-            products.forEach(products => {
+            products.forEach(product => {
                 const output = document.createElement("article")
                 output.classList.add("productsectionlist__article")
                 output.innerHTML = `<div class="productsectionlist__container">
-                <img src="http://localhost3001${products.images[0]}" alt="" />
+                <img src="http://localhost:3001${product.images[0]}" alt="" >
             </div>
-            <div>
-                <h2>${products.name}</h2>
-                <p>${products.brand}</p>
-                <span>${products.price}£</span>
-                <a href="">${products.id}</a>
+            <div class="productsectionlist__info">
+                <h2>${product.name}</h2>
+                <p>${product.brand}</p>
+                <span>${product.price}£</span>
+                <a href="/product/${product.name}">Se mere</a>
                 </div>
+                
                 
             `
                 element.appendChild(output)
@@ -25,14 +30,10 @@ function fetchproducts() {
     // html stopper her
 
 
-    var productlink = element.querySelector("productsectionlist__container")
-
-    productlink.addEventListener("click", function () {
-        console.log("hej")
-    })
+  
 
     // Code here
 
-    return element
+    return element;
 }
 export default fetchproducts

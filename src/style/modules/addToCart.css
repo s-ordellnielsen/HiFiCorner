@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  font-family: 'Lato';
+}
+
+html {
+  --text: #214341;
+  --bg: #EBF2E8;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-transition: background .3s, color .3s;
+  transition: background .3s, color .3s;
+}
+
+html[data-theme='dark'] {
+  --text: #EBF2E8;
+  --bg: #214341;
+}
+
+.page {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 10px 40px 10px 40px;
+}
+
+@media screen and (min-width: 900px) {
+  .page {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.standardBtn {
+  border-radius: 1.5rem;
+  border: none;
+  color: #214341;
+  background-color: #40a393;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.standardBtn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #214341;
+}
+
+.standardBtn h4 {
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.standardBtn:hover h4 {
+  color: aliceblue;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.standardBtn {
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .x-mobil {
+    display: none;
+  }
+  .standardBtn {
+    border-radius: 1.5rem;
+    border: none;
+    color: #214341;
+    background-color: #79BEB3;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition: 0.7s ease;
+    transition: 0.7s ease;
+  }
+  .standardBtn:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #214341;
+  }
+  .standardBtn h4 {
+    -webkit-transition: 0.7s ease;
+    transition: 0.7s ease;
+  }
+  .standardBtn:hover h4 {
+    color: aliceblue;
+  }
+}
+/*# sourceMappingURL=addToCart.css.map */

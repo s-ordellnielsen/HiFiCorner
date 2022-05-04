@@ -34,7 +34,7 @@
 
 .productSpecs__connectivity--visible{
     opacity: 1;
-    height: 100px;
+    height: 200px;
     transition: all 0.5s;
     color: black;
 
@@ -43,12 +43,12 @@
     opacity: 0;
     height: 0;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 .productSpecs__reviews--visible{
     opacity: 1;
     height: auto;
-    transition: all 0.5s;
+    transition: all 0.8s;
     color: black;
 }
 
@@ -66,6 +66,7 @@
     color: black;
 
 }
+
 
 
 

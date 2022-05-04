@@ -128,6 +128,10 @@ console.log("product", product)
 
     element.appendChild(productSpecsReviewArticle(product))
 
+    let productSpecsLinesStock = document.createElement("div")
+    productSpecsLinesStock.classList.add("productSpecs__lines")
+    element.appendChild(productSpecsLinesStock)
+
     let productSpecsStockArticle = document.createElement("article")
     productSpecsStockArticle.classList.add("productSpecs__stockArticle")
     productSpecsStockArticle.innerHTML =`

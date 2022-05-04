@@ -1,0 +1,92 @@
+@import '../base/variables';
+
+.btn {
+	display: flex;
+	padding: $small $large;
+	align-items: center;
+	align-self: flex-end;
+	border-radius: $border-radius;
+	margin-right: $small;
+	background: $primary;
+	color: $dark;
+	gap: $small;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		display: inline-block;
+		right: calc($large - 4px);
+		top: 40%;
+		height: 2px;
+		width: 2px;
+		background: $dark;
+		z-index: 1000;
+		border-radius: 100px;
+		opacity: 0;
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		display: inline-block;
+		right: calc($large - 4px);
+		top: 50%;
+		height: 2px;
+		width: 2px;
+		background: $dark;
+		z-index: 1000;
+		border-radius: 100px;
+		opacity: 0;
+	}
+
+	& svg {
+		transition: .3s;
+		opacity: .8;
+		position: relative;
+		display: block;
+	}
+
+	&:hover {
+		&::after {
+			animation: warp .7s linear infinite;
+		}
+
+		&::before {
+			animation: warp .9s .3s linear infinite;
+		}
+
+		& svg {
+			margin-left: $x-small;
+			transform: translate(-1px, -0.5px) rotate(-5deg);
+		}
+	}
+}
+
+@keyframes warp {
+	0% {
+		opacity: 0;
+		transform: translateX(0);
+	}
+	15% {
+		opacity: .7;
+	}
+	40% {
+		width: $small;
+		transform: translateX(0);
+	}
+	80% {
+		transform: translateX(-$large);
+		opacity: .7;
+	}
+	100% {
+		transform: translateX(calc(($large * (0 - 1) ) - $small));
+		opacity: 0;
+		width: 2px;
+	}
+}

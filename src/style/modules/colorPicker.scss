@@ -1,8 +1,5 @@
 @import '../base/variables';
-    .productDecription__colorPicker--selected{
-        border: 2px solid #333;
-        background:black;
-    }
+   
     .productDecription__colorPicker-Orange{
         width: $large;
         height: $large;
@@ -62,12 +59,25 @@
         }
         .productDecription__colorPicker{
             margin-top:$small;
-            }
+            margin-bottom: -6px;
+            } 
 
         @media screen and (min-width:900px){
             .productDecription__colorPicker{
                 margin-top:$small;
-                
+                margin-bottom:-12px
+                }
+                .productDecription__colorPicker{
+                    cursor: pointer;
+                    width: $large;
+                    height: $large;
+                    border-radius: 50%;
+                    border: 2px solid $primary;
+                    margin-right: $x-small;
+                    transition: all 0.7s;
                 }
 
         }
+        .productDecription__colorPicker--selected{
+        border: 2px solid black;
+            }

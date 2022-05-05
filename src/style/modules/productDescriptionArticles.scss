@@ -6,17 +6,13 @@
 .productDecription__price{
     font-size:$large;
     font-weight: 700;
+    margin-bottom: $small;
 }
 
-@media screen and (max-width: 800px){
-    .l-deskt{
-        display: none;
-    }
+.productDescription__desc{
+    margin-bottom: -12px;
 }
-.amount{
-    display: flex;
-    align-items: center;
-}
+
 
 
 
@@ -35,9 +31,10 @@
     .productDescription__article{
     padding-left:$x-large;
     }
-}
-@media screen and (min-width:900px) {
     .x-mobil{
         display: none;
+    }
+    .productDecription__price{
+        margin-bottom: $small;
     }
 }

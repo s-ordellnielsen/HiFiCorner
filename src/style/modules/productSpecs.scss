@@ -10,7 +10,6 @@
     opacity: 1;
     height: 100px;
     transition: all 0.5s;
-    color: black;
 }
 .productSpecs__design {
     opacity: 0;
@@ -22,7 +21,7 @@
     opacity: 1;
     height: 100px;
     transition: all 0.5s;
-    color: black;
+    
 }
 .productSpecs__connectivity{
 
@@ -36,9 +35,14 @@
     opacity: 1;
     height: 200px;
     transition: all 0.5s;
-    color: black;
+   
 
 }
+.productSpecs__connectivity li {
+    list-style: none;
+    margin-left: 0;
+}
+
 .productSpecs__reviews{
     opacity: 0;
     height: 0;
@@ -63,7 +67,7 @@
     opacity: 1;
     height: auto;
     transition: all 0.5s;
-    color: black;
+
 
 }
 

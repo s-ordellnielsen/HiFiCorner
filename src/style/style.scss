@@ -4,9 +4,14 @@
 
 // Import Layout
 @import "layout/landing";
+@import "layout/navigation";
 @import "layout/login.scss";
 
 // Import Modules
+@import "modules/heroSection";
+@import "modules/parkageSection";
+@import "modules/brandsSection";
+@import "modules/newsletterSection";
 @import "modules/themeToggle";
 @import "modules/standardBtn";
 

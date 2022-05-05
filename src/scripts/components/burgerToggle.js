@@ -2,24 +2,21 @@ import "../../style/layout/_navigation.scss"
 import "../../style/modules/_navigation__menu.scss"
 import themeToggle from "./themeToggle.js"
 import "../../style/style.scss"
-import burgerOpen from "../../images/navigation/burger-open.png"
-import bell from "../../images/navigation/bell.png"
-import aboutUs from "../../images/navigation/aboutUs.png"
-import support from "../../images/navigation/support.png"
 import feather from "feather-icons"
 import '../../style/modules/_themeToggle.scss'
 
 
 export default function burgerToggle() {
-    let element = document.createElement("div")
+    let element = document.createElement("header")
+    element.style.height = "0vh"
+    element.classList.add("header__wrapper")
 
     element.innerHTML = `
-    <header class="header__wrapper" style="height: 0px;">
    
    <div class="header">
        <div class="header__logo">
            <div class="header__topbar">
-               <a href="index.html" class="logoLink"><svg class="headerLogo" width="48" height="48"
+               <a href="/" class="logoLink"><svg class="headerLogo" width="48" height="48"
                        viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                        <path
                            d="M7.02539 30H8.79492V26.4375H12.6035V30H14.373V21.5449H12.6035V24.9785H8.79492V21.5449H7.02539V30ZM16.4238 30H18.1934V21.5449H16.4238V30ZM7.02539 41H8.79492V37.6719H12.2344V36.2715H8.79492V34.0039H12.5625V32.5449H7.02539V41ZM14.1973 41H15.9668V32.5449H14.1973V41Z"
@@ -29,10 +26,9 @@ export default function burgerToggle() {
                            fill="#214341" />
                    </svg>
                </a>
-               <button class="burger"><img src="${burgerOpen}" alt=""
-                       class="burger__Icon" id="burger_toggle"></button>
+               <button class="burger" id="burger__Click">${feather.icons.menu.toSvg()}</button>
            </div>
-           <ul class="header__menu ">
+           <ul class="header__menu">
                <li class="header__menuitem">
                    <h1>Categories</h1>
                </li>
@@ -53,16 +49,14 @@ export default function burgerToggle() {
                <li class="navigation__menuItem">
                    <h1>HiFi Corner</h1>
                </li>
-               <li class="navigation__menuItem"><a href="/news/"><img src="${bell}" alt="">
+               <li class="navigation__menuItem"><a href="/news/">${feather.icons.bell.toSvg()}
                        News
                        <span class="mobileText"> ></span></a>
                </li>
-               <li class="navigation__menuItem"><a href="/about/"><img src="${aboutUs}"
-                           alt=""> About
+               <li class="navigation__menuItem"><a href="/about/">${feather.icons.users.toSvg()} About
                        us
                        <span class="mobileText"> ></span></a></li>
-               <li class="navigation__menuItem"><a href="/support/"><img src="${support}"
-                           alt="">
+               <li class="navigation__menuItem"><a href="/support/">${feather.icons.phone.toSvg()}
                        Support
                        <span class="mobileText"> ></span></a></li>
                <li class="navigation__menuItem navigation__iconList">
@@ -93,30 +87,61 @@ export default function burgerToggle() {
            </ul >
        </nav >
    </div >
-</header >  
     `
 
     const burger = element.querySelector(".burger")
-    const burgerIcon = element.querySelector(".burger__Icon")
+    const burgerClick = element.querySelector("#burger__Click")
     const navMenu = element.querySelector(".navigation__menu")
     const headerMenu = element.querySelector(".header__menu")
-    const wrapper = element.querySelector(".header__wrapper")
 
     burger.addEventListener("click", function () {
 
         if (navMenu.classList.contains("navigation__open") && headerMenu.classList.contains("header__open")) {
             navMenu.classList.remove("navigation__open")
             headerMenu.classList.remove("header__open")
-            burgerIcon.src = "navigation/burger-open.png"
-            wrapper.style.height = "0"
-        } else {
+            burgerClick.innerHTML = feather.icons.menu.toSvg()
+            element.style.height = "0vh"
+
+        }
+
+        else {
             navMenu.classList.add("navigation__open")
             headerMenu.classList.add("header__open")
-            burgerIcon.src = "navigation/burger-close.png"
-            wrapper.style.height = "100vh"
+            burgerClick.innerHTML = feather.icons.x.toSvg()
+            element.style.height = "100vh"
+
         }
 
     })
+
+
+
+    //this is a quick fix, dont mind it, dont touch it, never ask questions, it works.
+    function myFunction(x) {
+        if (x.matches) {
+            navMenu.classList.remove("navigation__open")
+            headerMenu.classList.remove("header__open")
+            burgerClick.innerHTML = feather.icons.menu.toSvg()
+            element.style.height = "0vh"
+
+        }
+        else if (x.matches < "830px") {
+            navMenu.classList.add("navigation__open")
+            headerMenu.classList.add("header__open")
+            burgerClick.innerHTML = feather.icons.x.toSvg()
+            element.style.height = "100vh"
+        }
+    }
+
+    var x = window.matchMedia("(min-width: 830px)")
+    myFunction(x)
+    x.addListener(myFunction)
+
+
+
+
+
     element.querySelector("#darkmode").appendChild(themeToggle())
     return element;
 }
+

@@ -6,6 +6,7 @@
     width: 100%;
     position: fixed;
     transition: .3s;
+    z-index: 10000;
     top: 0;
 }
 
@@ -22,10 +23,13 @@
         justify-content: space-between;
         align-items: center;
         transition: .3s;
+        border-bottom: none;
+
     }
 
     &__open {
         display: block;
+
     }
 
     &__menu {
@@ -70,4 +74,15 @@
 
 .header__open {
     display: block;
+}
+
+@media screen and (min-width: 830px) {
+    .header {
+        &__topbar {
+            height: 69px;
+            border-bottom: 1px solid $secondary;
+        }
+    }
+
+
 }

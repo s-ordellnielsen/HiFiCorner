@@ -1,13 +1,18 @@
-const landingHero = document.getElementsByClassName("landing__hero")[0]
+import heroProduct from "./getHeroProduct.js";
 
-function heroDom(products) {
-    products.forEach(function (product) {
-        const output = `<article class="landing__heroProduct">
-        <h2 class="landing__heroProductBody">${product.name}</h2>
-        <img class="landing__heroProductImage" src="http://localhost:3001${product.images[0]}">
-        <a class="landing__heroProductLink" href="cart.html">Buy Now</a>
-        </article>`
-
-        landingHero.innerHTML = output;
-    })
+function heroDom() {
+    const element = document.createElement("article")
+    element.classList.add("landing__heroProduct")
+    heroProduct()
+        .then(products => {
+            const first = products[17]
+            element.innerHTML = `
+                <h2 class="landing__heroProductBody">${first.name}</h2>
+                <img class="landing__heroProductImage" src="http://localhost:3001${first.images[0]}">
+                <a class="landing__heroProductLink" href="cart.html">Buy Now</a>
+            `
+        })
+    return element
 }
+
+export default heroDom

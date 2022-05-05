@@ -50,6 +50,9 @@
             margin-right: $x-small;
             transition: all 0.7s;
         }
+        .productDecription__colorPicker--selected{
+            border: 5px solid rgb(0, 0, 0);
+        }
         .productDecription__colorPicker:hover{
             transform: scale(1.1);
         }
@@ -72,12 +75,10 @@
                     width: $large;
                     height: $large;
                     border-radius: 50%;
-                    border: 2px solid $primary;
+                   
                     margin-right: $x-small;
                     transition: all 0.7s;
                 }
 
         }
-        .productDecription__colorPicker--selected{
-        border: 2px solid black;
-            }
+

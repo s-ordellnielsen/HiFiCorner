@@ -100,7 +100,7 @@ export default function deliveryForm() {
 
 		<div class="delivery__submit">
 			<p class="delivery__error">Please pick a courier</p>
-			<button href="http://localhost:3000/cart/checkout" class="delivery__button">Go to checkout ${feather.icons['credit-card'].toSvg()}</button>
+			<button class="delivery__button">Go to checkout ${feather.icons['credit-card'].toSvg()}</button>
 		</div>
 	`
 
@@ -109,7 +109,6 @@ export default function deliveryForm() {
 			element.querySelectorAll('.deliveryOption').forEach(function (elm) {
 				elm.classList.remove('deliveryOption--checked')
 			})
-
 			e.target.closest('label').classList.add('deliveryOption--checked')
 		}
 	})

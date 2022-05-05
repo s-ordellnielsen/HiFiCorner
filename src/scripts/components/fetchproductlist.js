@@ -19,7 +19,7 @@ function fetchproducts() {
                 <h2>${product.name}</h2>
                 <p>${product.brand}</p>
                 <span>${product.price}£</span>
-                <a href="/product/${product.name}">Se mere</a>
+                <a href="/product/?id=${product.id}">Se mere</a>
                 </div>
                 
                 

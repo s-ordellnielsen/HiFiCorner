@@ -1,4 +1,4 @@
-
+import "../../../style/modules/_brandsSection.scss"
 
 function brandSection() {
     const element = document.createElement("section")

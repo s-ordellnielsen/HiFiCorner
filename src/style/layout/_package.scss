@@ -61,6 +61,16 @@
     &__ratings {
         margin: 30px;
     }
+
+    &__ratingsContainerOnLanding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__ratingsOnLanding {
+        margin-top: 30px;
+        width: 100%;
+    }
 }
 
 .packageSectionList {
@@ -234,6 +244,18 @@
             width: 50%;
             margin: 60px;
         }
+
+        <<<<<<< HEAD=======&__ratingsContainerOnLanding {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__ratingsOnLanding {
+            margin: 80px 30px;
+            width: 95%;
+        }
+
+        >>>>>>>c36a8aafea3cb92a64ea50faf044efea1894cf13
     }
 
     .packageSectionList {

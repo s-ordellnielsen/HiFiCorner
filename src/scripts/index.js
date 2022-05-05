@@ -24,5 +24,3 @@ function landing() {
     return element
 }
 document.body.append(landing())
-
-

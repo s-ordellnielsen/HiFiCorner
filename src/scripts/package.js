@@ -1,4 +1,4 @@
-import burgerToggle from "./components/burgerToggle.js"
+import header from "./components/header.js"
 
 import packagePageBanner from './components/packagePageBanner.js';
 
@@ -13,15 +13,12 @@ import footerElement from './components/footerElement.js'
 import '../style/layout/_package.scss';
 import '../style/style.scss'
 
-function packageJS() {
-    const element = document.createElement('div')
-    element.classList.add('wrapper')
 
-    document.body.appendChild(burgerToggle())
-    return element
-}
 
-document.body.appendChild(packageJS())
+document.body.appendChild(header())
+
+
+
 
 document.body.appendChild(packagePageBanner())
 

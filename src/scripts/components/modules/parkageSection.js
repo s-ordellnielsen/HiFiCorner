@@ -11,7 +11,7 @@ export default function packageSection() {
             <h1 class="landing__parkageArticleMidtext">Sound in every corner of your home</h1>
             <p class="landing__parkageArticleBottomtext">Surround Sound<br> -<br> Package Deals
             </p>
-                <a class="landing__parkageArticleButtonlink" href="/pages/parkages.html">Show More</a>
+                <a class="landing__parkageArticleButtonlink" href="/package">Show More</a>
             </article>
         `
     return element

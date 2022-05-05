@@ -29,7 +29,7 @@ module.exports = {
 		static: {
 			directory: path.join(__dirname, 'build'),
 		},
-		port: 4500,
+		port: 3000,
 	},
 	module: {
 		rules: [

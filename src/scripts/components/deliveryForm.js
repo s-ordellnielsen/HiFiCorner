@@ -100,16 +100,16 @@ export default function deliveryForm() {
 
 		<div class="delivery__submit">
 			<p class="delivery__error">Please pick a courier</p>
-			<button class="delivery__button">Go to checkout ${feather.icons['credit-card'].toSvg()}</button>
+			<button href="http://localhost:3000/cart/checkout" class="delivery__button">Go to checkout ${feather.icons['credit-card'].toSvg()}</button>
 		</div>
 	`
 
-	element.querySelector('.deliveryOptions').addEventListener('click', function(e) {
+	element.querySelector('.deliveryOptions').addEventListener('click', function (e) {
 		if (e.target.classList.contains('deliveryOption')) {
-			element.querySelectorAll('.deliveryOption').forEach(function(elm) {
+			element.querySelectorAll('.deliveryOption').forEach(function (elm) {
 				elm.classList.remove('deliveryOption--checked')
 			})
-	
+
 			e.target.closest('label').classList.add('deliveryOption--checked')
 		}
 	})

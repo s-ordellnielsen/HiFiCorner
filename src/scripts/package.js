@@ -17,9 +17,6 @@ import '../style/style.scss'
 
 document.body.appendChild(header())
 
-
-
-
 document.body.appendChild(packagePageBanner())
 
 document.body.appendChild(packageList())

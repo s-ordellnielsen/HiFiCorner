@@ -71,7 +71,8 @@ function colorPicker(product) {
                     colorPickerElement.querySelector(".productDecription__colorPicker--selected")?.classList.remove("productDecription__colorPicker--selected")
     
     
-                    event.target.classList.add("productDecription__colorPicker--selected")
+                    event.target.nextElementSibling.classList.add("productDecription__colorPicker--selected")
+                    //kan man også tilføje classname til et søsterelement?
                     
                     chosenColor = event.target.id
 

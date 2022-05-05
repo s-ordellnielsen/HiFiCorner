@@ -7,18 +7,24 @@
 .productImagesCurrentImage{
     width: 200px;
     padding: $large 0 $small 0;
-    border-radius: $x-small;
+    
   
     
 
 }
 
+.productImagesCurrentImageDiv{
+    border-radius: $x-small;
+}
+
 @media screen and (min-width: 900px){
     .similarProducts__header{
         font-size:$large;
+        text-align: center;
     }
     .productImagesCurrentImage{
-        width: 25vw;
+        width: 20vw;
+        height: auto;
         padding: 2vw;
 
     }

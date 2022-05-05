@@ -9,12 +9,15 @@ module.exports = {
 		categories: './src/scripts/categories.js',
 		comparison: './src/scripts/comparison.js',
 		contact: './src/scripts/contact.js',
+		delivery: './src/scripts/delivery.js',
 		location: './src/scripts/location.js',
 		news: './src/scripts/news.js',
 		package: './src/scripts/package.js',
 		product: './src/scripts/product.js',
 		search: './src/scripts/search.js',
 		support: './src/scripts/support.js',
+		sign_in: './src/scripts/sign_in.js',
+		profile: './src/scripts/profile.js',
 		signup: './src/scripts/signup.js'
 	},
 	output: {
@@ -26,7 +29,7 @@ module.exports = {
 		static: {
 			directory: path.join(__dirname, 'build'),
 		},
-		port: 3000,
+		port: 4500,
 	},
 	module: {
 		rules: [

@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: $bg;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#login_username, #login_password{
+    border-radius: 25px;
+    border: none;
+    background-color: $primary;
+    font-size: 20px;
+    width: 350px;
+    padding: 10px 5px 10px 5px;
+}
+.login label{
+    color: #214341;
+    margin-right: 150px;
+}
+#login_help{
+    color: black;
+    margin-right: 50px;
+    border-bottom: solid black;
+}
+#login_img{
+    width: 120px;
+}
+#login_signup, #login_button{
+    border-radius: 25px;
+    border: none;
+    background-color: $primary;
+    color: black;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginform{
+    gap: 15px;
+}

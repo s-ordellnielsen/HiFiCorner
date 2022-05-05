@@ -1,0 +1,92 @@
+@import '../base/variables';
+
+.deliveryForm {
+	display: flex;
+	flex-direction: column;
+	gap: $x-large;
+
+	&__inputRow {
+		display: flex;
+		width: 100%;
+		gap: $large;
+	}
+
+	&__label {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: $x-small;
+	}
+
+	&__labelText {
+		font-family: 'Montserrat';
+		margin-left: $medium;
+		color: $primary;
+		font-weight: 500;
+	}
+
+	&__input {
+		height: 56px;
+		padding: 0 $medium;
+		border-radius: $border-radius;
+		border: 3px solid transparent;
+		font-size: 18px;
+		font-weight: 600;
+		background: $primary50;
+		font-family: 'Montserrat';
+		color: $dark;
+
+		transition: .3s;
+
+		&::placeholder {
+			opacity: .5;
+		}
+
+		&:focus {
+			outline: none;
+			border: 3px solid $primary;
+		}
+
+		&[data-message]::after {
+			content: attr(data-message);
+			position: absolute;
+			background: red;
+			display: inline-block;
+		}
+	}
+
+	&__error {
+		margin-left: $medium;
+		height: $medium;
+		transition: .5s;
+		// width: 0%;
+		overflow: hidden;
+		opacity: 0;
+		transform: translateX(-$large);
+		display: flex;
+		align-items: center;
+		gap: $x-small;
+		color: #ff6961;
+
+		& svg {
+			height: $small;
+			width: $small;
+			transform: rotate(-45deg);
+			transition: .5s;
+		}
+	}
+
+	&__label.error {
+
+		& .deliveryForm__error {
+			width: 100%;
+			opacity: 1;
+			transform: none;
+
+
+			& svg {
+				transform: rotate(0deg);
+			}
+		}
+	}
+}

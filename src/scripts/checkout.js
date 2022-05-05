@@ -12,6 +12,11 @@ function checkout() {
 
     return element
 }
+
+
+
+
+
 document.body.append(header())
 document.body.append(checkout())
 document.body.append(footerElement())

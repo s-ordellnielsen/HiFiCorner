@@ -28,8 +28,16 @@
     }
 
     &SubmitContainer {
-        margin-top: $medium;
+        width: 100%;
+        margin: $medium auto 0 auto;
+
+        & input {
+            display: block;
+            margin-left: auto;
+            margin-right: 10em;
+        }
     }
+
 
     &FlexContainer {
         display: flex;

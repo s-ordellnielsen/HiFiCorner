@@ -1,5 +1,5 @@
-import "./productDescriptionFlavorText.scss";
-import "../../style/base/_variables.scss";
+import "../../style/modules/productDescriptionFlavorText.scss";
+
 
 function productDescriptionFlavorText(text) {
     const element = document.createElement('h3')

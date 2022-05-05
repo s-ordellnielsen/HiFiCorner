@@ -4,8 +4,8 @@ import productHeadlineDesktop from "./productHeadlineDesktop.js"
 import productDescriptionFlavorText from "./productDescriptionFlavorText.js"
 import colorPicker from "./colorPicker.js" 
 import addToCart from "./addToCart.js"
-import "./productDescriptionArticles.scss"
-import "../../style/base/_variables.scss";
+import "../../style/modules/productDescriptionArticles.scss"
+
 
 function productDescriptionArticle(product) {
     const element = document.createElement('article')

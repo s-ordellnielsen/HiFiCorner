@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+
 
 function productDesc(text) {
     const element = document.createElement('p')

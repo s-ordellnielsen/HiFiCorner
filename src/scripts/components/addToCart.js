@@ -1,5 +1,5 @@
 
-import "./addToCart.scss";
+import "../../style/modules/addToCart.scss";
 
 function addToCart() {
     const element = document.createElement('button')

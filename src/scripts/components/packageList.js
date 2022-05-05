@@ -18,7 +18,7 @@ function packageList() {
                 <h2 class="packageSectionList__itemName">${itemPackage.name}</h2>
                 <p class="packageSectionList__flavorText">${itemPackage.flavor_text}</p>
                 <span class="packageSectionList__price">${itemPackage.price}£</span>
-                <a class="packageSectionList__seeMoreBtn standardBtn btn"href="./packages?=id${element.id}">See more</a>
+                <a class="packageSectionList__seeMoreBtn standardBtn btn"href="/packages?=id${element.id}">See more</a>
             </div>
         </a>
         </div>

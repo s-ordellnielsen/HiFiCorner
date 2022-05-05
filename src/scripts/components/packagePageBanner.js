@@ -11,7 +11,7 @@ function packagePageBanner() {
     element.innerHTML = `
         <h1 class="packageSectionBanner__header">Package Deals</h1>
         <section class="packageSectionBanner">
-            <img class="packageSectionBanner__img" src="${packageIcon}" alt="Package Banner" />
+            <img class="packageSectionBanner__img" src="${packageIcon}" alt="Package Banner"/>
             <aside class="packageSectionBanner__aside">
                 <p class="packageSectionBanner__aside__boldTopText">Connected Speakers - Surround Sound</p>
                 <p class="packageSectionBanner__aside__boldMiddleText">Sound in every corner of your home</p>

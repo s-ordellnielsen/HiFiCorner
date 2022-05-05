@@ -1,0 +1,84 @@
+.landing {
+    &__hero {
+        margin: 0 auto;
+
+
+        &Product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 95px;
+        }
+
+        &ProductBody {
+            color: var(--text);
+            text-align: center;
+            font-size: $large;
+            margin: 0px 0px -20px -100px;
+        }
+
+        &ProductImage {
+            text-align: center;
+            width: 80%;
+        }
+
+        &ProductLink {
+            width: 50%;
+            margin: 0 auto 50px auto;
+            text-align: center;
+            height: 5vh;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .landing {
+        &__hero {
+            margin: 0 auto;
+
+
+            &Product {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-top: 95px;
+            }
+
+            &ProductBody {
+                color: var(--text);
+                text-align: center;
+                font-size: $x-large;
+                margin: 0px 0px -70px -200px;
+            }
+
+            &ProductImage {
+                text-align: center;
+                width: 60%;
+            }
+
+            &ProductLink {
+                width: 200px;
+                margin: 0 auto 50px auto;
+                text-align: center;
+                height: 5vh;
+            }
+        }
+    }
+}

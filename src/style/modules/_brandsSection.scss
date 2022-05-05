@@ -1,0 +1,56 @@
+@import "../base/variables";
+
+.landing__brands {
+    &TextSection {
+        text-align: center;
+        margin-top: $x-large;
+        margin-bottom: 2em;
+        font-size: 1em;
+
+        h2 {
+            font-weight: bolder;
+            font-size: 2.5em;
+        }
+    }
+
+    &IconSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.brandsContainers {
+    margin: 0 5px;
+
+    &__brandIcon {
+        padding: $medium $x-large;
+        background-color: white;
+        border-radius: $border-radius;
+        width: 100%;
+        margin: $small auto;
+    }
+
+    &__brandImage {
+        width: 60px;
+        height: 40px;
+    }
+
+    &__brandLink {}
+
+    &__brandText {}
+}
+
+
+@media screen and (min-width: 830px) {
+    .landing__brands {
+        &IconSection {
+            grid-template-columns: repeat(4, 1fr);
+            width: 800px;
+            column-gap: 35px;
+            row-gap: 20px;
+        }
+    }
+}

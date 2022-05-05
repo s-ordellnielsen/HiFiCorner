@@ -1,0 +1,81 @@
+@import '../base/variables';
+
+.checkout__formContainer {
+    padding-top: 5em;
+}
+
+.checkout__form {
+    margin-top: 25px;
+
+    &InputAll {
+        background-color: $primary50;
+        border: none;
+        padding: $small $medium;
+        display: block;
+        border-radius: $border-radius;
+    }
+
+    &InputLabel {
+        width: 80%;
+        margin: 0 auto;
+        color: $primary50;
+    }
+
+    &InputFlex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &SubmitContainer {
+        width: 100%;
+        margin: $medium auto 0 auto;
+
+        & input {
+            display: block;
+            margin-left: auto;
+            margin-right: 10em;
+        }
+    }
+
+
+    &FlexContainer {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    &NameInput {
+        width: 80%;
+        margin: 0 auto $medium auto;
+    }
+
+    &CardInput {
+        width: 80%;
+        margin: 0 auto $medium auto;
+    }
+
+    &MonthInput {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &YearInput {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &CVVInput {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &Submit {
+        background-color: $primary;
+        padding: $small $x-large;
+        border-radius: $border-radius;
+        border: none;
+
+    }
+}

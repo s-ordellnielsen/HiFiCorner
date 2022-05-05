@@ -10,6 +10,8 @@ module.exports = {
 		comparison: './src/scripts/comparison.js',
 		contact: './src/scripts/contact.js',
 		delivery: './src/scripts/delivery.js',
+		checkout: './src/scripts/checkout.js',
+		confa: './src/scripts/confa.js',
 		location: './src/scripts/location.js',
 		news: './src/scripts/news.js',
 		package: './src/scripts/package.js',

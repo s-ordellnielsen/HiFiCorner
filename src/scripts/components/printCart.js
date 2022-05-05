@@ -21,11 +21,10 @@ export default function printCart(items) {
 			<h3 class="listItem__header">${product.name}</h3>
 			<p class="listItem__price">€${product.price}</p>
 			<div className="listItem__amountBtns">
-				<button class="listItem__amountBtn listItem__amountBtn--minus">${feather.icons.minus.toSvg()}</button>
-				<input type="number" class="listItem__amount" id="amount" min="0" value="${
-					item.amount
+				<!-- <button class="listItem__amountBtn listItem__amountBtn--minus">${feather.icons.minus.toSvg()}</button> -->
+				<input type="number" class="listItem__amount" id="amount" min="0" value="${item.amount
 				}" />
-				<button class="listItem__amountBtn listItem__amountBtn--plus">${feather.icons.plus.toSvg()}</button>
+				<!-- <button class="listItem__amountBtn listItem__amountBtn--plus">${feather.icons.plus.toSvg()}</button> -->
 			</div>
 			<p class="listItem__total">€${product.price * item.amount}</p>
 		`;

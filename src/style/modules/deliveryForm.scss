@@ -33,9 +33,8 @@
 		font-size: 18px;
 		font-weight: 600;
 		background: $primary50;
+		font-family: 'Montserrat';
 		color: $dark;
-
-		font-family: inherit;
 
 		transition: .3s;
 
@@ -46,6 +45,48 @@
 		&:focus {
 			outline: none;
 			border: 3px solid $primary;
+		}
+
+		&[data-message]::after {
+			content: attr(data-message);
+			position: absolute;
+			background: red;
+			display: inline-block;
+		}
+	}
+
+	&__error {
+		margin-left: $medium;
+		height: $medium;
+		transition: .5s;
+		// width: 0%;
+		overflow: hidden;
+		opacity: 0;
+		transform: translateX(-$large);
+		display: flex;
+		align-items: center;
+		gap: $x-small;
+		color: #ff6961;
+
+		& svg {
+			height: $small;
+			width: $small;
+			transform: rotate(-45deg);
+			transition: .5s;
+		}
+	}
+
+	&__label.error {
+
+		& .deliveryForm__error {
+			width: 100%;
+			opacity: 1;
+			transform: none;
+
+
+			& svg {
+				transform: rotate(0deg);
+			}
 		}
 	}
 }

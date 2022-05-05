@@ -10,8 +10,6 @@ function signUp() {
     element.appendChild(signUpForm())
     element.appendChild(footerElement())
 
-    // Code here
-
     return element
 }
 document.body.appendChild(signUp())

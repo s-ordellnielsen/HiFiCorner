@@ -3,6 +3,7 @@ import productGallery from "./productGallery.js"
 import productHeadline from "./productHeadline.js"
 import productDescriptionArticle from "./productDescriptionArticle.js";
 import productSpecs from "./productSpecs.js";
+import similarProducts from "./similarProducts.js"
 import "../../style/base/_variables.scss";
 function productMain(id) {
 
@@ -54,6 +55,7 @@ function productMain(id) {
         sectionProductDescription.appendChild(productDescriptionArticle(product))
         element.appendChild(sectionProductDescription)
         element.appendChild(productSpecs(product))
+        element.appendChild(similarProducts(product))
 
 
         

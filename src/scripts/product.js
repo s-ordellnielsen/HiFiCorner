@@ -1,5 +1,7 @@
 import productMain from "./components/productMain.js"
+import header from "./components/header.js"
 import getURL from "./singleProduct.js"
+import footerElement from "./components/footerElement.js"
 
 
 
@@ -15,8 +17,9 @@ function product () {
 
     
 
-
+    element.appendChild(header())
     element.appendChild(productMain(id))
+    element.appendChild(footerElement())
     
     // Code here
     

@@ -104,12 +104,11 @@ export default function deliveryForm() {
 		</div>
 	`
 
-	element.querySelector('.deliveryOptions').addEventListener('click', function(e) {
+	element.querySelector('.deliveryOptions').addEventListener('click', function (e) {
 		if (e.target.classList.contains('deliveryOption')) {
-			element.querySelectorAll('.deliveryOption').forEach(function(elm) {
+			element.querySelectorAll('.deliveryOption').forEach(function (elm) {
 				elm.classList.remove('deliveryOption--checked')
 			})
-	
 			e.target.closest('label').classList.add('deliveryOption--checked')
 		}
 	})

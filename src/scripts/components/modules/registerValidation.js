@@ -49,19 +49,19 @@ function signUpForm() {
 
     var tester = true
 
-    
+
 
     element.addEventListener("submit", registerValidate)
-    
+
     function registerValidate(event) {
         event.preventDefault()
 
-        
 
 
-        
+
+
         function data() {
-            
+
             const person = {
                 username: registerUsername.value,
                 first_name: "",
@@ -83,10 +83,10 @@ function signUpForm() {
                 orders: [
 
                 ]
-                
+
             }
             console.log(person)
-            
+
             fetch("http://localhost:3001/customers", {
                 method: "POST",
                 headers: {
@@ -95,54 +95,54 @@ function signUpForm() {
                 body: JSON.stringify(person)
             }).then(response => response.json()).then(profiledata => console.log(profiledata))
         }
-        
 
-        if(registerUsername.value.length < 1){
+
+        if (registerUsername.value.length < 1) {
             errorUsername.innerHTML = "error with username"
             tester = false
         }
-        else{
+        else {
             errorUsername.innerHTML = ""
             tester = true
         }
-        if(registerPassword.value.length < 1){
+        if (registerPassword.value.length < 1) {
             errorPassword.innerHTML = "error with you password"
             tester = false
         }
-        else{
+        else {
             errorPassword.innerHTML = ""
-            tester =true
+            tester = true
         }
-        if(!registerEmail.value.match(validregex)){
+        if (!registerEmail.value.match(validregex)) {
             errorEmail.innerHTML = "Your email is invalid"
             tester = false
         }
-        else{
+        else {
             errorEmail.innerHTML = ""
             tester = true
         }
-        if(!registerRepeat.value.match(registerPassword.value) || registerRepeat.value.length < 1){
+        if (!registerRepeat.value.match(registerPassword.value) || registerRepeat.value.length < 1) {
             tester = false
             errorRepeat.innerHTML = "Your password doesnt match"
-            
+
         }
-        else{
+        else {
             tester = true
             errorRepeat.innerHTML = ""
         }
 
 
 
-        
-        
 
-        if(tester == true){
+
+
+        if (tester == true) {
             alert("Your profile has been created")
             window.location.href = "/"
             data()
         }
-        
-        
+
+
     }
 
     // Code here

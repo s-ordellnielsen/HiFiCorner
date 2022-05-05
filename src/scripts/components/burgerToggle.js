@@ -30,17 +30,19 @@ export default function burgerToggle() {
            </div>
            <ul class="header__menu">
                <li class="header__menuitem">
+               <a href="/productlist">
                    <h1>Categories</h1>
+                   </a>
                </li>
-               <li class="header__menuitem"><a href="/categories/?type=speakers">Speakers<span class="mobileText">
+               <li class="header__menuitem"><a href="/productlist/?type=speakers">Speakers<span class="mobileText">
                            ></span></a> </li>
-               <li class="header__menuitem"><a href="/categories/?type=headphones">Headphones<span
+               <li class="header__menuitem"><a href="/productlist/?type=headphones">Headphones<span
                            class="mobileText"> ></span> </li>
-               <li class="header__menuitem"><a href="/categories/?type=accessories">Accessories<span
+               <li class="header__menuitem"><a href="/productlist/?type=accessories">Accessories<span
                            class="mobileText"> ></span></a></li>
-               <li class="header__menuitem"><a href="/categories/?type=cdplayer">CD player<span class="mobileText">
+               <li class="header__menuitem"><a href="/productlist/?type=cdplayer">CD player<span class="mobileText">
                            ></span></a></li>
-               <li class="header__menuitem"><a href="/categories/?type=turntable">Turntable<span class="mobileText">
+               <li class="header__menuitem"><a href="/productlist/?type=turntable">Turntable<span class="mobileText">
                            ></span></a></li>
            </ul>
        </div>

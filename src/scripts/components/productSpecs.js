@@ -1,5 +1,5 @@
 
-import "./productSpecs.scss";
+import "../../style/modules/productSpecs.scss";
 import productSpecsReviewArticle from "./productSpecsReviewArticle.js"
 import productSpecsConnectivityTypeUL from "./productSpecsConnectivityTypeUL.js"
 
@@ -149,7 +149,7 @@ console.log("product", product)
 
     element.querySelector(".sheadStock").addEventListener("click", function(){
         console.log("stockVis")
-        productSpecsStockUL.classList.toggle("productSpecs__connectivity--visible")
+        productSpecsStockUL.classList.toggle("productSpecs__stock--visible")
         
     })
 

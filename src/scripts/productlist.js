@@ -1,15 +1,18 @@
-import signUpForm from "./components/modules/registerValidation.js"
+import fetchproducts from "./components/fetchproductlist.js"
 import footerElement from "./components/footerElement.js"
 import header from "./components/header.js"
 
-function signUp() {
+function productlist() {
     const element = document.createElement('div')
     element.classList.add('wrapper')
+    
 
     element.appendChild(header())
-    element.appendChild(signUpForm())
+    element.appendChild(fetchproducts())
     element.appendChild(footerElement())
-
+    
+    // Code here
+    
     return element
 }
-document.body.appendChild(signUp())
+document.body.appendChild(productlist())

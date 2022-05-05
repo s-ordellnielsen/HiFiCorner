@@ -4,25 +4,19 @@
 
 
     &__package {
-
         text-align: center;
-
-
     }
 
     &__parkageImage {
         width: 100%;
         display: flex;
-
     }
 
     &__parkageArticle {
-
         text-align: center;
-        height: 60vh;
+        height: 500px;
         width: 100%;
         background-color: $tertiary;
-
         color: $light;
 
         &Overtext {

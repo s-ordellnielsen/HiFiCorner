@@ -6,6 +6,7 @@ import newsLetter from "./components/newsLetter.js"
 import packageSection from "./components/modules/parkageSection.js"
 
 import "../style/style.scss"
+
 import "../style/modules/pageFooter.scss"
 
 function landing() {

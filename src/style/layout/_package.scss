@@ -61,6 +61,16 @@
     &__ratings {
         margin: 30px;
     }
+
+    &__ratingsContainerOnLanding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__ratingsOnLanding {
+        margin-top: 30px;
+        width: 100%;
+    }
 }
 
 .packageSectionList {
@@ -233,6 +243,16 @@
         &__ratings {
             width: 50%;
             margin: 60px;
+        }
+
+        &__ratingsContainerOnLanding {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__ratingsOnLanding {
+            margin: 80px 30px;
+            width: 95%;
         }
     }
 

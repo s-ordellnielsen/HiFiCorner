@@ -29,7 +29,7 @@ export default function checkoutForm() {
             </div>    
         </div>
         <div class="checkout__formSubmitContainer">
-            <input type="submit" class="checkout__formSubmit" id="checkout__formSubmit" value="Confirm Purchase">
+            <input type="button" class="checkout__formSubmit" id="checkout__formSubmit" value="Confirm Purchase" onclick="location.href ='/cart/confa/';"/>
         </div>
     `
 

@@ -4,9 +4,6 @@ function fetchproducts() {
     const element = document.createElement('section')
     element.classList.add('productsectionlist')
 
-
-
-
     fetchproductList()
         .then(products => {
             products.forEach(product => {
@@ -21,19 +18,10 @@ function fetchproducts() {
                 <span>${product.price}£</span>
                 <a href="/product/?id=${product.id}">Se mere</a>
                 </div>
-                
-                
             `
                 element.appendChild(output)
             })
         })
-    // html stopper her
-
-
-  
-
-    // Code here
-
     return element;
 }
 export default fetchproducts

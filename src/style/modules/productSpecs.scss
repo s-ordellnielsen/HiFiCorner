@@ -1,4 +1,4 @@
-@import "../../style/base/_variables.scss";
+@import '../base/variables';
 
 .productSpecs__sound{
     opacity: 0;
@@ -10,7 +10,6 @@
     opacity: 1;
     height: 100px;
     transition: all 0.5s;
-    color: black;
 }
 .productSpecs__design {
     opacity: 0;
@@ -22,7 +21,7 @@
     opacity: 1;
     height: 100px;
     transition: all 0.5s;
-    color: black;
+    
 }
 .productSpecs__connectivity{
 
@@ -34,21 +33,26 @@
 
 .productSpecs__connectivity--visible{
     opacity: 1;
-    height: 100px;
+    height: 200px;
     transition: all 0.5s;
-    color: black;
+   
 
 }
+.productSpecs__connectivity li {
+    list-style: none;
+    margin-left: 0;
+}
+
 .productSpecs__reviews{
     opacity: 0;
     height: 0;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 .productSpecs__reviews--visible{
     opacity: 1;
     height: auto;
-    transition: all 0.5s;
+    transition: all 0.8s;
     color: black;
 }
 
@@ -63,9 +67,10 @@
     opacity: 1;
     height: auto;
     transition: all 0.5s;
-    color: black;
+
 
 }
+
 
 
 
@@ -134,14 +139,5 @@
     .reviewpr:hover{
         transform: scale(1.1);
     }
-    .similarProducts__header{
-        font-size:$large;
-    }
-    .productImagesCurrentImage{
-        height: 130px;
-    }
-    .similarProducts__images{
-        display: flex;
-        
-    }
+   
 }

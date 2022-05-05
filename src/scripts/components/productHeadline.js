@@ -1,5 +1,5 @@
 
-import "./productHeadline.scss"
+import "../../style/modules/productHeadline.scss"
 function productHeadline(text) {
     const element = document.createElement('h1')
     element.classList.add('productDescription__name')

@@ -1,4 +1,4 @@
-@import "../../style/base/_variables.scss";
+@import '../base/variables';
 
 .productImages__arrowLeftDiv, .productImages__arrowRightDiv{
     display: none;
@@ -6,17 +6,13 @@
 .productDecription__price{
     font-size:$large;
     font-weight: 700;
+    margin: $large 0 $large 0;
 }
 
-@media screen and (max-width: 800px){
-    .l-deskt{
-        display: none;
-    }
+.productDescription__desc{
+    margin-bottom: -12px;
 }
-.amount{
-    display: flex;
-    align-items: center;
-}
+
 
 
 
@@ -35,23 +31,15 @@
     .productDescription__article{
     padding-left:$x-large;
     }
-}
-@media screen and (min-width:900px) {
     .x-mobil{
         display: none;
     }
-}
-.productSpecs__connectivityArticle {
+    .productDecription__price{
+        font-size: $x-large;
+        margin: $x-large 0 $x-large 0;
     
-    & ul{
-    opacity: 1;
-    opacity: none;
-    height: 0;
-    overflow:hidden;
     }
-
-
-}
-.productSpecs__connectivity--visible {
-    height: 300px;
+    .productImagesCurrentImageDiscPrice{
+        text-align: center;
+    }
 }

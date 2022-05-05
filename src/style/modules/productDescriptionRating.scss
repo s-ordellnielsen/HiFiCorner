@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+@media screen and (min-width:900px) {
+    
+    //.productDescription__rating{
+     //   display: flex;
+     //   flex-direction: column
+     //   }
+}
+.productDecription__starsAndRatingFigure{
+    display: flex;
+    align-items:center;
+    margin: $small 0 $small 0;
+}
+.productDecription__reviewBasis{
+    color: $primary;
+    margin: $small 0 $small 0; 
+}

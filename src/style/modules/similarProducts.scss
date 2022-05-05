@@ -1,0 +1,30 @@
+@import '../base/variables';
+
+.similarProducts__header{
+    font-size:$large;
+}
+
+.productImagesCurrentImage{
+    width: 200px;
+    padding: $large 0 $small 0;
+  
+    
+
+}
+
+@media screen and (min-width: 900px){
+    .similarProducts__header{
+        font-size:$large;
+    }
+    .productImagesCurrentImage{
+        width: 25vw;
+        padding: 2vw;
+
+    }
+    .similarProducts__images{
+        display: flex;
+        margin: $large 10vw $large 10vw;
+
+        
+    }
+}

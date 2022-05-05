@@ -1,4 +1,4 @@
-import "../../style/base/_variables.scss";
+import "../../style/modules/similarProducts.scss";
 
 function similarProducts(product) {
     const element = document.createElement('section')

@@ -6,7 +6,7 @@
 .productDecription__price{
     font-size:$large;
     font-weight: 700;
-    margin-bottom: $small;
+    margin: $large 0 $large 0;
 }
 
 .productDescription__desc{
@@ -35,6 +35,7 @@
         display: none;
     }
     .productDecription__price{
-        margin: $large;
+        font-size: $x-large;
+        margin: $x-large 0 $x-large 0;
     }
 }

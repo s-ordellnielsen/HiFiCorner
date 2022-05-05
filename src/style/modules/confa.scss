@@ -1,0 +1,11 @@
+@import '../base/variables';
+
+.confa__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 6rem 6rem 6rem;
+    height: 50vh;
+    background-color: $primary;
+    border-radius: $border-radius;
+}

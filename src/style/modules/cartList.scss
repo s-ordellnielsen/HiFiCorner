@@ -2,23 +2,23 @@
 @import '../states/cartList--empty.scss';
 
 .cartList {
-	padding: $small;
+    padding: $small;
     position: relative;
     border-radius: $border-radius;
     display: flex;
     flex-direction: column;
     margin: 0 0;
 
-	&__list {
-		background: $primary50;
-		border-radius: $border-radius;
-		padding: $medium 0;
-	}
+    &__list {
+        background: $primary50;
+        border-radius: $border-radius;
+        padding: $medium 0;
+    }
 
 
 
 
-	&--empty {
+    &--empty {
         background: $primary50;
         padding: $x-large;
     }
@@ -87,13 +87,17 @@
     }
 }
 
+.listItem__amuont {
+    background-color: $dark;
+}
+
 @media screen and (min-width: 900px) {
     .cartList {
         &__empty {
             &Btns {
                 flex-direction: row;
             }
-            
+
             &Btn {
                 width: fit-content;
             }

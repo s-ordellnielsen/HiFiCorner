@@ -1,18 +1,18 @@
 import feather from "feather-icons";
 import '../../style/modules/cartBreadcrump.scss'
 
-export default function cartBreadcrump() {
+export default function cartBreadcrump(activeArray) {
 	const element = document.createElement('section');
 	element.classList.add('cartBreadcrump');
 
 	element.innerHTML = `
 		<div class="cartBreadcrump__backgroundLine"></div>
 		<div class="cartBreadcrump__dots">
-			<div class="cartBreadcrump__dot cartBreadcrump__dot--success">
+			<div class="cartBreadcrump__dot">
 				${feather.icons['check-circle'].toSvg()}
 				<p>Review</p>
 			</div>
-			<div class="cartBreadcrump__dot cartBreadcrump__dot--active">
+			<div class="cartBreadcrump__dot">
 				${feather.icons.truck.toSvg()}
 				<p>Delivery</p>
 			</div>
@@ -22,6 +22,15 @@ export default function cartBreadcrump() {
 			</div>
 		</div>
 	`;
+
+	element.querySelectorAll('.cartBreadcrump__dot').forEach( function(e, i) {
+		if (activeArray[i] === 'active') {
+			e.classList.add('cartBreadcrump__dot--active')
+		}
+		else if (activeArray[i] === 'success') {
+			e.classList.add('cartBreadcrump__dot--success')
+		}
+	})
 
 	return element;
 }

@@ -1,6 +1,7 @@
 
 export default function checkoutForm() {
     const element = document.createElement('form')
+    // element.setAttribute('action', './confa/')
     element.classList.add('checkout__form')
 
 

@@ -63,5 +63,7 @@ export default function deliveryFormvalidator(event) {
 		}
 
 		localStorage.setItem('deliveryInfo', JSON.stringify(deliveryInfo))
+
+		window.location.href = '../checkout/'
 	}
 }
